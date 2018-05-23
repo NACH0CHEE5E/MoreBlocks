@@ -1,0 +1,13 @@
+[
+  {
+    "name" : "NACH0.MoreBlocks",
+    "version" : "0.1.0",
+    "dllpath" : "MoreBlocks.dll",
+	"namepretty": "More Blocks",
+    "enabled" : true,
+	"marksgamemodded": true,
+    "compatibleversions" : [
+	  "0.6.1"
+    ]
+  }
+]
