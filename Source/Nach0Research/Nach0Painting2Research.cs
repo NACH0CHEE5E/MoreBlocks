@@ -1,0 +1,36 @@
+﻿using Pipliz.Mods.APIProvider.Science;
+using Server.Science;
+
+namespace MoreBlocks.Nach0Research
+{
+    [AutoLoadedResearchable]
+    public class Nach0Painting2Research : BaseResearchable
+    {
+        public Nach0Painting2Research()
+        {
+            key = "Nach0Painting2Research";
+            icon = "gamedata/mods/NACH0/MoreBlocks/gamedata/textures/icons/Nach0PaintersTable.png";
+            iterationCount = 24;
+            AddIterationRequirement("Nach0WhitePaintBlock", 5);
+            AddIterationRequirement("Nach0BlackPaintBlock", 5);
+            AddIterationRequirement("Nach0RedPaintBlock", 5);
+            AddIterationRequirement("Nach0BluePaintBlock", 5);
+            AddIterationRequirement("Nach0YellowPaintBlock", 5);
+            AddDependency("Nach0PaintingResearch");
+            AddDependency("Nach0PaintMixingResearch");
+        }
+
+        public override void OnResearchComplete(ScienceManagerPlayer manager, EResearchCompletionReason reason)
+        { 
+            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0AquaPaintBlockCraft", true, "Nach0PainterJob");
+            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0DarkBluePaintBlockCraft", true, "Nach0PainterJob");
+            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0GreenPaintBlockCraft", true, "Nach0PainterJob");
+            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0GreyPaintBlockCraft", true, "Nach0PainterJob");
+            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0LightBluePaintBlockCraft", true, "Nach0PainterJob");
+            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0LightGreyPaintBlockCraft", true, "Nach0PainterJob");
+            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0OrangePaintBlockCraft", true, "Nach0PainterJob");
+            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0PinkPaintBlockCraft", true, "Nach0PainterJob");
+            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0PurplePaintBlockCraft", true, "Nach0PainterJob");
+        }
+    }
+}

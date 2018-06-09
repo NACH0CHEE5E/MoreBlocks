@@ -1,0 +1,112 @@
+﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{CB08F978-6A1A-41A5-AB2C-673345337789}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <AssemblyName>ClassLibrary</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>MoreBlocks</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="0Harmony">
+      <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Colony Survival\gamedata\mods\JackPS9\NewColonyAPI\0Harmony.dll</HintPath>
+    </Reference>
+    <Reference Include="APIProvider, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Colony Survival\gamedata\mods\Pipliz\APIProvider\APIProvider.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Colony Survival\colonyserver_Data\Managed\Assembly-CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="BaseGame">
+      <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Colony Survival\gamedata\mods\Pipliz\BaseGame\BaseGame.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="NewColonyAPI, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Colony Survival\gamedata\mods\JackPS9\NewColonyAPI\NewColonyAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Colony Survival\colonyserver_Data\Managed\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Colony Survival\colonyserver_Data\Managed\UnityEngine.UI.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="modentry.cs" />
+    <Compile Include="Nach0Jobs\Nach0ConcreteLayerJob.cs" />
+    <Compile Include="Nach0Jobs\Nach0CrusherJob.cs" />
+    <Compile Include="Nach0Jobs\Nach0PaintMixerJob.cs" />
+    <Compile Include="Nach0Jobs\Nach0PainterJob.cs" />
+    <Compile Include="Nach0Jobs\Nach0MagicianJob.cs" />
+    <Compile Include="Nach0Jobs\Nach0MelterJob.cs" />
+    <Compile Include="Nach0Jobs\Nach0FreezerJob.cs" />
+    <Compile Include="Nach0Jobs\Nach0EnchanterJob.cs" />
+    <Compile Include="Nach0Jobs\Nach0ChiselerJob.cs" />
+    <Compile Include="Nach0Jobs\Nach0CarverJob.cs" />
+    <Compile Include="Nach0Jobs\Nach0BrickMakerJob.cs" />
+    <Compile Include="Nach0Jobs\Nach0BrickLayerJob.cs" />
+    <Compile Include="Nach0Jobs\Nach0AdvancedPainterJob.cs" />
+    <Compile Include="Nach0Jobs\Nach0PailerJob.cs" />
+    <Compile Include="Nach0Research\Nach0ArtisteryResearch.cs" />
+    <Compile Include="Nach0Research\Nach0BrickLayingResearch.cs" />
+    <Compile Include="Nach0Research\Nach0BrickMakingResearch.cs" />
+    <Compile Include="Nach0Research\Nach0CarpenterResearch.cs" />
+    <Compile Include="Nach0Research\Nach0CarverResearch.cs" />
+    <Compile Include="Nach0Research\Nach0ChiselerResearch.cs" />
+    <Compile Include="Nach0Research\Nach0ChiselResearch.cs" />
+    <Compile Include="Nach0Research\Nach0ExoticDirtResearch.cs" />
+    <Compile Include="Nach0Research\Nach0ColouredConcreteResearch.cs" />
+    <Compile Include="Nach0Research\Nach0ConcreteMakingResearch.cs" />
+    <Compile Include="Nach0Research\Nach0ConcreteSmoothingResearch.cs" />
+    <Compile Include="Nach0Research\Nach0CrushingResearch.cs" />
+    <Compile Include="Nach0Research\Nach0FaithResearch.cs" />
+    <Compile Include="Nach0Research\Nach0MagicResearch.cs" />
+    <Compile Include="Nach0Research\Nach0PailingResearch.cs" />
+    <Compile Include="Nach0Research\Nach0Painting2Research.cs" />
+    <Compile Include="Nach0Research\Nach0Painting3Research.cs" />
+    <Compile Include="Nach0Research\Nach0PaintingResearch.cs" />
+    <Compile Include="Nach0Research\Nach0PaintingScienceBagResearch.cs" />
+    <Compile Include="Nach0Research\Nach0PaintMakingResearch.cs" />
+    <Compile Include="Nach0Research\Nach0PaintMixingResearch.cs" />
+    <Compile Include="Nach0Research\Nach0SpellsResearch.cs" />
+    <Compile Include="Nach0Research\Nach0WoodWorkingResearch.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+</Project>
