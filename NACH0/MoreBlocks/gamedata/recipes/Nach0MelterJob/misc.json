@@ -1,0 +1,13 @@
+[{
+	"defaultLimit": 5,
+	"defaultPriority": 100,
+	"isOptional": true,
+	"name": "Nach0LavaBlockCraft",
+	"requires": [{
+		"amount": 5,
+		"type": "stoneblock"
+	}],
+	"results": [{
+		"type": "Nach0LavaBlock"
+	}]
+}]

@@ -1,0 +1,16 @@
+[{
+	"defaultLimit": 5,
+	"defaultPriority": 100,
+	"isOptional": true,
+	"name": "Nach0IceBlockCraft",
+	"requires": [{
+		"amount": 5,
+		"type": "Nach0WaterBucket"
+	}],
+	"results": [{
+		"type": "Nach0IceBlock"
+	}, {
+		"amount": 5,
+		"type": "Nach0Bucket"
+	}]
+}]

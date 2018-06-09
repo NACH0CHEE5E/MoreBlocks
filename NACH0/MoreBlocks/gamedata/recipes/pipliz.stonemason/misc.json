@@ -1,0 +1,60 @@
+[{
+		"defaultLimit": 5,
+		"defaultPriority": 100,
+		"isOptional": true,
+		"name": "Nach0BrickMakerCraft",
+		"requires": [{
+			"amount": 10,
+			"type": "stonebricks"
+		}],
+		"results": [{
+			"type": "Nach0BrickMaker"
+		}]
+	},
+	{
+		"defaultLimit": 5,
+		"defaultPriority": 100,
+		"isOptional": true,
+		"name": "Nach0EnchanterCraft",
+		"requires": [{
+			"amount": 15,
+			"type": "stonebricks"
+		}, {
+			"amount": 25,
+			"type": "Nach0Cross"
+		}],
+		"results": [{
+			"type": "Nach0Enchanter"
+		}]
+	},
+	{
+		"defaultLimit": 5,
+		"defaultPriority": 100,
+		"isOptional": true,
+		"name": "Nach0ChiselerCraft",
+		"requires": [{
+			"amount": 15,
+			"type": "stoneblock"
+		}, {
+			"amount": 5,
+			"type": "Nach0Chisel"
+		}],
+		"results": [{
+			"type": "Nach0Chiseler"
+		}]
+	},
+	{
+		"defaultLimit": 5,
+		"defaultPriority": 100,
+		"isOptional": true,
+		"name": "Nach0RockCraft",
+		"requires": [{
+			"amount": 5,
+			"type": "stoneblock"
+		}],
+		"results": [{
+			"amount": 5,
+			"type": "Nach0Rock"
+		}]
+	}
+]

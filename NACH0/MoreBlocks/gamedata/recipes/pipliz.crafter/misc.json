@@ -1,0 +1,188 @@
+[{
+		"defaultLimit": 5,
+		"defaultPriority": 100,
+		"isOptional": true,
+		"name": "Nach0AdvancedPaintersTableCraft",
+		"requires": [{
+				"amount": 25,
+				"type": "coatedplanks"
+			},
+			{
+				"amount": 5,
+				"type": "Nach0PaintBrush"
+			}
+		],
+		"results": [{
+			"type": "Nach0AdvancedPaintersTable"
+		}]
+	},
+	{
+		"defaultLimit": 5,
+		"defaultPriority": 100,
+		"isOptional": true,
+		"name": "Nach0PaintBrushCraft",
+		"requires": [{
+				"amount": 5,
+				"type": "planks"
+			},
+			{
+				"amount": 10,
+				"type": "straw"
+			}
+		],
+		"results": [{
+			"type": "Nach0PaintBrush"
+		}]
+	},
+	{
+		"defaultLimit": 5,
+		"defaultPriority": 100,
+		"isOptional": true,
+		"name": "Nach0CrossCraft",
+		"requires": [{
+				"amount": 5,
+				"type": "planks"
+			},
+			{
+				"amount": 2,
+				"type": "goldore"
+			}
+		],
+		"results": [{
+			"type": "Nach0Cross"
+		}]
+	},
+	{
+		"defaultLimit": 5,
+		"defaultPriority": 100,
+		"isOptional": true,
+		"name": "Nach0CarversTableCraft",
+		"requires": [{
+				"amount": 10,
+				"type": "planks"
+			},
+			{
+				"amount": 5,
+				"type": "Nach0Chisel"
+			}
+		],
+		"results": [{
+			"type": "Nach0CarversTable"
+		}]
+	},
+	{
+		"defaultLimit": 5,
+		"defaultPriority": 100,
+		"isOptional": true,
+		"name": "Nach0PaintersTableCraft",
+		"requires": [{
+				"amount": 10,
+				"type": "planks"
+			},
+			{
+				"amount": 3,
+				"type": "Nach0PaintBrush"
+			}
+		],
+		"results": [{
+			"type": "Nach0PaintersTable"
+		}]
+	},
+	{
+		"defaultLimit": 5,
+		"defaultPriority": 100,
+		"isOptional": true,
+		"name": "Nach0BrickLayerCraft",
+		"requires": [{
+			"amount": 10,
+			"type": "planks"
+		}],
+		"results": [{
+			"type": "Nach0BrickLayer"
+		}]
+	},
+	{
+		"defaultLimit": 5,
+		"defaultPriority": 100,
+		"isOptional": false,
+		"name": "Nach0ClayBlockCraft",
+		"requires": [{
+			"amount": 5,
+			"type": "clay"
+		}],
+		"results": [{
+			"amount": 5,
+			"type": "Nach0ClayBlock"
+		}]
+	},
+	{
+		"defaultLimit": 5,
+		"defaultPriority": 100,
+		"isOptional": false,
+		"name": "BaseNach0ClayCraft",
+		"requires": [{
+			"amount": 5,
+			"type": "Nach0ClayBlock"
+		}],
+		"results": [{
+			"amount": 5,
+			"type": "clay"
+		}]
+	},
+	{
+		"defaultLimit": 5,
+		"defaultPriority": 100,
+		"isOptional": true,
+		"name": "Nach0CoalBlockCraft",
+		"requires": [{
+			"amount": 25,
+			"type": "coalore"
+		}],
+		"results": [{
+			"amount": 5,
+			"type": "Nach0CoalBlock"
+		}]
+	},
+	{
+		"defaultLimit": 5,
+		"defaultPriority": 100,
+		"isOptional": true,
+		"name": "BaseNach0CoalOreCraft",
+		"requires": [{
+			"amount": 5,
+			"type": "Nach0CoalBlock"
+		}],
+		"results": [{
+			"amount": 25,
+			"type": "coalore"
+		}]
+	},
+	{
+		"defaultLimit": 5,
+		"defaultPriority": 100,
+		"isOptional": true,
+		"name": "Nach0GoldBlockCraft",
+		"requires": [{
+			"amount": 25,
+			"type": "goldore"
+		}],
+		"results": [{
+			"amount": 5,
+			"type": "Nach0GoldBlock"
+		}]
+	},
+	{
+		"defaultLimit": 5,
+		"defaultPriority": 100,
+		"isOptional": true,
+		"name": "BaseNach0GoldOreCraft",
+		"requires": [{
+			"amount": 5,
+			"type": "Nach0GoldBlock"
+		}],
+		"results": [{
+			"amount": 25,
+			"type": "goldore"
+		}]
+	}
+]

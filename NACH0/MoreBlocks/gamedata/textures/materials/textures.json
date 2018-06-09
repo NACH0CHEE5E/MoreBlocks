@@ -45,7 +45,7 @@
 		"albedo": "Nach0Cobblestone"
 	},
 	"Nach0DarkGreenConcreteTexture": {
-		"albedo": "Nach0DarkConcreteBlock"
+		"albedo": "Nach0DarkGreenConcrete"
 	},
 	"Nach0DarkGreenPaintBlockTexture": {
 		"albedo": "Nach0DarkGreenPaintBlock"

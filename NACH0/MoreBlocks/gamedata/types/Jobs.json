@@ -128,17 +128,17 @@
 			"jobs",
 			"nach0"
 		],
-		"icon": "Nach0Missing",
+		"icon": "Nach0Missing.png",
 		"maxStackSize": 50,
-		"sideall": "Nach0Missing"
+		"sideall": "Nach0MissingTexture"
 	},
 	"Nach0ConcreteLayer": {
 		"categories": [
 			"jobs",
 			"nach0"
 		],
-		"icon": "Nach0Missing",
+		"icon": "Nach0Missing.png",
 		"maxStackSize": 50,
-		"sideall": "Nach0Missing"
+		"sideall": "Nach0MissingTexture"
 	}
 }

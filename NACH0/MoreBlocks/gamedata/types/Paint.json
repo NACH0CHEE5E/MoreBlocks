@@ -138,5 +138,15 @@
 		"isPlaceable": false,
 		"icon": "Nach0YellowPaint.png",
 		"maxStackSize": 50
+	},
+	"Nach0BrownPaint": {
+		"categories": [
+			"paint",
+			"items",
+			"nach0"
+		],
+		"isPlaceable": false,
+		"icon": "Nach0Missing.png",
+		"maxStackSize": 50
 	}
 }

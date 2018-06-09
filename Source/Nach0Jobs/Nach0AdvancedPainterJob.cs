@@ -1,13 +1,5 @@
-﻿using System;
-using System.IO;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using Server.NPCs;
-using Pipliz.Mods.APIProvider.Jobs;
-using PhentrixGames.NewColonyAPI.Jobs;
+﻿using Pipliz.Mods.APIProvider.Jobs;
 using PhentrixGames.NewColonyAPI;
-using PhentrixGames;
 
 namespace MoreBlocks.Nach0Jobs
 {

@@ -1,0 +1,29 @@
+[{
+		"defaultLimit": 5,
+		"defaultPriority": 100,
+		"isOptional": true,
+		"name": "Nach0Grass1Craft",
+		"requires": [{
+			"amount": 25,
+			"type": "goldcoin"
+		}],
+		"results": [{
+			"amount": 1,
+			"type": "Nach0Grass1"
+		}]
+	},
+	{
+		"defaultLimit": 5,
+		"defaultPriority": 100,
+		"isOptional": true,
+		"name": "Nach0Grass1SidedCraft",
+		"requires": [{
+			"amount": 25,
+			"type": "goldcoin"
+		}],
+		"results": [{
+			"amount": 1,
+			"type": "Nach0Grass1Sided"
+		}]
+	}
+]

@@ -1,0 +1,13 @@
+[{
+	"defaultLimit": 5,
+	"defaultPriority": 100,
+	"isOptional": true,
+	"name": "Nach0HayCraft",
+	"requires": [{
+		"amount": 25,
+		"type": "goldcoin"
+	}],
+	"results": [{
+		"type": "Nach0Hay"
+	}]
+}]
