@@ -17,3 +17,15 @@ C:\Users\mitch\Documents\cs mods\MoreBlocks api v1.3\obj\Debug\MoreBlocks.csproj
 C:\Users\mitch\Documents\cs mods\MoreBlocks api v1.3\obj\Debug\ClassLibrary.dll
 C:\Users\mitch\Documents\cs mods\MoreBlocks api v1.3\obj\Debug\ClassLibrary.pdb
 C:\Users\mitch\Documents\cs mods\MoreBlocks api v1.3\obj\Debug\MoreBlocks.csprojResolveAssemblyReference.cache
+C:\Users\mitch\Desktop\GitHub\MoreBlocks\Source\bin\Debug\ClassLibrary.dll
+C:\Users\mitch\Desktop\GitHub\MoreBlocks\Source\bin\Debug\ClassLibrary.pdb
+C:\Users\mitch\Desktop\GitHub\MoreBlocks\Source\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\mitch\Desktop\GitHub\MoreBlocks\Source\bin\Debug\Open.Nat.dll
+C:\Users\mitch\Desktop\GitHub\MoreBlocks\Source\bin\Debug\System.Threading.dll
+C:\Users\mitch\Desktop\GitHub\MoreBlocks\Source\bin\Debug\APIProvider.pdb
+C:\Users\mitch\Desktop\GitHub\MoreBlocks\Source\bin\Debug\BaseGame.pdb
+C:\Users\mitch\Desktop\GitHub\MoreBlocks\Source\obj\Debug\MoreBlocks.csprojResolveAssemblyReference.cache
+C:\Users\mitch\Desktop\GitHub\MoreBlocks\Source\obj\Debug\MoreBlocks.csproj.CoreCompileInputs.cache
+C:\Users\mitch\Desktop\GitHub\MoreBlocks\Source\obj\Debug\MoreBlocks.csproj.CopyComplete
+C:\Users\mitch\Desktop\GitHub\MoreBlocks\Source\obj\Debug\ClassLibrary.dll
+C:\Users\mitch\Desktop\GitHub\MoreBlocks\Source\obj\Debug\ClassLibrary.pdb

@@ -30,7 +30,7 @@ namespace MoreBlocks
             //LocalizationFolder = Path.Combine(ModGamedataDirectory, "localization/").Replace("\\", "/");
 
             //Optional but nice to set up incase you want to output info to a text file
-            Utilities.CreateLogs("MoreBlocks");
+            //Utilities.CreateLogs("MoreBlocks");
         }
 
         /*[ModLoader.ModCallback(ModLoader.EModCallbackType.AfterStartup, ModKey + ".AfterStartup")]
