@@ -1,0 +1,13 @@
+[
+  {
+    "name" : "NACH0.ExtendedBannerResearch",
+    "version" : "0.1.0",
+    "dllpath" : "ExtendedBannerResearch.dll",
+	"namepretty": "Extended Banner Research",
+    "enabled" : false,
+	"marksgamemodded": true,
+    "compatibleversions" : [
+	  "0.6.2"
+    ]
+  }
+]

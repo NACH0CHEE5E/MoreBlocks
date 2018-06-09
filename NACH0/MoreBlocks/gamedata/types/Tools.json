@@ -1,0 +1,22 @@
+{
+	"Nach0Chisel": {
+		"categories": [
+			"tools",
+			"items",
+			"nach0"
+		],
+		"isPlaceable": false,
+		"icon": "Nach0Chisel.png",
+		"maxStackSize": 50
+	},
+	"Nach0PaintBrush": {
+		"categories": [
+			"paint",
+			"items",
+			"nach0"
+		],
+		"isPlaceable": false,
+		"icon": "Nach0PaintBrush.png",
+		"maxStackSize": 50
+	}
+}

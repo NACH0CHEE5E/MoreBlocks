@@ -1,0 +1,86 @@
+{
+	"Nach0ClayBlock": {
+		"categories": [
+			"blocks",
+			"nach0"
+		],
+		"icon": "Nach0ClayBlock.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0ClayBlockTexture"
+	},
+	"Nach0CoalBlock": {
+		"categories": [
+			"blocks",
+			"nach0"
+		],
+		"icon": "Nach0CoalBlock.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0CoalBlockTexture"
+	},
+	"Nach0GoldBlock": {
+		"categories": [
+			"blocks",
+			"nach0"
+		],
+		"icon": "Nach0GoldBlock.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0GoldBlockTexture"
+	},
+	"Nach0IceBlock": {
+		"categories": [
+			"blocks",
+			"nach0"
+		],
+		"icon": "Nach0IceBlock.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0IceBlockTexture"
+	},
+	"Nach0LavaBlock": {
+		"categories": [
+			"blocks",
+			"nach0"
+		],
+		"icon": "Nach0LavaBlock.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0LavaBlockTexture"
+	},
+	"Nach0Cobblestone": {
+		"categories": [
+			"blocks",
+			"nach0"
+		],
+		"icon": "Nach0Cobblestone.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0CobblestoneTexture"
+	},
+	"Nach0EnchantedStone": {
+		"categories": [
+			"blocks",
+			"magic",
+			"nach0"
+		],
+		"icon": "Nach0EnchantedStone.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0EnchantedStoneTexture"
+	},
+	"Nach0Hay": {
+		"categories": [
+			"blocks",
+			"nach0"
+		],
+		"icon": "Nach0Hay.png",
+		"maxStackSize": 200,
+		"sidey+": "Nach0HayTopBottomTexture",
+		"sidey-": "Nach0HaySideTexture"
+	},
+	"Nach0Rock": {
+		"categories": [
+			"blocks",
+			"stone",
+			"nach0"
+		],
+		"icon": "Nach0Rock.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0RockTexture"
+	}
+}

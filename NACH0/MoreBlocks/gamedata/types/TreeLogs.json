@@ -1,0 +1,74 @@
+{
+	"Nach0TreeLog1": {
+		"categories": [
+			"blocks",
+			"stone",
+			"nach0"
+		],
+		"icon": "Nach0TreeLog1.png",
+		"maxStackSize": 200,
+		"sidey+": "Nach0TreeLog1TopBottomTexture",
+		"sidey-": "Nach0TreeLog1TopBottomTexture",
+		"sideall": "Nach0TreeLog1SideTexture"
+	},
+	"Nach0TreeLog2": {
+		"categories": [
+			"blocks",
+			"stone",
+			"nach0"
+		],
+		"icon": "Nach0TreeLog2.png",
+		"maxStackSize": 200,
+		"sidey+": "Nach0TreeLog2TopBottomTexture",
+		"sidey-": "Nach0TreeLog2TopBottomTexture",
+		"sideall": "Nach0TreeLog2SideTexture"
+	},
+	"Nach0TreeLog3": {
+		"categories": [
+			"blocks",
+			"stone",
+			"nach0"
+		],
+		"icon": "Nach0TreeLog3.png",
+		"maxStackSize": 200,
+		"sidey+": "Nach0TreeLog3TopBottomTexture",
+		"sidey-": "Nach0TreeLog3TopBottomTexture",
+		"sideall": "Nach0TreeLog3SideTexture"
+	},
+	"Nach0TreeLog4": {
+		"categories": [
+			"blocks",
+			"stone",
+			"nach0"
+		],
+		"icon": "Nach0TreeLog4.png",
+		"maxStackSize": 200,
+		"sidey+": "Nach0TreeLog4TopBottomTexture",
+		"sidey-": "Nach0TreeLog4TopBottomTexture",
+		"sideall": "Nach0TreeLog4SideTexture"
+	},
+	"Nach0TreeLog5": {
+		"categories": [
+			"blocks",
+			"stone",
+			"nach0"
+		],
+		"icon": "Nach0TreeLog5.png",
+		"maxStackSize": 200,
+		"sidey+": "Nach0TreeLog5TopBottomTexture",
+		"sidey-": "Nach0TreeLog5TopBottomTexture",
+		"sideall": "Nach0TreeLog5SideTexture"
+	},
+	"Nach0TreeLog6": {
+		"categories": [
+			"blocks",
+			"stone",
+			"nach0"
+		],
+		"icon": "Nach0TreeLog6.png",
+		"maxStackSize": 200,
+		"sidey+": "Nach0TreeLog6TopBottomTexture",
+		"sidey-": "Nach0TreeLog6TopBottomTexture",
+		"sideall": "Nach0TreeLog6SideTexture"
+	}
+}

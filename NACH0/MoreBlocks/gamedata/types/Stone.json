@@ -1,0 +1,42 @@
+{
+	"Nach0Stone1": {
+		"categories": [
+			"blocks",
+			"stone",
+			"nach0"
+		],
+		"icon": "Nach0Stone1.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0Stone1Texture"
+	},
+	"Nach0Stone2": {
+		"categories": [
+			"blocks",
+			"stone",
+			"nach0"
+		],
+		"icon": "Nach0Stone2.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0Stone2Texture"
+	},
+	"Nach0Stone3": {
+		"categories": [
+			"blocks",
+			"stone",
+			"nach0"
+		],
+		"icon": "Nach0Stone3.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0Stone3Texture"
+	},
+	"Nach0Stone4": {
+		"categories": [
+			"blocks",
+			"stone",
+			"nach0"
+		],
+		"icon": "Nach0Stone4.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0Stone4Texture"
+	}
+}

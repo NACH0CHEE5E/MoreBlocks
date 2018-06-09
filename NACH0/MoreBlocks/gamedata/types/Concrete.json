@@ -1,0 +1,12 @@
+{
+	"Nach0Concrete": {
+		"categories": [
+			"concrete",
+			"blocks",
+			"nach0"
+		],
+		"icon": "Nach0Concrete.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0ConcreteTexture"
+	}
+}

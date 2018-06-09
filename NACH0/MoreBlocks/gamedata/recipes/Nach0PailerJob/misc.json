@@ -1,0 +1,14 @@
+[{
+	"defaultLimit": 150,
+	"defaultPriority": 300,
+	"isOptional": false,
+	"name": "Nach0WaterBucketCraft",
+	"requires": [{
+		"amount": 1,
+		"type": "Nach0Bucket"
+	}],
+	"results": [{
+		"amount": 1,
+		"type": "Nach0WaterBucket"
+	}]
+}]

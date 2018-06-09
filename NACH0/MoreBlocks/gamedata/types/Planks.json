@@ -1,0 +1,68 @@
+{
+	"Nach0Planks1": {
+		"categories": [
+			"blocks",
+			"wood",
+			"planks",
+			"nach0"
+		],
+		"icon": "Nach0Planks1.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0Planks1Texture"
+	},
+	"Nach0Planks2": {
+		"categories": [
+			"blocks",
+			"wood",
+			"planks",
+			"nach0"
+		],
+		"icon": "Nach0Planks2.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0Planks2Texture"
+	},
+	"Nach0Planks3": {
+		"categories": [
+			"blocks",
+			"wood",
+			"planks",
+			"nach0"
+		],
+		"icon": "Nach0Planks3.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0Planks3Texture"
+	},
+	"Nach0Planks4": {
+		"categories": [
+			"blocks",
+			"wood",
+			"planks",
+			"nach0"
+		],
+		"icon": "Nach0Planks4.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0Planks4Texture"
+	},
+	"Nach0Planks5": {
+		"categories": [
+			"blocks",
+			"wood",
+			"planks",
+			"nach0"
+		],
+		"icon": "Nach0Planks5.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0Planks5Texture"
+	},
+	"Nach0Planks6": {
+		"categories": [
+			"blocks",
+			"wood",
+			"planks",
+			"nach0"
+		],
+		"icon": "Nach0Planks6.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0Planks6Texture"
+	}
+}

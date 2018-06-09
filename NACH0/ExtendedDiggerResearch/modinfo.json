@@ -1,0 +1,13 @@
+[
+  {
+    "name" : "NACH0.ExtendedDiggerResearch",
+    "version" : "0.1.0",
+    "dllpath" : "ExtendedDiggerResearch.dll",
+	"namepretty": "Extended Digger Research",
+    "enabled" : false,
+	"marksgamemodded": true,
+    "compatibleversions" : [
+	  "0.6.2"
+    ]
+  }
+]

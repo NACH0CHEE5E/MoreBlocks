@@ -1,0 +1,142 @@
+{
+	"Nach0AquaPaint": {
+		"categories": [
+			"paint",
+			"items",
+			"nach0"
+		],
+		"isPlaceable": false,
+		"icon": "Nach0AquaPaint.png",
+		"maxStackSize": 50
+	},
+	"Nach0BlackPaint": {
+		"categories": [
+			"paint",
+			"items",
+			"nach0"
+		],
+		"isPlaceable": false,
+		"icon": "Nach0BlackPaint.png",
+		"maxStackSize": 50
+	},
+	"Nach0BluePaint": {
+		"categories": [
+			"paint",
+			"items",
+			"nach0"
+		],
+		"isPlaceable": false,
+		"icon": "Nach0BluePaint.png",
+		"maxStackSize": 50
+	},
+	"Nach0DarkGreenPaint": {
+		"categories": [
+			"paint",
+			"items",
+			"nach0"
+		],
+		"isPlaceable": false,
+		"icon": "Nach0DarkGreenPaint.png",
+		"maxStackSize": 50
+	},
+	"Nach0GreenPaint": {
+		"categories": [
+			"paint",
+			"items",
+			"nach0"
+		],
+		"isPlaceable": false,
+		"icon": "Nach0GreenPaint.png",
+		"maxStackSize": 50
+	},
+	"Nach0GreyPaint": {
+		"categories": [
+			"paint",
+			"items",
+			"nach0"
+		],
+		"isPlaceable": false,
+		"icon": "Nach0GreyPaint.png",
+		"maxStackSize": 50
+	},
+	"Nach0LightBluePaint": {
+		"categories": [
+			"paint",
+			"items",
+			"nach0"
+		],
+		"isPlaceable": false,
+		"icon": "Nach0LightBluePaint.png",
+		"maxStackSize": 50
+	},
+	"Nach0LightGreyPaint": {
+		"categories": [
+			"paint",
+			"items",
+			"nach0"
+		],
+		"isPlaceable": false,
+		"icon": "Nach0LightGreyPaint.png",
+		"maxStackSize": 50
+	},
+	"Nach0OrangePaint": {
+		"categories": [
+			"paint",
+			"items",
+			"nach0"
+		],
+		"isPlaceable": false,
+		"icon": "Nach0OrangePaint.png",
+		"maxStackSize": 50
+	},
+	"Nach0PinkPaint": {
+		"categories": [
+			"paint",
+			"items",
+			"nach0"
+		],
+		"isPlaceable": false,
+		"icon": "Nach0PinkPaint.png",
+		"maxStackSize": 50
+	},
+	"Nach0PurplePaint": {
+		"categories": [
+			"paint",
+			"items",
+			"nach0"
+		],
+		"isPlaceable": false,
+		"icon": "Nach0PurplePaint.png",
+		"maxStackSize": 50
+	},
+	"Nach0RedPaint": {
+		"categories": [
+			"paint",
+			"items",
+			"nach0"
+		],
+		"isPlaceable": false,
+		"icon": "Nach0RedPaint.png",
+		"maxStackSize": 50
+	},
+	"Nach0WhitePaint": {
+		"categories": [
+			"paint",
+			"items",
+			"nach0"
+		],
+		"isPlaceable": false,
+		"icon": "Nach0WhitePaint.png",
+		"maxStackSize": 50
+	},
+	"Nach0YellowPaint": {
+		"categories": [
+			"paint",
+			"items",
+			"nach0"
+		],
+		"isPlaceable": false,
+		"icon": "Nach0YellowPaint.png",
+		"maxStackSize": 50
+	}
+}
