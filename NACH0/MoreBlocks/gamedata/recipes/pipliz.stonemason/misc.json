@@ -46,7 +46,7 @@
 	{
 		"defaultLimit": 5,
 		"defaultPriority": 100,
-		"isOptional": true,
+		"isOptional": false,
 		"name": "Nach0RockCraft",
 		"requires": [{
 			"amount": 5,
@@ -55,6 +55,20 @@
 		"results": [{
 			"amount": 5,
 			"type": "Nach0Rock"
+		}]
+	},
+	{
+		"defaultLimit": 5,
+		"defaultPriority": 100,
+		"isOptional": false,
+		"name": "Nach0CobblestoneCraft",
+		"requires": [{
+			"amount": 5,
+			"type": "stoneblock"
+		}],
+		"results": [{
+			"amount": 5,
+			"type": "Nach0Cobblestone"
 		}]
 	}
 ]

@@ -5,7 +5,7 @@
     <ProjectGuid>{CB08F978-6A1A-41A5-AB2C-673345337789}</ProjectGuid>
     <OutputType>Library</OutputType>
     <NoStandardLibraries>false</NoStandardLibraries>
-    <AssemblyName>ClassLibrary</AssemblyName>
+    <AssemblyName>MoreBlocks</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
@@ -46,10 +46,9 @@
     <Reference Include="BaseGame">
       <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Colony Survival\gamedata\mods\Pipliz\BaseGame\BaseGame.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.CSharp" />
     <Reference Include="NewColonyAPI, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Colony Survival\gamedata\mods\JackPS9\NewColonyAPI\NewColonyAPI.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Colony Survival\gamedata\mods\JackPS9\NewColonyAPI\NewColonyAPI.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -100,6 +99,7 @@
     <Compile Include="Nach0Research\Nach0PaintingResearch.cs" />
     <Compile Include="Nach0Research\Nach0PaintingScienceBagResearch.cs" />
     <Compile Include="Nach0Research\Nach0PaintMakingResearch.cs" />
+    <Compile Include="Nach0Research\Nach0ExoticWoodResearch.cs" />
     <Compile Include="Nach0Research\Nach0PaintMixingResearch.cs" />
     <Compile Include="Nach0Research\Nach0SpellsResearch.cs" />
     <Compile Include="Nach0Research\Nach0WoodWorkingResearch.cs" />

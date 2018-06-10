@@ -1,0 +1,323 @@
+[{
+	"defaultLimit": 150,
+	"defaultPriority": 300,
+	"isOptional": true,
+	"name": "Nach0AquaPaintBlockCraft",
+	"requires": [{
+			"amount": 1,
+			"type": "Nach0AquaPaint"
+		},
+		{
+			"amount": 5,
+			"type": "plasterblock"
+		}
+	],
+	"results": [{
+			"amount": 5,
+			"type": "Nach0AquaPaintBlock"
+		},
+		{
+			"amount": 1,
+			"type": "Nach0Bucket"
+		}
+	]
+}, {
+	"defaultLimit": 150,
+	"defaultPriority": 300,
+	"isOptional": false,
+	"name": "Nach0BlackPaintBlockCraft",
+	"requires": [{
+			"amount": 1,
+			"type": "Nach0BlackPaint"
+		},
+		{
+			"amount": 5,
+			"type": "plasterblock"
+		}
+	],
+	"results": [{
+			"amount": 5,
+			"type": "Nach0BlackPaintBlock"
+		},
+		{
+			"amount": 1,
+			"type": "Nach0Bucket"
+		}
+	]
+}, {
+	"defaultLimit": 150,
+	"defaultPriority": 300,
+	"isOptional": false,
+	"name": "Nach0BluePaintBlockCraft",
+	"requires": [{
+			"amount": 1,
+			"type": "Nach0BluePaint"
+		},
+		{
+			"amount": 5,
+			"type": "plasterblock"
+		}
+	],
+	"results": [{
+			"amount": 5,
+			"type": "Nach0BluePaintBlock"
+		},
+		{
+			"amount": 1,
+			"type": "Nach0Bucket"
+		}
+	]
+}, {
+	"defaultLimit": 150,
+	"defaultPriority": 300,
+	"isOptional": true,
+	"name": "Nach0DarkGreenPaintBlockCraft",
+	"requires": [{
+			"amount": 1,
+			"type": "Nach0DarkGreenPaint"
+		},
+		{
+			"amount": 5,
+			"type": "plasterblock"
+		}
+	],
+	"results": [{
+			"amount": 5,
+			"type": "Nach0DarkGreenPaintBlock"
+		},
+		{
+			"amount": 1,
+			"type": "Nach0Bucket"
+		}
+	]
+}, {
+	"defaultLimit": 150,
+	"defaultPriority": 300,
+	"isOptional": true,
+	"name": "Nach0GreenPaintBlockCraft",
+	"requires": [{
+			"amount": 1,
+			"type": "Nach0GreenPaint"
+		},
+		{
+			"amount": 5,
+			"type": "plasterblock"
+		}
+	],
+	"results": [{
+			"amount": 5,
+			"type": "Nach0GreenPaintBlock"
+		},
+		{
+			"amount": 1,
+			"type": "Nach0Bucket"
+		}
+	]
+}, {
+	"defaultLimit": 150,
+	"defaultPriority": 300,
+	"isOptional": true,
+	"name": "Nach0GreyPaintBlockCraft",
+	"requires": [{
+			"amount": 1,
+			"type": "Nach0GreyPaint"
+		},
+		{
+			"amount": 5,
+			"type": "plasterblock"
+		}
+	],
+	"results": [{
+			"amount": 5,
+			"type": "Nach0GreyPaintBlock"
+		},
+		{
+			"amount": 1,
+			"type": "Nach0Bucket"
+		}
+	]
+}, {
+	"defaultLimit": 150,
+	"defaultPriority": 300,
+	"isOptional": true,
+	"name": "Nach0LightBluePaintBlockCraft",
+	"requires": [{
+			"amount": 1,
+			"type": "Nach0LightBluePaint"
+		},
+		{
+			"amount": 5,
+			"type": "plasterblock"
+		}
+	],
+	"results": [{
+			"amount": 5,
+			"type": "Nach0LightBluePaintBlock"
+		},
+		{
+			"amount": 1,
+			"type": "Nach0Bucket"
+		}
+	]
+}, {
+	"defaultLimit": 150,
+	"defaultPriority": 300,
+	"isOptional": true,
+	"name": "Nach0LightGreyPaintBlockCraft",
+	"requires": [{
+			"amount": 1,
+			"type": "Nach0LightGreyPaint"
+		},
+		{
+			"amount": 5,
+			"type": "plasterblock"
+		}
+	],
+	"results": [{
+			"amount": 5,
+			"type": "Nach0LightGreyPaintBlock"
+		},
+		{
+			"amount": 1,
+			"type": "Nach0Bucket"
+		}
+	]
+}, {
+	"defaultLimit": 150,
+	"defaultPriority": 300,
+	"isOptional": true,
+	"name": "Nach0OrangePaintBlockCraft",
+	"requires": [{
+			"amount": 1,
+			"type": "Nach0OrangePaint"
+		},
+		{
+			"amount": 5,
+			"type": "plasterblock"
+		}
+	],
+	"results": [{
+			"amount": 5,
+			"type": "Nach0OrangePaintBlock"
+		},
+		{
+			"amount": 1,
+			"type": "Nach0Bucket"
+		}
+	]
+}, {
+	"defaultLimit": 150,
+	"defaultPriority": 300,
+	"isOptional": true,
+	"name": "Nach0PinkPaintBlockCraft",
+	"requires": [{
+			"amount": 1,
+			"type": "Nach0PinkPaint"
+		},
+		{
+			"amount": 5,
+			"type": "plasterblock"
+		}
+	],
+	"results": [{
+			"amount": 5,
+			"type": "Nach0PinkPaintBlock"
+		},
+		{
+			"amount": 1,
+			"type": "Nach0Bucket"
+		}
+	]
+}, {
+	"defaultLimit": 150,
+	"defaultPriority": 300,
+	"isOptional": true,
+	"name": "Nach0PurplePaintBlockCraft",
+	"requires": [{
+			"amount": 1,
+			"type": "Nach0PurplePaint"
+		},
+		{
+			"amount": 5,
+			"type": "plasterblock"
+		}
+	],
+	"results": [{
+			"amount": 5,
+			"type": "Nach0PurplePaintBlock"
+		},
+		{
+			"amount": 1,
+			"type": "Nach0Bucket"
+		}
+	]
+}, {
+	"defaultLimit": 150,
+	"defaultPriority": 300,
+	"isOptional": false,
+	"name": "Nach0RedPaintBlockCraft",
+	"requires": [{
+			"amount": 1,
+			"type": "Nach0RedPaint"
+		},
+		{
+			"amount": 5,
+			"type": "plasterblock"
+		}
+	],
+	"results": [{
+			"amount": 5,
+			"type": "Nach0RedPaintBlock"
+		},
+		{
+			"amount": 1,
+			"type": "Nach0Bucket"
+		}
+	]
+}, {
+	"defaultLimit": 150,
+	"defaultPriority": 300,
+	"isOptional": false,
+	"name": "Nach0WhitePaintBlockCraft",
+	"requires": [{
+			"amount": 1,
+			"type": "Nach0WhitePaint"
+		},
+		{
+			"amount": 5,
+			"type": "plasterblock"
+		}
+	],
+	"results": [{
+			"amount": 5,
+			"type": "Nach0WhitePaintBlock"
+		},
+		{
+			"amount": 1,
+			"type": "Nach0Bucket"
+		}
+	]
+}, {
+	"defaultLimit": 150,
+	"defaultPriority": 300,
+	"isOptional": false,
+	"name": "Nach0YellowPaintBlockCraft",
+	"requires": [{
+			"amount": 1,
+			"type": "Nach0YellowPaint"
+		},
+		{
+			"amount": 5,
+			"type": "plasterblock"
+		}
+	],
+	"results": [{
+			"amount": 5,
+			"type": "Nach0YellowPaintBlock"
+		},
+		{
+			"amount": 1,
+			"type": "Nach0Bucket"
+		}
+	]
+}]

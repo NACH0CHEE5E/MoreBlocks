@@ -1,7 +1,7 @@
 [{
 	"defaultLimit": 5,
 	"defaultPriority": 100,
-	"isOptional": true,
+	"isOptional": false,
 	"name": "Nach0IceBlockCraft",
 	"requires": [{
 		"amount": 5,

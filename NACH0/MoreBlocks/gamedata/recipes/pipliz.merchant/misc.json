@@ -1,13 +1,40 @@
 [{
-	"defaultLimit": 5,
-	"defaultPriority": 100,
-	"isOptional": true,
-	"name": "Nach0HayCraft",
-	"requires": [{
-		"amount": 25,
-		"type": "goldcoin"
-	}],
-	"results": [{
-		"type": "Nach0Hay"
-	}]
-}]
+		"defaultLimit": 5,
+		"defaultPriority": 100,
+		"isOptional": false,
+		"name": "Nach0HayCraft",
+		"requires": [{
+			"amount": 25,
+			"type": "goldcoin"
+		}],
+		"results": [{
+			"type": "Nach0Hay"
+		}]
+	},
+	{
+		"defaultLimit": 5,
+		"defaultPriority": 100,
+		"isOptional": false,
+		"name": "Nach0SilverOreCraft",
+		"requires": [{
+			"amount": 100,
+			"type": "goldcoin"
+		}],
+		"results": [{
+			"type": "Nach0SilverOre"
+		}]
+	},
+	{
+		"defaultLimit": 5,
+		"defaultPriority": 100,
+		"isOptional": false,
+		"name": "Nach0PlatniumOreCraft",
+		"requires": [{
+			"amount": 100,
+			"type": "goldcoin"
+		}],
+		"results": [{
+			"type": "Nach0PlatniumOre"
+		}]
+	}
+]

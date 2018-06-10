@@ -1,7 +1,7 @@
 [{
 	"defaultLimit": 5,
 	"defaultPriority": 100,
-	"isOptional": false,
+	"isOptional": true,
 	"name": "Nach0MagicTableCraft",
 	"requires": [{
 			"amount": 1000,

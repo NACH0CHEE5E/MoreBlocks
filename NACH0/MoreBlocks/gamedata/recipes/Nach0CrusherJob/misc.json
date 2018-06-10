@@ -1,0 +1,14 @@
+[{
+		"defaultLimit": 5,
+		"defaultPriority": 100,
+		"isOptional": false,
+		"name": "Nach0CementPowderCraft",
+		"requires": [{
+			"amount": 10,
+			"type": "stonebricks"
+		}],
+		"results": [{
+			"type": "Nach0CementPowder"
+		}]
+	}
+]

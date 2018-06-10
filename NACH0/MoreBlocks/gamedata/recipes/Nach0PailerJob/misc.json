@@ -1,6 +1,6 @@
 [{
 	"defaultLimit": 150,
-	"defaultPriority": 300,
+	"defaultPriority": 100,
 	"isOptional": false,
 	"name": "Nach0WaterBucketCraft",
 	"requires": [{

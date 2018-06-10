@@ -65,16 +65,16 @@
 		"maxStackSize": 200,
 		"sideall": "Nach0SmoothedGreenConcreteTexture"
 	},
-	"Nach0SmoothedGreyConcrete": {
+	"Nach0SmoothedConcrete": {
 		"categories": [
 			"concrete",
 			"smoothedconcrete",
 			"blocks",
 			"nach0"
 		],
-		"icon": "Nach0SmoothedGreyConcrete.png",
+		"icon": "Nach0SmoothedConcrete.png",
 		"maxStackSize": 200,
-		"sideall": "Nach0SmoothedGreyConcreteTexture"
+		"sideall": "Nach0SmoothedConcreteTexture"
 	},
 	"Nach0SmoothedLightBlueConcrete": {
 		"categories": [

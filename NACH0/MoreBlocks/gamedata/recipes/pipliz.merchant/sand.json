@@ -1,0 +1,31 @@
+[{
+		"defaultLimit": 5,
+		"defaultPriority": 100,
+		"isOptional": true,
+		"name": "Nach0Sand1Craft",
+		"requires": [{
+				"amount": 25,
+				"type": "goldcoin"
+			}
+		],
+		"results": [{
+			"amount": 1,
+			"type": "Nach0Sand1"
+		}]
+	},
+	{
+		"defaultLimit": 5,
+		"defaultPriority": 100,
+		"isOptional": true,
+		"name": "Nach0Sand2Craft",
+		"requires": [{
+				"amount": 25,
+				"type": "goldcoin"
+			}
+		],
+		"results": [{
+			"amount": 1,
+			"type": "Nach0Sand2"
+		}]
+	}
+]

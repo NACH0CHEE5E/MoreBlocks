@@ -15,6 +15,25 @@
 	{
 		"defaultLimit": 5,
 		"defaultPriority": 100,
+		"isOptional": true,
+		"name": "Nach0ChiselCraft",
+		"requires": [{
+				"amount": 2,
+				"type": "ironingot"
+			},
+			{
+				"amount": 3,
+				"type": "planks"
+			}
+		],
+		"results": [{
+			"amount": 3,
+			"type": "Nach0Chisel"
+		}]
+	},
+	{
+		"defaultLimit": 5,
+		"defaultPriority": 100,
 		"isOptional": false,
 		"name": "Nach0FreezerCraft",
 		"requires": [{
@@ -43,7 +62,7 @@
 	{
 		"defaultLimit": 5,
 		"defaultPriority": 100,
-		"isOptional": false,
+		"isOptional": true,
 		"name": "Nach0PailerCraft",
 		"requires": [{
 			"amount": 5,

@@ -132,7 +132,7 @@
 	{
 		"defaultLimit": 5,
 		"defaultPriority": 100,
-		"isOptional": true,
+		"isOptional": false,
 		"name": "Nach0CoalBlockCraft",
 		"requires": [{
 			"amount": 25,
@@ -146,7 +146,7 @@
 	{
 		"defaultLimit": 5,
 		"defaultPriority": 100,
-		"isOptional": true,
+		"isOptional": false,
 		"name": "BaseNach0CoalOreCraft",
 		"requires": [{
 			"amount": 5,
@@ -160,7 +160,7 @@
 	{
 		"defaultLimit": 5,
 		"defaultPriority": 100,
-		"isOptional": true,
+		"isOptional": false,
 		"name": "Nach0GoldBlockCraft",
 		"requires": [{
 			"amount": 25,
@@ -174,7 +174,7 @@
 	{
 		"defaultLimit": 5,
 		"defaultPriority": 100,
-		"isOptional": true,
+		"isOptional": false,
 		"name": "BaseNach0GoldOreCraft",
 		"requires": [{
 			"amount": 5,
@@ -183,6 +183,20 @@
 		"results": [{
 			"amount": 25,
 			"type": "goldore"
+		}]
+	},
+	{
+		"defaultLimit": 5,
+		"defaultPriority": 100,
+		"isOptional": false,
+		"name": "Nach0ConcreteLayerCraft",
+		"requires": [{
+			"amount": 1,
+			"type": "crate"
+		}],
+		"results": [{
+			"amount": 1,
+			"type": "Nach0ConcreteLayer"
 		}]
 	}
 ]
