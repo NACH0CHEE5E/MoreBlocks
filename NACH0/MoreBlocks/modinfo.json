@@ -1,6 +1,6 @@
 [{
 	"name": "NACH0.MoreBlocks",
-	"version": "1.0.1",
+	"version": "1.1.0",
 	"dllpath": "MoreBlocks.dll",
 	"namepretty": "More Blocks",
 	"enabled": true,
