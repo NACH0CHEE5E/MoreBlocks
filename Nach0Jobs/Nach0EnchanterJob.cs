@@ -9,7 +9,7 @@ using BlockTypes.Builtin;
 using Server.NPCs;
 using System.Collections.Generic;
 
-namespace MoreBlocks.Nach0Jobs
+namespace Nach0Jobs
 {
     public class Nach0EnchanterJob : CraftingJobBase, IBlockJobBase, INPCTypeDefiner
     {

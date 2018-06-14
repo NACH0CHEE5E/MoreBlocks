@@ -9,7 +9,7 @@ using PhentrixGames.NewColonyAPI.Jobs;
 using PhentrixGames.NewColonyAPI;
 using PhentrixGames;
 
-namespace MoreBlocks.Nach0Jobs
+namespace Nach0Jobs
 {
     public class Nach0CrusherJob : CraftingJobBase, IBlockJobBase, INPCTypeDefiner
     {

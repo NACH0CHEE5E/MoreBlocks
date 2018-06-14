@@ -7,6 +7,7 @@ using BlockTypes.Builtin;
 using Server.NPCs;
 using System.Collections.Generic;
 using PhentrixGames.NewColonyAPI;
+using PhentrixGames.NewColonyAPI.Managers;
 
 namespace MoreBlocks
 {
@@ -17,6 +18,7 @@ namespace MoreBlocks
         public static string ModGamedata = "gamedata/mods/NACH0/MoreBlocks/gamedata/";
         public static string Textures = "gamedata/mods/NACH0/MoreBlocks/gamedata/textures";
         public static string blocktextures = "gamedata/mods/NACH0/MoreBlocks/gamedata/textures/blocks/";
+        public static string ModKey = "NACH0.MoreBlocks";
         public static Version APIVersion = new Version(0, 1, 10);
 
 
@@ -34,38 +36,45 @@ namespace MoreBlocks
             Utilities.CreateLogs("MoreBlocks");
         }
 
-        [ModLoader.ModCallback(ModLoader.EModCallbackType.AfterStartup, "NACH0.MoreBlocks.AfterStartup")]
+        [ModLoader.ModCallback(ModLoader.EModCallbackType.AfterModsLoaded, "NACH0.MoreBlocks.AfterModsLoaded")]
+        [ModLoader.ModCallbackProvidesFor("phentrixgames.newcolonyapi.AfterModsLoaded")]
+        public static void AfterStartup(List<ModLoader.ModDescription> a)
+        {
+            ModManager.RegisterMod("MoreBlocks", ModFolder);
+        }
+
+        /*[ModLoader.ModCallback(ModLoader.EModCallbackType.AfterStartup, "NACH0.MoreBlocks.AfterStartup")]
         [ModLoader.ModCallbackProvidesFor("phentrixgames.newcolonyapi.AfterStartup")]
         public static void AfterStartup()
         {
-            PhentrixGames.NewColonyAPI.Managers.ModManager.RegisterMod("MoreBlocks", ModFolder);
-        }
+            ModManager.RegisterMod("MoreBlocks", ModFolder);
+        }*/
 
         [ModLoader.ModCallback(ModLoader.EModCallbackType.AfterItemTypesDefined, "NACH0.MoreBlocks.RegisterJobs")]
         [ModLoader.ModCallbackProvidesFor("pipliz.apiprovider.jobs.resolvetypes")]
         public static void AfterDefiningNPCTypes()
         {
-            PhentrixGames.NewColonyAPI.Managers.JobManager.RegisterJob<Nach0Jobs.Nach0AdvancedPainterJob>("Nach0AdvancedPaintersTable", "Nach0AdvancedPainterJob");
-            PhentrixGames.NewColonyAPI.Managers.JobManager.RegisterJob<Nach0Jobs.Nach0BrickLayerJob>("Nach0BrickLayer", "Nach0BrickLayerJob");
-            PhentrixGames.NewColonyAPI.Managers.JobManager.RegisterJob<Nach0Jobs.Nach0BrickMakerJob>("Nach0BrickMaker", "Nach0BrickMakerJob");
-            PhentrixGames.NewColonyAPI.Managers.JobManager.RegisterJob<Nach0Jobs.Nach0CarverJob>("Nach0CarversTable", "Nach0CarverJob");
-            PhentrixGames.NewColonyAPI.Managers.JobManager.RegisterJob<Nach0Jobs.Nach0ChiselerJob>("Nach0Chiseler", "Nach0ChiselerJob");
-            PhentrixGames.NewColonyAPI.Managers.JobManager.RegisterJob<Nach0Jobs.Nach0ConcreteLayerJob>("Nach0ConcreteLayer", "Nach0ConcreteLayerJob");
-            PhentrixGames.NewColonyAPI.Managers.JobManager.RegisterJob<Nach0Jobs.Nach0CrusherJob>("Nach0Crusher", "Nach0CrusherJob");
-            PhentrixGames.NewColonyAPI.Managers.JobManager.RegisterJob<Nach0Jobs.Nach0EnchanterJob>("Nach0Enchanter", "Nach0EnchanterJob");
-            PhentrixGames.NewColonyAPI.Managers.JobManager.RegisterJob<Nach0Jobs.Nach0FreezerJob>("Nach0Freezer", "Nach0FreezerJob");
-            PhentrixGames.NewColonyAPI.Managers.JobManager.RegisterJob<Nach0Jobs.Nach0MagicianJob>("Nach0MagicTable", "Nach0MagicicianJob");
-            PhentrixGames.NewColonyAPI.Managers.JobManager.RegisterJob<Nach0Jobs.Nach0MelterJob>("Nach0Melter", "Nach0MelterJob");
-            PhentrixGames.NewColonyAPI.Managers.JobManager.RegisterJob<Nach0Jobs.Nach0PailerJob>("Nach0Pailer", "Nach0PailerJob");
-            PhentrixGames.NewColonyAPI.Managers.JobManager.RegisterJob<Nach0Jobs.Nach0PainterJob>("Nach0PaintersTable", "Nach0PainterJob");
-            PhentrixGames.NewColonyAPI.Managers.JobManager.RegisterJob<Nach0Jobs.Nach0PaintMixerJob>("Nach0PaintMixer", "Nach0PaintMixerJob");
+            JobManager.RegisterJob<Nach0Jobs.Nach0AdvancedPainterJob>("Nach0AdvancedPaintersTable", "Nach0AdvancedPainterJob");
+            JobManager.RegisterJob<Nach0Jobs.Nach0BrickLayerJob>("Nach0BrickLayer", "Nach0BrickLayerJob");
+            JobManager.RegisterJob<Nach0Jobs.Nach0BrickMakerJob>("Nach0BrickMaker", "Nach0BrickMakerJob");
+            JobManager.RegisterJob<Nach0Jobs.Nach0CarverJob>("Nach0CarversTable", "Nach0CarverJob");
+            JobManager.RegisterJob<Nach0Jobs.Nach0ChiselerJob>("Nach0Chiseler", "Nach0ChiselerJob");
+            JobManager.RegisterJob<Nach0Jobs.Nach0ConcreteLayerJob>("Nach0ConcreteLayer", "Nach0ConcreteLayerJob");
+            JobManager.RegisterJob<Nach0Jobs.Nach0CrusherJob>("Nach0Crusher", "Nach0CrusherJob");
+            JobManager.RegisterJob<Nach0Jobs.Nach0EnchanterJob>("Nach0Enchanter", "Nach0EnchanterJob");
+            JobManager.RegisterJob<Nach0Jobs.Nach0FreezerJob>("Nach0Freezer", "Nach0FreezerJob");
+            JobManager.RegisterJob<Nach0Jobs.Nach0MagicianJob>("Nach0MagicTable", "Nach0MagicicianJob");
+            JobManager.RegisterJob<Nach0Jobs.Nach0MelterJob>("Nach0Melter", "Nach0MelterJob");
+            JobManager.RegisterJob<Nach0Jobs.Nach0PailerJob>("Nach0Pailer", "Nach0PailerJob");
+            JobManager.RegisterJob<Nach0Jobs.Nach0PainterJob>("Nach0PaintersTable", "Nach0PainterJob");
+            JobManager.RegisterJob<Nach0Jobs.Nach0PaintMixerJob>("Nach0PaintMixer", "Nach0PaintMixerJob");
         }
 
         /*[ModLoader.ModCallback(ModLoader.EModCallbackType.AfterStartup, "phentrixgames.examplemod..Localization")]
         public static void Localization()
         {
             //This is how localization is added using the API
-            PhentrixGames.NewColonyAPI.Managers.LocalizationManager.Localize("ExampleMod", LocalizationFolder);
+            LocalizationManager.Localize("ExampleMod", LocalizationFolder);
         }*/
     }
 }
