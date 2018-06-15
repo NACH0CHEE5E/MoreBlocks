@@ -34,12 +34,18 @@ namespace MoreBlocks
             Utilities.CreateLogs("MoreBlocks");
         }
 
-        [ModLoader.ModCallback(ModLoader.EModCallbackType.AfterStartup, "NACH0.MoreBlocks.AfterStartup")]
+        [ModLoader.ModCallback(ModLoader.EModCallbackType.AfterModsLoaded, "NACH0.MoreBlocks.AfterModsLoaded")]
+        [ModLoader.ModCallbackProvidesFor("phentrixgames.newcolonyapi.AfterModsLoaded")]
+        public static void AfterStartup(List<ModLoader.ModDescription> a)
+        {
+            PhentrixGames.NewColonyAPI.Managers.ModManager.RegisterMod("MoreBlocks", ModFolder);
+        }
+        /*[ModLoader.ModCallback(ModLoader.EModCallbackType.AfterStartup, "NACH0.MoreBlocks.AfterStartup")]
         [ModLoader.ModCallbackProvidesFor("phentrixgames.newcolonyapi.AfterStartup")]
         public static void AfterStartup()
         {
             PhentrixGames.NewColonyAPI.Managers.ModManager.RegisterMod("MoreBlocks", ModFolder);
-        }
+        }*/
 
         [ModLoader.ModCallback(ModLoader.EModCallbackType.AfterItemTypesDefined, "NACH0.MoreBlocks.RegisterJobs")]
         [ModLoader.ModCallbackProvidesFor("pipliz.apiprovider.jobs.resolvetypes")]
