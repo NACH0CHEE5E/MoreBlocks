@@ -9,7 +9,7 @@ namespace MoreBlocks.Nach0Research
         public Nach0ConcreteMakingResearch()
         {
             key = "Nach0ConcreteMakingResearch";
-            icon = "gamedata/mods/NACH0/MoreBlocks/gamedata/textures/icons/Nach0Missing.png";
+            icon = "gamedata/mods/NACH0/MoreBlocks/gamedata/textures/icons/Nach0ConcreteLayer.png";
             iterationCount = 10;
             AddIterationRequirement("stoneblock", 5);
             AddDependency("Nach0CrushingResearch");
@@ -17,7 +17,7 @@ namespace MoreBlocks.Nach0Research
 
         public override void OnResearchComplete(ScienceManagerPlayer manager, EResearchCompletionReason reason)
         {
-            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0ConcreteLayerCraft", true, "pipliz.crafter");
+            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0ConcreteLayerCraft-pipliz.crafter", true, "pipliz.crafter");
         }
     }
 }

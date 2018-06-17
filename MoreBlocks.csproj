@@ -65,6 +65,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="modentry.cs" />
+    <Compile Include="Nach0Jobs\Nach0SanderJob.cs" />
     <Compile Include="Nach0Jobs\Nach0ConcreteLayerJob.cs" />
     <Compile Include="Nach0Jobs\Nach0CrusherJob.cs" />
     <Compile Include="Nach0Jobs\Nach0PaintMixerJob.cs" />
@@ -86,11 +87,24 @@
     <Compile Include="Nach0Research\Nach0CarverResearch.cs" />
     <Compile Include="Nach0Research\Nach0ChiselerResearch.cs" />
     <Compile Include="Nach0Research\Nach0ChiselResearch.cs" />
+    <Compile Include="Nach0Research\Nach0ConcreteSmoothing2Research.cs" />
+    <Compile Include="Nach0Research\Nach0PaperMaking.cs" />
+    <Compile Include="Nach0Research\Nach0SandingResearch.cs" />
+    <Compile Include="Nach0Research\Nach0Currency2Research.cs" />
+    <Compile Include="Nach0Research\Nach0CurrencyResearch.cs" />
+    <Compile Include="Nach0Research\Nach0ExoticGoods2Research.cs" />
+    <Compile Include="Nach0Research\Nach0ExoticGrassResearch.cs" />
+    <Compile Include="Nach0Research\Nach0ExoticGoodsResearch.cs" />
+    <Compile Include="Nach0Research\Nach0RockResearch.cs" />
+    <Compile Include="Nach0Research\Nach0ExoticStoneResearch.cs" />
+    <Compile Include="Nach0Research\Nach0ExoticSandResearch.cs" />
     <Compile Include="Nach0Research\Nach0ExoticDirtResearch.cs" />
     <Compile Include="Nach0Research\Nach0ColouredConcreteResearch.cs" />
     <Compile Include="Nach0Research\Nach0ConcreteMakingResearch.cs" />
     <Compile Include="Nach0Research\Nach0ConcreteSmoothingResearch.cs" />
     <Compile Include="Nach0Research\Nach0CrushingResearch.cs" />
+    <Compile Include="Nach0Research\Nach0MeltingResearch.cs" />
+    <Compile Include="Nach0Research\Nach0FreezingResearch.cs" />
     <Compile Include="Nach0Research\Nach0FaithResearch.cs" />
     <Compile Include="Nach0Research\Nach0MagicResearch.cs" />
     <Compile Include="Nach0Research\Nach0PailingResearch.cs" />

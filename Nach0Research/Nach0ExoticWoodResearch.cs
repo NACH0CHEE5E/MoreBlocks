@@ -9,28 +9,28 @@ namespace MoreBlocks.Nach0Research
         public Nach0ExoticWoodResearch()
         {
             key = "Nach0ExoticWoodResearch";
-            icon = "gamedata/mods/NACH0/MoreBlocks/gamedata/textures/icons/Nach0Missing.png";
+            icon = "gamedata/mods/NACH0/MoreBlocks/gamedata/textures/icons/Nach0ExoticWoodResearch.png";
             iterationCount = 15;
             AddIterationRequirement("planks", 5);
             AddIterationRequirement("logtaiga", 5);
             AddIterationRequirement("logtemperate", 5);
-            AddDependency("pipliz.baseresearch.bronzeminting");
+            AddDependency("Nach0CurrencyResearch");
         }
 
         public override void OnResearchComplete(ScienceManagerPlayer manager, EResearchCompletionReason reason)
         {
-            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0Planks1Craft", true, "pipliz.woodcutter");
-            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0Planks2Craft", true, "pipliz.woodcutter");
-            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0Planks3Craft", true, "pipliz.woodcutter");
-            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0Planks4Craft", true, "pipliz.woodcutter");
-            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0Planks5Craft", true, "pipliz.woodcutter");
-            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0Planks6Craft", true, "pipliz.woodcutter");
-            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0TreeLog1Craft", true, "pipliz.merchant");
-            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0TreeLog2Craft", true, "pipliz.merchant");
-            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0TreeLog3Craft", true, "pipliz.merchant");
-            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0TreeLog4Craft", true, "pipliz.merchant");
-            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0TreeLog5Craft", true, "pipliz.merchant");
-            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0TreeLog6Craft", true, "pipliz.merchant");
+            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0Planks1Craft-pipliz.woodcutter", true, "pipliz.woodcutter");
+            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0Planks2Craft-pipliz.woodcutter", true, "pipliz.woodcutter");
+            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0Planks3Craft-pipliz.woodcutter", true, "pipliz.woodcutter");
+            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0Planks4Craft-pipliz.woodcutter", true, "pipliz.woodcutter");
+            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0Planks5Craft-pipliz.woodcutter", true, "pipliz.woodcutter");
+            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0Planks6Craft-pipliz.woodcutter", true, "pipliz.woodcutter");
+            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0TreeLog1Craft-pipliz.merchant", true, "pipliz.merchant");
+            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0TreeLog2Craft-pipliz.merchant", true, "pipliz.merchant");
+            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0TreeLog3Craft-pipliz.merchant", true, "pipliz.merchant");
+            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0TreeLog4Craft-pipliz.merchant", true, "pipliz.merchant");
+            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0TreeLog5Craft-pipliz.merchant", true, "pipliz.merchant");
+            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0TreeLog6Craft-pipliz.merchant", true, "pipliz.merchant");
         }
     }
 }

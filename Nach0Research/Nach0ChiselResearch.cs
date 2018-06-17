@@ -18,7 +18,7 @@ namespace MoreBlocks.Nach0Research
 
         public override void OnResearchComplete(ScienceManagerPlayer manager, EResearchCompletionReason reason)
         {
-            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0ChiselCraft", true, "pipliz.metalsmithjob");
+            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0ChiselCraft-pipliz.metalsmithjob", true, "pipliz.metalsmithjob");
         }
     }
 }

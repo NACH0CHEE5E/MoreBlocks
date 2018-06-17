@@ -9,15 +9,15 @@ namespace MoreBlocks.Nach0Research
         public Nach0MagicResearch()
         {
             key = "Nach0MagicResearch";
-            icon = "gamedata/mods/NACH0/MoreBlocks/gamedata/textures/icons/Nach0Missing.png";
+            icon = "gamedata/mods/NACH0/MoreBlocks/gamedata/textures/icons/Nach0MagicTable.png";
             iterationCount = 100;
-            AddIterationRequirement("Nach0EnchantedStone", 1);
+            AddIterationRequirement("Nach0EnchantedStone", 25);
             AddDependency("Nach0SpellsResearch");
         }
 
         public override void OnResearchComplete(ScienceManagerPlayer manager, EResearchCompletionReason reason)
         {
-            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0MagicTableCraft", true, "Nach0EnchanterJob");
+            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0MagicTableCraft-Nach0EnchanterJob", true, "Nach0EnchanterJob");
         }
     }
 }

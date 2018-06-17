@@ -19,7 +19,7 @@ namespace MoreBlocks.Nach0Research
 
         public override void OnResearchComplete(ScienceManagerPlayer manager, EResearchCompletionReason reason)
         {
-            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0CarversTableCraft", true, "pipliz.crafter");
+            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0CarversTableCraft-pipliz.crafter", true, "pipliz.crafter");
         }
     }
 }

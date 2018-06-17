@@ -9,7 +9,7 @@ namespace MoreBlocks.Nach0Research
         public Nach0CrushingResearch()
         {
             key = "Nach0CrushingResearch";
-            icon = "gamedata/mods/NACH0/MoreBlocks/gamedata/textures/icons/Nach0Missing.png";
+            icon = "gamedata/mods/NACH0/MoreBlocks/gamedata/textures/icons/Nach0Crusher.png";
             iterationCount = 15;
             AddIterationRequirement("stoneblock", 5);
             AddDependency("pipliz.baseresearch.bloomery");
@@ -18,7 +18,7 @@ namespace MoreBlocks.Nach0Research
 
         public override void OnResearchComplete(ScienceManagerPlayer manager, EResearchCompletionReason reason)
         {
-            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0CrusherCraft", true, "pipliz.metalsmithjob");
+            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0CrusherCraft-pipliz.metalsmithjob", true, "pipliz.metalsmithjob");
         }
     }
 }

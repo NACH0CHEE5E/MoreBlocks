@@ -22,16 +22,17 @@ namespace MoreBlocks.Nach0Research
 
         public override void OnResearchComplete(ScienceManagerPlayer manager, EResearchCompletionReason reason)
         { 
-            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0AquaPaintBlockCraft", true, "Nach0PainterJob");
-            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0DarkBluePaintBlockCraft", true, "Nach0PainterJob");
-            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0GreenPaintBlockCraft", true, "Nach0PainterJob");
-            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0GreyPaintBlockCraft", true, "Nach0PainterJob");
-            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0LightBluePaintBlockCraft", true, "Nach0PainterJob");
-            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0LightGreyPaintBlockCraft", true, "Nach0PainterJob");
-            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0OrangePaintBlockCraft", true, "Nach0PainterJob");
-            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0PinkPaintBlockCraft", true, "Nach0PainterJob");
-            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0PurplePaintBlockCraft", true, "Nach0PainterJob");
-            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0DarkGreenPaintBlockCraft", true, "Nach0PainterJob");
+            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0AquaPaintBlockCraft-Nach0PainterJob", true, "Nach0PainterJob");
+            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0DarkBluePaintBlockCraft-Nach0PainterJob", true, "Nach0PainterJob");
+            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0GreenPaintBlockCraft-Nach0PainterJob", true, "Nach0PainterJob");
+            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0GreyPaintBlockCraft-Nach0PainterJob", true, "Nach0PainterJob");
+            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0LightBluePaintBlockCraft-Nach0PainterJob", true, "Nach0PainterJob");
+            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0LightGreyPaintBlockCraft-Nach0PainterJob", true, "Nach0PainterJob");
+            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0OrangePaintBlockCraft-Nach0PainterJob", true, "Nach0PainterJob");
+            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0PinkPaintBlockCraft-Nach0PainterJob", true, "Nach0PainterJob");
+            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0PurplePaintBlockCraft-Nach0PainterJob", true, "Nach0PainterJob");
+            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0DarkGreenPaintBlockCraft-Nach0PainterJob", true, "Nach0PainterJob");
+            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0BrownPaintBlockCraft-Nach0PainterJob", true, "Nach0PainterJob");
         }
     }
 }

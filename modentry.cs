@@ -19,7 +19,7 @@ namespace MoreBlocks
         public static string Textures = "gamedata/mods/NACH0/MoreBlocks/gamedata/textures";
         public static string blocktextures = "gamedata/mods/NACH0/MoreBlocks/gamedata/textures/blocks/";
         public static string ModKey = "NACH0.MoreBlocks";
-        public static Version APIVersion = new Version(0, 1, 10);
+        public static Version APIVersion = new Version(1, 2, 0);
 
 
         [ModLoader.ModCallback(ModLoader.EModCallbackType.OnAssemblyLoaded, "NACH0.MoreBlocks.assemblyload")]
@@ -40,24 +40,8 @@ namespace MoreBlocks
         [ModLoader.ModCallbackProvidesFor("phentrixgames.newcolonyapi.AfterModsLoaded")]
         public static void AfterStartup(List<ModLoader.ModDescription> a)
         {
-<<<<<<< HEAD
-            PhentrixGames.NewColonyAPI.Managers.ModManager.RegisterMod("MoreBlocks", ModFolder);
-        }
-=======
             ModManager.RegisterMod("MoreBlocks", ModFolder);
         }
-
->>>>>>> 00d18a4803e7d2f874cc885a39bbbe70993b2e90
-        /*[ModLoader.ModCallback(ModLoader.EModCallbackType.AfterStartup, "NACH0.MoreBlocks.AfterStartup")]
-        [ModLoader.ModCallbackProvidesFor("phentrixgames.newcolonyapi.AfterStartup")]
-        public static void AfterStartup()
-        {
-<<<<<<< HEAD
-            PhentrixGames.NewColonyAPI.Managers.ModManager.RegisterMod("MoreBlocks", ModFolder);
-=======
-            ModManager.RegisterMod("MoreBlocks", ModFolder);
->>>>>>> 00d18a4803e7d2f874cc885a39bbbe70993b2e90
-        }*/
 
         [ModLoader.ModCallback(ModLoader.EModCallbackType.AfterItemTypesDefined, "NACH0.MoreBlocks.RegisterJobs")]
         [ModLoader.ModCallbackProvidesFor("pipliz.apiprovider.jobs.resolvetypes")]
@@ -77,6 +61,7 @@ namespace MoreBlocks
             JobManager.RegisterJob<Nach0Jobs.Nach0PailerJob>("Nach0Pailer", "Nach0PailerJob");
             JobManager.RegisterJob<Nach0Jobs.Nach0PainterJob>("Nach0PaintersTable", "Nach0PainterJob");
             JobManager.RegisterJob<Nach0Jobs.Nach0PaintMixerJob>("Nach0PaintMixer", "Nach0PaintMixerJob");
+            JobManager.RegisterJob<Nach0Jobs.Nach0SanderJob>("Nach0Sander", "Nach0SanderJob");
         }
 
         /*[ModLoader.ModCallback(ModLoader.EModCallbackType.AfterStartup, "phentrixgames.examplemod..Localization")]

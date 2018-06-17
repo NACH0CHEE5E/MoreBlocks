@@ -28,7 +28,7 @@ namespace MoreBlocks.Nach0Research
 
         public override void OnResearchComplete(ScienceManagerPlayer manager, EResearchCompletionReason reason)
         {
-            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0PaintingScienceBagCraft", true, "pipliz.technologist");
+            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0PaintingScienceBagCraft-pipliz.technologist", true, "pipliz.technologist");
         }
     }
 }

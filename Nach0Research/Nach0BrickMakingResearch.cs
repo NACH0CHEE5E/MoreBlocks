@@ -9,7 +9,7 @@ namespace MoreBlocks.Nach0Research
         public Nach0BrickMakingResearch()
         {
             key = "Nach0BrickMakingResearch";
-            icon = "gamedata/mods/NACH0/MoreBlocks/gamedata/textures/icons/Nach0Missing.png";
+            icon = "gamedata/mods/NACH0/MoreBlocks/gamedata/textures/icons/Nach0Brick.png";
             iterationCount = 10;
             AddIterationRequirement("bricks", 5);
             AddDependency("pipliz.baseresearch.bloomery");
@@ -17,7 +17,8 @@ namespace MoreBlocks.Nach0Research
 
         public override void OnResearchComplete(ScienceManagerPlayer manager, EResearchCompletionReason reason)
         {
-            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0BrickMakerCraft", true, "pipliz.crafter");
+            //RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0BrickMakerCraft", true, "pipliz.crafter");
+            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0BrickCraft-pipliz.smelter", true, "pipliz.smelter");
         }
     }
 }

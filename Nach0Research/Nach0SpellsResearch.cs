@@ -9,7 +9,7 @@ namespace MoreBlocks.Nach0Research
         public Nach0SpellsResearch()
         {
             key = "Nach0SpellsResearch";
-            icon = "gamedata/mods/NACH0/MoreBlocks/gamedata/textures/icons/Nach0Missing.png";
+            icon = "gamedata/mods/NACH0/MoreBlocks/gamedata/textures/icons/Nach0Enchanter.png";
             iterationCount = 250;
             AddIterationRequirement("goldore", 150);
             AddIterationRequirement("Nach0SilverOre", 50);
@@ -19,7 +19,7 @@ namespace MoreBlocks.Nach0Research
 
         public override void OnResearchComplete(ScienceManagerPlayer manager, EResearchCompletionReason reason)
         {
-            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0EnchanterCraft", true, "pipliz.crafter");
+            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0EnchanterCraft-pipliz.stonemason", true, "pipliz.stonemason");
         }
     }
 }

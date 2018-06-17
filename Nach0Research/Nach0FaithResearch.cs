@@ -9,7 +9,7 @@ namespace MoreBlocks.Nach0Research
         public Nach0FaithResearch()
         {
             key = "Nach0FaithResearch";
-            icon = "gamedata/mods/NACH0/MoreBlocks/gamedata/textures/icons/Nach0Missing.png";
+            icon = "gamedata/mods/NACH0/MoreBlocks/gamedata/textures/icons/Nach0Cross.png";
             iterationCount = 1000;
             AddIterationRequirement("Nach0Cross");
             AddDependency("pipliz.baseresearch.sciencebagadvanced");
@@ -18,7 +18,7 @@ namespace MoreBlocks.Nach0Research
 
         public override void OnResearchComplete(ScienceManagerPlayer manager, EResearchCompletionReason reason)
         {
-            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0CrossCraft", true, "pipliz.crafter");
+            //RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0CrossCraft", true, "pipliz.crafter");
         }
     }
 }
