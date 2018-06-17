@@ -88,7 +88,7 @@
     <Compile Include="Nach0Research\Nach0ChiselerResearch.cs" />
     <Compile Include="Nach0Research\Nach0ChiselResearch.cs" />
     <Compile Include="Nach0Research\Nach0ConcreteSmoothing2Research.cs" />
-    <Compile Include="Nach0Research\Nach0PaperMaking.cs" />
+    <Compile Include="Nach0Research\Nach0PaperMakingResearch.cs" />
     <Compile Include="Nach0Research\Nach0SandingResearch.cs" />
     <Compile Include="Nach0Research\Nach0Currency2Research.cs" />
     <Compile Include="Nach0Research\Nach0CurrencyResearch.cs" />

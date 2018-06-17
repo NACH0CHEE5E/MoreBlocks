@@ -13,7 +13,7 @@ namespace MoreBlocks.Nach0Research
             iterationCount = 15;
             AddIterationRequirement("Nach0Concrete", 5);
             AddDependency("Nach0ConcreteMakingResearch");
-            AddDependency("Nach0SanderResearch");
+            AddDependency("Nach0SandingResearch");
         }
 
         public override void OnResearchComplete(ScienceManagerPlayer manager, EResearchCompletionReason reason)

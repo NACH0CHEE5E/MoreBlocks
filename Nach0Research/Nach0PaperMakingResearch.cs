@@ -4,11 +4,11 @@ using Server.Science;
 namespace MoreBlocks.Nach0Research
 {
     [AutoLoadedResearchable]
-    public class Nach0PaperMaking : BaseResearchable
+    public class Nach0PaperMakingResearch : BaseResearchable
     {
-        public Nach0PaperMaking()
+        public Nach0PaperMakingResearch()
         {
-            key = "Nach0PaperMaking";
+            key = "Nach0PaperMakingResearch";
             icon = "gamedata/mods/NACH0/MoreBlocks/gamedata/textures/icons/Nach0Paper.png";
             iterationCount = 15;
             AddIterationRequirement("flax", 5);
