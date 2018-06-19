@@ -8,7 +8,7 @@ namespace MoreBlocks.Nach0Research
     {
         public Nach0ArtisteryResearch()
         {
-            key = "Nach0ArtisteryResearch";
+            key = "NACH0.research.artistery";
             icon = "gamedata/mods/NACH0/MoreBlocks/gamedata/textures/icons/Nach0PaintBrush.png";
             iterationCount = 64;
             AddIterationRequirement("Nach0PaintingScienceBag", 14);

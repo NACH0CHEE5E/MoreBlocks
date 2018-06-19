@@ -16,10 +16,9 @@ namespace MoreBlocks
     {
         public static string ModFolder = "gamedata/mods/NACH0/MoreBlocks/";
         public static string ModGamedata = "gamedata/mods/NACH0/MoreBlocks/gamedata/";
-        public static string Textures = "gamedata/mods/NACH0/MoreBlocks/gamedata/textures";
-        public static string blocktextures = "gamedata/mods/NACH0/MoreBlocks/gamedata/textures/blocks/";
+        public static string LocaleFolder = "gamedata/mods/NACH0/MoreBlocks/gamedata/locale/";
         public static string ModKey = "NACH0.MoreBlocks";
-        public static Version APIVersion = new Version(1, 2, 0);
+        public static Version APIVersion = new Version(1, 2, 3);
 
 
         [ModLoader.ModCallback(ModLoader.EModCallbackType.OnAssemblyLoaded, "NACH0.MoreBlocks.assemblyload")]
@@ -28,10 +27,8 @@ namespace MoreBlocks
             ModFolder = Path.GetDirectoryName(path);
 
             ModGamedata = Path.Combine(Path.GetDirectoryName(path), "gamedata/").Replace("\\", "/");
-            Textures = Path.Combine(Path.GetDirectoryName(path), "gamedata/textures").Replace("\\", "/");
-            blocktextures = Path.Combine(Path.GetDirectoryName(path), "blocks/").Replace("\\", "/");
 
-            //LocalizationFolder = Path.Combine(ModGamedataDirectory, "localization/").Replace("\\", "/");
+            LocaleFolder = Path.Combine(ModGamedata, "locale/").Replace("\\", "/");
 
             Utilities.CreateLogs("MoreBlocks");
         }
@@ -64,11 +61,10 @@ namespace MoreBlocks
             JobManager.RegisterJob<Nach0Jobs.Nach0SanderJob>("Nach0Sander", "Nach0SanderJob");
         }
 
-        /*[ModLoader.ModCallback(ModLoader.EModCallbackType.AfterStartup, "phentrixgames.examplemod..Localization")]
+        [ModLoader.ModCallback(ModLoader.EModCallbackType.AfterStartup, "NACH0.MoreBlocks.Localization")]
         public static void Localization()
         {
-            //This is how localization is added using the API
-            LocalizationManager.Localize("ExampleMod", LocalizationFolder);
-        }*/
+            LocalizationManager.Localize("MoreBlocks", LocaleFolder);
+        }
     }
 }
