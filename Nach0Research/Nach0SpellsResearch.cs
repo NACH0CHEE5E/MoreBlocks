@@ -15,6 +15,7 @@ namespace MoreBlocks.Nach0Research
             AddIterationRequirement("Nach0SilverOre", 50);
             AddIterationRequirement("Nach0PlatniumOre");
             AddDependency("Nach0FaithResearch");
+            AddDependency("Nach0RockResearch");
         }
 
         public override void OnResearchComplete(ScienceManagerPlayer manager, EResearchCompletionReason reason)

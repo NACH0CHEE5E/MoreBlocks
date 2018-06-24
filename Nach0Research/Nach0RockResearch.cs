@@ -10,12 +10,13 @@ namespace MoreBlocks.Nach0Research
         {
             key = "Nach0RockResearch";
             icon = "gamedata/mods/NACH0/MoreBlocks/gamedata/textures/icons/Nach0Rock.png";
-            iterationCount = 25;
-            AddIterationRequirement("Nach0Stone1", 5);
-            AddIterationRequirement("Nach0Stone2", 5);
-            AddIterationRequirement("Nach0Stone3", 5);
-            AddIterationRequirement("Nach0Stone4", 5);
+            iterationCount = 250;
+            AddIterationRequirement("Nach0Stone1", 15);
+            AddIterationRequirement("Nach0Stone2", 15);
+            AddIterationRequirement("Nach0Stone3", 15);
+            AddIterationRequirement("Nach0Stone4", 15);
             AddDependency("Nach0ExoticStoneResearch");
+            AddDependency("Nach0Currency2Research");
         }
 
         public override void OnResearchComplete(ScienceManagerPlayer manager, EResearchCompletionReason reason)

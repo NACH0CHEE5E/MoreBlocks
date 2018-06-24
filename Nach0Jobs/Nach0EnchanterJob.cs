@@ -23,7 +23,7 @@ namespace Nach0Jobs
             return new NPCTypeStandardSettings()
             {
                 keyName = NPCTypeKey,
-                printName = "Prayer",
+                printName = "Enchanter",
                 maskColor1 = new UnityEngine.Color32(0, 0, 0, 0),
                 type = NPCTypeID.GetNextID()
             };

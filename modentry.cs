@@ -18,7 +18,7 @@ namespace MoreBlocks
         public static string ModGamedata = "gamedata/mods/NACH0/MoreBlocks/gamedata/";
         public static string LocaleFolder = "gamedata/mods/NACH0/MoreBlocks/gamedata/locale/";
         public static string ModKey = "NACH0.MoreBlocks";
-        public static Version APIVersion = new Version(1, 2, 3);
+        //public static Version ModVers = new Version(1, 2, 3);
 
 
         [ModLoader.ModCallback(ModLoader.EModCallbackType.OnAssemblyLoaded, "NACH0.MoreBlocks.assemblyload")]
@@ -28,7 +28,7 @@ namespace MoreBlocks
 
             ModGamedata = Path.Combine(Path.GetDirectoryName(path), "gamedata/").Replace("\\", "/");
 
-            LocaleFolder = Path.Combine(ModGamedata, "locale/").Replace("\\", "/");
+            LocaleFolder = Path.Combine(Path.GetDirectoryName(path), "gamedata/locale/").Replace("\\", "/");
 
             Utilities.CreateLogs("MoreBlocks");
         }
@@ -38,6 +38,7 @@ namespace MoreBlocks
         public static void AfterStartup(List<ModLoader.ModDescription> a)
         {
             ModManager.RegisterMod("MoreBlocks", ModFolder);
+            LocalizationManager.Localize("MoreBlocks", LocaleFolder);
         }
 
         [ModLoader.ModCallback(ModLoader.EModCallbackType.AfterItemTypesDefined, "NACH0.MoreBlocks.RegisterJobs")]
@@ -61,10 +62,10 @@ namespace MoreBlocks
             JobManager.RegisterJob<Nach0Jobs.Nach0SanderJob>("Nach0Sander", "Nach0SanderJob");
         }
 
-        [ModLoader.ModCallback(ModLoader.EModCallbackType.AfterStartup, "NACH0.MoreBlocks.Localization")]
+        /*[ModLoader.ModCallback(ModLoader.EModCallbackType.AfterStartup, "NACH0.MoreBlocks.Localization")]
         public static void Localization()
         {
             LocalizationManager.Localize("MoreBlocks", LocaleFolder);
-        }
+        }*/
     }
 }

@@ -68,3 +68,4 @@ C:\Users\mitch\Documents\GitHub\MoreBlocks\obj\Debug\MoreBlocks.csproj.CoreCompi
 C:\Users\mitch\Documents\GitHub\MoreBlocks\obj\Debug\MoreBlocks.csproj.CopyComplete
 C:\Users\mitch\Documents\GitHub\MoreBlocks\obj\Debug\MoreBlocks.dll
 C:\Users\mitch\Documents\GitHub\MoreBlocks\obj\Debug\MoreBlocks.pdb
+C:\Users\mitch\Desktop\GitHub\MoreBlocks\bin\Debug\ExtendedAPI.dll

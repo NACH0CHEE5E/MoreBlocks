@@ -21,7 +21,7 @@ namespace Nach0Jobs
             return new NPCTypeStandardSettings()
             {
                 keyName = NPCTypeKey,
-                printName = "PaintMixer",
+                printName = "Paint Maker",
                 maskColor1 = new UnityEngine.Color32(0, 0, 0, 0),
                 type = NPCTypeID.GetNextID()
             };
