@@ -89,13 +89,17 @@
     <Compile Include="Nach0Jobs\Nach0AdvancedPainterJob.cs" />
     <Compile Include="Nach0Jobs\Nach0PailerJob.cs" />
     <Compile Include="Nach0Research\Nach0ArtisteryResearch.cs" />
+    <Compile Include="Nach0Research\Nach0BreadResearchOveride.cs" />
     <Compile Include="Nach0Research\Nach0BrickLayingResearch.cs" />
     <Compile Include="Nach0Research\Nach0BrickMakingResearch.cs" />
+    <Compile Include="Nach0Research\Nach0BrokenIce3Research.cs" />
+    <Compile Include="Nach0Research\Nach0BrokenIce2Research.cs" />
     <Compile Include="Nach0Research\Nach0CarpenterResearch.cs" />
     <Compile Include="Nach0Research\Nach0CarverResearch.cs" />
     <Compile Include="Nach0Research\Nach0ChiselerResearch.cs" />
     <Compile Include="Nach0Research\Nach0ChiselResearch.cs" />
     <Compile Include="Nach0Research\Nach0ConcreteSmoothing2Research.cs" />
+    <Compile Include="Nach0Research\Nach0ExoticPlantsResearch.cs" />
     <Compile Include="Nach0Research\Nach0PaperMakingResearch.cs" />
     <Compile Include="Nach0Research\Nach0SandingResearch.cs" />
     <Compile Include="Nach0Research\Nach0Currency2Research.cs" />
@@ -123,6 +127,7 @@
     <Compile Include="Nach0Research\Nach0PaintMakingResearch.cs" />
     <Compile Include="Nach0Research\Nach0ExoticWoodResearch.cs" />
     <Compile Include="Nach0Research\Nach0PaintMixingResearch.cs" />
+    <Compile Include="Nach0Research\Nach0BrokenIce1Research.cs" />
     <Compile Include="Nach0Research\Nach0SpellsResearch.cs" />
     <Compile Include="Nach0Research\Nach0WoodWorkingResearch.cs" />
   </ItemGroup>

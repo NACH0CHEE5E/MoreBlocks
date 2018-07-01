@@ -27,6 +27,7 @@ namespace MoreBlocks.Nach0Research
             RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0Stone2Craft-pipliz.merchant", true, "pipliz.merchant");
             RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0Stone3Craft-pipliz.merchant", true, "pipliz.merchant");
             RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0Stone4Craft-pipliz.merchant", true, "pipliz.merchant");
+            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0Stone5Craft-pipliz.merchant", true, "pipliz.merchant");
             //RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0RockCraft", true, "pipliz.merchant");
 
             //sand

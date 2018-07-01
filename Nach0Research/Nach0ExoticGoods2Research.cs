@@ -39,6 +39,7 @@ namespace MoreBlocks.Nach0Research
             */
 
             RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0PlatniumOreCraft-pipliz.merchant", true, "pipliz.merchant");
+            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0CrystalBlockCraft-pipliz.merchant", true, "pipliz.merchant");
             //RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0Grass1SidedCraft", true, "pipliz.merchant");
         }
     }

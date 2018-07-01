@@ -39,6 +39,7 @@ namespace MoreBlocks
         {
             ModManager.RegisterMod("MoreBlocks", ModFolder);
             LocalizationManager.Localize("MoreBlocks", LocaleFolder);
+            //RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Khanx.SimpleFluids.Merchant.WaterBucket", false, "pipliz.merchant");
         }
 
         [ModLoader.ModCallback(ModLoader.EModCallbackType.AfterItemTypesDefined, "NACH0.MoreBlocks.RegisterJobs")]
@@ -54,7 +55,7 @@ namespace MoreBlocks
             JobManager.RegisterJob<Nach0Jobs.Nach0CrusherJob>("Nach0Crusher", "Nach0CrusherJob");
             JobManager.RegisterJob<Nach0Jobs.Nach0EnchanterJob>("Nach0Enchanter", "Nach0EnchanterJob");
             JobManager.RegisterJob<Nach0Jobs.Nach0FreezerJob>("Nach0Freezer", "Nach0FreezerJob");
-            JobManager.RegisterJob<Nach0Jobs.Nach0MagicianJob>("Nach0MagicTable", "Nach0MagicicianJob");
+            JobManager.RegisterJob<Nach0Jobs.Nach0MagicianJob>("Nach0MagicTable", "Nach0MagicianJob");
             JobManager.RegisterJob<Nach0Jobs.Nach0MelterJob>("Nach0Melter", "Nach0MelterJob");
             JobManager.RegisterJob<Nach0Jobs.Nach0PailerJob>("Nach0Pailer", "Nach0PailerJob");
             JobManager.RegisterJob<Nach0Jobs.Nach0PainterJob>("Nach0PaintersTable", "Nach0PainterJob");

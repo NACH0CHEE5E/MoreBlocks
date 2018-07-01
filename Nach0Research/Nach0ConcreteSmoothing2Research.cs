@@ -33,6 +33,7 @@ namespace MoreBlocks.Nach0Research
             RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0SmoothedRedConcreteCraft-Nach0SanderJob", true, "Nach0SanderJob");
             RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0SmoothedWhiteConcreteCraft-Nach0SanderJob", true, "Nach0SanderJob");
             RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0SmoothedYellowConcreteCraft-Nach0SanderJob", true, "Nach0SanderJob");
+            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0SmoothedMagentaConcreteCraft-Nach0SanderJob", true, "Nach0SanderJob");
         }
     }
 }

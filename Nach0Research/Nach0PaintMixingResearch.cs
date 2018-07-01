@@ -32,6 +32,7 @@ namespace MoreBlocks.Nach0Research
             RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0PurplePaintCraft-Nach0PaintMixerJob", true, "Nach0PaintMixerJob");
             RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0BrownPaintCraft-Nach0PaintMixerJob", true, "Nach0PaintMixerJob");
             RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0DarkGreenPaintCraft-Nach0PaintMixerJob", true, "Nach0PaintMixerJob");
+            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0DarkMagentaPaintCraft-Nach0PaintMixerJob", true, "Nach0PaintMixerJob");
         }
     }
 }
