@@ -1,0 +1,28 @@
+{
+	"Nach0Cobblestone": {
+		"categories": [
+			"blocks",
+			"buildingblocks",
+			"cobblestone",
+			"a",
+			"moreblocks",
+			"nach0"
+		],
+		"icon": "Nach0Cobblestone.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0CobblestoneTexture"
+	},
+	"Nach0MossyCobblestone": {
+		"categories": [
+			"blocks",
+			"buildingblocks",
+			"cobblestone",
+			"b",
+			"moreblocks",
+			"nach0"
+		],
+		"icon": "Nach0MossyCobblestone.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0MossyCobblestoneTexture"
+	}
+}

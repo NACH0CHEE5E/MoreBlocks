@@ -1,0 +1,28 @@
+{
+	"Nach0Sand1": {
+		"categories": [
+			"blocks",
+			"exoitcblocks",
+			"sand",
+			"a",
+			"moreblocks",
+			"nach0"
+		],
+		"icon": "Nach0Sand1.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0Sand1Texture"
+	},
+	"Nach0Sand2": {
+		"categories": [
+			"blocks",
+			"exoitcblocks",
+			"sand",
+			"b",
+			"moreblocks",
+			"nach0"
+		],
+		"icon": "Nach0Sand2.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0Sand2Texture"
+	}
+}

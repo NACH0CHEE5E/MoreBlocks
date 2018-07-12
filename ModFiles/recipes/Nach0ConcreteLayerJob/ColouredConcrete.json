@@ -1,0 +1,362 @@
+[{
+		"defaultLimit": 5,
+		"defaultPriority": 100,
+		"isOptional": true,
+		"name": "Nach0AquaConcreteCraft-Nach0ConcreteLayerJob",
+		"requires": [{
+				"amount": 1,
+				"type": "Nach0AquaPaint"
+			},
+			{
+				"amount": 5,
+				"type": "Nach0CementPowder"
+			}
+		],
+		"results": [{
+				"amount": 5,
+				"type": "Nach0AquaConcrete"
+			},
+			{
+				"amount": 1,
+				"type": "Khanx.SimpleFluids.EmptyBucket"
+			}
+		]
+	},
+	{
+		"defaultLimit": 5,
+		"defaultPriority": 100,
+		"isOptional": true,
+		"name": "Nach0BlackConcreteCraft-Nach0ConcreteLayerJob",
+		"requires": [{
+				"amount": 1,
+				"type": "Nach0BlackPaint"
+			},
+			{
+				"amount": 5,
+				"type": "Nach0CementPowder"
+			}
+		],
+		"results": [{
+				"amount": 5,
+				"type": "Nach0BlackConcrete"
+			},
+			{
+				"amount": 1,
+				"type": "Khanx.SimpleFluids.EmptyBucket"
+			}
+		]
+	},
+	{
+		"defaultLimit": 5,
+		"defaultPriority": 100,
+		"isOptional": true,
+		"name": "Nach0BlueConcreteCraft-Nach0ConcreteLayerJob",
+		"requires": [{
+				"amount": 1,
+				"type": "Nach0BluePaint"
+			},
+			{
+				"amount": 5,
+				"type": "Nach0CementPowder"
+			}
+		],
+		"results": [{
+				"amount": 5,
+				"type": "Nach0BlueConcrete"
+			},
+			{
+				"amount": 1,
+				"type": "Khanx.SimpleFluids.EmptyBucket"
+			}
+		]
+	},
+	{
+		"defaultLimit": 5,
+		"defaultPriority": 100,
+		"isOptional": true,
+		"name": "Nach0BrownConcreteCraft-Nach0ConcreteLayerJob",
+		"requires": [{
+				"amount": 1,
+				"type": "Nach0BrownPaint"
+			},
+			{
+				"amount": 5,
+				"type": "Nach0CementPowder"
+			}
+		],
+		"results": [{
+				"amount": 5,
+				"type": "Nach0BrownConcrete"
+			},
+			{
+				"amount": 1,
+				"type": "Khanx.SimpleFluids.EmptyBucket"
+			}
+		]
+	},
+	{
+		"defaultLimit": 5,
+		"defaultPriority": 100,
+		"isOptional": true,
+		"name": "Nach0DarkGreenConcreteCraft-Nach0ConcreteLayerJob",
+		"requires": [{
+				"amount": 1,
+				"type": "Nach0DarkGreenPaint"
+			},
+			{
+				"amount": 5,
+				"type": "Nach0CementPowder"
+			}
+		],
+		"results": [{
+				"amount": 5,
+				"type": "Nach0DarkGreenConcrete"
+			},
+			{
+				"amount": 1,
+				"type": "Khanx.SimpleFluids.EmptyBucket"
+			}
+		]
+	},
+	{
+		"defaultLimit": 5,
+		"defaultPriority": 100,
+		"isOptional": true,
+		"name": "Nach0GreenConcreteCraft-Nach0ConcreteLayerJob",
+		"requires": [{
+				"amount": 1,
+				"type": "Nach0GreenPaint"
+			},
+			{
+				"amount": 5,
+				"type": "Nach0CementPowder"
+			}
+		],
+		"results": [{
+				"amount": 5,
+				"type": "Nach0GreenConcrete"
+			},
+			{
+				"amount": 1,
+				"type": "Khanx.SimpleFluids.EmptyBucket"
+			}
+		]
+	},
+
+	{
+		"defaultLimit": 5,
+		"defaultPriority": 100,
+		"isOptional": true,
+		"name": "Nach0LightBlueConcreteCraft-Nach0ConcreteLayerJob",
+		"requires": [{
+				"amount": 1,
+				"type": "Nach0LightBluePaint"
+			},
+			{
+				"amount": 5,
+				"type": "Nach0CementPowder"
+			}
+		],
+		"results": [{
+				"amount": 5,
+				"type": "Nach0LightBlueConcrete"
+			},
+			{
+				"amount": 1,
+				"type": "Khanx.SimpleFluids.EmptyBucket"
+			}
+		]
+	},
+	{
+		"defaultLimit": 5,
+		"defaultPriority": 100,
+		"isOptional": true,
+		"name": "Nach0OrangeConcreteCraft-Nach0ConcreteLayerJob",
+		"requires": [{
+				"amount": 1,
+				"type": "Nach0OrangePaint"
+			},
+			{
+				"amount": 5,
+				"type": "Nach0CementPowder"
+			}
+		],
+		"results": [{
+				"amount": 5,
+				"type": "Nach0OrangeConcrete"
+			},
+			{
+				"amount": 1,
+				"type": "Khanx.SimpleFluids.EmptyBucket"
+			}
+		]
+	},
+	{
+		"defaultLimit": 5,
+		"defaultPriority": 100,
+		"isOptional": true,
+		"name": "Nach0PinkConcreteCraft-Nach0ConcreteLayerJob",
+		"requires": [{
+				"amount": 1,
+				"type": "Nach0PinkPaint"
+			},
+			{
+				"amount": 5,
+				"type": "Nach0CementPowder"
+			}
+		],
+		"results": [{
+				"amount": 5,
+				"type": "Nach0PinkConcrete"
+			},
+			{
+				"amount": 1,
+				"type": "Khanx.SimpleFluids.EmptyBucket"
+			}
+		]
+	},
+	{
+		"defaultLimit": 5,
+		"defaultPriority": 100,
+		"isOptional": true,
+		"name": "Nach0PurpleConcreteCraft-Nach0ConcreteLayerJob",
+		"requires": [{
+				"amount": 1,
+				"type": "Nach0PurplePaint"
+			},
+			{
+				"amount": 5,
+				"type": "Nach0CementPowder"
+			}
+		],
+		"results": [{
+				"amount": 5,
+				"type": "Nach0PurpleConcrete"
+			},
+			{
+				"amount": 1,
+				"type": "Khanx.SimpleFluids.EmptyBucket"
+			}
+		]
+	},
+	{
+		"defaultLimit": 5,
+		"defaultPriority": 100,
+		"isOptional": true,
+		"name": "Nach0GreyConcreteCraft-Nach0ConcreteLayerJob",
+		"requires": [{
+				"amount": 1,
+				"type": "Nach0GreyPaint"
+			},
+			{
+				"amount": 5,
+				"type": "Nach0CementPowder"
+			}
+		],
+		"results": [{
+				"amount": 5,
+				"type": "Nach0GreyConcrete"
+			},
+			{
+				"amount": 1,
+				"type": "Khanx.SimpleFluids.EmptyBucket"
+			}
+		]
+	},
+	{
+		"defaultLimit": 5,
+		"defaultPriority": 100,
+		"isOptional": true,
+		"name": "Nach0RedConcreteCraft-Nach0ConcreteLayerJob",
+		"requires": [{
+				"amount": 1,
+				"type": "Nach0RedPaint"
+			},
+			{
+				"amount": 5,
+				"type": "Nach0CementPowder"
+			}
+		],
+		"results": [{
+				"amount": 5,
+				"type": "Nach0RedConcrete"
+			},
+			{
+				"amount": 1,
+				"type": "Khanx.SimpleFluids.EmptyBucket"
+			}
+		]
+	},
+	{
+		"defaultLimit": 5,
+		"defaultPriority": 100,
+		"isOptional": true,
+		"name": "Nach0WhiteConcreteCraft-Nach0ConcreteLayerJob",
+		"requires": [{
+				"amount": 1,
+				"type": "Nach0WhitePaint"
+			},
+			{
+				"amount": 5,
+				"type": "Nach0CementPowder"
+			}
+		],
+		"results": [{
+				"amount": 5,
+				"type": "Nach0WhiteConcrete"
+			},
+			{
+				"amount": 1,
+				"type": "Khanx.SimpleFluids.EmptyBucket"
+			}
+		]
+	},
+	{
+		"defaultLimit": 5,
+		"defaultPriority": 100,
+		"isOptional": true,
+		"name": "Nach0YellowConcreteCraft-Nach0ConcreteLayerJob",
+		"requires": [{
+				"amount": 1,
+				"type": "Nach0YellowPaint"
+			},
+			{
+				"amount": 5,
+				"type": "Nach0CementPowder"
+			}
+		],
+		"results": [{
+				"amount": 5,
+				"type": "Nach0YellowConcrete"
+			},
+			{
+				"amount": 1,
+				"type": "Khanx.SimpleFluids.EmptyBucket"
+			}
+		]
+	},
+	{
+		"defaultLimit": 5,
+		"defaultPriority": 100,
+		"isOptional": true,
+		"name": "Nach0MagentaConcreteCraft-Nach0ConcreteLayerJob",
+		"requires": [{
+				"amount": 1,
+				"type": "Nach0MagentaPaint"
+			},
+			{
+				"amount": 5,
+				"type": "Nach0CementPowder"
+			}
+		],
+		"results": [{
+				"amount": 5,
+				"type": "Nach0MagentaConcrete"
+			},
+			{
+				"amount": 1,
+				"type": "Khanx.SimpleFluids.EmptyBucket"
+			}
+		]
+	}
+]

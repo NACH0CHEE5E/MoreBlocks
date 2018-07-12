@@ -1,0 +1,55 @@
+[{
+		"defaultLimit": 5,
+		"defaultPriority": 100,
+		"isOptional": true,
+		"name": "Nach0Brick1Craft-pipliz.crafter",
+		"requires": [{
+				"amount": 20,
+				"type": "Nach0Brick"
+			},
+			{
+				"amount": 1,
+				"type": "Nach0CementPowder"
+			},
+			{
+				"amount": 3,
+				"type": "Khanx.SimpleFluids.WaterBucket"
+			}
+		],
+		"results": [{
+			"amount": 5,
+			"type": "Nach0Brick1"
+		},
+		{
+			"amount": 3,
+			"type": "Khanx.SimpleFluids.EmptyBucket"
+		}]
+	},
+	{
+		"defaultLimit": 5,
+		"defaultPriority": 100,
+		"isOptional": true,
+		"name": "Nach0Brick2Craft-pipliz.crafter",
+		"requires": [{
+				"amount": 20,
+				"type": "Nach0Brick"
+			},
+			{
+				"amount": 1,
+				"type": "Nach0CementPowder"
+			},
+			{
+				"amount": 3,
+				"type": "Khanx.SimpleFluids.WaterBucket"
+			}
+		],
+		"results": [{
+			"amount": 5,
+			"type": "Nach0Brick2"
+		},
+		{
+		"amount": 3,
+		"type": "Khanx.SimpleFluids.EmptyBucket"
+		}]
+	}
+]

@@ -1,0 +1,280 @@
+{
+	"Nach0TreeLog1": {
+		"categories": [
+			"blocks",
+			"exoitcblocks",
+			"wood",
+			"aa",
+			"moreblocks",
+			"nach0"
+		],
+		"icon": "Nach0TreeLog1.png",
+		"maxStackSize": 200,
+		"sidey+": "Nach0TreeLog1TopBottomTexture",
+		"sidey-": "Nach0TreeLog1TopBottomTexture",
+		"sideall": "Nach0TreeLog1SideTexture"
+	},
+	"Nach0TreeLog1Tipped": {
+		"categories": [
+			"blocks",
+			"exoitcblocks",
+			"wood",
+			"ab",
+			"moreblocks",
+			"nach0"
+		],
+		"icon": "Nach0TreeLog1Tipped.png",
+		"maxStackSize": 200,
+		"isRotatable": true,
+		"isSolid": true,
+		"needsBase": true,
+		"rotatablex-": "Nach0TreeLog1TippedX",
+		"rotatablex+": "Nach0TreeLog1TippedX",
+		"rotatablez-": "Nach0TreeLog1TippedZ",
+		"rotatablez+": "Nach0TreeLog1TippedZ"
+	},
+	"Nach0TreeLog1TippedX": {
+		"parentType": "Nach0PaintMixer",
+		"sidex-": "Nach0TreeLog1TopBottomTexture",
+		"sidex+": "Nach0TreeLog1TopBottomTexture",
+		"sidey+": "Nach0TreeLog1SideTexture",
+		"sidey-": "Nach0TreeLog1SideTexture",
+		"sideall": "Nach0TreeLog1SideTippedTexture"
+	},
+	"Nach0TreeLog1TippedZ": {
+		"parentType": "Nach0PaintMixer",
+		"sidez-": "Nach0TreeLog1TopBottomTexture",
+		"sidez+": "Nach0TreeLog1TopBottomTexture",
+		"sidey+": "Nach0TreeLog1SideTexture",
+		"sidey-": "Nach0TreeLog1SideTexture",
+		"sideall": "Nach0TreeLog1SideTippedTexture"
+	},
+	"Nach0Planks1": {
+		"categories": [
+			"blocks",
+			"exoitcblocks",
+			"wood",
+			"ac",
+			"moreblocks",
+			"nach0"
+		],
+		"icon": "Nach0Planks1.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0Planks1Texture"
+	},
+	"Nach0TreeLog2": {
+		"categories": [
+			"blocks",
+			"exoitcblocks",
+			"wood",
+			"ba",
+			"moreblocks",
+			"nach0"
+		],
+		"icon": "Nach0TreeLog2.png",
+		"maxStackSize": 200,
+		"sidey+": "Nach0TreeLog2TopBottomTexture",
+		"sidey-": "Nach0TreeLog2TopBottomTexture",
+		"sideall": "Nach0TreeLog2SideTexture"
+	},
+	"Nach0TreeLog2Tipped": {
+		"categories": [
+			"blocks",
+			"exoitcblocks",
+			"wood",
+			"bb",
+			"moreblocks",
+			"nach0"
+		],
+		"icon": "Nach0TreeLog2Tipped.png",
+		"maxStackSize": 200,
+		"sidex+": "Nach0TreeLog2TopBottomTexture",
+		"sidex-": "Nach0TreeLog2TopBottomTexture",
+		"sideall": "Nach0TreeLog2SideTexture"
+	},
+	"Nach0Planks2": {
+		"categories": [
+			"blocks",
+			"exoitcblocks",
+			"wood",
+			"bc",
+			"moreblocks",
+			"nach0"
+		],
+		"icon": "Nach0Planks2.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0Planks2Texture"
+	},
+	"Nach0TreeLog3": {
+		"categories": [
+			"blocks",
+			"exoitcblocks",
+			"wood",
+			"ca",
+			"moreblocks",
+			"nach0"
+		],
+		"icon": "Nach0TreeLog3.png",
+		"maxStackSize": 200,
+		"sidey+": "Nach0TreeLog3TopBottomTexture",
+		"sidey-": "Nach0TreeLog3TopBottomTexture",
+		"sideall": "Nach0TreeLog3SideTexture"
+	},
+	"Nach0TreeLog3Tipped": {
+		"categories": [
+			"blocks",
+			"exoitcblocks",
+			"wood",
+			"cb",
+			"moreblocks",
+			"nach0"
+		],
+		"icon": "Nach0TreeLog3Tipped.png",
+		"maxStackSize": 200,
+		"sidex+": "Nach0TreeLog3TopBottomTexture",
+		"sidex-": "Nach0TreeLog3TopBottomTexture",
+		"sideall": "Nach0TreeLog3SideTexture"
+	},
+	"Nach0Planks3": {
+		"categories": [
+			"blocks",
+			"exoitcblocks",
+			"wood",
+			"cc",
+			"moreblocks",
+			"nach0"
+		],
+		"icon": "Nach0Planks3.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0Planks3Texture"
+	},
+	"Nach0TreeLog4": {
+		"categories": [
+			"blocks",
+			"exoitcblocks",
+			"wood",
+			"da",
+			"moreblocks",
+			"nach0"
+		],
+		"icon": "Nach0TreeLog4.png",
+		"maxStackSize": 200,
+		"sidey+": "Nach0TreeLog4TopBottomTexture",
+		"sidey-": "Nach0TreeLog4TopBottomTexture",
+		"sideall": "Nach0TreeLog4SideTexture"
+	},
+	"Nach0TreeLog4Tipped": {
+		"categories": [
+			"blocks",
+			"exoitcblocks",
+			"wood",
+			"db",
+			"moreblocks",
+			"nach0"
+		],
+		"icon": "Nach0TreeLog4Tipped.png",
+		"maxStackSize": 200,
+		"sidex+": "Nach0TreeLog4TopBottomTexture",
+		"sidex-": "Nach0TreeLog4TopBottomTexture",
+		"sideall": "Nach0TreeLog4SideTexture"
+	},
+	"Nach0Planks4": {
+		"categories": [
+			"blocks",
+			"exoitcblocks",
+			"wood",
+			"dc",
+			"moreblocks",
+			"nach0"
+		],
+		"icon": "Nach0Planks4.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0Planks4Texture"
+	},
+	"Nach0TreeLog5": {
+		"categories": [
+			"blocks",
+			"exoitcblocks",
+			"wood",
+			"ea",
+			"moreblocks",
+			"nach0"
+		],
+		"icon": "Nach0TreeLog5.png",
+		"maxStackSize": 200,
+		"sidey+": "Nach0TreeLog5TopBottomTexture",
+		"sidey-": "Nach0TreeLog5TopBottomTexture",
+		"sideall": "Nach0TreeLog5SideTexture"
+	},
+	"Nach0TreeLog5Tipped": {
+		"categories": [
+			"blocks",
+			"exoitcblocks",
+			"wood",
+			"eb",
+			"moreblocks",
+			"nach0"
+		],
+		"icon": "Nach0TreeLog5Tipped.png",
+		"maxStackSize": 200,
+		"sidex+": "Nach0TreeLog5TopBottomTexture",
+		"sidex-": "Nach0TreeLog5TopBottomTexture",
+		"sideall": "Nach0TreeLog5SideTexture"
+	},
+	"Nach0Planks5": {
+		"categories": [
+			"blocks",
+			"exoitcblocks",
+			"wood",
+			"ec",
+			"moreblocks",
+			"nach0"
+		],
+		"icon": "Nach0Planks5.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0Planks5Texture"
+	},
+	"Nach0TreeLog6": {
+		"categories": [
+			"blocks",
+			"exoitcblocks",
+			"wood",
+			"fa",
+			"moreblocks",
+			"nach0"
+		],
+		"icon": "Nach0TreeLog6.png",
+		"maxStackSize": 200,
+		"sidey+": "Nach0TreeLog6TopBottomTexture",
+		"sidey-": "Nach0TreeLog6TopBottomTexture",
+		"sideall": "Nach0TreeLog6SideTexture"
+	},
+	"Nach0TreeLog6Tipped": {
+		"categories": [
+			"blocks",
+			"exoitcblocks",
+			"wood",
+			"fb",
+			"moreblocks",
+			"nach0"
+		],
+		"icon": "Nach0TreeLog6Tipped.png",
+		"maxStackSize": 200,
+		"sidex+": "Nach0TreeLog6TopBottomTexture",
+		"sidex-": "Nach0TreeLog6TopBottomTexture",
+		"sideall": "Nach0TreeLog6SideTexture"
+	},
+	"Nach0Planks6": {
+		"categories": [
+			"blocks",
+			"exoitcblocks",
+			"wood",
+			"fc",
+			"moreblocks",
+			"nach0"
+		],
+		"icon": "Nach0Planks6.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0Planks6Texture"
+	}
+}

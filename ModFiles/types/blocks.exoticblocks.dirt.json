@@ -1,0 +1,41 @@
+{
+	"Nach0Dirt1": {
+		"categories": [
+			"blocks",
+			"exoitcblocks",
+			"dirt",
+			"a",
+			"moreblocks",
+			"nach0"
+		],
+		"icon": "Nach0Dirt1.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0Dirt1Texture"
+	},
+	"Nach0Dirt2": {
+		"categories": [
+			"blocks",
+			"exoitcblocks",
+			"dirt",
+			"b",
+			"moreblocks",
+			"nach0"
+		],
+		"icon": "Nach0Dirt2.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0Dirt2Texture"
+	},
+	"Nach0Dirt3": {
+		"categories": [
+			"blocks",
+			"exoitcblocks",
+			"dirt",
+			"c",
+			"moreblocks",
+			"nach0"
+		],
+		"icon": "Nach0Dirt3.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0Dirt3Texture"
+	}
+}

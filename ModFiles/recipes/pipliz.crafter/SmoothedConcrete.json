@@ -1,0 +1,196 @@
+[{
+		"defaultLimit": 5,
+		"defaultPriority": 100,
+		"isOptional": true,
+		"name": "Nach0SmoothedAquaConcreteCraft-pipliz.crafter",
+		"requires": [{
+			"amount": 1,
+			"type": "Nach0AquaConcrete"
+		}],
+		"results": [{
+			"type": "Nach0SmoothedAquaConcrete"
+		}]
+	},
+	{
+		"defaultLimit": 5,
+		"defaultPriority": 100,
+		"isOptional": true,
+		"name": "Nach0SmoothedBlackConcreteCraft-pipliz.crafter",
+		"requires": [{
+			"amount": 1,
+			"type": "Nach0BlackConcrete"
+		}],
+		"results": [{
+			"type": "Nach0SmoothedBlackConcrete"
+		}]
+	},
+	{
+		"defaultLimit": 5,
+		"defaultPriority": 100,
+		"isOptional": true,
+		"name": "Nach0SmoothedBlueConcreteCraft-pipliz.crafter",
+		"requires": [{
+			"amount": 1,
+			"type": "Nach0BlueConcrete"
+		}],
+		"results": [{
+			"type": "Nach0SmoothedBlueConcrete"
+		}]
+	},
+	{
+		"defaultLimit": 5,
+		"defaultPriority": 100,
+		"isOptional": true,
+		"name": "Nach0SmoothedBrownConcreteCraft-pipliz.crafter",
+		"requires": [{
+			"amount": 1,
+			"type": "Nach0BrownConcrete"
+		}],
+		"results": [{
+			"type": "Nach0SmoothedBrownConcrete"
+		}]
+	},
+	{
+		"defaultLimit": 5,
+		"defaultPriority": 100,
+		"isOptional": true,
+		"name": "Nach0SmoothedDarkGreenConcreteCraft-pipliz.crafter",
+		"requires": [{
+			"amount": 1,
+			"type": "Nach0DarkGreenConcrete"
+		}],
+		"results": [{
+			"type": "Nach0SmoothedDarkGreenConcrete"
+		}]
+	},
+	{
+		"defaultLimit": 5,
+		"defaultPriority": 100,
+		"isOptional": true,
+		"name": "Nach0SmoothedGreenConcreteCraft-pipliz.crafter",
+		"requires": [{
+			"amount": 1,
+			"type": "Nach0GreenConcrete"
+		}],
+		"results": [{
+			"type": "Nach0SmoothedGreenConcrete"
+		}]
+	},
+	{
+		"defaultLimit": 5,
+		"defaultPriority": 100,
+		"isOptional": true,
+		"name": "Nach0SmoothedConcreteCraft-pipliz.crafter",
+		"requires": [{
+			"amount": 1,
+			"type": "Nach0Concrete"
+		}],
+		"results": [{
+			"type": "Nach0SmoothedConcrete"
+		}]
+	},
+	{
+		"defaultLimit": 5,
+		"defaultPriority": 100,
+		"isOptional": true,
+		"name": "Nach0SmoothedLightBlueConcreteCraft-pipliz.crafter",
+		"requires": [{
+			"amount": 1,
+			"type": "Nach0LightBlueConcrete"
+		}],
+		"results": [{
+			"type": "Nach0SmoothedLightBlueConcrete"
+		}]
+	},
+	{
+		"defaultLimit": 5,
+		"defaultPriority": 100,
+		"isOptional": true,
+		"name": "Nach0SmoothedLightGreyConcreteCraft-pipliz.crafter",
+		"requires": [{
+			"amount": 1,
+			"type": "Nach0LightGreyConcrete"
+		}],
+		"results": [{
+			"type": "Nach0SmoothedLightGreyConcrete"
+		}]
+	},
+	{
+		"defaultLimit": 5,
+		"defaultPriority": 100,
+		"isOptional": true,
+		"name": "Nach0SmoothedOrangeConcreteCraft-pipliz.crafter",
+		"requires": [{
+			"amount": 1,
+			"type": "Nach0OrangeConcrete"
+		}],
+		"results": [{
+			"type": "Nach0SmoothedOrangeConcrete"
+		}]
+	},
+	{
+		"defaultLimit": 5,
+		"defaultPriority": 100,
+		"isOptional": true,
+		"name": "Nach0SmoothedPinkConcreteCraft-pipliz.crafter",
+		"requires": [{
+			"amount": 1,
+			"type": "Nach0PinkConcrete"
+		}],
+		"results": [{
+			"type": "Nach0SmoothedPinkConcrete"
+		}]
+	},
+	{
+		"defaultLimit": 5,
+		"defaultPriority": 100,
+		"isOptional": true,
+		"name": "Nach0SmoothedPurpleConcreteCraft-pipliz.crafter",
+		"requires": [{
+			"amount": 1,
+			"type": "Nach0PurpleConcrete"
+		}],
+		"results": [{
+			"type": "Nach0SmoothedPurpleConcrete"
+		}]
+	},
+	{
+		"defaultLimit": 5,
+		"defaultPriority": 100,
+		"isOptional": true,
+		"name": "Nach0SmoothedRedConcreteCraft-pipliz.crafter",
+		"requires": [{
+			"amount": 1,
+			"type": "Nach0RedConcrete"
+		}],
+		"results": [{
+			"type": "Nach0SmoothedRedConcrete"
+		}]
+	},
+	{
+		"defaultLimit": 5,
+		"defaultPriority": 100,
+		"isOptional": true,
+		"name": "Nach0SmoothedWhiteConcreteCraft-pipliz.crafter",
+		"requires": [{
+			"amount": 1,
+			"type": "Nach0WhiteConcrete"
+		}],
+		"results": [{
+			"type": "Nach0SmoothedWhiteConcrete"
+		}]
+	},
+	{
+		"defaultLimit": 5,
+		"defaultPriority": 100,
+		"isOptional": true,
+		"name": "Nach0SmoothedYellowConcreteCraft-pipliz.crafter",
+		"requires": [{
+			"amount": 1,
+			"type": "Nach0YellowConcrete"
+		}],
+		"results": [{
+			"type": "Nach0SmoothedYellowConcrete"
+		}]
+	}
+]

@@ -1,0 +1,28 @@
+{
+	"Nach0Brick1": {
+		"categories": [
+			"blocks",
+			"buildingblocks",
+			"bricks",
+			"a",
+			"moreblocks",
+			"nach0"
+		],
+		"icon": "Nach0Brick1.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0Brick1Texture"
+	},
+	"Nach0Brick2": {
+		"categories": [
+			"blocks",
+			"buildingblocks",
+			"bricks",
+			"b",
+			"moreblocks",
+			"nach0"
+		],
+		"icon": "Nach0Brick2.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0Brick2Texture"
+	}
+}

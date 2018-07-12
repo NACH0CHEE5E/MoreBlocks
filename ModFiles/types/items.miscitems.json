@@ -1,0 +1,13 @@
+{
+	"Nach0Paper": {
+		"categories": [
+			"items",
+			"miscitems",
+			"moreblocks",
+			"nach0"
+		],
+		"isPlaceable": false,
+		"icon": "Nach0Paper.png",
+		"maxStackSize": 200
+	}
+}

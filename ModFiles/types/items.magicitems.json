@@ -1,0 +1,13 @@
+{
+	"Nach0Cross": {
+		"categories": [
+			"items",
+			"magicitems",
+			"moreblocks",
+			"nach0"
+		],
+		"isPlaceable": false,
+		"icon": "Nach0Cross.png",
+		"maxStackSize": 1
+	}
+}

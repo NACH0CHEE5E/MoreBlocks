@@ -1,0 +1,210 @@
+{
+	"Nach0Pailer": {
+		"categories": [
+			"jobs",
+			"aa",
+			"moreblocks",
+			"nach0"
+		],
+		"icon": "Nach0Pailer.png",
+		"maxStackSize": 50,
+		"sidey+": "Nach0PailerTopTexture",
+		"sideall": "ironblock"
+	},
+	"Nach0Freezer": {
+		"categories": [
+			"jobs",
+			"ab",
+			"moreblocks",
+			"nach0"
+		],
+		"icon": "Nach0Freezer.png",
+		"maxStackSize": 50,
+		"sidex-": "Nach0FreezerFrontTexture",
+		"sideall": "ironblock"
+	},
+	"Nach0Melter": {
+		"categories": [
+			"jobs",
+			"ac",
+			"moreblocks",
+			"nach0"
+		],
+		"icon": "Nach0Melter.png",
+		"maxStackSize": 50,
+		"sidex-": "Nach0MelterFrontTexture",
+		"sideall": "ironblock"
+	},
+	"Nach0Crusher": {
+		"categories": [
+			"jobs",
+			"ad",
+			"moreblocks",
+			"nach0"
+		],
+		"icon": "Nach0Crusher.png",
+		"maxStackSize": 50,
+		"sidey+": "ironblock",
+		"sidey-": "ironblock",
+		"sideall": "Nach0CrusherSidesTexture"
+	},
+	"Nach0Sander ": {
+		"categories": [
+			"jobs",
+			"ae",
+			"moreblocks",
+			"nach0"
+		],
+		"icon": "Nach0Sander.png",
+		"maxStackSize": 50,
+		"sidey+": "Nach0SanderTopTexture",
+		"sideall": "planks"
+	},
+	"Nach0PaintMixer": {
+		"categories": [
+			"jobs",
+			"ba",
+			"moreblocks",
+			"nach0"
+		],
+		"icon": "Nach0PaintMixer.png",
+		"maxStackSize": 50,
+		"isRotatable": true,
+		"isSolid": true,
+		"needsBase": true,
+		"rotatablex-": "Nach0PaintMixerX-",
+		"rotatablex+": "Nach0PaintMixerX+",
+		"rotatablez-": "Nach0PaintMixerZ-",
+		"rotatablez+": "Nach0PaintMixerZ+"
+	},
+	"Nach0PaintMixerX-": {
+		"parentType": "Nach0PaintMixer",
+		"sidex-": "Nach0PaintMixerFrontTexture",
+		"sideall": "ironblock"
+	},
+	"Nach0PaintMixerX+": {
+		"parentType": "Nach0PaintMixer",
+		"sidex+": "Nach0PaintMixerFrontTexture",
+		"sideall": "ironblock"
+	},
+	"Nach0PaintMixerZ-": {
+		"parentType": "Nach0PaintMixer",
+		"sidez-": "Nach0PaintMixerFrontTexture",
+		"sideall": "ironblock"
+	},
+	"Nach0PaintMixerZ+": {
+		"parentType": "Nach0PaintMixer",
+		"sidez+": "Nach0PaintMixerFrontTexture",
+		"sideall": "ironblock"
+	},
+	"Nach0PaintersTable": {
+		"categories": [
+			"jobs",
+			"bb",
+			"moreblocks",
+			"nach0"
+		],
+		"icon": "Nach0PaintersTable.png",
+		"maxStackSize": 50,
+		"sidey+": "Nach0PaintersTableTopTexture",
+		"sideall": "planks"
+	},
+	"Nach0AdvancedPaintersTable": {
+		"categories": [
+			"jobs",
+			"bc",
+			"moreblocks",
+			"nach0"
+		],
+		"icon": "Nach0AdvancedPaintersTable.png",
+		"maxStackSize": 50,
+		"sidey+": "Nach0AdvancedPaintersTableTopTexture",
+		"sideall": "coatedplanks"
+	},
+	"Nach0BrickMaker": {
+		"categories": [
+			"jobs",
+			"ca",
+			"moreblocks",
+			"nach0"
+		],
+		"icon": "Nach0BrickMaker.png",
+		"maxStackSize": 50,
+		"sidey+": "Nach0BrickMakerTopTexture",
+		"sideall": "planks"
+	},
+	"Nach0BrickLayer": {
+		"categories": [
+			"jobs",
+			"cb",
+			"moreblocks",
+			"nach0"
+		],
+		"icon": "Nach0BrickLayer.png",
+		"maxStackSize": 50,
+		"sidey+": "bricks",
+		"sidey-": "crate",
+		"sideall": "Nach0BrickLayerSidesTexture"
+	},
+	"Nach0CarversTable": {
+		"categories": [
+			"jobs",
+			"da",
+			"moreblocks",
+			"nach0"
+		],
+		"icon": "Nach0CarversTable.png",
+		"maxStackSize": 50,
+		"sidey+": "Nach0CarversTableTopTexture",
+		"sideall": "planks"
+	},
+	"Nach0Chiseler": {
+		"categories": [
+			"jobs",
+			"db",
+			"moreblocks",
+			"nach0"
+		],
+		"icon": "Nach0Chiseler.png",
+		"maxStackSize": 50,
+		"sidey+": "Nach0ChiselerTopTexture",
+		"sideall": "stoneblock"
+	},
+	"Nach0Enchanter": {
+		"categories": [
+			"jobs",
+			"ea",
+			"moreblocks",
+			"nach0"
+		],
+		"icon": "Nach0Enchanter.png",
+		"maxStackSize": 50,
+		"sideall": "Nach0EnchanterTexture"
+	},
+	"Nach0MagicTable": {
+		"categories": [
+			"jobs",
+			"eb",
+			"moreblocks",
+			"nach0"
+		],
+		"icon": "Nach0MagicTable.png",
+		"maxStackSize": 50,
+		"sidey+": "Nach0MagicTableTopTexture",
+		"sidey-": "Nach0EnchantedStoneTexture",
+		"sideall": "Nach0MagicTableSidesTexture"
+	},
+	"Nach0ConcreteLayer": {
+		"categories": [
+			"jobs",
+			"fa",
+			"moreblocks",
+			"nach0"
+		],
+		"icon": "Nach0ConcreteLayer.png",
+		"maxStackSize": 50,
+		"sidey+": "Nach0ConcreteTexture",
+		"sidey-": "crate",
+		"sideall": "Nach0ConcreteLayerSidesTexture"
+	}
+}

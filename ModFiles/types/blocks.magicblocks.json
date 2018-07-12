@@ -1,0 +1,13 @@
+{
+	"Nach0EnchantedStone": {
+		"categories": [
+			"blocks",
+			"magicblocks",
+			"moreblocks",
+			"nach0"
+		],
+		"icon": "Nach0EnchantedStone.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0EnchantedStoneTexture"
+	}
+}

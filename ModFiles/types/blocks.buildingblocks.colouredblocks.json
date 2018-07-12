@@ -1,0 +1,210 @@
+{
+	"Nach0AquaPaintBlock": {
+		"categories": [
+			"blocks",
+			"buildingblocks",
+			"colouredblocks",
+			"a",
+			"moreblocks",
+			"nach0"
+		],
+		"icon": "Nach0AquaPaintBlock.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0AquaPaintBlockTexture"
+	},
+	"Nach0BlackPaintBlock": {
+		"categories": [
+			"blocks",
+			"buildingblocks",
+			"colouredblocks",
+			"b",
+			"moreblocks",
+			"nach0"
+		],
+		"icon": "Nach0BlackPaintBlock.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0BlackPaintBlockTexture"
+	},
+	"Nach0BluePaintBlock": {
+		"categories": [
+			"blocks",
+			"buildingblocks",
+			"colouredblocks",
+			"c",
+			"moreblocks",
+			"nach0"
+		],
+		"icon": "Nach0BluePaintBlock.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0BluePaintBlockTexture"
+	},
+	"Nach0BrownPaintBlock": {
+		"categories": [
+			"blocks",
+			"buildingblocks",
+			"colouredblocks",
+			"d",
+			"moreblocks",
+			"nach0"
+		],
+		"icon": "Nach0BrownPaintBlock.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0BrownPaintBlockTexture"
+	},
+	"Nach0DarkGreenPaintBlock": {
+		"categories": [
+			"blocks",
+			"buildingblocks",
+			"colouredblocks",
+			"e",
+			"moreblocks",
+			"nach0"
+		],
+		"icon": "Nach0DarkGreenPaintBlock.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0DarkGreenPaintBlockTexture"
+	},
+	"Nach0GreenPaintBlock": {
+		"categories": [
+			"blocks",
+			"buildingblocks",
+			"colouredblocks",
+			"f",
+			"moreblocks",
+			"nach0"
+		],
+		"icon": "Nach0GreenPaintBlock.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0GreenPaintBlockTexture"
+	},
+	"Nach0GreyPaintBlock": {
+		"categories": [
+			"blocks",
+			"buildingblocks",
+			"colouredblocks",
+			"g",
+			"moreblocks",
+			"nach0"
+		],
+		"icon": "Nach0GreyPaintBlock.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0GreyPaintBlockTexture"
+	},
+	"Nach0LightBluePaintBlock": {
+		"categories": [
+			"blocks",
+			"buildingblocks",
+			"colouredblocks",
+			"h",
+			"moreblocks",
+			"nach0"
+		],
+		"icon": "Nach0LightBluePaintBlock.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0LightBluePaintBlockTexture"
+	},
+	"Nach0LightGreyPaintBlock": {
+		"categories": [
+			"blocks",
+			"buildingblocks",
+			"colouredblocks",
+			"i",
+			"moreblocks",
+			"nach0"
+		],
+		"icon": "Nach0LightGreyPaintBlock.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0LightGreyPaintBlockTexture"
+	},
+	"Nach0MagentaPaintBlock": {
+		"categories": [
+			"blocks",
+			"buildingblocks",
+			"colouredblocks",
+			"j",
+			"moreblocks",
+			"nach0"
+		],
+		"icon": "Nach0MagentaPaintBlock.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0MagentaPaintBlockTexture"
+	},
+	"Nach0OrangePaintBlock": {
+		"categories": [
+			"blocks",
+			"buildingblocks",
+			"colouredblocks",
+			"k",
+			"moreblocks",
+			"nach0"
+		],
+		"icon": "Nach0OrangePaintBlock.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0OrangePaintBlockTexture"
+	},
+	"Nach0PinkPaintBlock": {
+		"categories": [
+			"blocks",
+			"buildingblocks",
+			"colouredblocks",
+			"l",
+			"moreblocks",
+			"nach0"
+		],
+		"icon": "Nach0PinkPaintBlock.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0PinkPaintBlockTexture"
+	},
+	"Nach0PurplePaintBlock": {
+		"categories": [
+			"blocks",
+			"buildingblocks",
+			"colouredblocks",
+			"m",
+			"moreblocks",
+			"nach0"
+		],
+		"icon": "Nach0PurplePaintBlock.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0PurplePaintBlockTexture"
+	},
+	"Nach0RedPaintBlock": {
+		"categories": [
+			"blocks",
+			"buildingblocks",
+			"colouredblocks",
+			"n",
+			"moreblocks",
+			"nach0"
+		],
+		"icon": "Nach0RedPaintBlock.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0RedPaintBlockTexture"
+	},
+	"Nach0WhitePaintBlock": {
+		"categories": [
+			"blocks",
+			"buildingblocks",
+			"colouredblocks",
+			"o",
+			"moreblocks",
+			"nach0"
+		],
+		"icon": "Nach0WhitePaintBlock.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0WhitePaintBlockTexture"
+	},
+	"Nach0YellowPaintBlock": {
+		"categories": [
+			"blocks",
+			"buildingblocks",
+			"colouredblocks",
+			"p",
+			"moreblocks",
+			"nach0"
+		],
+		"icon": "Nach0YellowPaintBlock.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0YellowPaintBlockTexture"
+	}
+}

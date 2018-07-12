@@ -1,0 +1,207 @@
+{
+	"Nach0WaterBucket": {
+		"categories": [
+			"items",
+			"buckets",
+			"b",
+			"moreblocks",
+			"nach0"
+		],
+		"isPlaceable": false,
+		"icon": "Nach0WaterBucket.png",
+		"maxStackSize": 50
+	},
+	"Nach0AquaPaint": {
+		"categories": [
+			"items",
+			"buckets",
+			"c",
+			"moreblocks",
+			"nach0"
+		],
+		"isPlaceable": false,
+		"icon": "Nach0AquaPaint.png",
+		"maxStackSize": 50
+	},
+	"Nach0BlackPaint": {
+		"categories": [
+			"items",
+			"buckets",
+			"d",
+			"moreblocks",
+			"nach0"
+		],
+		"isPlaceable": false,
+		"icon": "Nach0BlackPaint.png",
+		"maxStackSize": 50
+	},
+	"Nach0BluePaint": {
+		"categories": [
+			"items",
+			"buckets",
+			"e",
+			"moreblocks",
+			"nach0"
+		],
+		"isPlaceable": false,
+		"icon": "Nach0BluePaint.png",
+		"maxStackSize": 50
+	},
+	"Nach0BrownPaint": {
+		"categories": [
+			"items",
+			"buckets",
+			"f",
+			"moreblocks",
+			"nach0"
+		],
+		"isPlaceable": false,
+		"icon": "Nach0BrownPaint.png",
+		"maxStackSize": 50
+	},
+	"Nach0DarkGreenPaint": {
+		"categories": [
+			"items",
+			"buckets",
+			"g",
+			"moreblocks",
+			"nach0"
+		],
+		"isPlaceable": false,
+		"icon": "Nach0DarkGreenPaint.png",
+		"maxStackSize": 50
+	},
+	"Nach0GreenPaint": {
+		"categories": [
+			"items",
+			"buckets",
+			"h",
+			"moreblocks",
+			"nach0"
+		],
+		"isPlaceable": false,
+		"icon": "Nach0GreenPaint.png",
+		"maxStackSize": 50
+	},
+	"Nach0GreyPaint": {
+		"categories": [
+			"items",
+			"buckets",
+			"i",
+			"moreblocks",
+			"nach0"
+		],
+		"isPlaceable": false,
+		"icon": "Nach0GreyPaint.png",
+		"maxStackSize": 50
+	},
+	"Nach0LightBluePaint": {
+		"categories": [
+			"items",
+			"buckets",
+			"j",
+			"moreblocks",
+			"nach0"
+		],
+		"isPlaceable": false,
+		"icon": "Nach0LightBluePaint.png",
+		"maxStackSize": 50
+	},
+	"Nach0LightGreyPaint": {
+		"categories": [
+			"items",
+			"buckets",
+			"k",
+			"moreblocks",
+			"nach0"
+		],
+		"isPlaceable": false,
+		"icon": "Nach0LightGreyPaint.png",
+		"maxStackSize": 50
+	},
+	"Nach0MagentaPaint": {
+		"categories": [
+			"items",
+			"buckets",
+			"l",
+			"moreblocks",
+			"nach0"
+		],
+		"isPlaceable": false,
+		"icon": "Nach0MagentaPaint.png",
+		"maxStackSize": 50
+	},
+	"Nach0OrangePaint": {
+		"categories": [
+			"items",
+			"buckets",
+			"m",
+			"moreblocks",
+			"nach0"
+		],
+		"isPlaceable": false,
+		"icon": "Nach0OrangePaint.png",
+		"maxStackSize": 50
+	},
+
+	"Nach0PinkPaint": {
+		"categories": [
+			"items",
+			"buckets",
+			"o",
+			"moreblocks",
+			"nach0"
+		],
+		"isPlaceable": false,
+		"icon": "Nach0PinkPaint.png",
+		"maxStackSize": 50
+	},
+	"Nach0PurplePaint": {
+		"categories": [
+			"items",
+			"buckets",
+			"p",
+			"moreblocks",
+			"nach0"
+		],
+		"isPlaceable": false,
+		"icon": "Nach0PurplePaint.png",
+		"maxStackSize": 50
+	},
+	"Nach0RedPaint": {
+		"categories": [
+			"items",
+			"buckets",
+			"q",
+			"moreblocks",
+			"nach0"
+		],
+		"isPlaceable": false,
+		"icon": "Nach0RedPaint.png",
+		"maxStackSize": 50
+	},
+	"Nach0WhitePaint": {
+		"categories": [
+			"items",
+			"buckets",
+			"r",
+			"moreblocks",
+			"nach0"
+		],
+		"isPlaceable": false,
+		"icon": "Nach0WhitePaint.png",
+		"maxStackSize": 50
+	},
+	"Nach0YellowPaint": {
+		"categories": [
+			"items",
+			"buckets",
+			"s",
+			"moreblocks",
+			"nach0"
+		],
+		"isPlaceable": false,
+		"icon": "Nach0YellowPaint.png",
+		"maxStackSize": 50
+	}
+}
