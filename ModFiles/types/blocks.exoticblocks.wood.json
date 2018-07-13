@@ -34,15 +34,13 @@
 		"rotatablez+": "Nach0TreeLog1TippedZ"
 	},
 	"Nach0TreeLog1TippedX": {
-		"parentType": "Nach0PaintMixer",
+		"parentType": "Nach0TreeLog1Tipped",
 		"sidex-": "Nach0TreeLog1TopBottomTexture",
 		"sidex+": "Nach0TreeLog1TopBottomTexture",
-		"sidey+": "Nach0TreeLog1SideTexture",
-		"sidey-": "Nach0TreeLog1SideTexture",
 		"sideall": "Nach0TreeLog1SideTippedTexture"
 	},
 	"Nach0TreeLog1TippedZ": {
-		"parentType": "Nach0PaintMixer",
+		"parentType": "Nach0TreeLog1Tipped",
 		"sidez-": "Nach0TreeLog1TopBottomTexture",
 		"sidez+": "Nach0TreeLog1TopBottomTexture",
 		"sidey+": "Nach0TreeLog1SideTexture",
@@ -88,9 +86,27 @@
 		],
 		"icon": "Nach0TreeLog2Tipped.png",
 		"maxStackSize": 200,
-		"sidex+": "Nach0TreeLog2TopBottomTexture",
+		"isRotatable": true,
+		"isSolid": true,
+		"needsBase": true,
+		"rotatablex-": "Nach0TreeLog2TippedX",
+		"rotatablex+": "Nach0TreeLog2TippedX",
+		"rotatablez-": "Nach0TreeLog2TippedZ",
+		"rotatablez+": "Nach0TreeLog2TippedZ"
+	},
+	"Nach0TreeLog2TippedX": {
+		"parentType": "Nach0TreeLog2Tipped",
 		"sidex-": "Nach0TreeLog2TopBottomTexture",
-		"sideall": "Nach0TreeLog2SideTexture"
+		"sidex+": "Nach0TreeLog2TopBottomTexture",
+		"sideall": "Nach0TreeLog2SideTippedTexture"
+	},
+	"Nach0TreeLog2TippedZ": {
+		"parentType": "Nach0TreeLog2Tipped",
+		"sidez-": "Nach0TreeLog2TopBottomTexture",
+		"sidez+": "Nach0TreeLog2TopBottomTexture",
+		"sidey+": "Nach0TreeLog2SideTexture",
+		"sidey-": "Nach0TreeLog2SideTexture",
+		"sideall": "Nach0TreeLog2SideTippedTexture"
 	},
 	"Nach0Planks2": {
 		"categories": [
@@ -125,15 +141,33 @@
 			"blocks",
 			"exoitcblocks",
 			"wood",
-			"cb",
+			"ca",
 			"moreblocks",
 			"nach0"
 		],
 		"icon": "Nach0TreeLog3Tipped.png",
 		"maxStackSize": 200,
-		"sidex+": "Nach0TreeLog3TopBottomTexture",
+		"isRotatable": true,
+		"isSolid": true,
+		"needsBase": true,
+		"rotatablex-": "Nach0TreeLog3TippedX",
+		"rotatablex+": "Nach0TreeLog3TippedX",
+		"rotatablez-": "Nach0TreeLog3TippedZ",
+		"rotatablez+": "Nach0TreeLog3TippedZ"
+	},
+	"Nach0TreeLog3TippedX": {
+		"parentType": "Nach0TreeLog3Tipped",
 		"sidex-": "Nach0TreeLog3TopBottomTexture",
-		"sideall": "Nach0TreeLog3SideTexture"
+		"sidex+": "Nach0TreeLog3TopBottomTexture",
+		"sideall": "Nach0TreeLog3SideTippedTexture"
+	},
+	"Nach0TreeLog3TippedZ": {
+		"parentType": "Nach0TreeLog3Tipped",
+		"sidez-": "Nach0TreeLog3TopBottomTexture",
+		"sidez+": "Nach0TreeLog3TopBottomTexture",
+		"sidey+": "Nach0TreeLog3SideTexture",
+		"sidey-": "Nach0TreeLog3SideTexture",
+		"sideall": "Nach0TreeLog3SideTippedTexture"
 	},
 	"Nach0Planks3": {
 		"categories": [
@@ -168,15 +202,33 @@
 			"blocks",
 			"exoitcblocks",
 			"wood",
-			"db",
+			"da",
 			"moreblocks",
 			"nach0"
 		],
 		"icon": "Nach0TreeLog4Tipped.png",
 		"maxStackSize": 200,
-		"sidex+": "Nach0TreeLog4TopBottomTexture",
+		"isRotatable": true,
+		"isSolid": true,
+		"needsBase": true,
+		"rotatablex-": "Nach0TreeLog4TippedX",
+		"rotatablex+": "Nach0TreeLog4TippedX",
+		"rotatablez-": "Nach0TreeLog4TippedZ",
+		"rotatablez+": "Nach0TreeLog4TippedZ"
+	},
+	"Nach0TreeLog4TippedX": {
+		"parentType": "Nach0TreeLog4Tipped",
 		"sidex-": "Nach0TreeLog4TopBottomTexture",
-		"sideall": "Nach0TreeLog4SideTexture"
+		"sidex+": "Nach0TreeLog4TopBottomTexture",
+		"sideall": "Nach0TreeLog4SideTippedTexture"
+	},
+	"Nach0TreeLog4TippedZ": {
+		"parentType": "Nach0TreeLog4Tipped",
+		"sidez-": "Nach0TreeLog4TopBottomTexture",
+		"sidez+": "Nach0TreeLog4TopBottomTexture",
+		"sidey+": "Nach0TreeLog4SideTexture",
+		"sidey-": "Nach0TreeLog4SideTexture",
+		"sideall": "Nach0TreeLog4SideTippedTexture"
 	},
 	"Nach0Planks4": {
 		"categories": [
@@ -217,9 +269,27 @@
 		],
 		"icon": "Nach0TreeLog5Tipped.png",
 		"maxStackSize": 200,
-		"sidex+": "Nach0TreeLog5TopBottomTexture",
+		"isRotatable": true,
+		"isSolid": true,
+		"needsBase": true,
+		"rotatablex-": "Nach0TreeLog5TippedX",
+		"rotatablex+": "Nach0TreeLog5TippedX",
+		"rotatablez-": "Nach0TreeLog5TippedZ",
+		"rotatablez+": "Nach0TreeLog5TippedZ"
+	},
+	"Nach0TreeLog5TippedX": {
+		"parentType": "Nach0TreeLog5Tipped",
 		"sidex-": "Nach0TreeLog5TopBottomTexture",
-		"sideall": "Nach0TreeLog5SideTexture"
+		"sidex+": "Nach0TreeLog5TopBottomTexture",
+		"sideall": "Nach0TreeLog5SideTippedTexture"
+	},
+	"Nach0TreeLog5TippedZ": {
+		"parentType": "Nach0TreeLog5Tipped",
+		"sidez-": "Nach0TreeLog5TopBottomTexture",
+		"sidez+": "Nach0TreeLog5TopBottomTexture",
+		"sidey+": "Nach0TreeLog5SideTexture",
+		"sidey-": "Nach0TreeLog5SideTexture",
+		"sideall": "Nach0TreeLog5SideTippedTexture"
 	},
 	"Nach0Planks5": {
 		"categories": [
@@ -260,9 +330,27 @@
 		],
 		"icon": "Nach0TreeLog6Tipped.png",
 		"maxStackSize": 200,
-		"sidex+": "Nach0TreeLog6TopBottomTexture",
+		"isRotatable": true,
+		"isSolid": true,
+		"needsBase": true,
+		"rotatablex-": "Nach0TreeLog6TippedX",
+		"rotatablex+": "Nach0TreeLog6TippedX",
+		"rotatablez-": "Nach0TreeLog6TippedZ",
+		"rotatablez+": "Nach0TreeLog6TippedZ"
+	},
+	"Nach0TreeLog6TippedX": {
+		"parentType": "Nach0TreeLog6Tipped",
 		"sidex-": "Nach0TreeLog6TopBottomTexture",
-		"sideall": "Nach0TreeLog6SideTexture"
+		"sidex+": "Nach0TreeLog6TopBottomTexture",
+		"sideall": "Nach0TreeLog6SideTippedTexture"
+	},
+	"Nach0TreeLog6TippedZ": {
+		"parentType": "Nach0TreeLog6Tipped",
+		"sidez-": "Nach0TreeLog6TopBottomTexture",
+		"sidez+": "Nach0TreeLog6TopBottomTexture",
+		"sidey+": "Nach0TreeLog6SideTexture",
+		"sidey-": "Nach0TreeLog6SideTexture",
+		"sideall": "Nach0TreeLog6SideTippedTexture"
 	},
 	"Nach0Planks6": {
 		"categories": [

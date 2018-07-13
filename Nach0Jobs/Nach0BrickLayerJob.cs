@@ -21,7 +21,7 @@ namespace Nach0Jobs
             {
                 keyName = NPCTypeKey,
                 printName = "Brick Layer",
-                maskColor1 = new UnityEngine.Color32(0, 0, 0, 0),
+                maskColor1 = new UnityEngine.Color32(84, 2, 2, 1),
                 type = NPCTypeID.GetNextID()
             };
         }

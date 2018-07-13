@@ -22,7 +22,7 @@ namespace Nach0Jobs
             {
                 keyName = NPCTypeKey,
                 printName = "Magician",
-                maskColor1 = new UnityEngine.Color32(0, 0, 0, 0),
+                maskColor1 = new UnityEngine.Color32(214, 0, 96, 1),
                 type = NPCTypeID.GetNextID()
             };
         }

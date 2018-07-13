@@ -20,7 +20,32 @@
 		],
 		"icon": "Nach0Freezer.png",
 		"maxStackSize": 50,
+		"isRotatable": true,
+		"isSolid": true,
+		"needsBase": true,
+		"rotatablex-": "Nach0FreezerX-",
+		"rotatablex+": "Nach0FreezerX+",
+		"rotatablez-": "Nach0FreezerZ-",
+		"rotatablez+": "Nach0FreezerZ+"
+	},
+	"Nach0FreezerX-": {
+		"parentType": "Nach0Freezer",
 		"sidex-": "Nach0FreezerFrontTexture",
+		"sideall": "ironblock"
+	},
+	"Nach0FreezerX+": {
+		"parentType": "Nach0Freezer",
+		"sidex+": "Nach0FreezerFrontTexture",
+		"sideall": "ironblock"
+	},
+	"Nach0FreezerZ-": {
+		"parentType": "Nach0Freezer",
+		"sidez-": "Nach0FreezerFrontTexture",
+		"sideall": "ironblock"
+	},
+	"Nach0FreezerZ+": {
+		"parentType": "Nach0Freezer",
+		"sidez+": "Nach0FreezerFrontTexture",
 		"sideall": "ironblock"
 	},
 	"Nach0Melter": {
@@ -32,7 +57,32 @@
 		],
 		"icon": "Nach0Melter.png",
 		"maxStackSize": 50,
+		"isRotatable": true,
+		"isSolid": true,
+		"needsBase": true,
+		"rotatablex-": "Nach0MelterX-",
+		"rotatablex+": "Nach0MelterX+",
+		"rotatablez-": "Nach0MelterZ-",
+		"rotatablez+": "Nach0MelterZ+"
+	},
+	"Nach0MelterX-": {
+		"parentType": "Nach0Melter",
 		"sidex-": "Nach0MelterFrontTexture",
+		"sideall": "ironblock"
+	},
+	"Nach0MelterX+": {
+		"parentType": "Nach0Melter",
+		"sidex+": "Nach0MelterFrontTexture",
+		"sideall": "ironblock"
+	},
+	"Nach0MelterZ-": {
+		"parentType": "Nach0Melter",
+		"sidez-": "Nach0MelterFrontTexture",
+		"sideall": "ironblock"
+	},
+	"Nach0MelterZ+": {
+		"parentType": "Nach0Melter",
+		"sidez+": "Nach0MelterFrontTexture",
 		"sideall": "ironblock"
 	},
 	"Nach0Crusher": {
@@ -57,7 +107,32 @@
 		],
 		"icon": "Nach0Sander.png",
 		"maxStackSize": 50,
-		"sidey+": "Nach0SanderTopTexture",
+		"isRotatable": true,
+		"isSolid": true,
+		"needsBase": true,
+		"rotatablex-": "Nach0SanderX-",
+		"rotatablex+": "Nach0SanderX+",
+		"rotatablez-": "Nach0SanderZ-",
+		"rotatablez+": "Nach0SanderZ+"
+	},
+	"Nach0SanderX-": {
+		"parentType": "Nach0Sander",
+		"sidey+": "Nach0SanderTopXTexture",
+		"sideall": "planks"
+	},
+	"Nach0SanderX+": {
+		"parentType": "Nach0Sander",
+		"sidey+": "Nach0SanderTopXTexture",
+		"sideall": "planks"
+	},
+	"Nach0SanderZ-": {
+		"parentType": "Nach0Sander",
+		"sidey+": "Nach0SanderTopZTexture",
+		"sideall": "planks"
+	},
+	"Nach0SanderZ+": {
+		"parentType": "Nach0Sander",
+		"sidey+": "Nach0SanderTopZTexture",
 		"sideall": "planks"
 	},
 	"Nach0PaintMixer": {
@@ -106,7 +181,32 @@
 		],
 		"icon": "Nach0PaintersTable.png",
 		"maxStackSize": 50,
-		"sidey+": "Nach0PaintersTableTopTexture",
+		"isRotatable": true,
+		"isSolid": true,
+		"needsBase": true,
+		"rotatablex-": "Nach0PaintersTableX-",
+		"rotatablex+": "Nach0PaintersTableX+",
+		"rotatablez-": "Nach0PaintersTableZ-",
+		"rotatablez+": "Nach0PaintersTableZ+"
+	},
+	"Nach0PaintersTableX-": {
+		"parentType": "Nach0PaintersTable",
+		"sidey+": "Nach0PaintersTableTopX-Texture",
+		"sideall": "planks"
+	},
+	"Nach0PaintersTableX+": {
+		"parentType": "Nach0PaintersTable",
+		"sidey+": "Nach0PaintersTableTopX+Texture",
+		"sideall": "planks"
+	},
+	"Nach0PaintersTableZ-": {
+		"parentType": "Nach0PaintersTable",
+		"sidey+": "Nach0PaintersTableTopZ-Texture",
+		"sideall": "planks"
+	},
+	"Nach0PaintersTableZ+": {
+		"parentType": "Nach0PaintersTable",
+		"sidey+": "Nach0PaintersTableTopZ+Texture",
 		"sideall": "planks"
 	},
 	"Nach0AdvancedPaintersTable": {
@@ -118,7 +218,33 @@
 		],
 		"icon": "Nach0AdvancedPaintersTable.png",
 		"maxStackSize": 50,
-		"sidey+": "Nach0AdvancedPaintersTableTopTexture",
+		"maxStackSize": 50,
+		"isRotatable": true,
+		"isSolid": true,
+		"needsBase": true,
+		"rotatablex-": "Nach0AdvancedPaintersTableX-",
+		"rotatablex+": "Nach0AdvancedPaintersTableX+",
+		"rotatablez-": "Nach0AdvancedPaintersTableZ-",
+		"rotatablez+": "Nach0AdvancedPaintersTableZ+"
+	},
+	"Nach0AdvancedPaintersTableX-": {
+		"parentType": "Nach0AdvancedPaintersTable",
+		"sidey+": "Nach0AdvancedPaintersTableTopX-Texture",
+		"sideall": "coatedplanks"
+	},
+	"Nach0AdvancedPaintersTableX+": {
+		"parentType": "Nach0AdvancedPaintersTable",
+		"sidey+": "Nach0AdvancedPaintersTableTopX+Texture",
+		"sideall": "coatedplanks"
+	},
+	"Nach0AdvancedPaintersTableZ-": {
+		"parentType": "Nach0AdvancedPaintersTable",
+		"sidey+": "Nach0AdvancedPaintersTableTopZ-Texture",
+		"sideall": "coatedplanks"
+	},
+	"Nach0AdvancedPaintersTableZ+": {
+		"parentType": "Nach0AdvancedPaintersTable",
+		"sidey+": "Nach0AdvancedPaintersTableTopZ+Texture",
 		"sideall": "coatedplanks"
 	},
 	"Nach0BrickMaker": {
@@ -155,7 +281,32 @@
 		],
 		"icon": "Nach0CarversTable.png",
 		"maxStackSize": 50,
-		"sidey+": "Nach0CarversTableTopTexture",
+		"isRotatable": true,
+		"isSolid": true,
+		"needsBase": true,
+		"rotatablex-": "Nach0CarversTableX-",
+		"rotatablex+": "Nach0CarversTableX+",
+		"rotatablez-": "Nach0CarversTableZ-",
+		"rotatablez+": "Nach0CarversTableZ+"
+	},
+	"Nach0CarversTableX-": {
+		"parentType": "Nach0CarversTable",
+		"sidey+": "Nach0CarversTableTopX-Texture",
+		"sideall": "planks"
+	},
+	"Nach0CarversTableX+": {
+		"parentType": "Nach0CarversTable",
+		"sidey+": "Nach0CarversTableTopX+Texture",
+		"sideall": "planks"
+	},
+	"Nach0CarversTableZ-": {
+		"parentType": "Nach0CarversTable",
+		"sidey+": "Nach0CarversTableTopZ-Texture",
+		"sideall": "planks"
+	},
+	"Nach0CarversTableZ+": {
+		"parentType": "Nach0CarversTable",
+		"sidey+": "Nach0CarversTableTopZ+Texture",
 		"sideall": "planks"
 	},
 	"Nach0Chiseler": {
@@ -167,7 +318,33 @@
 		],
 		"icon": "Nach0Chiseler.png",
 		"maxStackSize": 50,
-		"sidey+": "Nach0ChiselerTopTexture",
+		"maxStackSize": 50,
+		"isRotatable": true,
+		"isSolid": true,
+		"needsBase": true,
+		"rotatablex-": "Nach0ChiselerX-",
+		"rotatablex+": "Nach0ChiselerX+",
+		"rotatablez-": "Nach0ChiselerZ-",
+		"rotatablez+": "Nach0ChiselerZ+"
+	},
+	"Nach0ChiselerX-": {
+		"parentType": "Nach0Chiseler",
+		"sidey+": "Nach0ChiselerTopX-Texture",
+		"sideall": "stoneblock"
+	},
+	"Nach0ChiselerX+": {
+		"parentType": "Nach0Chiseler",
+		"sidey+": "Nach0ChiselerTopX+Texture",
+		"sideall": "stoneblock"
+	},
+	"Nach0ChiselerZ-": {
+		"parentType": "Nach0Chiseler",
+		"sidey+": "Nach0ChiselerTopZ-Texture",
+		"sideall": "stoneblock"
+	},
+	"Nach0ChiselerZ+": {
+		"parentType": "Nach0Chiseler",
+		"sidey+": "Nach0ChiselerTopZ+Texture",
 		"sideall": "stoneblock"
 	},
 	"Nach0Enchanter": {
@@ -190,7 +367,35 @@
 		],
 		"icon": "Nach0MagicTable.png",
 		"maxStackSize": 50,
-		"sidey+": "Nach0MagicTableTopTexture",
+		"isRotatable": true,
+		"isSolid": true,
+		"needsBase": true,
+		"rotatablex-": "Nach0MagicTableX-",
+		"rotatablex+": "Nach0MagicTableX+",
+		"rotatablez-": "Nach0MagicTableZ-",
+		"rotatablez+": "Nach0MagicTableZ+"
+	},
+	"Nach0MagicTableX-": {
+		"parentType": "Nach0MagicTable",
+		"sidey+": "Nach0MagicTableTopX-Texture",
+		"sidey-": "Nach0EnchantedStoneTexture",
+		"sideall": "Nach0MagicTableSidesTexture"
+	},
+	"Nach0MagicTableX+": {
+		"parentType": "Nach0MagicTable",
+		"sidey+": "Nach0MagicTableTopX+Texture",
+		"sidey-": "Nach0EnchantedStoneTexture",
+		"sideall": "Nach0MagicTableSidesTexture"
+	},
+	"Nach0MagicTableZ-": {
+		"parentType": "Nach0MagicTable",
+		"sidey+": "Nach0MagicTableTopZ-Texture",
+		"sidey-": "Nach0EnchantedStoneTexture",
+		"sideall": "Nach0MagicTableSidesTexture"
+	},
+	"Nach0MagicTableZ+": {
+		"parentType": "Nach0MagicTable",
+		"sidey+": "Nach0MagicTableTopZ+Texture",
 		"sidey-": "Nach0EnchantedStoneTexture",
 		"sideall": "Nach0MagicTableSidesTexture"
 	},

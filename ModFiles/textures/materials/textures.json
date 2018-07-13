@@ -427,5 +427,95 @@
 	"Nach0TreeLog1SideTippedTexture": {
 		"albedo": "Nach0TreeLog1SideTipped",
 		"normal": "Nach0TreeLog1SideTipped"
+	},
+	"Nach0TreeLog2SideTippedTexture": {
+		"albedo": "Nach0TreeLog2SideTipped",
+		"normal": "Nach0TreeLog2SideTipped"
+	},
+	"Nach0TreeLog3SideTippedTexture": {
+		"albedo": "Nach0TreeLog3SideTipped",
+		"normal": "Nach0TreeLog3SideTipped"
+	},
+	"Nach0TreeLog4SideTippedTexture": {
+		"albedo": "Nach0TreeLog4SideTipped",
+		"normal": "Nach0TreeLog4SideTipped"
+	},
+	"Nach0TreeLog5SideTippedTexture": {
+		"albedo": "Nach0TreeLog5SideTipped",
+		"normal": "Nach0TreeLog5SideTipped"
+	},
+	"Nach0TreeLog6SideTippedTexture": {
+		"albedo": "Nach0TreeLog6SideTipped",
+		"normal": "Nach0TreeLog6SideTipped"
+	},
+	"Nach0MagicTableTopX+Texture": {
+		"albedo": "Nach0MagicTableTopX+",
+		"normal": "Nach0MagicTableTopX+"
+	},
+	"Nach0MagicTableTopX-Texture": {
+		"albedo": "Nach0MagicTableTopX-",
+		"normal": "Nach0MagicTableTopX-"
+	},
+	"Nach0MagicTableTopZ-Texture": {
+		"albedo": "Nach0MagicTableTopZ-",
+		"normal": "Nach0MagicTableTopZ-"
+	},
+	"Nach0MagicTableTopZ+Texture": {
+		"albedo": "Nach0MagicTableTopZ+",
+		"normal": "Nach0MagicTableTopZ+"
+	},
+	"Nach0SanderTopXTexture": {
+		"albedo": "Nach0SanderTopX"
+	},
+	"Nach0SanderTopZTexture": {
+		"albedo": "Nach0SanderTopZ"
+	},
+	"Nach0PaintersTableTopX+Texture": {
+		"albedo": "Nach0PaintersTableTopX+"
+	},
+	"Nach0PaintersTableTopX-Texture": {
+		"albedo": "Nach0PaintersTableTopX-"
+	},
+	"Nach0PaintersTableTopZ+Texture": {
+		"albedo": "Nach0PaintersTableTopZ+"
+	},
+	"Nach0PaintersTableTopZ-Texture": {
+		"albedo": "Nach0PaintersTableTopZ-"
+	},
+	"Nach0AdvancedPaintersTableTopX+Texture": {
+		"albedo": "Nach0AdvancedPaintersTableTopX+"
+	},
+	"Nach0AdvancedPaintersTableTopX-Texture": {
+		"albedo": "Nach0AdvancedPaintersTableTopX-"
+	},
+	"Nach0AdvancedPaintersTableTopZ+Texture": {
+		"albedo": "Nach0AdvancedPaintersTableTopZ+"
+	},
+	"Nach0AdvancedPaintersTableTopZ-Texture": {
+		"albedo": "Nach0AdvancedPaintersTableTopZ-"
+	},
+	"Nach0CarversTableTopX+Texture": {
+		"albedo": "Nach0CarversTableTopX+"
+	},
+	"Nach0CarversTableTopX-Texture": {
+		"albedo": "Nach0CarversTableTopX-"
+	},
+	"Nach0CarversTableTopZ+Texture": {
+		"albedo": "Nach0CarversTableTopZ+"
+	},
+	"Nach0CarversTableTopZ-Texture": {
+		"albedo": "Nach0CarversTableTopZ-"
+	},
+	"Nach0ChiselerTopX+Texture": {
+		"albedo": "Nach0ChiselerTopX+"
+	},
+	"Nach0ChiselerTopX-Texture": {
+		"albedo": "Nach0ChiselerTopX-"
+	},
+	"Nach0ChiselerTopZ+Texture": {
+		"albedo": "Nach0ChiselerTopZ+"
+	},
+	"Nach0ChiselerTopZ-Texture": {
+		"albedo": "Nach0ChiselerTopZ-"
 	}
 }

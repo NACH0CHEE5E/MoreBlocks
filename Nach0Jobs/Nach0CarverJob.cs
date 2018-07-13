@@ -21,7 +21,7 @@ namespace Nach0Jobs
             {
                 keyName = NPCTypeKey,
                 printName = "Carver",
-                maskColor1 = new UnityEngine.Color32(0, 0, 0, 0),
+                maskColor1 = new UnityEngine.Color32(255, 200, 137, 1),
                 type = NPCTypeID.GetNextID()
             };
         }
