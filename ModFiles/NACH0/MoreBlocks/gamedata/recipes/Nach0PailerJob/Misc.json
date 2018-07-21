@@ -1,0 +1,14 @@
+[{
+	"defaultLimit": 500,
+	"defaultPriority": 0,
+	"isOptional": false,
+	"name": "Nach0WaterBucketCraft-Nach0PailerJob",
+	"requires": [{
+		"amount": 5,
+		"type": "Khanx.SimpleFluids.EmptyBucket"
+	}],
+	"results": [{
+		"amount": 5,
+		"type": "Khanx.SimpleFluids.WaterBucket"
+	}]
+}]

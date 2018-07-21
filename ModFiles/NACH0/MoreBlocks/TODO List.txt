@@ -1,0 +1,13 @@
+**replace concrete with propper ones (red, yellow, white, gray) (when availible
+
+
+type descriptions locale
+
+icon for carpenter research
+icon for wood working research
+
+add rest of blocks from texture pack
+
+fix mesh for rockpile and make rockpile for all stone types
+
+make letters

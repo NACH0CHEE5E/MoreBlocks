@@ -1,0 +1,177 @@
+{
+	"Nach0LightPoleTest": {
+		"categories": [
+			"testmod",
+			"nach0"
+		],
+		"isPlaceable": true,
+		"needsBase": false,
+		"isRotatable": true,
+		"rotatablex-": "Nach0LightPoleTestBase",
+		"rotatablex+": "Nach0LightPoleTestBase",
+		"rotatablez-": "Nach0LightPoleTestPole",
+		"rotatablez+": "Nach0LightPoleTestPole"
+	},
+	"Nach0LightPoleTestBase": {
+		"parentType": "Nach0LightPoleTest",
+		"mesh": "Nach0LightPoleBase.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0.5, 0.5],
+				"min": [-0.5, -0.5, -0.5]
+			}]
+		},
+		"sideall": "Nach0TestLightPoleTexture"
+	},
+	"Nach0LightPoleTestPole": {
+		"parentType": "Nach0LightPoleTest",
+		"mesh": "Nach0LightPolePole.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0.5, 0.5],
+				"min": [-0.5, -0.5, -0.5]
+			}]
+		},
+		"sideall": "Nach0TestLightPoleTexture"
+	},
+	"Nach0SlabTest": {
+		"categories": [
+			"testmod",
+			"nach0"
+		],
+		"isPlaceable": true,
+		"needsBase": false,
+		"isRotatable": true,
+		"rotatablex-": "Nach0SlabTestUp",
+		"rotatablex+": "Nach0SlabTestUp",
+		"rotatablez-": "Nach0SlabTestDown",
+		"rotatablez+": "Nach0SlabTestDown"
+	},
+	"Nach0SlabTestUp": {
+		"parentType": "Nach0SlabTest",
+		"mesh": "Nach0SlabTestUp.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0.5, 0.5],
+				"min": [-0.5, 0, -0.5]
+			}]
+		},
+		"sideall": "bricks"
+	},
+	"Nach0SlabTestDown": {
+		"parentType": "Nach0SlabTest",
+		"mesh": "Nach0SlabTestDown.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0, 0.5],
+				"min": [-0.5, -0.5, -0.5]
+			}]
+		},
+		"sideall": "bricks"
+	},	
+	"Nach0StairsTest": {
+		"isPlaceable": true,
+		"needsBase": false,
+		"isRotatable": true,
+		"rotatablex-": "Nach0StairsTestX-",
+		"rotatablex+": "Nach0StairsTestX+",
+		"rotatablez-": "Nach0StairsTestZ-",
+		"rotatablez+": "Nach0StairsTestZ+"
+	},
+	"Nach0StairsTestX-": {
+		"parentType": "Nach0StairsTest",
+		"mesh": "StairsX-.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.25, 0, 0.5],
+					"min": [-0.5, -0.25, -0.5]
+				},
+				{
+					"max": [0, 0.25, 0.5],
+					"min": [-0.5, 0, -0.5]
+				},
+				{
+					"max": [-0.25, 0.5, 0.5],
+					"min": [-0.5, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "bricks"
+	},
+	"Nach0StairsTestX+": {
+		"parentType": "Nach0StairsTest",
+		"mesh": "StairsX+.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.5],
+					"min": [-0.25, -0.25, -0.5]
+				},
+				{
+					"max": [0.5, 0.25, 0.5],
+					"min": [0, 0, -0.5]
+				},
+				{
+					"max": [0.5, 0.5, 0.5],
+					"min": [0.25, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "bricks"
+	},
+	"Nach0StairsTestZ-": {
+		"parentType": "Nach0StairsTest",
+		"mesh": "StairsZ-.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.25],
+					"min": [-0.5, -0.25, -0.5]
+				},
+				{
+					"max": [0.5, 0.25, 0],
+					"min": [-0.5, 0, -0.5]
+				},
+				{
+					"max": [0.5, 0.5, -0.25],
+					"min": [-0.5, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "bricks"
+	},
+	"Nach0StairsTestZ+": {
+		"parentType": "Nach0StairsTest",
+		"mesh": "StairsZ+.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.5],
+					"min": [-0.5, -0.25, -0.25]
+				},
+				{
+					"max": [0.5, 0.25, 0.5],
+					"min": [-0.5, 0, 0]
+				},
+				{
+					"max": [0.5, 0.5, 0.5],
+					"min": [-0.5, 0.25, 0.25]
+				}
+			]
+		},
+		"sideall": "bricks"
+	}
+}

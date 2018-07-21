@@ -1,0 +1,19 @@
+[{
+	"defaultLimit": 25,
+	"defaultPriority": -100,
+	"isOptional": false,
+	"name": "Nach0VanillaStoneBricksStairsCraft-Nach0ChiselerJob",
+	"requires": [{
+			"amount": 5,
+			"type": "stonebricks"
+		},
+		{
+			"amount": 1,
+			"type": "Nach0Chisel"
+		}
+	],
+	"results": [{
+		"amount": 5,
+		"type": "Nach0VanillaStoneBricksStairs"
+	}]
+}]

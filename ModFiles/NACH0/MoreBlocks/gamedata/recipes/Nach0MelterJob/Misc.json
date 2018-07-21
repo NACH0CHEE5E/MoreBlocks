@@ -1,0 +1,34 @@
+[{
+		"defaultLimit": 50,
+		"defaultPriority": 0,
+		"isOptional": false,
+		"name": "Nach0LavaBlockCraft-Nach0MelterJob",
+		"requires": [{
+			"amount": 5,
+			"type": "stoneblock"
+		}],
+		"results": [{
+			"amount": 1,
+			"type": "Nach0LavaBlock"
+		}]
+	},
+	{
+		"defaultLimit": 25,
+		"defaultPriority": 0,
+		"isOptional": false,
+		"name": "SimpleFluids-Nach0LavaBucketCraft-Nach0MelterJob",
+		"requires": [{
+				"amount": 5,
+				"type": "stoneblock"
+			},
+			{
+				"amount": 1,
+				"type": "Khanx.SimpleFluids.EmptyBucket"
+			}
+		],
+		"results": [{
+			"amount": 1,
+			"type": "Khanx.SimpleFluids.LavaBucket"
+		}]
+	}
+]

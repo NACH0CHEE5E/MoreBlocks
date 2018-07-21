@@ -1,0 +1,19 @@
+[{
+	"defaultLimit": 150,
+	"defaultPriority": 0,
+	"isOptional": true,
+	"name": "Nach0BrickCraft-pipliz.smelter",
+	"requires": [{
+			"amount": 5,
+			"type": "clay"
+		},
+		{
+			"amount": 3,
+			"type": "coalore"
+		}
+	],
+	"results": [{
+		"amount": 5,
+		"type": "Nach0Brick"
+	}]
+}]

@@ -1,0 +1,29 @@
+[{
+		"defaultLimit": 5,
+		"defaultPriority": -100,
+		"isOptional": true,
+		"name": "Nach0Sand1Craft-pipliz.merchant",
+		"requires": [{
+			"amount": 25,
+			"type": "Nach0SilverCoins"
+		}],
+		"results": [{
+			"amount": 1,
+			"type": "Nach0Sand1"
+		}]
+	},
+	{
+		"defaultLimit": 5,
+		"defaultPriority": -100,
+		"isOptional": true,
+		"name": "Nach0Sand2Craft-pipliz.merchant",
+		"requires": [{
+			"amount": 25,
+			"type": "Nach0SilverCoins"
+		}],
+		"results": [{
+			"amount": 1,
+			"type": "Nach0Sand2"
+		}]
+	}
+]

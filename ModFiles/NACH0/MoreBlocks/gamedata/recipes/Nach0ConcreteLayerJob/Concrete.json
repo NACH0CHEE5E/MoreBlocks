@@ -1,0 +1,14 @@
+[{
+	"defaultLimit": 100,
+	"defaultPriority": 0,
+	"isOptional": false,
+	"name": "Nach0ConcreteCraft-Nach0ConcreteLayerJob",
+	"requires": [{
+		"amount": 5,
+		"type": "Nach0CementPowder"
+	}],
+	"results": [{
+		"amount": 5,
+		"type": "Nach0Concrete"
+	}]
+}]

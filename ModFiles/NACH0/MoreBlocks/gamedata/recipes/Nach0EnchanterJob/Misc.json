@@ -1,0 +1,37 @@
+[{
+	"defaultLimit": 5,
+	"defaultPriority": -100,
+	"isOptional": true,
+	"name": "Nach0MagicTableCraft-Nach0EnchanterJob",
+	"requires": [{
+			"amount": 1000,
+			"type": "Nach0EnchantedStone"
+		},
+		{
+			"amount": 150,
+			"type": "Nach0Cross"
+		}
+	],
+	"results": [{
+		"amount": 1,
+		"type": "Nach0MagicTable"
+	}]
+}, {
+	"defaultLimit": 2500,
+	"defaultPriority": 0,
+	"isOptional": false,
+	"name": "Nach0EnchantedStoneCraft-Nach0EnchanterJob",
+	"requires": [{
+			"amount": 1,
+			"type": "stoneblock"
+		},
+		{
+			"amount": 3,
+			"type": "Nach0Cross"
+		}
+	],
+	"results": [{
+		"amount": 1,
+		"type": "Nach0EnchantedStone"
+	}]
+}]

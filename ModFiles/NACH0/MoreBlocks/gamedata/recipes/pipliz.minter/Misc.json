@@ -1,0 +1,27 @@
+[{
+		"defaultLimit": 50,
+		"defaultPriority": 0,
+		"isOptional": true,
+		"name": "Nach0SilverCoinsCraft-pipliz.minter",
+		"requires": [{
+			"amount": 5,
+			"type": "Nach0SilverOre"
+		}],
+		"results": [{
+			"type": "Nach0SilverCoins"
+		}]
+	},
+	{
+		"defaultLimit": 50,
+		"defaultPriority": 0,
+		"isOptional": true,
+		"name": "Nach0PlatniumCoinsCraft-pipliz.minter",
+		"requires": [{
+			"amount": 5,
+			"type": "Nach0PlatniumOre"
+		}],
+		"results": [{
+			"type": "Nach0PlatniumCoins"
+		}]
+	}
+]

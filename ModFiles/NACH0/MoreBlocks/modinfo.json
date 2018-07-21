@@ -1,0 +1,145 @@
+[{
+	"name": "NACH0.MoreBlocks",
+	"version": "1.3.5",
+	"dllpath": "MoreBlocks.dll",
+	"namepretty": "More Blocks",
+	"enabled": true,
+	"marksgamemodded": true,
+	"compatibleversions": [
+		"0.6.3"
+	],
+	"jsonFiles": [
+		{
+			"fileType": "addOrReplaceNPCRecipes",
+			"index": -1000000,
+			"limitsUIMapping": [
+				"shop"
+			],
+			"npcType": "pipliz.merchant",
+			"relativePath": "gamedata/SimpleFluids.override.json"
+		}
+	],
+	"patchnotes": [
+		{
+			"version": "1.3.5",
+			"notes": [
+				"Fixed a couple of issues",
+				"also added a couple stairs",
+				"*If you find any issues or have suggestions join the discord",
+				"*discord.gg/tqFhxhm"
+			]
+		},
+		{
+			"version": "1.3.4",
+			"notes": [
+				"Fixed the issue with job ui's not working",
+				"*If you find any issues or have suggestions join the discord",
+				"*discord.gg/tqFhxhm"
+			]
+		},
+		{
+			"version": "1.3.3",
+			"notes": [
+				"the recipe for the simple fluid buckets in the shop is now gone",
+				"fixed an issue with the sander (it was a space)",
+				"*If you find any issues or have suggestions join the discord",
+				"*discord.gg/tqFhxhm"
+			]
+		},
+		{
+			"version": "1.3.2",
+			"notes": [
+				"the recipe for the simple fluid buckets in the shop is now gone",
+				"fixed an issue with the sander (it was a space)",
+				"*If you find any issues or have suggestions join the discord",
+				"*discord.gg/tqFhxhm"
+			]
+		},
+		{
+			"version": "1.3.1",
+			"notes": [
+				"*Before launching game go into the games mod directory (you can find it on the first tab of the modmanager) then go to NACH0/MoreBlocks/ and run the fix.bat file and initiate the 1.3.0 to 1.3.1 fix",
+				"Job blocks are now rotable",
+				"there are now tipped over logs like in better trees",
+				"A few minor textures fixes and icon fixes",
+				"Most colonists now have a colour representing their job",
+				"*If you find any issues or have suggestions join the discord",
+				"*discord.gg/tqFhxhm"
+			]
+		},
+		{
+			"version": "1.3.0",
+			"notes": [
+				"Fixes",
+				"Jobs now have a locale",
+				"SimpleFluids is now a dependency",
+				"Recipes now require SimpleFluids Water Buckets and Empty Buckets",
+				"*If you find any issues or have suggestions join the discord",
+				"*discord.gg/tqFhxhm"
+			]
+		},
+		{
+			"version": "1.2.6",
+			"notes": [
+				"Some blocks now look nicer.",
+				"Added a couple more blocks",
+				"fixed a couple recipes",
+				"Changed a couple textures.",
+				"*If you find any issues or have suggestions join the discord",
+				"*discord.gg/tqFhxhm"
+			]
+		},
+		{
+			"version": "1.2.5",
+			"notes": [
+				"Fixes an issue with the Locale",
+				"*If you find any issues or have suggestions join the discord",
+				"*discord.gg/tqFhxhm"
+			]
+		},
+		{
+			"version": "1.2.4",
+			"notes": [
+				"Updated for 0.6.3 and latest version of NewColonyAPI Sorry for the wait",
+				"*If you find any issues or have suggestions join the discord",
+				"*discord.gg/tqFhxhm"
+			]
+		},
+		{
+			"version": "1.2.3",
+			"notes": [
+				"locale for research is halfwayish done",
+				"*If you find any issues or have suggestions join the discord",
+				"*discord.gg/tqFhxhm"
+			]
+		},
+		{
+			"version": "1.2.2",
+			"notes": [
+				"added locale for type names",
+				"*If you find any issues or have suggestions join the discord",
+				"*discord.gg/tqFhxhm"
+			]
+		},
+		{
+			"version": "1.2.1",
+			"notes": [
+				"fixed some research dependencies",
+				"*If you find any issues or have suggestions join the discord",
+				"*discord.gg/tqFhxhm"
+			]
+		},
+		{
+			"version": "1.2.0",
+			"notes": [
+				"All blocks should have textures",
+				"All blocks should have icons",
+				"Almost all research should have icons",
+				"cleaned up research tree",
+				"fixed up recipes",
+				"*If you find any issues or have suggestions join the discord",
+				"*discord.gg/tqFhxhm"
+			]
+		}
+	]
+}]

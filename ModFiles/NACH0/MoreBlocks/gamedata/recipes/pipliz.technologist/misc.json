@@ -1,0 +1,36 @@
+[{
+		"defaultLimit": 5,
+		"defaultPriority": 0,
+		"isOptional": true,
+		"name": "Nach0PaintingScienceBagCraft-pipliz.technologist",
+		"requires": [{
+				"amount": 5,
+				"type": "Nach0PaintBrush"
+			},
+			{
+			"amount": 1,
+			"type": "Nach0WhitePaint"
+			},
+			{
+			"amount": 1,
+			"type": "Nach0BlackPaint"
+			},
+			{
+			"amount": 1,
+			"type": "Nach0BluePaint"
+			},
+			{
+			"amount": 1,
+			"type": "Nach0YellowPaint"
+			},
+			{
+			"amount": 1,
+			"type": "Nach0RedPaint"
+			}
+		],
+		"results": [{
+			"amount": 1,
+			"type": "Nach0PaintingScienceBag"
+		}]
+	}
+]

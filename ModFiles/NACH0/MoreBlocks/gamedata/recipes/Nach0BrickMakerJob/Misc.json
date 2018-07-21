@@ -1,0 +1,19 @@
+[{
+	"defaultLimit": 250,
+	"defaultPriority": -100,
+	"isOptional": false,
+	"name": "Nach0BrickCraft-Nach0BrickMakerJob",
+	"requires": [{
+			"amount": 5,
+			"type": "clay"
+		},
+		{
+			"amount": 3,
+			"type": "coalore"
+		}
+	],
+	"results": [{
+		"amount": 5,
+		"type": "Nach0Brick"
+	}]
+}]
