@@ -1,0 +1,120 @@
+{
+	"Nach0VanillaBricksStairs": {
+		"categories": [
+			"blocks",
+			"buildingblocks",
+			"specialblocks",
+			"stairs",
+			"vanilla",
+			"bricks",
+			"a",
+			"moreblocks",
+			"nach0"
+		],
+		"icon": "Nach0VanillaBricksStairs.png",
+		"maxStackSize": 200,
+		"isPlaceable": true,
+		"needsBase": false,
+		"isRotatable": true,
+		"rotatablex-": "Nach0VanillaBricksStairsX-",
+		"rotatablex+": "Nach0VanillaBricksStairsX+",
+		"rotatablez-": "Nach0VanillaBricksStairsZ-",
+		"rotatablez+": "Nach0VanillaBricksStairsZ+"
+	},
+	"Nach0VanillaBricksStairsX-": {
+		"parentType": "Nach0VanillaBricksStairs",
+		"mesh": "StairsX-.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.25, 0, 0.5],
+					"min": [-0.5, -0.25, -0.5]
+				},
+				{
+					"max": [0, 0.25, 0.5],
+					"min": [-0.5, 0, -0.5]
+				},
+				{
+					"max": [-0.25, 0.5, 0.5],
+					"min": [-0.5, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "bricks"
+	},
+	"Nach0VanillaBricksStairsX+": {
+		"parentType": "Nach0VanillaBricksStairs",
+		"mesh": "StairsX+.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.5],
+					"min": [-0.25, -0.25, -0.5]
+				},
+				{
+					"max": [0.5, 0.25, 0.5],
+					"min": [0, 0, -0.5]
+				},
+				{
+					"max": [0.5, 0.5, 0.5],
+					"min": [0.25, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "bricks"
+	},
+	"Nach0VanillaBricksStairsZ-": {
+		"parentType": "Nach0VanillaBricksStairs",
+		"mesh": "StairsZ-.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.25],
+					"min": [-0.5, -0.25, -0.5]
+				},
+				{
+					"max": [0.5, 0.25, 0],
+					"min": [-0.5, 0, -0.5]
+				},
+				{
+					"max": [0.5, 0.5, -0.25],
+					"min": [-0.5, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "bricks"
+	},
+	"Nach0VanillaBricksStairsZ+": {
+		"parentType": "Nach0VanillaBricksStairs",
+		"mesh": "StairsZ+.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.5],
+					"min": [-0.5, -0.25, -0.25]
+				},
+				{
+					"max": [0.5, 0.25, 0.5],
+					"min": [-0.5, 0, 0]
+				},
+				{
+					"max": [0.5, 0.5, 0.5],
+					"min": [-0.5, 0.25, 0.25]
+				}
+			]
+		},
+		"sideall": "bricks"
+	}
+}

@@ -49,7 +49,7 @@
 	},
 	"Nach0SlabTestUp": {
 		"parentType": "Nach0SlabTest",
-		"mesh": "Nach0SlabTestUp.obj",
+		"mesh": "Nach0SlabUp.obj",
 		"colliders": {
 			"boxes": [{
 				"max": [0.5, 0.5, 0.5],
@@ -60,7 +60,7 @@
 	},
 	"Nach0SlabTestDown": {
 		"parentType": "Nach0SlabTest",
-		"mesh": "Nach0SlabTestDown.obj",
+		"mesh": "Nach0SlabDown.obj",
 		"colliders": {
 			"boxes": [{
 				"max": [0.5, 0, 0.5],

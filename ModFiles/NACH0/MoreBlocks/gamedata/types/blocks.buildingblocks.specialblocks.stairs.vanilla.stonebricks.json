@@ -1,0 +1,482 @@
+{
+	"Nach0VanillaStoneBricksStairs": {
+		"categories": [
+			"blocks",
+			"buildingblocks",
+			"specialblocks",
+			"stairs",
+			"vanilla",
+			"stonebricks",
+			"a",
+			"moreblocks",
+			"nach0"
+		],
+		"icon": "Nach0VanillaStoneBricksStairs.png",
+		"maxStackSize": 200,
+		"isPlaceable": true,
+		"needsBase": false,
+		"isRotatable": true,
+		"rotatablex-": "Nach0VanillaStoneBricksStairsX-",
+		"rotatablex+": "Nach0VanillaStoneBricksStairsX+",
+		"rotatablez-": "Nach0VanillaStoneBricksStairsZ-",
+		"rotatablez+": "Nach0VanillaStoneBricksStairsZ+"
+	},
+	"Nach0VanillaStoneBricksStairsX-": {
+		"parentType": "Nach0VanillaStoneBricksStairs",
+		"mesh": "StairsX-.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.25, 0, 0.5],
+					"min": [-0.5, -0.25, -0.5]
+				},
+				{
+					"max": [0, 0.25, 0.5],
+					"min": [-0.5, 0, -0.5]
+				},
+				{
+					"max": [-0.25, 0.5, 0.5],
+					"min": [-0.5, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "stonebricks"
+	},
+	"Nach0VanillaStoneBricksStairsX+": {
+		"parentType": "Nach0VanillaStoneBricksStairs",
+		"mesh": "StairsX+.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.5],
+					"min": [-0.25, -0.25, -0.5]
+				},
+				{
+					"max": [0.5, 0.25, 0.5],
+					"min": [0, 0, -0.5]
+				},
+				{
+					"max": [0.5, 0.5, 0.5],
+					"min": [0.25, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "stonebricks"
+	},
+	"Nach0VanillaStoneBricksStairsZ-": {
+		"parentType": "Nach0VanillaStoneBricksStairs",
+		"mesh": "StairsZ-.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.25],
+					"min": [-0.5, -0.25, -0.5]
+				},
+				{
+					"max": [0.5, 0.25, 0],
+					"min": [-0.5, 0, -0.5]
+				},
+				{
+					"max": [0.5, 0.5, -0.25],
+					"min": [-0.5, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "stonebricks"
+	},
+	"Nach0VanillaStoneBricksStairsZ+": {
+		"parentType": "Nach0VanillaStoneBricksStairs",
+		"mesh": "StairsZ+.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.5],
+					"min": [-0.5, -0.25, -0.25]
+				},
+				{
+					"max": [0.5, 0.25, 0.5],
+					"min": [-0.5, 0, 0]
+				},
+				{
+					"max": [0.5, 0.5, 0.5],
+					"min": [-0.5, 0.25, 0.25]
+				}
+			]
+		},
+		"sideall": "stonebricks"
+	},
+	"Nach0VanillaStoneBricksBlackStairs": {
+		"categories": [
+			"blocks",
+			"buildingblocks",
+			"specialblocks",
+			"stairs",
+			"vanilla",
+			"stonebricks",
+			"b",
+			"moreblocks",
+			"nach0"
+		],
+		"icon": "Nach0VanillaStoneBricksBlackStairs.png",
+		"maxStackSize": 200,
+		"isPlaceable": true,
+		"needsBase": false,
+		"isRotatable": true,
+		"rotatablex-": "Nach0VanillaStoneBricksBlackStairsX-",
+		"rotatablex+": "Nach0VanillaStoneBricksBlackStairsX+",
+		"rotatablez-": "Nach0VanillaStoneBricksBlackStairsZ-",
+		"rotatablez+": "Nach0VanillaStoneBricksBlackStairsZ+"
+	},
+	"Nach0VanillaStoneBricksBlackStairsX-": {
+		"parentType": "Nach0VanillaStoneBricksBlackStairs",
+		"mesh": "StairsX-.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.25, 0, 0.5],
+					"min": [-0.5, -0.25, -0.5]
+				},
+				{
+					"max": [0, 0.25, 0.5],
+					"min": [-0.5, 0, -0.5]
+				},
+				{
+					"max": [-0.25, 0.5, 0.5],
+					"min": [-0.5, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "Nach0StoneBricksBlackTexture"
+	},
+	"Nach0VanillaStoneBricksBlackStairsX+": {
+		"parentType": "Nach0VanillaStoneBricksBlackStairs",
+		"mesh": "StairsX+.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.5],
+					"min": [-0.25, -0.25, -0.5]
+				},
+				{
+					"max": [0.5, 0.25, 0.5],
+					"min": [0, 0, -0.5]
+				},
+				{
+					"max": [0.5, 0.5, 0.5],
+					"min": [0.25, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "Nach0StoneBricksBlackTexture"
+	},
+	"Nach0VanillaStoneBricksBlackStairsZ-": {
+		"parentType": "Nach0VanillaStoneBricksBlackStairs",
+		"mesh": "StairsZ-.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.25],
+					"min": [-0.5, -0.25, -0.5]
+				},
+				{
+					"max": [0.5, 0.25, 0],
+					"min": [-0.5, 0, -0.5]
+				},
+				{
+					"max": [0.5, 0.5, -0.25],
+					"min": [-0.5, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "Nach0StoneBricksBlackTexture"
+	},
+	"Nach0VanillaStoneBricksBlackStairsZ+": {
+		"parentType": "Nach0VanillaStoneBricksBlackStairs",
+		"mesh": "StairsZ+.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.5],
+					"min": [-0.5, -0.25, -0.25]
+				},
+				{
+					"max": [0.5, 0.25, 0.5],
+					"min": [-0.5, 0, 0]
+				},
+				{
+					"max": [0.5, 0.5, 0.5],
+					"min": [-0.5, 0.25, 0.25]
+				}
+			]
+		},
+		"sideall": "Nach0StoneBricksBlackTexture"
+	},
+	"Nach0VanillaStoneBricksBrownStairs": {
+		"categories": [
+			"blocks",
+			"buildingblocks",
+			"specialblocks",
+			"stairs",
+			"vanilla",
+			"stonebricks",
+			"c",
+			"moreblocks",
+			"nach0"
+		],
+		"icon": "Nach0VanillaStoneBricksBrownStairs.png",
+		"maxStackSize": 200,
+		"isPlaceable": true,
+		"needsBase": false,
+		"isRotatable": true,
+		"rotatablex-": "Nach0VanillaStoneBricksBrownStairsX-",
+		"rotatablex+": "Nach0VanillaStoneBricksBrownStairsX+",
+		"rotatablez-": "Nach0VanillaStoneBricksBrownStairsZ-",
+		"rotatablez+": "Nach0VanillaStoneBricksBrownStairsZ+"
+	},
+	"Nach0VanillaStoneBricksBrownStairsX-": {
+		"parentType": "Nach0VanillaStoneBricksBrownStairs",
+		"mesh": "StairsX-.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.25, 0, 0.5],
+					"min": [-0.5, -0.25, -0.5]
+				},
+				{
+					"max": [0, 0.25, 0.5],
+					"min": [-0.5, 0, -0.5]
+				},
+				{
+					"max": [-0.25, 0.5, 0.5],
+					"min": [-0.5, 0.25, -0.5]
+				}
+			]
+		},
+		"color": "#7a6b47",
+		"sideall": "stonebricksgeneric"
+	},
+	"Nach0VanillaStoneBricksBrownStairsX+": {
+		"parentType": "Nach0VanillaStoneBricksBrownStairs",
+		"mesh": "StairsX+.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.5],
+					"min": [-0.25, -0.25, -0.5]
+				},
+				{
+					"max": [0.5, 0.25, 0.5],
+					"min": [0, 0, -0.5]
+				},
+				{
+					"max": [0.5, 0.5, 0.5],
+					"min": [0.25, 0.25, -0.5]
+				}
+			]
+		},
+		"color": "#7a6b47",
+		"sideall": "stonebricksgeneric"
+	},
+	"Nach0VanillaStoneBricksBrownStairsZ-": {
+		"parentType": "Nach0VanillaStoneBricksBrownStairs",
+		"mesh": "StairsZ-.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.25],
+					"min": [-0.5, -0.25, -0.5]
+				},
+				{
+					"max": [0.5, 0.25, 0],
+					"min": [-0.5, 0, -0.5]
+				},
+				{
+					"max": [0.5, 0.5, -0.25],
+					"min": [-0.5, 0.25, -0.5]
+				}
+			]
+		},
+		"color": "#7a6b47",
+		"sideall": "stonebricksgeneric"
+	},
+	"Nach0VanillaStoneBricksBrownStairsZ+": {
+		"parentType": "Nach0VanillaStoneBricksBrownStairs",
+		"mesh": "StairsZ+.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.5],
+					"min": [-0.5, -0.25, -0.25]
+				},
+				{
+					"max": [0.5, 0.25, 0.5],
+					"min": [-0.5, 0, 0]
+				},
+				{
+					"max": [0.5, 0.5, 0.5],
+					"min": [-0.5, 0.25, 0.25]
+				}
+			]
+		},
+		"color": "#7a6b47",
+		"sideall": "stonebricksgeneric"
+	},
+	"Nach0VanillaStoneBricksWhiteStairs": {
+		"categories": [
+			"blocks",
+			"buildingblocks",
+			"specialblocks",
+			"stairs",
+			"vanilla",
+			"stonebricks",
+			"d",
+			"moreblocks",
+			"nach0"
+		],
+		"icon": "Nach0VanillaStoneBricksWhiteStairs.png",
+		"maxStackSize": 200,
+		"isPlaceable": true,
+		"needsBase": false,
+		"isRotatable": true,
+		"rotatablex-": "Nach0VanillaStoneBricksWhiteStairsX-",
+		"rotatablex+": "Nach0VanillaStoneBricksWhiteStairsX+",
+		"rotatablez-": "Nach0VanillaStoneBricksWhiteStairsZ-",
+		"rotatablez+": "Nach0VanillaStoneBricksWhiteStairsZ+"
+	},
+	"Nach0VanillaStoneBricksWhiteStairsX-": {
+		"parentType": "Nach0VanillaStoneBricksWhiteStairs",
+		"mesh": "StairsX-.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.25, 0, 0.5],
+					"min": [-0.5, -0.25, -0.5]
+				},
+				{
+					"max": [0, 0.25, 0.5],
+					"min": [-0.5, 0, -0.5]
+				},
+				{
+					"max": [-0.25, 0.5, 0.5],
+					"min": [-0.5, 0.25, -0.5]
+				}
+			]
+		},
+		"color": "#b2b2b2",
+		"sideall": "stonebricksgeneric"
+	},
+	"Nach0VanillaStoneBricksWhiteStairsX+": {
+		"parentType": "Nach0VanillaStoneBricksWhiteStairs",
+		"mesh": "StairsX+.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.5],
+					"min": [-0.25, -0.25, -0.5]
+				},
+				{
+					"max": [0.5, 0.25, 0.5],
+					"min": [0, 0, -0.5]
+				},
+				{
+					"max": [0.5, 0.5, 0.5],
+					"min": [0.25, 0.25, -0.5]
+				}
+			]
+		},
+		"color": "#b2b2b2",
+		"sideall": "stonebricksgeneric"
+	},
+	"Nach0VanillaStoneBricksWhiteStairsZ-": {
+		"parentType": "Nach0VanillaStoneBricksWhiteStairs",
+		"mesh": "StairsZ-.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.25],
+					"min": [-0.5, -0.25, -0.5]
+				},
+				{
+					"max": [0.5, 0.25, 0],
+					"min": [-0.5, 0, -0.5]
+				},
+				{
+					"max": [0.5, 0.5, -0.25],
+					"min": [-0.5, 0.25, -0.5]
+				}
+			]
+		},
+		"color": "#b2b2b2",
+		"sideall": "stonebricksgeneric"
+	},
+	"Nach0VanillaStoneBricksWhiteStairsZ+": {
+		"parentType": "Nach0VanillaStoneBricksWhiteStairs",
+		"color": "#b2b2b2",
+		"mesh": "StairsZ+.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.5],
+					"min": [-0.5, -0.25, -0.25]
+				},
+				{
+					"max": [0.5, 0.25, 0.5],
+					"min": [-0.5, 0, 0]
+				},
+				{
+					"max": [0.5, 0.5, 0.5],
+					"min": [-0.5, 0.25, 0.25]
+				}
+			]
+		},
+		"sideall": "stonebricksgeneric"
+	}
+}

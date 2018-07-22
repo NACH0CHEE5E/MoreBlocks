@@ -520,5 +520,10 @@
 	},
 	"Nach0TestLightPoleTexture": {
 		"albedo": "LightPole"
+	},
+	"Nach0StoneBricksBlackTexture": {
+		"albedo": "StoneBricksBlack",
+		"height" : "stoneBricks",
+		"normal" : "stoneBricks"
 	}
 }
