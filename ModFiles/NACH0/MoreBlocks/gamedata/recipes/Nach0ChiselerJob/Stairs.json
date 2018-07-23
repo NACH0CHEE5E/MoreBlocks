@@ -1,19 +1,58 @@
 [{
-	"defaultLimit": 25,
-	"defaultPriority": -100,
-	"isOptional": false,
-	"name": "Nach0VanillaStoneBricksStairsCraft-Nach0ChiselerJob",
-	"requires": [{
+		"defaultLimit": 25,
+		"defaultPriority": -100,
+		"isOptional": false,
+		"name": "Nach0VanillaStoneBricksStairsCraft-Nach0ChiselerJob",
+		"requires": [{
+				"amount": 5,
+				"type": "stonebricks"
+			},
+			{
+				"amount": 1,
+				"type": "Nach0Chisel"
+			}
+		],
+		"results": [{
 			"amount": 5,
-			"type": "stonebricks"
-		},
-		{
-			"amount": 1,
-			"type": "Nach0Chisel"
-		}
-	],
-	"results": [{
-		"amount": 5,
-		"type": "Nach0VanillaStoneBricksStairs"
-	}]
-}]
+			"type": "Nach0VanillaStoneBricksStairs"
+		}]
+	},
+	{
+		"defaultLimit": 25,
+		"defaultPriority": -100,
+		"isOptional": false,
+		"name": "Nach0CobblestoneStairsCraft-Nach0ChiselerJob",
+		"requires": [{
+				"amount": 5,
+				"type": "Nach0CobblestoneStairs"
+			},
+			{
+				"amount": 1,
+				"type": "Nach0Chisel"
+			}
+		],
+		"results": [{
+			"amount": 5,
+			"type": "Nach0CobblestoneStairs"
+		}]
+	},
+	{
+		"defaultLimit": 25,
+		"defaultPriority": -100,
+		"isOptional": false,
+		"name": "Nach0MossyCobblestoneStairsCraft-Nach0ChiselerJob",
+		"requires": [{
+				"amount": 5,
+				"type": "Nach0MossyCobblestone"
+			},
+			{
+				"amount": 1,
+				"type": "Nach0Chisel"
+			}
+		],
+		"results": [{
+			"amount": 5,
+			"type": "Nach0MossyCobblestoneStairs"
+		}]
+	}
+]

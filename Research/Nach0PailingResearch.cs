@@ -11,7 +11,7 @@ namespace MoreBlocks.Research
             key = "Nach0PailingResearch";
             icon = "gamedata/mods/NACH0/MoreBlocks/gamedata/textures/icons/Nach0Pailer.png";
             iterationCount = 5;
-            AddIterationRequirement("Nach0Bucket", 2);
+            AddIterationRequirement("Khanx.SimpleFluids.EmptyBucket", 2);
             AddDependency("pipliz.baseresearch.bronzeanvil");
             AddDependency("pipliz.baseresearch.bloomery");
         }

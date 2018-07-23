@@ -1,6 +1,6 @@
 [{
 	"name": "NACH0.MoreBlocks",
-	"version": "1.3.5",
+	"version": "1.4.2",
 	"dllpath": "MoreBlocks.dll",
 	"namepretty": "More Blocks",
 	"enabled": true,
@@ -8,18 +8,33 @@
 	"compatibleversions": [
 		"0.6.3"
 	],
-	"jsonFiles": [
-		{
-			"fileType": "addOrReplaceNPCRecipes",
-			"index": -1000000,
-			"limitsUIMapping": [
-				"shop"
-			],
-			"npcType": "pipliz.merchant",
-			"relativePath": "gamedata/SimpleFluids.override.json"
-		}
-	],
+	"jsonFiles": [{
+		"fileType": "addOrReplaceNPCRecipes",
+		"index": -1000000,
+		"limitsUIMapping": [
+			"shop"
+		],
+		"npcType": "pipliz.merchant",
+		"relativePath": "gamedata/SimpleFluids.override.json"
+	}],
 	"patchnotes": [
+		{
+			"version": "1.4.1",
+			"notes": [
+				"Pailing research now requires the correct bucket",
+				"*If you find any issues or have suggestions join the discord",
+				"*discord.gg/tqFhxhm"
+			]
+		},
+		{
+			"version": "1.4.0",
+			"notes": [
+				"added stairs, slabs, upside down slabs, side slabs",
+				"also fixed a couple issues",
+				"*If you find any issues or have suggestions join the discord",
+				"*discord.gg/tqFhxhm"
+			]
+		},
 		{
 			"version": "1.3.5",
 			"notes": [

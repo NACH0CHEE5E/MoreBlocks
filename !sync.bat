@@ -1,7 +1,6 @@
 @echo off
 start SyncClassLibary.ffs_batch
-echo syncing class libary
+pause
 start SyncModFiles.ffs_batch
-echo syncing mod files with repository
 echo done...
 pause
