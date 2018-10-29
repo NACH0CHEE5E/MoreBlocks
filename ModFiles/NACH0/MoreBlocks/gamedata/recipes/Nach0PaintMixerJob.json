@@ -1,0 +1,309 @@
+[{
+		"defaultLimit": 150,
+		"defaultPriority": 300,
+		"isOptional": true,
+		"name": "Nach0AquaPaintCraft-Nach0PaintMixerJob",
+		"requires": [{
+				"amount": 1,
+				"type": "Nach0LightBluePaint"
+			},
+			{
+				"amount": 1,
+				"type": "Nach0WhitePaint"
+			}
+		],
+		"results": [{
+			"amount": 2,
+			"type": "Nach0AquaPaint"
+		}]
+	},
+	{
+		"defaultLimit": 150,
+		"defaultPriority": 300,
+		"isOptional": false,
+		"name": "Nach0BlackPaintCraft-Nach0PaintMixerJob",
+		"requires": [{
+				"amount": 1,
+				"type": "Nach0WhitePaint"
+			},
+			{
+				"amount": 3,
+				"type": "coalore"
+			}
+		],
+		"results": [{
+			"amount": 1,
+			"type": "Nach0BlackPaint"
+		}]
+	},
+	{
+		"defaultLimit": 150,
+		"defaultPriority": 300,
+		"isOptional": false,
+		"name": "Nach0BluePaintCraft-Nach0PaintMixerJob",
+		"requires": [{
+				"amount": 15,
+				"type": "alkanet"
+			},
+			{
+				"amount": 1,
+				"type": "Nach0WaterBucket"
+			}
+		],
+		"results": [{
+			"amount": 1,
+			"type": "Nach0BluePaint"
+		}]
+	},
+	{
+		"defaultLimit": 150,
+		"defaultPriority": 300,
+		"isOptional": true,
+		"name": "Nach0DarkGreenPaintCraft-Nach0PaintMixerJob",
+		"requires": [{
+				"amount": 1,
+				"type": "Nach0GreenPaint"
+			},
+			{
+				"amount": 1,
+				"type": "Nach0BlackPaint"
+			}
+		],
+		"results": [{
+			"amount": 2,
+			"type": "Nach0DarkGreenPaint"
+		}]
+	},
+	{
+		"defaultLimit": 150,
+		"defaultPriority": 300,
+		"isOptional": true,
+		"name": "Nach0GreenPaintCraft-Nach0PaintMixerJob",
+		"requires": [{
+				"amount": 1,
+				"type": "Nach0BluePaint"
+			},
+			{
+				"amount": 1,
+				"type": "Nach0YellowPaint"
+			}
+		],
+		"results": [{
+			"amount": 2,
+			"type": "Nach0GreenPaint"
+		}]
+	},
+	{
+		"defaultLimit": 150,
+		"defaultPriority": 300,
+		"isOptional": true,
+		"name": "Nach0GreyPaintCraft-Nach0PaintMixerJob",
+		"requires": [{
+				"amount": 1,
+				"type": "Nach0BlackPaint"
+			},
+			{
+				"amount": 1,
+				"type": "Nach0WhitePaint"
+			}
+		],
+		"results": [{
+			"amount": 2,
+			"type": "Nach0GreyPaint"
+		}]
+	},
+	{
+		"defaultLimit": 150,
+		"defaultPriority": 300,
+		"isOptional": true,
+		"name": "Nach0LightBluePaintCraft-Nach0PaintMixerJob",
+		"requires": [{
+				"amount": 1,
+				"type": "Nach0BluePaint"
+			},
+			{
+				"amount": 1,
+				"type": "Nach0WhitePaint"
+			}
+		],
+		"results": [{
+			"amount": 2,
+			"type": "Nach0LightBluePaint"
+		}]
+	},
+	{
+		"defaultLimit": 150,
+		"defaultPriority": 300,
+		"isOptional": true,
+		"name": "Nach0LightGreyPaintCraft-Nach0PaintMixerJob",
+		"requires": [{
+				"amount": 1,
+				"type": "Nach0GreyPaint"
+			},
+			{
+				"amount": 1,
+				"type": "Nach0WhitePaint"
+			}
+		],
+		"results": [{
+			"amount": 2,
+			"type": "Nach0LightGreyPaint"
+		}]
+	},
+	{
+		"defaultLimit": 150,
+		"defaultPriority": 300,
+		"isOptional": true,
+		"name": "Nach0OrangePaintCraft-Nach0PaintMixerJob",
+		"requires": [{
+				"amount": 1,
+				"type": "Nach0RedPaint"
+			},
+			{
+				"amount": 1,
+				"type": "Nach0YellowPaint"
+			}
+		],
+		"results": [{
+			"amount": 2,
+			"type": "Nach0OrangePaint"
+		}]
+	},
+	{
+		"defaultLimit": 150,
+		"defaultPriority": 300,
+		"isOptional": true,
+		"name": "Nach0PinkPaintCraft-Nach0PaintMixerJob",
+		"requires": [{
+				"amount": 1,
+				"type": "Nach0RedPaint"
+			},
+			{
+				"amount": 1,
+				"type": "Nach0WhitePaint"
+			}
+		],
+		"results": [{
+			"amount": 2,
+			"type": "Nach0PinkPaint"
+		}]
+	},
+	{
+		"defaultLimit": 150,
+		"defaultPriority": 300,
+		"isOptional": true,
+		"name": "Nach0PurplePaintCraft-Nach0PaintMixerJob",
+		"requires": [{
+				"amount": 1,
+				"type": "Nach0BluePaint"
+			},
+			{
+				"amount": 1,
+				"type": "Nach0RedPaint"
+			}
+		],
+		"results": [{
+			"amount": 2,
+			"type": "Nach0PurplePaint"
+		}]
+	},
+	{
+		"defaultLimit": 150,
+		"defaultPriority": 300,
+		"isOptional": false,
+		"name": "Nach0RedPaintCraft-Nach0PaintMixerJob",
+		"requires": [{
+				"amount": 15,
+				"type": "hollyhock"
+			},
+			{
+				"amount": 1,
+				"type": "Nach0WaterBucket"
+			}
+		],
+		"results": [{
+			"amount": 1,
+			"type": "Nach0RedPaint"
+		}]
+	},
+	{
+		"defaultLimit": 150,
+		"defaultPriority": 300,
+		"isOptional": false,
+		"name": "Nach0WhitePaintCraft-Nach0PaintMixerJob",
+		"requires": [{
+				"amount": 25,
+				"type": "flour"
+			},
+			{
+				"amount": 1,
+				"type": "Nach0WaterBucket"
+			}
+		],
+		"results": [{
+			"amount": 1,
+			"type": "Nach0WhitePaint"
+		}]
+	},
+	{
+		"defaultLimit": 150,
+		"defaultPriority": 300,
+		"isOptional": false,
+		"name": "Nach0YellowPaintCraft-Nach0PaintMixerJob",
+		"requires": [{
+				"amount": 15,
+				"type": "wolfsbane"
+			},
+			{
+				"amount": 1,
+				"type": "Nach0WaterBucket"
+			}
+		],
+		"results": [{
+			"amount": 1,
+			"type": "Nach0YellowPaint"
+		}]
+	},
+	{
+		"defaultLimit": 150,
+		"defaultPriority": 300,
+		"isOptional": true,
+		"name": "Nach0BrownPaintCraft-Nach0PaintMixerJob",
+		"requires": [{
+				"amount": 1,
+				"type": "Nach0RedPaint"
+			},
+			{
+				"amount": 1,
+				"type": "Nach0YellowPaint"
+			},
+			{
+				"amount": 1,
+				"type": "Nach0BluePaint"
+			}
+		],
+		"results": [{
+			"amount": 3,
+			"type": "Nach0BrownPaint"
+		}]
+	},
+	{
+		"defaultLimit": 150,
+		"defaultPriority": 300,
+		"isOptional": true,
+		"name": "Nach0MagentaPaintCraft-Nach0PaintMixerJob",
+		"requires": [{
+				"amount": 1,
+				"type": "Nach0PurplePaint"
+			},
+			{
+				"amount": 1,
+				"type": "Nach0PinkPaint"
+			}
+		],
+		"results": [{
+			"amount": 2,
+			"type": "Nach0MagentaPaint"
+		}]
+	}
+]

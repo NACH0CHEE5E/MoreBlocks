@@ -1,5 +1,5 @@
-﻿using Pipliz.Mods.APIProvider.Science;
-using Server.Science;
+﻿using Recipes;
+using Science;
 
 namespace MoreBlocks.Research
 {
@@ -15,9 +15,9 @@ namespace MoreBlocks.Research
             AddDependency("Nach0BrokenIce1Research");
         }
 
-        public override void OnResearchComplete(ScienceManagerPlayer manager, EResearchCompletionReason reason)
+		public override void OnResearchComplete (ColonyScienceState manager, EResearchCompletionReason reason)
         {
-            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0IceBroken2Craft-Nach0CrusherJob", true, "Nach0Crusher");
+            manager.Colony.RecipeData.UnlockRecipe(new RecipeKey("Nach0IceBroken2Craft-Nach0CrusherJob"));
         }
     }
 }

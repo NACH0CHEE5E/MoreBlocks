@@ -1,5 +1,6 @@
-﻿using Pipliz.Mods.APIProvider.Science;
-using Server.Science;
+﻿using Recipes;
+using Science;
+
 
 namespace MoreBlocks.Research
 {
@@ -16,9 +17,9 @@ namespace MoreBlocks.Research
             AddDependency("Nach0SandingResearch");
         }
 
-        public override void OnResearchComplete(ScienceManagerPlayer manager, EResearchCompletionReason reason)
+		public override void OnResearchComplete (ColonyScienceState manager, EResearchCompletionReason reason)
         {
-            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0SmoothedConcreteCraft-Nach0SanderJob", true, "Nach0SanderJob");
+            manager.Colony.RecipeData.UnlockRecipe(new RecipeKey("Nach0SmoothedConcreteCraft-Nach0SanderJob"));
         }
     }
 }

@@ -1,0 +1,319 @@
+[{
+		"defaultLimit": 5,
+		"defaultPriority": -100,
+		"isOptional": true,
+		"name": "Nach0Dirt1Craft-pipliz.merchant",
+		"requires": [{
+			"amount": 25,
+			"type": "Nach0SilverCoins"
+		}],
+		"results": [{
+			"amount": 1,
+			"type": "Nach0Dirt1"
+		}]
+	},
+	{
+		"defaultLimit": 5,
+		"defaultPriority": -100,
+		"isOptional": true,
+		"name": "Nach0Dirt2Craft-pipliz.merchant",
+		"requires": [{
+			"amount": 25,
+			"type": "Nach0SilverCoins"
+		}],
+		"results": [{
+			"amount": 1,
+			"type": "Nach0Dirt2"
+		}]
+	},
+	{
+		"defaultLimit": 5,
+		"defaultPriority": -100,
+		"isOptional": true,
+		"name": "Nach0Dirt3Craft-pipliz.merchant",
+		"requires": [{
+			"amount": 25,
+			"type": "Nach0SilverCoins"
+		}],
+		"results": [{
+			"amount": 1,
+			"type": "Nach0Dirt3"
+		}]
+	},
+	{
+		"defaultLimit": 5,
+		"defaultPriority": -100,
+		"isOptional": true,
+		"name": "Nach0Grass1Craft-pipliz.merchant",
+		"requires": [{
+			"amount": 25,
+			"type": "Nach0SilverCoins"
+		}],
+		"results": [{
+			"amount": 1,
+			"type": "Nach0Grass1"
+		}]
+	},
+	{
+		"defaultLimit": 5,
+		"defaultPriority": -100,
+		"isOptional": true,
+		"name": "Nach0Grass1SidedCraft-pipliz.merchant",
+		"requires": [{
+			"amount": 25,
+			"type": "Nach0SilverCoins"
+		}],
+		"results": [{
+			"amount": 1,
+			"type": "Nach0Grass1Sided"
+		}]
+	},
+	{
+		"defaultLimit": 5,
+		"defaultPriority": -100,
+		"isOptional": true,
+		"name": "Nach0HayCraft-pipliz.merchant",
+		"requires": [{
+			"amount": 25,
+			"type": "Nach0SilverCoins"
+		}],
+		"results": [{
+			"type": "Nach0Hay"
+		}]
+	},
+	{
+		"defaultLimit": 5,
+		"defaultPriority": -100,
+		"isOptional": true,
+		"name": "Nach0CrystalBlockCraft-pipliz.merchant",
+		"requires": [{
+			"amount": 25,
+			"type": "Nach0SilverCoins"
+		}],
+		"results": [{
+			"type": "Nach0CrystalBlock"
+		}]
+	},
+	{
+		"defaultLimit": 50,
+		"defaultPriority": 0,
+		"isOptional": true,
+		"name": "Nach0SilverOreCraft-pipliz.merchant",
+		"requires": [{
+			"amount": 100,
+			"type": "goldcoin"
+		}],
+		"results": [{
+			"type": "Nach0SilverOre"
+		}]
+	},
+	{
+		"defaultLimit": 50,
+		"defaultPriority": 0,
+		"isOptional": true,
+		"name": "Nach0PlatniumOreCraft-pipliz.merchant",
+		"requires": [{
+			"amount": 1000,
+			"type": "Nach0SilverCoins"
+		}],
+		"results": [{
+			"type": "Nach0PlatniumOre"
+		}]
+	},
+	{
+		"defaultLimit": 250,
+		"defaultPriority": 100,
+		"isOptional": true,
+		"name": "Nach0RockCraft-pipliz.merchant",
+		"requires": [{
+			"amount": 250,
+			"type": "Nach0PlatniumCoins"
+		}],
+		"results": [{
+			"amount": 1,
+			"type": "Nach0Rock"
+		}]
+	},
+	{
+		"defaultLimit": 5,
+		"defaultPriority": -100,
+		"isOptional": true,
+		"name": "Nach0Sand1Craft-pipliz.merchant",
+		"requires": [{
+			"amount": 25,
+			"type": "Nach0SilverCoins"
+		}],
+		"results": [{
+			"amount": 1,
+			"type": "Nach0Sand1"
+		}]
+	},
+	{
+		"defaultLimit": 5,
+		"defaultPriority": -100,
+		"isOptional": true,
+		"name": "Nach0Sand2Craft-pipliz.merchant",
+		"requires": [{
+			"amount": 25,
+			"type": "Nach0SilverCoins"
+		}],
+		"results": [{
+			"amount": 1,
+			"type": "Nach0Sand2"
+		}]
+	},
+	{
+		"defaultLimit": 5,
+		"defaultPriority": -100,
+		"isOptional": true,
+		"name": "Nach0Stone1Craft-pipliz.merchant",
+		"requires": [{
+			"amount": 25,
+			"type": "Nach0SilverCoins"
+		}],
+		"results": [{
+			"amount": 1,
+			"type": "Nach0Stone1"
+		}]
+	},
+	{
+		"defaultLimit": 5,
+		"defaultPriority": -100,
+		"isOptional": true,
+		"name": "Nach0Stone2Craft-pipliz.merchant",
+		"requires": [{
+			"amount": 25,
+			"type": "Nach0SilverCoins"
+		}],
+		"results": [{
+			"amount": 1,
+			"type": "Nach0Stone2"
+		}]
+	},
+	{
+		"defaultLimit": 5,
+		"defaultPriority": -100,
+		"isOptional": true,
+		"name": "Nach0Stone3Craft-pipliz.merchant",
+		"requires": [{
+			"amount": 25,
+			"type": "Nach0SilverCoins"
+		}],
+		"results": [{
+			"amount": 1,
+			"type": "Nach0Stone3"
+		}]
+	},
+	{
+		"defaultLimit": 5,
+		"defaultPriority": -100,
+		"isOptional": true,
+		"name": "Nach0Stone4Craft-pipliz.merchant",
+		"requires": [{
+			"amount": 25,
+			"type": "Nach0SilverCoins"
+		}],
+		"results": [{
+			"amount": 1,
+			"type": "Nach0Stone4"
+		}]
+	},
+	{
+		"defaultLimit": 5,
+		"defaultPriority": -100,
+		"isOptional": true,
+		"name": "Nach0Stone5Craft-pipliz.merchant",
+		"requires": [{
+			"amount": 25,
+			"type": "Nach0SilverCoins"
+		}],
+		"results": [{
+			"amount": 1,
+			"type": "Nach0Stone5"
+		}]
+	},
+	{
+		"defaultLimit": 5,
+		"defaultPriority": -100,
+		"isOptional": true,
+		"name": "Nach0TreeLog1Craft-pipliz.merchant",
+		"requires": [{
+			"amount": 25,
+			"type": "Nach0SilverCoins"
+		}],
+		"results": [{
+			"amount": 1,
+			"type": "Nach0TreeLog1"
+		}]
+	},
+	{
+		"defaultLimit": 5,
+		"defaultPriority": -100,
+		"isOptional": true,
+		"name": "Nach0TreeLog2Craft-pipliz.merchant",
+		"requires": [{
+			"amount": 25,
+			"type": "Nach0SilverCoins"
+		}],
+		"results": [{
+			"amount": 1,
+			"type": "Nach0TreeLog2"
+		}]
+	},
+	{
+		"defaultLimit": 5,
+		"defaultPriority": -100,
+		"isOptional": true,
+		"name": "Nach0TreeLog3Craft-pipliz.merchant",
+		"requires": [{
+			"amount": 25,
+			"type": "Nach0SilverCoins"
+		}],
+		"results": [{
+			"amount": 1,
+			"type": "Nach0TreeLog3"
+		}]
+	},
+	{
+		"defaultLimit": 5,
+		"defaultPriority": -100,
+		"isOptional": true,
+		"name": "Nach0TreeLog4Craft-pipliz.merchant",
+		"requires": [{
+			"amount": 25,
+			"type": "Nach0SilverCoins"
+		}],
+		"results": [{
+			"amount": 1,
+			"type": "Nach0TreeLog4"
+		}]
+	},
+	{
+		"defaultLimit": 5,
+		"defaultPriority": -100,
+		"isOptional": true,
+		"name": "Nach0TreeLog5Craft-pipliz.merchant",
+		"requires": [{
+			"amount": 25,
+			"type": "Nach0SilverCoins"
+		}],
+		"results": [{
+			"amount": 1,
+			"type": "Nach0TreeLog5"
+		}]
+	},
+	{
+		"defaultLimit": 5,
+		"defaultPriority": -100,
+		"isOptional": true,
+		"name": "Nach0TreeLog6Craft-pipliz.merchant",
+		"requires": [{
+			"amount": 25,
+			"type": "Nach0SilverCoins"
+		}],
+		"results": [{
+			"amount": 1,
+			"type": "Nach0TreeLog6"
+		}]
+	}
+]

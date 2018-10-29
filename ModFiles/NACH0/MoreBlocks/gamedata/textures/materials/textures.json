@@ -1,4 +1,15 @@
 {
+	"_settings" : {
+		"defaultAlbedo" : "./albedo/Nach0Missing.png",
+		"defaultEmissive" : "./emissiveMaskAlpha/default.png",
+		"defaultHeight" : "./heightSmoothnessSpecularity/default.png",
+		"defaultNormal" : "./normal/default.png",
+		"fileExtension" : ".png",
+		"folderAlbedo" : "./albedo/",
+		"folderEmissive" : "./emissiveMaskAlpha/",
+		"folderHeight" : "./heightSmoothnessSpecularity/",
+		"folderNormal" : "./normal/"
+	},
 	"Nach0AdvancedPaintersTableTopTexture": {
 		"albedo": "Nach0AdvancedPaintersTableTop"
 	},
@@ -6,22 +17,13 @@
 		"albedo": "Nach0AquaConcrete",
 		"normal": "Nach0AquaConcrete"
 	},
-	"Nach0AquaPaintBlockTexture": {
-		"albedo": "Nach0AquaPaintBlock"
-	},
 	"Nach0BlackConcreteTexture": {
 		"albedo": "Nach0BlackConcrete",
 		"normal": "Nach0BlackConcrete"
 	},
-	"Nach0BlackPaintBlockTexture": {
-		"albedo": "Nach0BlackPaintBlock"
-	},
 	"Nach0BlueConcreteTexture": {
 		"albedo": "Nach0BlueConcrete",
 		"normal": "Nach0BlueConcrete"
-	},
-	"Nach0BluePaintBlockTexture": {
-		"albedo": "Nach0BluePaintBlock"
 	},
 	"Nach0Brick1Texture": {
 		"albedo": "Nach0Brick1",
@@ -57,9 +59,6 @@
 		"albedo": "Nach0DarkGreenConcrete",
 		"normal": "Nach0DarkGreenConcrete"
 	},
-	"Nach0DarkGreenPaintBlockTexture": {
-		"albedo": "Nach0DarkGreenPaintBlock"
-	},
 	"Nach0Dirt1Texture": {
 		"albedo": "Nach0Dirt1",
 		"normal": "Nach0Dirt1"
@@ -91,15 +90,9 @@
 		"albedo": "Nach0GreenConcrete",
 		"normal": "Nach0GreenConcrete"
 	},
-	"Nach0GreenPaintBlockTexture": {
-		"albedo": "Nach0GreenPaintBlock"
-	},
 	"Nach0ConcreteTexture": {
 		"albedo": "Nach0Concrete",
 		"normal": "Nach0Concrete"
-	},
-	"Nach0GreyPaintBlockTexture": {
-		"albedo": "Nach0GreyPaintBlock"
 	},
 	"Nach0HaySideTexture": {
 		"albedo": "Nach0HaySide",
@@ -121,12 +114,6 @@
 		"albedo": "Nach0LightBlueConcrete",
 		"normal": "Nach0LightBlueConcrete"
 	},
-	"Nach0LightBluePaintBlockTexture": {
-		"albedo": "Nach0LightBluePaintBlock"
-	},
-	"Nach0LightGreyPaintBlockTexture": {
-		"albedo": "Nach0LightGreyPaintBlock"
-	},
 	"Nach0MagicTableSidesTexture": {
 		"albedo": "Nach0MagicTableSides"
 	},
@@ -141,9 +128,6 @@
 		"albedo": "Nach0OrangeConcrete",
 		"normal": "Nach0OrangeConcrete"
 	},
-	"Nach0OrangePaintBlockTexture": {
-		"albedo": "Nach0OrangePaintBlock"
-	},
 	"Nach0PailerTopTexture": {
 		"albedo": "Nach0PailerTop"
 	},
@@ -156,9 +140,6 @@
 	"Nach0PinkConcreteTexture": {
 		"albedo": "Nach0PinkConcrete",
 		"normal": "Nach0PinkConcrete"
-	},
-	"Nach0PinkPaintBlockTexture": {
-		"albedo": "Nach0PinkPaintBlock"
 	},
 	"Nach0Planks1Texture": {
 		"albedo": "Nach0Planks1",
@@ -187,12 +168,6 @@
 	"Nach0PurpleConcreteTexture": {
 		"albedo": "Nach0PurpleConcrete",
 		"normal": "Nach0PurpleConcrete"
-	},
-	"Nach0PurplePaintBlockTexture": {
-		"albedo": "Nach0PurplePaintBlock"
-	},
-	"Nach0RedPaintBlockTexture": {
-		"albedo": "Nach0RedPaintBlock"
 	},
 	"Nach0RockTexture": {
 		"albedo": "Nach0Rock",
@@ -332,11 +307,8 @@
 	"Nach0WheatFarmTopTexture": {
 		"albedo": "Nach0WheatFarmTop"
 	},
-	"Nach0WhitePaintBlockTexture": {
-		"albedo": "Nach0WhitePaintBlock"
-	},
-	"Nach0YellowPaintBlockTexture": {
-		"albedo": "Nach0YellowPaintBlock"
+	"Nach0PaintBlock": {
+		"albedo": "Nach0PaintBlock"
 	},
 	"Nach0ConcreteLayerSidesTexture": {
 		"albedo": "Nach0ConcreteLayerSides"
@@ -346,9 +318,6 @@
 	},
 	"Nach0BrickMakerTopTexture": {
 		"albedo": "Nach0BrickMakerTop"
-	},
-	"Nach0BrownPaintBlockTexture": {
-		"albedo": "Nach0BrownPaintBlock"
 	},
 	"Nach0SanderTopTexture": {
 		"albedo": "Nach0SanderTop"
@@ -409,9 +378,6 @@
 		"albedo": "Nach0MossyCobblestone",
 		"normal": "Nach0MossyCobblestone"
 	},
-	"Nach0MagentaPaintBlockTexture": {
-		"albedo": "Nach0MagentaPaintBlock"
-	},
 	"Nach0IceBroken1Texture": {
 		"albedo": "Nach0IceBroken1",
 		"normal": "Nach0IceBroken1"
@@ -448,82 +414,7 @@
 		"albedo": "Nach0TreeLog6SideTipped",
 		"normal": "Nach0TreeLog6SideTipped"
 	},
-	"Nach0MagicTableTopX+Texture": {
-		"albedo": "Nach0MagicTableTopX+",
-		"normal": "Nach0MagicTableTopX+"
-	},
-	"Nach0MagicTableTopX-Texture": {
-		"albedo": "Nach0MagicTableTopX-",
-		"normal": "Nach0MagicTableTopX-"
-	},
-	"Nach0MagicTableTopZ-Texture": {
-		"albedo": "Nach0MagicTableTopZ-",
-		"normal": "Nach0MagicTableTopZ-"
-	},
-	"Nach0MagicTableTopZ+Texture": {
-		"albedo": "Nach0MagicTableTopZ+",
-		"normal": "Nach0MagicTableTopZ+"
-	},
-	"Nach0SanderTopXTexture": {
-		"albedo": "Nach0SanderTopX"
-	},
-	"Nach0SanderTopZTexture": {
-		"albedo": "Nach0SanderTopZ"
-	},
-	"Nach0PaintersTableTopX+Texture": {
-		"albedo": "Nach0PaintersTableTopX+"
-	},
-	"Nach0PaintersTableTopX-Texture": {
-		"albedo": "Nach0PaintersTableTopX-"
-	},
-	"Nach0PaintersTableTopZ+Texture": {
-		"albedo": "Nach0PaintersTableTopZ+"
-	},
-	"Nach0PaintersTableTopZ-Texture": {
-		"albedo": "Nach0PaintersTableTopZ-"
-	},
-	"Nach0AdvancedPaintersTableTopX+Texture": {
-		"albedo": "Nach0AdvancedPaintersTableTopX+"
-	},
-	"Nach0AdvancedPaintersTableTopX-Texture": {
-		"albedo": "Nach0AdvancedPaintersTableTopX-"
-	},
-	"Nach0AdvancedPaintersTableTopZ+Texture": {
-		"albedo": "Nach0AdvancedPaintersTableTopZ+"
-	},
-	"Nach0AdvancedPaintersTableTopZ-Texture": {
-		"albedo": "Nach0AdvancedPaintersTableTopZ-"
-	},
-	"Nach0CarversTableTopX+Texture": {
-		"albedo": "Nach0CarversTableTopX+"
-	},
-	"Nach0CarversTableTopX-Texture": {
-		"albedo": "Nach0CarversTableTopX-"
-	},
-	"Nach0CarversTableTopZ+Texture": {
-		"albedo": "Nach0CarversTableTopZ+"
-	},
-	"Nach0CarversTableTopZ-Texture": {
-		"albedo": "Nach0CarversTableTopZ-"
-	},
-	"Nach0ChiselerTopX+Texture": {
-		"albedo": "Nach0ChiselerTopX+"
-	},
-	"Nach0ChiselerTopX-Texture": {
-		"albedo": "Nach0ChiselerTopX-"
-	},
-	"Nach0ChiselerTopZ+Texture": {
-		"albedo": "Nach0ChiselerTopZ+"
-	},
-	"Nach0ChiselerTopZ-Texture": {
-		"albedo": "Nach0ChiselerTopZ-"
-	},
 	"Nach0TestLightPoleTexture": {
 		"albedo": "LightPole"
-	},
-	"Nach0StoneBricksBlackTexture": {
-		"albedo": "StoneBricksBlack",
-		"height" : "stoneBricks",
-		"normal" : "stoneBricks"
 	}
 }

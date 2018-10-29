@@ -1,5 +1,6 @@
-﻿using Pipliz.Mods.APIProvider.Science;
-using Server.Science;
+﻿using Recipes;
+using Science;
+
 
 namespace MoreBlocks.Research
 {
@@ -11,14 +12,14 @@ namespace MoreBlocks.Research
             key = "Nach0PailingResearch";
             icon = "gamedata/mods/NACH0/MoreBlocks/gamedata/textures/icons/Nach0Pailer.png";
             iterationCount = 5;
-            AddIterationRequirement("Khanx.SimpleFluids.EmptyBucket", 2);
+            AddIterationRequirement("Nach0Bucket", 2);
             AddDependency("pipliz.baseresearch.bronzeanvil");
             AddDependency("pipliz.baseresearch.bloomery");
         }
 
-        public override void OnResearchComplete(ScienceManagerPlayer manager, EResearchCompletionReason reason)
+		public override void OnResearchComplete (ColonyScienceState manager, EResearchCompletionReason reason)
         {
-            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0PailerCraft-pipliz.metalsmithjob", true, "pipliz.metalsmithjob");
+            manager.Colony.RecipeData.UnlockRecipe(new RecipeKey("Nach0PailerCraft-pipliz.metalsmithjob"));
         }
     }
 }

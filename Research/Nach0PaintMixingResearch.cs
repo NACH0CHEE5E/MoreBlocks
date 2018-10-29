@@ -1,5 +1,6 @@
-﻿using Pipliz.Mods.APIProvider.Science;
-using Server.Science;
+﻿using Recipes;
+using Science;
+
 
 namespace MoreBlocks.Research
 {
@@ -19,20 +20,20 @@ namespace MoreBlocks.Research
             AddDependency("Nach0PaintMakingResearch");
         }
 
-        public override void OnResearchComplete(ScienceManagerPlayer manager, EResearchCompletionReason reason)
+		public override void OnResearchComplete (ColonyScienceState manager, EResearchCompletionReason reason)
         {
-            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0AquaPaintCraft-Nach0PaintMixerJob", true, "Nach0PaintMixerJob");
-            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0DarkBluePaintCraft-Nach0PaintMixerJob", true, "Nach0PaintMixerJob");
-            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0GreenPaintCraft-Nach0PaintMixerJob", true, "Nach0PaintMixerJob");
-            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0GreyPaintCraft-Nach0PaintMixerJob", true, "Nach0PaintMixerJob");
-            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0LightBluePaintCraft-Nach0PaintMixerJob", true, "Nach0PaintMixerJob");
-            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0LightGreyPaintCraft-Nach0PaintMixerJob", true, "Nach0PaintMixerJob");
-            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0OrangePaintCraft-Nach0PaintMixerJob", true, "Nach0PaintMixerJob");
-            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0PinkPaintCraft-Nach0PaintMixerJob", true, "Nach0PaintMixerJob");
-            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0PurplePaintCraft-Nach0PaintMixerJob", true, "Nach0PaintMixerJob");
-            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0BrownPaintCraft-Nach0PaintMixerJob", true, "Nach0PaintMixerJob");
-            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0DarkGreenPaintCraft-Nach0PaintMixerJob", true, "Nach0PaintMixerJob");
-            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0DarkMagentaPaintCraft-Nach0PaintMixerJob", true, "Nach0PaintMixerJob");
+            manager.Colony.RecipeData.UnlockRecipe(new RecipeKey("Nach0AquaPaintCraft-Nach0PaintMixerJob"));
+            manager.Colony.RecipeData.UnlockRecipe(new RecipeKey("Nach0DarkBluePaintCraft-Nach0PaintMixerJob"));
+            manager.Colony.RecipeData.UnlockRecipe(new RecipeKey("Nach0GreenPaintCraft-Nach0PaintMixerJob"));
+            manager.Colony.RecipeData.UnlockRecipe(new RecipeKey("Nach0GreyPaintCraft-Nach0PaintMixerJob"));
+            manager.Colony.RecipeData.UnlockRecipe(new RecipeKey("Nach0LightBluePaintCraft-Nach0PaintMixerJob"));
+            manager.Colony.RecipeData.UnlockRecipe(new RecipeKey("Nach0LightGreyPaintCraft-Nach0PaintMixerJob"));
+            manager.Colony.RecipeData.UnlockRecipe(new RecipeKey("Nach0OrangePaintCraft-Nach0PaintMixerJob"));
+            manager.Colony.RecipeData.UnlockRecipe(new RecipeKey("Nach0PinkPaintCraft-Nach0PaintMixerJob"));
+            manager.Colony.RecipeData.UnlockRecipe(new RecipeKey("Nach0PurplePaintCraft-Nach0PaintMixerJob"));
+            manager.Colony.RecipeData.UnlockRecipe(new RecipeKey("Nach0BrownPaintCraft-Nach0PaintMixerJob"));
+            manager.Colony.RecipeData.UnlockRecipe(new RecipeKey("Nach0DarkGreenPaintCraft-Nach0PaintMixerJob"));
+            manager.Colony.RecipeData.UnlockRecipe(new RecipeKey("Nach0MagentaPaintCraft-Nach0PaintMixerJob"));
         }
     }
 }

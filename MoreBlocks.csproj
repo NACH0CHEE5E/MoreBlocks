@@ -1,4 +1,4 @@
-﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+﻿<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
@@ -6,7 +6,7 @@
     <OutputType>Library</OutputType>
     <NoStandardLibraries>false</NoStandardLibraries>
     <AssemblyName>MoreBlocks</AssemblyName>
-    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
   </PropertyGroup>
@@ -33,10 +33,51 @@
     <RootNamespace>MoreBlocks</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="0Harmony, Version=1.0.9.1, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Colony Survival\gamedata\mods\JackPS9\NewColonyAPI\0Harmony.dll</HintPath>
-    </Reference>
+    <Compile Include="BlockJobsModEntries.cs" />
+    <Compile Include="Research\Nach0ArtisteryResearch.cs" />
+    <Compile Include="Research\Nach0BrickLayingResearch.cs" />
+    <Compile Include="Research\Nach0BrickMakingResearch.cs" />
+    <Compile Include="Research\Nach0BrokenIce1Research.cs" />
+    <Compile Include="Research\Nach0BrokenIce2Research.cs" />
+    <Compile Include="Research\Nach0BrokenIce3Research.cs" />
+    <Compile Include="Research\Nach0CarpenterResearch.cs" />
+    <Compile Include="Research\Nach0CarverResearch.cs" />
+    <Compile Include="Research\Nach0ChiselerResearch.cs" />
+    <Compile Include="Research\Nach0ChiselResearch.cs" />
+    <Compile Include="Research\Nach0ColouredConcreteResearch.cs" />
+    <Compile Include="Research\Nach0ConcreteMakingResearch.cs" />
+    <Compile Include="Research\Nach0ConcreteSmoothing2Research.cs" />
+    <Compile Include="Research\Nach0ConcreteSmoothingResearch.cs" />
+    <Compile Include="Research\Nach0CrushingResearch.cs" />
+    <Compile Include="Research\Nach0Currency2Research.cs" />
+    <Compile Include="Research\Nach0CurrencyResearch.cs" />
+    <Compile Include="Research\Nach0ExoticDirtResearch.cs" />
+    <Compile Include="Research\Nach0ExoticGoods2Research.cs" />
+    <Compile Include="Research\Nach0ExoticGoodsResearch.cs" />
+    <Compile Include="Research\Nach0ExoticGrassResearch.cs" />
+    <Compile Include="Research\Nach0ExoticPlantsResearch.cs" />
+    <Compile Include="Research\Nach0ExoticSandResearch.cs" />
+    <Compile Include="Research\Nach0ExoticStoneResearch.cs" />
+    <Compile Include="Research\Nach0ExoticWoodResearch.cs" />
+    <Compile Include="Research\Nach0FaithResearch.cs" />
+    <Compile Include="Research\Nach0FreezingResearch.cs" />
+    <Compile Include="Research\Nach0MagicResearch.cs" />
+    <Compile Include="Research\Nach0MeltingResearch.cs" />
+    <Compile Include="Research\Nach0PailingResearch.cs" />
+    <Compile Include="Research\Nach0Painting2Research.cs" />
+    <Compile Include="Research\Nach0Painting3Research.cs" />
+    <Compile Include="Research\Nach0PaintingResearch.cs" />
+    <Compile Include="Research\Nach0PaintingScienceBagResearch.cs" />
+    <Compile Include="Research\Nach0PaintMakingResearch.cs" />
+    <Compile Include="Research\Nach0PaintMixingResearch.cs" />
+    <Compile Include="Research\Nach0PaperMakingResearch.cs" />
+    <Compile Include="Research\Nach0RockResearch.cs" />
+    <Compile Include="Research\Nach0SandingResearch.cs" />
+    <Compile Include="Research\Nach0SpellsResearch.cs" />
+    <Compile Include="Research\Nach0WoodWorkingResearch.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
     <Reference Include="APIProvider, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Colony Survival\gamedata\mods\Pipliz\APIProvider\APIProvider.dll</HintPath>
@@ -45,155 +86,55 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Colony Survival\colonyserver_Data\Managed\Assembly-CSharp.dll</HintPath>
     </Reference>
-    <Reference Include="BaseGame, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="BaseGame">
       <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Colony Survival\gamedata\mods\Pipliz\BaseGame\BaseGame.dll</HintPath>
     </Reference>
-    <Reference Include="ExtendedAPI">
-      <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Colony Survival\gamedata\mods\Khanx\ExtendedAPI\ExtendedAPI.dll</HintPath>
-    </Reference>
-    <Reference Include="NewColonyAPI, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Colony Survival\gamedata\mods\JackPS9\NewColonyAPI\NewColonyAPI.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
-    <Reference Include="System.Core" />
-    <Reference Include="System.Data" />
-    <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="System.Xml" />
-    <Reference Include="System.Xml.Linq" />
-    <Reference Include="UnityEngine, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Colony Survival\colonyserver_Data\Managed\UnityEngine.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UI, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Colony Survival\colonyserver_Data\Managed\UnityEngine.UI.dll</HintPath>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Colony Survival\colonyserver_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="modentry.cs" />
-    <Compile Include="Jobs\Nach0SanderJob.cs" />
-    <Compile Include="Jobs\Nach0ConcreteLayerJob.cs" />
-    <Compile Include="Jobs\Nach0CrusherJob.cs" />
-    <Compile Include="Jobs\Nach0PaintMixerJob.cs" />
-    <Compile Include="Jobs\Nach0PainterJob.cs" />
-    <Compile Include="Jobs\Nach0MagicianJob.cs" />
-    <Compile Include="Jobs\Nach0MelterJob.cs" />
-    <Compile Include="Jobs\Nach0FreezerJob.cs" />
-    <Compile Include="Jobs\Nach0EnchanterJob.cs" />
-    <Compile Include="Jobs\Nach0ChiselerJob.cs" />
-    <Compile Include="Jobs\Nach0CarverJob.cs" />
-    <Compile Include="Jobs\Nach0BrickMakerJob.cs" />
-    <Compile Include="Jobs\Nach0BrickLayerJob.cs" />
-    <Compile Include="Jobs\Nach0AdvancedPainterJob.cs" />
-    <Compile Include="Jobs\Nach0PailerJob.cs" />
-    <Compile Include="Research\Nach0ArtisteryResearch.cs" />
-    <Compile Include="Research\Nach0BrickLayingResearch.cs" />
-    <Compile Include="Research\Nach0BrickMakingResearch.cs" />
-    <Compile Include="Research\Nach0BrokenIce3Research.cs" />
-    <Compile Include="Research\Nach0BrokenIce2Research.cs" />
-    <Compile Include="Research\Nach0CarpenterResearch.cs" />
-    <Compile Include="Research\Nach0CarverResearch.cs" />
-    <Compile Include="Research\Nach0ChiselerResearch.cs" />
-    <Compile Include="Research\Nach0ChiselResearch.cs" />
-    <Compile Include="Research\Nach0ConcreteSmoothing2Research.cs" />
-    <Compile Include="Research\Nach0ExoticPlantsResearch.cs" />
-    <Compile Include="Research\Nach0PaperMakingResearch.cs" />
-    <Compile Include="Research\Nach0SandingResearch.cs" />
-    <Compile Include="Research\Nach0Currency2Research.cs" />
-    <Compile Include="Research\Nach0CurrencyResearch.cs" />
-    <Compile Include="Research\Nach0ExoticGoods2Research.cs" />
-    <Compile Include="Research\Nach0ExoticGrassResearch.cs" />
-    <Compile Include="Research\Nach0ExoticGoodsResearch.cs" />
-    <Compile Include="Research\Nach0RockResearch.cs" />
-    <Compile Include="Research\Nach0ExoticStoneResearch.cs" />
-    <Compile Include="Research\Nach0ExoticSandResearch.cs" />
-    <Compile Include="Research\Nach0ExoticDirtResearch.cs" />
-    <Compile Include="Research\Nach0ColouredConcreteResearch.cs" />
-    <Compile Include="Research\Nach0ConcreteMakingResearch.cs" />
-    <Compile Include="Research\Nach0ConcreteSmoothingResearch.cs" />
-    <Compile Include="Research\Nach0CrushingResearch.cs" />
-    <Compile Include="Research\Nach0MeltingResearch.cs" />
-    <Compile Include="Research\Nach0FreezingResearch.cs" />
-    <Compile Include="Research\Nach0FaithResearch.cs" />
-    <Compile Include="Research\Nach0MagicResearch.cs" />
-    <Compile Include="Research\Nach0PailingResearch.cs" />
-    <Compile Include="Research\Nach0Painting2Research.cs" />
-    <Compile Include="Research\Nach0Painting3Research.cs" />
-    <Compile Include="Research\Nach0PaintingResearch.cs" />
-    <Compile Include="Research\Nach0PaintingScienceBagResearch.cs" />
-    <Compile Include="Research\Nach0PaintMakingResearch.cs" />
-    <Compile Include="Research\Nach0ExoticWoodResearch.cs" />
-    <Compile Include="Research\Nach0PaintMixingResearch.cs" />
-    <Compile Include="Research\Nach0BrokenIce1Research.cs" />
-    <Compile Include="Research\Nach0SpellsResearch.cs" />
-    <Compile Include="Research\Nach0WoodWorkingResearch.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="ModFiles\NACH0\MoreBlocks\fix.bat" />
     <None Include="ModFiles\NACH0\MoreBlocks\gamedata\locale\en-US.json" />
-    <None Include="ModFiles\NACH0\MoreBlocks\gamedata\meshes\Nach0RockPile.OBJ" />
+    <None Include="ModFiles\NACH0\MoreBlocks\gamedata\meshes\LightPoleBase.obj" />
+    <None Include="ModFiles\NACH0\MoreBlocks\gamedata\meshes\LightPolePole.obj" />
+    <None Include="ModFiles\NACH0\MoreBlocks\gamedata\meshes\RockPile.OBJ" />
+    <None Include="ModFiles\NACH0\MoreBlocks\gamedata\meshes\slabdown.obj" />
+    <None Include="ModFiles\NACH0\MoreBlocks\gamedata\meshes\slabup.obj" />
+    <None Include="ModFiles\NACH0\MoreBlocks\gamedata\meshes\SlabX+.obj" />
+    <None Include="ModFiles\NACH0\MoreBlocks\gamedata\meshes\SlabX-.obj" />
+    <None Include="ModFiles\NACH0\MoreBlocks\gamedata\meshes\SlabZ+.obj" />
+    <None Include="ModFiles\NACH0\MoreBlocks\gamedata\meshes\SlabZ-.obj" />
     <None Include="ModFiles\NACH0\MoreBlocks\gamedata\meshes\StairsX+.obj" />
     <None Include="ModFiles\NACH0\MoreBlocks\gamedata\meshes\StairsX-.obj" />
     <None Include="ModFiles\NACH0\MoreBlocks\gamedata\meshes\StairsZ+.obj" />
     <None Include="ModFiles\NACH0\MoreBlocks\gamedata\meshes\StairsZ-.obj" />
-    <None Include="ModFiles\NACH0\MoreBlocks\gamedata\override\simplefluids.json" />
-    <None Include="ModFiles\NACH0\MoreBlocks\gamedata\recipes\Nach0BrickLayerJob\Bricks.json" />
-    <None Include="ModFiles\NACH0\MoreBlocks\gamedata\recipes\Nach0BrickLayerJob\Stairs.json" />
-    <None Include="ModFiles\NACH0\MoreBlocks\gamedata\recipes\Nach0BrickMakerJob\Misc.json" />
-    <None Include="ModFiles\NACH0\MoreBlocks\gamedata\recipes\Nach0CarverJob\Stairs.json" />
-    <None Include="ModFiles\NACH0\MoreBlocks\gamedata\recipes\Nach0ChiselerJob\Stairs.json" />
-    <None Include="ModFiles\NACH0\MoreBlocks\gamedata\recipes\Nach0ConcreteLayerJob\ColouredConcrete.json" />
-    <None Include="ModFiles\NACH0\MoreBlocks\gamedata\recipes\Nach0ConcreteLayerJob\Concrete.json" />
-    <None Include="ModFiles\NACH0\MoreBlocks\gamedata\recipes\Nach0CrusherJob\Misc.json" />
-    <None Include="ModFiles\NACH0\MoreBlocks\gamedata\recipes\Nach0EnchanterJob\Misc.json" />
-    <None Include="ModFiles\NACH0\MoreBlocks\gamedata\recipes\Nach0FreezerJob\Misc.json" />
-    <None Include="ModFiles\NACH0\MoreBlocks\gamedata\recipes\Nach0MelterJob\Misc.json" />
-    <None Include="ModFiles\NACH0\MoreBlocks\gamedata\recipes\Nach0PailerJob\Misc.json" />
-    <None Include="ModFiles\NACH0\MoreBlocks\gamedata\recipes\Nach0PainterJob\Misc.json" />
-    <None Include="ModFiles\NACH0\MoreBlocks\gamedata\recipes\Nach0PaintMixerJob\Misc.json" />
-    <None Include="ModFiles\NACH0\MoreBlocks\gamedata\recipes\Nach0SanderJob\SmoothedConcrete.json" />
-    <None Include="ModFiles\NACH0\MoreBlocks\gamedata\recipes\pipliz.crafter\misc.json" />
-    <None Include="ModFiles\NACH0\MoreBlocks\gamedata\recipes\pipliz.merchant\Dirt.json" />
-    <None Include="ModFiles\NACH0\MoreBlocks\gamedata\recipes\pipliz.merchant\Grass.json" />
-    <None Include="ModFiles\NACH0\MoreBlocks\gamedata\recipes\pipliz.merchant\Misc.json" />
-    <None Include="ModFiles\NACH0\MoreBlocks\gamedata\recipes\pipliz.merchant\Sand.json" />
-    <None Include="ModFiles\NACH0\MoreBlocks\gamedata\recipes\pipliz.merchant\Stone.json" />
-    <None Include="ModFiles\NACH0\MoreBlocks\gamedata\recipes\pipliz.merchant\TreeLogs.json" />
-    <None Include="ModFiles\NACH0\MoreBlocks\gamedata\recipes\pipliz.metalsmithjob\Misc.json" />
-    <None Include="ModFiles\NACH0\MoreBlocks\gamedata\recipes\pipliz.minter\Misc.json" />
-    <None Include="ModFiles\NACH0\MoreBlocks\gamedata\recipes\pipliz.smelter\Brick.json" />
-    <None Include="ModFiles\NACH0\MoreBlocks\gamedata\recipes\pipliz.stonemason\Misc.json" />
-    <None Include="ModFiles\NACH0\MoreBlocks\gamedata\recipes\pipliz.technologist\misc.json" />
-    <None Include="ModFiles\NACH0\MoreBlocks\gamedata\recipes\pipliz.woodcutter\misc.json" />
+    <None Include="ModFiles\NACH0\MoreBlocks\gamedata\npctypes.json" />
+    <None Include="ModFiles\NACH0\MoreBlocks\gamedata\recipes\Nach0AdvancedPainterJob.json" />
+    <None Include="ModFiles\NACH0\MoreBlocks\gamedata\recipes\Nach0BrickLayerJob.json" />
+    <None Include="ModFiles\NACH0\MoreBlocks\gamedata\recipes\Nach0BrickMakerJob.json" />
+    <None Include="ModFiles\NACH0\MoreBlocks\gamedata\recipes\Nach0CarverJob.json" />
+    <None Include="ModFiles\NACH0\MoreBlocks\gamedata\recipes\Nach0ChiselerJob.json" />
+    <None Include="ModFiles\NACH0\MoreBlocks\gamedata\recipes\Nach0ConcreteLayerJob.json" />
+    <None Include="ModFiles\NACH0\MoreBlocks\gamedata\recipes\Nach0CrusherJob.json" />
+    <None Include="ModFiles\NACH0\MoreBlocks\gamedata\recipes\Nach0EnchanterJob.json" />
+    <None Include="ModFiles\NACH0\MoreBlocks\gamedata\recipes\Nach0FreezerJob.json" />
+    <None Include="ModFiles\NACH0\MoreBlocks\gamedata\recipes\Nach0MelterJob.json" />
+    <None Include="ModFiles\NACH0\MoreBlocks\gamedata\recipes\Nach0PailerJob.json" />
+    <None Include="ModFiles\NACH0\MoreBlocks\gamedata\recipes\Nach0PainterJob.json" />
+    <None Include="ModFiles\NACH0\MoreBlocks\gamedata\recipes\Nach0PaintMixerJob.json" />
+    <None Include="ModFiles\NACH0\MoreBlocks\gamedata\recipes\Nach0SanderJob.json" />
+    <None Include="ModFiles\NACH0\MoreBlocks\gamedata\recipes\pipliz.crafter.json" />
+    <None Include="ModFiles\NACH0\MoreBlocks\gamedata\recipes\pipliz.merchant.json" />
+    <None Include="ModFiles\NACH0\MoreBlocks\gamedata\recipes\pipliz.metalsmithjob.json" />
+    <None Include="ModFiles\NACH0\MoreBlocks\gamedata\recipes\pipliz.minter.json" />
+    <None Include="ModFiles\NACH0\MoreBlocks\gamedata\recipes\pipliz.smelter.json" />
+    <None Include="ModFiles\NACH0\MoreBlocks\gamedata\recipes\pipliz.stonemason.json" />
+    <None Include="ModFiles\NACH0\MoreBlocks\gamedata\recipes\pipliz.technologist.json" />
+    <None Include="ModFiles\NACH0\MoreBlocks\gamedata\recipes\pipliz.woodcutter.json" />
     <None Include="ModFiles\NACH0\MoreBlocks\gamedata\textures\materials\textures.json" />
-    <None Include="ModFiles\NACH0\MoreBlocks\gamedata\types\!-.json" />
-    <None Include="ModFiles\NACH0\MoreBlocks\gamedata\types\blocks.buildingblocks.bricks.json" />
-    <None Include="ModFiles\NACH0\MoreBlocks\gamedata\types\blocks.buildingblocks.cobblestone.json" />
-    <None Include="ModFiles\NACH0\MoreBlocks\gamedata\types\blocks.buildingblocks.colouredblocks.json" />
-    <None Include="ModFiles\NACH0\MoreBlocks\gamedata\types\blocks.buildingblocks.concrete.json" />
-    <None Include="ModFiles\NACH0\MoreBlocks\gamedata\types\blocks.buildingblocks.smoothedconcrete.json" />
-    <None Include="ModFiles\NACH0\MoreBlocks\gamedata\types\blocks.buildingblocks.specialblocks.stairs.json" />
-    <None Include="ModFiles\NACH0\MoreBlocks\gamedata\types\blocks.exoticblocks.dirt.json" />
-    <None Include="ModFiles\NACH0\MoreBlocks\gamedata\types\blocks.exoticblocks.grass.json" />
-    <None Include="ModFiles\NACH0\MoreBlocks\gamedata\types\blocks.exoticblocks.sand.json" />
-    <None Include="ModFiles\NACH0\MoreBlocks\gamedata\types\blocks.exoticblocks.stone.json" />
-    <None Include="ModFiles\NACH0\MoreBlocks\gamedata\types\blocks.exoticblocks.wood.json" />
-    <None Include="ModFiles\NACH0\MoreBlocks\gamedata\types\blocks.magicblocks.json" />
-    <None Include="ModFiles\NACH0\MoreBlocks\gamedata\types\blocks.resourceblocks.ice.json" />
-    <None Include="ModFiles\NACH0\MoreBlocks\gamedata\types\blocks.resourceblocks.misc.json" />
-    <None Include="ModFiles\NACH0\MoreBlocks\gamedata\types\items.buckets.json" />
-    <None Include="ModFiles\NACH0\MoreBlocks\gamedata\types\items.buildingmaterials.json" />
-    <None Include="ModFiles\NACH0\MoreBlocks\gamedata\types\items.coins.json" />
-    <None Include="ModFiles\NACH0\MoreBlocks\gamedata\types\items.magicitems.json" />
-    <None Include="ModFiles\NACH0\MoreBlocks\gamedata\types\items.miscitems.json" />
-    <None Include="ModFiles\NACH0\MoreBlocks\gamedata\types\items.ores.json" />
-    <None Include="ModFiles\NACH0\MoreBlocks\gamedata\types\items.sciencebags.json" />
-    <None Include="ModFiles\NACH0\MoreBlocks\gamedata\types\items.tools.json" />
-    <None Include="ModFiles\NACH0\MoreBlocks\gamedata\types\jobs.json" />
+    <None Include="ModFiles\NACH0\MoreBlocks\gamedata\types.json" />
     <None Include="ModFiles\NACH0\MoreBlocks\modinfo.json" />
-    <None Include="ModFiles\NACH0\MoreBlocks\Requires newcolonyAPI" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="ModFiles\NACH0\MoreBlocks\gamedata\textures\icons\Nach0AdvancedPaintersTable.png" />
@@ -208,7 +149,9 @@
     <Content Include="ModFiles\NACH0\MoreBlocks\gamedata\textures\icons\Nach0BluePaintBlock.png" />
     <Content Include="ModFiles\NACH0\MoreBlocks\gamedata\textures\icons\Nach0Brick.png" />
     <Content Include="ModFiles\NACH0\MoreBlocks\gamedata\textures\icons\Nach0Brick1.png" />
+    <Content Include="ModFiles\NACH0\MoreBlocks\gamedata\textures\icons\Nach0Brick1Stairs.png" />
     <Content Include="ModFiles\NACH0\MoreBlocks\gamedata\textures\icons\Nach0Brick2.png" />
+    <Content Include="ModFiles\NACH0\MoreBlocks\gamedata\textures\icons\Nach0Brick2Stairs.png" />
     <Content Include="ModFiles\NACH0\MoreBlocks\gamedata\textures\icons\Nach0BrickLayer.png" />
     <Content Include="ModFiles\NACH0\MoreBlocks\gamedata\textures\icons\Nach0BrickMaker.png" />
     <Content Include="ModFiles\NACH0\MoreBlocks\gamedata\textures\icons\Nach0BrownConcrete.png" />
@@ -223,6 +166,7 @@
     <Content Include="ModFiles\NACH0\MoreBlocks\gamedata\textures\icons\Nach0ClayBlock.png" />
     <Content Include="ModFiles\NACH0\MoreBlocks\gamedata\textures\icons\Nach0CoalBlock.png" />
     <Content Include="ModFiles\NACH0\MoreBlocks\gamedata\textures\icons\Nach0Cobblestone.png" />
+    <Content Include="ModFiles\NACH0\MoreBlocks\gamedata\textures\icons\Nach0CobblestoneStairs.png" />
     <Content Include="ModFiles\NACH0\MoreBlocks\gamedata\textures\icons\Nach0ColouredConcreteResearch.png" />
     <Content Include="ModFiles\NACH0\MoreBlocks\gamedata\textures\icons\Nach0Concrete.png" />
     <Content Include="ModFiles\NACH0\MoreBlocks\gamedata\textures\icons\Nach0ConcreteLayer.png" />
@@ -270,6 +214,7 @@
     <Content Include="ModFiles\NACH0\MoreBlocks\gamedata\textures\icons\Nach0Melter.png" />
     <Content Include="ModFiles\NACH0\MoreBlocks\gamedata\textures\icons\Nach0Missing.png" />
     <Content Include="ModFiles\NACH0\MoreBlocks\gamedata\textures\icons\Nach0MossyCobblestone.png" />
+    <Content Include="ModFiles\NACH0\MoreBlocks\gamedata\textures\icons\Nach0MossyCobblestoneStairs.png" />
     <Content Include="ModFiles\NACH0\MoreBlocks\gamedata\textures\icons\Nach0OrangeConcrete.png" />
     <Content Include="ModFiles\NACH0\MoreBlocks\gamedata\textures\icons\Nach0OrangePaint.png" />
     <Content Include="ModFiles\NACH0\MoreBlocks\gamedata\textures\icons\Nach0OrangePaintBlock.png" />
@@ -283,11 +228,17 @@
     <Content Include="ModFiles\NACH0\MoreBlocks\gamedata\textures\icons\Nach0PinkPaint.png" />
     <Content Include="ModFiles\NACH0\MoreBlocks\gamedata\textures\icons\Nach0PinkPaintBlock.png" />
     <Content Include="ModFiles\NACH0\MoreBlocks\gamedata\textures\icons\Nach0Planks1.png" />
+    <Content Include="ModFiles\NACH0\MoreBlocks\gamedata\textures\icons\Nach0Planks1Stairs.png" />
     <Content Include="ModFiles\NACH0\MoreBlocks\gamedata\textures\icons\Nach0Planks2.png" />
+    <Content Include="ModFiles\NACH0\MoreBlocks\gamedata\textures\icons\Nach0Planks2Stairs.png" />
     <Content Include="ModFiles\NACH0\MoreBlocks\gamedata\textures\icons\Nach0Planks3.png" />
+    <Content Include="ModFiles\NACH0\MoreBlocks\gamedata\textures\icons\Nach0Planks3Stairs.png" />
     <Content Include="ModFiles\NACH0\MoreBlocks\gamedata\textures\icons\Nach0Planks4.png" />
+    <Content Include="ModFiles\NACH0\MoreBlocks\gamedata\textures\icons\Nach0Planks4Stairs.png" />
     <Content Include="ModFiles\NACH0\MoreBlocks\gamedata\textures\icons\Nach0Planks5.png" />
+    <Content Include="ModFiles\NACH0\MoreBlocks\gamedata\textures\icons\Nach0Planks5Stairs.png" />
     <Content Include="ModFiles\NACH0\MoreBlocks\gamedata\textures\icons\Nach0Planks6.png" />
+    <Content Include="ModFiles\NACH0\MoreBlocks\gamedata\textures\icons\Nach0Planks6Stairs.png" />
     <Content Include="ModFiles\NACH0\MoreBlocks\gamedata\textures\icons\Nach0PlatniumCoins.png" />
     <Content Include="ModFiles\NACH0\MoreBlocks\gamedata\textures\icons\Nach0PlatniumOre.png" />
     <Content Include="ModFiles\NACH0\MoreBlocks\gamedata\textures\icons\Nach0PurpleConcrete.png" />
@@ -339,11 +290,20 @@
     <Content Include="ModFiles\NACH0\MoreBlocks\gamedata\textures\icons\Nach0TreeLog6.png" />
     <Content Include="ModFiles\NACH0\MoreBlocks\gamedata\textures\icons\Nach0TreeLog6Tipped.png" />
     <Content Include="ModFiles\NACH0\MoreBlocks\gamedata\textures\icons\Nach0VanillaBricksStairs.png" />
+    <Content Include="ModFiles\NACH0\MoreBlocks\gamedata\textures\icons\Nach0VanillaCoatedBlackPlanksDownSlab.png" />
+    <Content Include="ModFiles\NACH0\MoreBlocks\gamedata\textures\icons\Nach0VanillaCoatedBlackPlanksStairs.png" />
+    <Content Include="ModFiles\NACH0\MoreBlocks\gamedata\textures\icons\Nach0VanillaCoatedPlanksDownSlab.png" />
     <Content Include="ModFiles\NACH0\MoreBlocks\gamedata\textures\icons\Nach0VanillaCoatedPlanksStairs.png" />
+    <Content Include="ModFiles\NACH0\MoreBlocks\gamedata\textures\icons\Nach0VanillaCoatedRedPlanksDownSlab.png" />
+    <Content Include="ModFiles\NACH0\MoreBlocks\gamedata\textures\icons\Nach0VanillaPlanksDownSlab.png" />
     <Content Include="ModFiles\NACH0\MoreBlocks\gamedata\textures\icons\Nach0VanillaPlanksStairs.png" />
     <Content Include="ModFiles\NACH0\MoreBlocks\gamedata\textures\icons\Nach0VanillaRedPlanksStairs.png" />
     <Content Include="ModFiles\NACH0\MoreBlocks\gamedata\textures\icons\Nach0VanillaStoneBricksBlackStairs.png" />
+    <Content Include="ModFiles\NACH0\MoreBlocks\gamedata\textures\icons\Nach0VanillaStoneBricksBrownStairs.png" />
     <Content Include="ModFiles\NACH0\MoreBlocks\gamedata\textures\icons\Nach0VanillaStoneBricksStairs.png" />
+    <Content Include="ModFiles\NACH0\MoreBlocks\gamedata\textures\icons\Nach0VanillaStoneBricksWhiteStairs.png" />
+    <Content Include="ModFiles\NACH0\MoreBlocks\gamedata\textures\icons\Nach0VanillaTaigaLogDownSlab.png" />
+    <Content Include="ModFiles\NACH0\MoreBlocks\gamedata\textures\icons\Nach0VanillaTemperateLogDownSlab.png" />
     <Content Include="ModFiles\NACH0\MoreBlocks\gamedata\textures\icons\Nach0WaterBucket.png" />
     <Content Include="ModFiles\NACH0\MoreBlocks\gamedata\textures\icons\Nach0WheatFarm.png" />
     <Content Include="ModFiles\NACH0\MoreBlocks\gamedata\textures\icons\Nach0WhiteConcrete.png" />
@@ -352,6 +312,8 @@
     <Content Include="ModFiles\NACH0\MoreBlocks\gamedata\textures\icons\Nach0YellowConcrete.png" />
     <Content Include="ModFiles\NACH0\MoreBlocks\gamedata\textures\icons\Nach0YellowPaint.png" />
     <Content Include="ModFiles\NACH0\MoreBlocks\gamedata\textures\icons\Nach0YellowPaintBlock.png" />
+    <Content Include="ModFiles\NACH0\MoreBlocks\gamedata\textures\icons\RockPile.png" />
+    <Content Include="ModFiles\NACH0\MoreBlocks\gamedata\textures\materials\albedo\LightPole.png" />
     <Content Include="ModFiles\NACH0\MoreBlocks\gamedata\textures\materials\albedo\Nach0AdvancedPaintersTableTop.png" />
     <Content Include="ModFiles\NACH0\MoreBlocks\gamedata\textures\materials\albedo\Nach0AdvancedPaintersTableTopX+.png" />
     <Content Include="ModFiles\NACH0\MoreBlocks\gamedata\textures\materials\albedo\Nach0AdvancedPaintersTableTopX-.png" />
@@ -426,6 +388,7 @@
     <Content Include="ModFiles\NACH0\MoreBlocks\gamedata\textures\materials\albedo\Nach0OrangeConcrete.png" />
     <Content Include="ModFiles\NACH0\MoreBlocks\gamedata\textures\materials\albedo\Nach0OrangePaintBlock.png" />
     <Content Include="ModFiles\NACH0\MoreBlocks\gamedata\textures\materials\albedo\Nach0PailerTop.png" />
+    <Content Include="ModFiles\NACH0\MoreBlocks\gamedata\textures\materials\albedo\Nach0PaintBlock.png" />
     <Content Include="ModFiles\NACH0\MoreBlocks\gamedata\textures\materials\albedo\Nach0PaintersTableTop.png" />
     <Content Include="ModFiles\NACH0\MoreBlocks\gamedata\textures\materials\albedo\Nach0PaintersTableTopX+.png" />
     <Content Include="ModFiles\NACH0\MoreBlocks\gamedata\textures\materials\albedo\Nach0PaintersTableTopX-.png" />
@@ -495,6 +458,9 @@
     <Content Include="ModFiles\NACH0\MoreBlocks\gamedata\textures\materials\albedo\Nach0WhitePaintBlock.png" />
     <Content Include="ModFiles\NACH0\MoreBlocks\gamedata\textures\materials\albedo\Nach0YellowConcrete.png" />
     <Content Include="ModFiles\NACH0\MoreBlocks\gamedata\textures\materials\albedo\Nach0YellowPaintBlock.png" />
+    <Content Include="ModFiles\NACH0\MoreBlocks\gamedata\textures\materials\emissiveMaskAlpha\default.png" />
+    <Content Include="ModFiles\NACH0\MoreBlocks\gamedata\textures\materials\heightSmoothnessSpecularity\default.png" />
+    <Content Include="ModFiles\NACH0\MoreBlocks\gamedata\textures\materials\normal\default.png" />
     <Content Include="ModFiles\NACH0\MoreBlocks\gamedata\textures\materials\normal\Nach0AquaConcrete.png" />
     <Content Include="ModFiles\NACH0\MoreBlocks\gamedata\textures\materials\normal\Nach0BlackConcrete.png" />
     <Content Include="ModFiles\NACH0\MoreBlocks\gamedata\textures\materials\normal\Nach0BlueConcrete.png" />
@@ -587,22 +553,6 @@
     <Content Include="ModFiles\NACH0\MoreBlocks\gamedata\textures\materials\normal\Nach0WhiteConcrete.png" />
     <Content Include="ModFiles\NACH0\MoreBlocks\gamedata\textures\materials\normal\Nach0YellowConcrete.png" />
     <Content Include="ModFiles\NACH0\MoreBlocks\MoreBlocks.dll" />
-    <Content Include="ModFiles\NACH0\MoreBlocks\README.txt" />
-    <Content Include="ModFiles\NACH0\MoreBlocks\TODO List.txt" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="ModFiles\NACH0\MoreBlocks\gamedata\recipes\Nach0AdvancedPainterJob\" />
-    <Folder Include="ModFiles\NACH0\MoreBlocks\gamedata\recipes\Nach0MagicianJob\" />
-    <Folder Include="ModFiles\NACH0\MoreBlocks\gamedata\recipes\pipliz.baker\" />
-    <Folder Include="ModFiles\NACH0\MoreBlocks\gamedata\recipes\pipliz.bloomeryjob\" />
-    <Folder Include="ModFiles\NACH0\MoreBlocks\gamedata\recipes\pipliz.dyer\" />
-    <Folder Include="ModFiles\NACH0\MoreBlocks\gamedata\recipes\pipliz.fineryforgejob\" />
-    <Folder Include="ModFiles\NACH0\MoreBlocks\gamedata\recipes\pipliz.grinder\" />
-    <Folder Include="ModFiles\NACH0\MoreBlocks\gamedata\recipes\pipliz.gunsmithjob\" />
-    <Folder Include="ModFiles\NACH0\MoreBlocks\gamedata\recipes\pipliz.kilnjob\" />
-    <Folder Include="ModFiles\NACH0\MoreBlocks\gamedata\recipes\pipliz.tailor\" />
-    <Folder Include="ModFiles\NACH0\MoreBlocks\gamedata\textures\materials\emissiveMaskAlpha\" />
-    <Folder Include="ModFiles\NACH0\MoreBlocks\gamedata\textures\materials\heightSmoothnessSpecularity\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
   <ProjectExtensions>

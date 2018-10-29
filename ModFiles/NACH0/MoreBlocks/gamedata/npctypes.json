@@ -1,0 +1,122 @@
+[
+	{
+		"data" : {
+			"maskColor1" : "#540202"
+		},
+		"keyName" : "Nach0AdvancedPainterJob",
+		"npcType" : "worker",
+		"printName" : "Advanced Painter"
+	},
+	{
+		"data" : {
+			"maskColor1" : "#540202"
+		},
+		"keyName" : "Nach0BrickLayerJob",
+		"npcType" : "worker",
+		"printName" : "Brick Layer"
+	},
+	{
+		"data" : {
+			"maskColor1" : "#000000"
+		},
+		"keyName" : "Nach0BrickMakerJob",
+		"npcType" : "worker",
+		"printName" : "Brick Maker"
+	},
+	{
+		"data" : {
+			"maskColor1" : "#FFC889"
+		},
+		"keyName" : "Nach0CarverJob",
+		"npcType" : "worker",
+		"printName" : "Carver"
+	},
+	{
+		"data" : {
+			"maskColor1" : "#BDB5AC"
+		},
+		"keyName" : "Nach0ChiselerJob",
+		"npcType" : "worker",
+		"printName" : "Chiseler"
+	},
+	{
+		"data" : {
+			"maskColor1" : "#593445"
+		},
+		"keyName" : "Nach0ConcreteLayerJob",
+		"npcType" : "worker",
+		"printName" : "Concrete Layer"
+	},
+	{
+		"data" : {
+			"maskColor1" : "#8B7E6B"
+		},
+		"keyName" : "Nach0CrusherJob",
+		"npcType" : "worker",
+		"printName" : "Crusher"
+	},
+	{
+		"data" : {
+			"maskColor1" : "#3B0060"
+		},
+		"keyName" : "Nach0EnchanterJob",
+		"npcType" : "worker",
+		"printName" : "Enchanter"
+	},
+	{
+		"data" : {
+			"maskColor1" : "#D60060"
+		},
+		"keyName" : "Nach0MagicianJob",
+		"npcType" : "worker",
+		"printName" : "Magician"
+	},
+	{
+		"data" : {
+			"maskColor1" : "#00FFEF"
+		},
+		"keyName" : "Nach0PailerJob",
+		"npcType" : "worker",
+		"printName" : "Pailer"
+	},
+	{
+		"data" : {
+			"maskColor1" : "#DA31AA"
+		},
+		"keyName" : "Nach0PainterJob",
+		"npcType" : "worker",
+		"printName" : "Painter"
+	},
+	{
+		"data" : {
+			"maskColor1" : "#BAA90B"
+		},
+		"keyName" : "Nach0SanderJob",
+		"npcType" : "worker",
+		"printName" : "Sander"
+	},
+	{
+		"data" : {
+			"maskColor1" : "#004DFF"
+		},
+		"keyName" : "Nach0FreezerJob",
+		"npcType" : "worker",
+		"printName" : "Freezer"
+	},
+	{
+		"data" : {
+			"maskColor1" : "#B9457C"
+		},
+		"keyName" : "Nach0PaintMixerJob",
+		"npcType" : "worker",
+		"printName" : "Paint Mixer"
+	},
+	{
+		"data" : {
+			"maskColor1" : "#FF9A00"
+		},
+		"keyName" : "Nach0MelterJob",
+		"npcType" : "worker",
+		"printName" : "Melter"
+	}
+]

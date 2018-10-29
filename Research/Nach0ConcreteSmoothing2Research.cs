@@ -1,5 +1,6 @@
-﻿using Pipliz.Mods.APIProvider.Science;
-using Server.Science;
+﻿using Recipes;
+using Science;
+
 
 namespace MoreBlocks.Research
 {
@@ -16,9 +17,8 @@ namespace MoreBlocks.Research
             AddDependency("Nach0ColouredConcreteResearch");
         }
 
-        public override void OnResearchComplete(ScienceManagerPlayer manager, EResearchCompletionReason reason)
-        {
-            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0SmoothedAquaConcreteCraft-Nach0SanderJob", true, "Nach0SanderJob");
+		public override void OnResearchComplete (ColonyScienceState manager, EResearchCompletionReason reason)        {
+            /*RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0SmoothedAquaConcreteCraft-Nach0SanderJob", true, "Nach0SanderJob");
             RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0SmoothedBlackConcreteCraft-Nach0SanderJob", true, "Nach0SanderJob");
             RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0SmoothedBlueConcreteCraft-Nach0SanderJob", true, "Nach0SanderJob");
             RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0SmoothedBrownConcreteCraft-Nach0SanderJob", true, "Nach0SanderJob");
@@ -32,7 +32,23 @@ namespace MoreBlocks.Research
             RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0SmoothedRedConcreteCraft-Nach0SanderJob", true, "Nach0SanderJob");
             RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0SmoothedWhiteConcreteCraft-Nach0SanderJob", true, "Nach0SanderJob");
             RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0SmoothedYellowConcreteCraft-Nach0SanderJob", true, "Nach0SanderJob");
-            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0SmoothedMagentaConcreteCraft-Nach0SanderJob", true, "Nach0SanderJob");
+            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0SmoothedMagentaConcreteCraft-Nach0SanderJob", true, "Nach0SanderJob");*/
+
+            manager.Colony.RecipeData.UnlockRecipe(new RecipeKey("Nach0SmoothedAquaConcreteCraft-Nach0SanderJob"));
+            manager.Colony.RecipeData.UnlockRecipe(new RecipeKey("Nach0SmoothedBlackConcreteCraft-Nach0SanderJob"));
+            manager.Colony.RecipeData.UnlockRecipe(new RecipeKey("Nach0SmoothedBlueConcreteCraft-Nach0SanderJob"));
+            manager.Colony.RecipeData.UnlockRecipe(new RecipeKey("Nach0SmoothedBrownConcreteCraft-Nach0SanderJob"));
+            manager.Colony.RecipeData.UnlockRecipe(new RecipeKey("Nach0SmoothedDarkGreenConcreteCraft-Nach0SanderJob"));
+            manager.Colony.RecipeData.UnlockRecipe(new RecipeKey("Nach0SmoothedGreenConcreteCraft-Nach0SanderJob"));
+            manager.Colony.RecipeData.UnlockRecipe(new RecipeKey("Nach0SmoothedLightBlueConcreteCraft-Nach0SanderJob"));
+            manager.Colony.RecipeData.UnlockRecipe(new RecipeKey("Nach0SmoothedLightGreyConcreteCraft-Nach0SanderJob"));
+            manager.Colony.RecipeData.UnlockRecipe(new RecipeKey("Nach0SmoothedOrangeConcreteCraft-Nach0SanderJob"));
+            manager.Colony.RecipeData.UnlockRecipe(new RecipeKey("Nach0SmoothedPinkConcreteCraft-Nach0SanderJob"));
+            manager.Colony.RecipeData.UnlockRecipe(new RecipeKey("Nach0SmoothedPurpleConcreteCraft-Nach0SanderJob"));
+            manager.Colony.RecipeData.UnlockRecipe(new RecipeKey("Nach0SmoothedRedConcreteCraft-Nach0SanderJob"));
+            manager.Colony.RecipeData.UnlockRecipe(new RecipeKey("Nach0SmoothedWhiteConcreteCraft-Nach0SanderJob"));
+            manager.Colony.RecipeData.UnlockRecipe(new RecipeKey("Nach0SmoothedYellowConcreteCraft-Nach0SanderJob"));
+            manager.Colony.RecipeData.UnlockRecipe(new RecipeKey("Nach0SmoothedMagentaConcreteCraft-Nach0SanderJob"));
         }
     }
 }

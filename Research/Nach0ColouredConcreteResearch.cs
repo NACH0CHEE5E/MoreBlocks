@@ -1,5 +1,6 @@
-﻿using Pipliz.Mods.APIProvider.Science;
-using Server.Science;
+﻿using Recipes;
+using Science;
+
 
 namespace MoreBlocks.Research
 {
@@ -16,9 +17,8 @@ namespace MoreBlocks.Research
             AddDependency("Nach0PaintMakingResearch");
         }
 
-        public override void OnResearchComplete(ScienceManagerPlayer manager, EResearchCompletionReason reason)
-        {
-            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0AquaConcreteCraft-Nach0ConcreteLayerJob", true, "Nach0ConcreteLayerJob");
+		public override void OnResearchComplete (ColonyScienceState manager, EResearchCompletionReason reason)        {
+            /*RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0AquaConcreteCraft-Nach0ConcreteLayerJob", true, "Nach0ConcreteLayerJob");
             RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0BlackConcreteCraft-Nach0ConcreteLayerJob", true, "Nach0ConcreteLayerJob");
             RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0BlueConcreteCraft-Nach0ConcreteLayerJob", true, "Nach0ConcreteLayerJob");
             RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0BrownConcreteCraft-Nach0ConcreteLayerJob", true, "Nach0ConcreteLayerJob");
@@ -32,7 +32,23 @@ namespace MoreBlocks.Research
             RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0RedConcreteCraft-Nach0ConcreteLayerJob", true, "Nach0ConcreteLayerJob");
             RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0YellowConcreteCraft-Nach0ConcreteLayerJob", true, "Nach0ConcreteLayerJob");
             RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0WhiteConcreteCraft-Nach0ConcreteLayerJob", true, "Nach0ConcreteLayerJob");
-            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0MagentaConcreteCraft-Nach0ConcreteLayerJob", true, "Nach0ConcreteLayerJob");
+            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0MagentaConcreteCraft-Nach0ConcreteLayerJob", true, "Nach0ConcreteLayerJob");*/
+
+            manager.Colony.RecipeData.UnlockRecipe(new RecipeKey("Nach0AquaConcreteCraft-Nach0ConcreteLayerJob"));
+            manager.Colony.RecipeData.UnlockRecipe(new RecipeKey("Nach0BlackConcreteCraft-Nach0ConcreteLayerJob"));
+            manager.Colony.RecipeData.UnlockRecipe(new RecipeKey("Nach0BlueConcreteCraft-Nach0ConcreteLayerJob"));
+            manager.Colony.RecipeData.UnlockRecipe(new RecipeKey("Nach0BrownConcreteCraft-Nach0ConcreteLayerJob"));
+            manager.Colony.RecipeData.UnlockRecipe(new RecipeKey("Nach0DarkGreenConcreteCraft-Nach0ConcreteLayerJob"));
+            manager.Colony.RecipeData.UnlockRecipe(new RecipeKey("Nach0GreenConcreteCraft-Nach0ConcreteLayerJob"));
+            manager.Colony.RecipeData.UnlockRecipe(new RecipeKey("Nach0LightBlueConcreteCraft-Nach0ConcreteLayerJob"));
+            manager.Colony.RecipeData.UnlockRecipe(new RecipeKey("Nach0OrangeConcreteCraft-Nach0ConcreteLayerJob"));
+            manager.Colony.RecipeData.UnlockRecipe(new RecipeKey("Nach0PinkConcreteCraft-Nach0ConcreteLayerJob"));
+            manager.Colony.RecipeData.UnlockRecipe(new RecipeKey("Nach0PurpleConcreteCraft-Nach0ConcreteLayerJob"));
+            manager.Colony.RecipeData.UnlockRecipe(new RecipeKey("Nach0GreyConcreteCraft-Nach0ConcreteLayerJob"));
+            manager.Colony.RecipeData.UnlockRecipe(new RecipeKey("Nach0RedConcreteCraft-Nach0ConcreteLayerJob"));
+            manager.Colony.RecipeData.UnlockRecipe(new RecipeKey("Nach0YellowConcreteCraft-Nach0ConcreteLayerJob"));
+            manager.Colony.RecipeData.UnlockRecipe(new RecipeKey("Nach0WhiteConcreteCraft-Nach0ConcreteLayerJob"));
+            manager.Colony.RecipeData.UnlockRecipe(new RecipeKey("Nach0MagentaConcreteCraft-Nach0ConcreteLayerJob"));
         }
     }
 }

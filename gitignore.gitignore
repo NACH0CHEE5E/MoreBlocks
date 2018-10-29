@@ -1,5 +1,0 @@
-git rm --cached !sync.bat
-git rm --cached SyncClassLibary.ffs_batch
-git rm --cached SyncClassLibary.ffs_gui
-git rm --cached SyncModFiles.ffs_batch
-git rm --cached SyncModFiles.ffs_gui

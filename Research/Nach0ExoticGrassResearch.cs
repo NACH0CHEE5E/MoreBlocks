@@ -1,5 +1,6 @@
-﻿using Pipliz.Mods.APIProvider.Science;
-using Server.Science;
+﻿using Recipes;
+using Science;
+
 
 namespace MoreBlocks.Research
 {
@@ -11,19 +12,14 @@ namespace MoreBlocks.Research
             key = "Nach0ExoticGrassResearch";
             icon = "gamedata/mods/NACH0/MoreBlocks/gamedata/textures/icons/Nach0Grass1Sided.png";
             iterationCount = 15;
-            AddIterationRequirement("grasstemperate", 1);
-            AddIterationRequirement("grasstaiga", 1);
-            AddIterationRequirement("grasstundra", 1);
-            AddIterationRequirement("grasssavanna", 1);
-            AddIterationRequirement("grassrainforest", 1);
+            AddIterationRequirement("grass", 1);
             AddDependency("Nach0ExoticDirtResearch");
         }
 
-        public override void OnResearchComplete(ScienceManagerPlayer manager, EResearchCompletionReason reason)
+		public override void OnResearchComplete (ColonyScienceState manager, EResearchCompletionReason reason)
         {
-            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0Grass1Craft-pipliz.merchant", true, "pipliz.merchant");
-            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0Grass1SidedCraft-pipliz.merchant", true, "pipliz.merchant");
-            
+            manager.Colony.RecipeData.UnlockRecipe(new RecipeKey("Nach0Grass1Craft-pipliz.merchant"));
+            manager.Colony.RecipeData.UnlockRecipe(new RecipeKey("Nach0Grass1SidedCraft-pipliz.merchant"));
         }
     }
 }

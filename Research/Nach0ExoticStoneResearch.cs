@@ -1,5 +1,6 @@
-﻿using Pipliz.Mods.APIProvider.Science;
-using Server.Science;
+﻿using Recipes;
+using Science;
+
 
 namespace MoreBlocks.Research
 {
@@ -15,13 +16,13 @@ namespace MoreBlocks.Research
             AddDependency("Nach0CurrencyResearch");
         }
 
-        public override void OnResearchComplete(ScienceManagerPlayer manager, EResearchCompletionReason reason)
+		public override void OnResearchComplete (ColonyScienceState manager, EResearchCompletionReason reason)
         {
-            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0Stone1Craft-pipliz.merchant", true, "pipliz.merchant");
-            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0Stone2Craft-pipliz.merchant", true, "pipliz.merchant");
-            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0Stone3Craft-pipliz.merchant", true, "pipliz.merchant");
-            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0Stone4Craft-pipliz.merchant", true, "pipliz.merchant");
-            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0Stone5Craft-pipliz.merchant", true, "pipliz.merchant");
+            manager.Colony.RecipeData.UnlockRecipe(new RecipeKey("Nach0Stone1Craft-pipliz.merchant"));
+            manager.Colony.RecipeData.UnlockRecipe(new RecipeKey("Nach0Stone2Craft-pipliz.merchant"));
+            manager.Colony.RecipeData.UnlockRecipe(new RecipeKey("Nach0Stone3Craft-pipliz.merchant"));
+            manager.Colony.RecipeData.UnlockRecipe(new RecipeKey("Nach0Stone4Craft-pipliz.merchant"));
+            manager.Colony.RecipeData.UnlockRecipe(new RecipeKey("Nach0Stone5Craft-pipliz.merchant"));
         }
     }
 }

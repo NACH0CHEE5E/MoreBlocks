@@ -1,5 +1,6 @@
-﻿using Pipliz.Mods.APIProvider.Science;
-using Server.Science;
+﻿using Recipes;
+using Science;
+
 
 namespace MoreBlocks.Research
 {
@@ -20,10 +21,10 @@ namespace MoreBlocks.Research
             AddDependency("Nach0PaintMakingResearch");
         }
 
-        public override void OnResearchComplete(ScienceManagerPlayer manager, EResearchCompletionReason reason)
+		public override void OnResearchComplete (ColonyScienceState manager, EResearchCompletionReason reason)
         {
-            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0PaintersTableCraft-pipliz.crafter", true, "pipliz.crafter");
-            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0PaintBrushCraft-pipliz.crafter", true, "pipliz.crafter");
+            manager.Colony.RecipeData.UnlockRecipe(new RecipeKey("Nach0PaintersTableCraft-pipliz.crafter"));
+            manager.Colony.RecipeData.UnlockRecipe(new RecipeKey("Nach0PaintBrushCraft-pipliz.crafter"));
         }
     }
 }

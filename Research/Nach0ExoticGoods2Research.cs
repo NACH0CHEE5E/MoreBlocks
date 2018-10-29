@@ -1,5 +1,6 @@
-﻿using Pipliz.Mods.APIProvider.Science;
-using Server.Science;
+﻿using Recipes;
+using Science;
+
 
 namespace MoreBlocks.Research
 {
@@ -15,10 +16,10 @@ namespace MoreBlocks.Research
             AddDependency("Nach0CurrencyResearch");
         }
 
-        public override void OnResearchComplete(ScienceManagerPlayer manager, EResearchCompletionReason reason)
+		public override void OnResearchComplete (ColonyScienceState manager, EResearchCompletionReason reason)
         {
-            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0PlatniumOreCraft-pipliz.merchant", true, "pipliz.merchant");
-            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0CrystalBlockCraft-pipliz.merchant", true, "pipliz.merchant");
+            manager.Colony.RecipeData.UnlockRecipe(new RecipeKey("Nach0PlatniumOreCraft-pipliz.merchant"));
+            manager.Colony.RecipeData.UnlockRecipe(new RecipeKey("Nach0CrystalBlockCraft-pipliz.merchant"));
         }
     }
 }

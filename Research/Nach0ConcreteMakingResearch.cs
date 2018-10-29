@@ -1,5 +1,6 @@
-﻿using Pipliz.Mods.APIProvider.Science;
-using Server.Science;
+﻿using Recipes;
+using Science;
+
 
 namespace MoreBlocks.Research
 {
@@ -15,9 +16,9 @@ namespace MoreBlocks.Research
             AddDependency("Nach0CrushingResearch");
         }
 
-        public override void OnResearchComplete(ScienceManagerPlayer manager, EResearchCompletionReason reason)
+		public override void OnResearchComplete (ColonyScienceState manager, EResearchCompletionReason reason)
         {
-            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0ConcreteLayerCraft-pipliz.crafter", true, "pipliz.crafter");
+            manager.Colony.RecipeData.UnlockRecipe(new RecipeKey("Nach0ConcreteLayerCraft-pipliz.crafter"));
         }
     }
 }

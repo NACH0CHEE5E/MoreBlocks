@@ -1,0 +1,16 @@
+[{
+	"defaultLimit": 50,
+	"defaultPriority": 0,
+	"isOptional": false,
+	"name": "Nach0IceBlockCraft-Nach0FreezerJob",
+	"requires": [{
+		"amount": 5,
+		"type": "Nach0WaterBucket"
+	}],
+	"results": [{
+		"type": "Nach0IceBlock"
+	}, {
+		"amount": 5,
+		"type": "Nach0Bucket"
+	}]
+}]

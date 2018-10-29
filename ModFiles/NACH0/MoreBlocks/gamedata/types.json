@@ -1,0 +1,3372 @@
+{
+	"Nach0LightPoleTest": {
+		"categories": [
+			"nach0",
+			"moreblocks"
+		],
+		"isPlaceable": true,
+		"needsBase": false,
+		"isRotatable": true,
+		"rotatablex-": "Nach0LightPoleTestBase",
+		"rotatablex+": "Nach0LightPoleTestBase",
+		"rotatablez-": "Nach0LightPoleTestPole",
+		"rotatablez+": "Nach0LightPoleTestPole"
+	},
+	"Nach0LightPoleTestBase": {
+		"parentType": "Nach0LightPoleTest",
+		"mesh": "./meshes/LightPoleBase.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0.5, 0.5],
+				"min": [-0.5, -0.5, -0.5]
+			}]
+		},
+		"sideall": "Nach0TestLightPoleTexture"
+	},
+	"Nach0LightPoleTestPole": {
+		"parentType": "Nach0LightPoleTest",
+		"mesh": "./meshes/LightPolePole.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0.5, 0.5],
+				"min": [-0.5, -0.5, -0.5]
+			}]
+		},
+		"sideall": "Nach0TestLightPoleTexture"
+	},
+	"Nach0SlabTest": {
+		"categories": [
+			"nach0",
+			"moreblocks"
+		],
+		"isPlaceable": true,
+		"needsBase": false,
+		"isRotatable": true,
+		"rotatablex-": "Nach0SlabTestUp",
+		"rotatablex+": "Nach0SlabTestUp",
+		"rotatablez-": "Nach0SlabTestDown",
+		"rotatablez+": "Nach0SlabTestDown"
+	},
+	"Nach0SlabTestUp": {
+		"parentType": "Nach0SlabTest",
+		"mesh": "./meshes/slabup.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0.5, 0.5],
+				"min": [-0.5, 0, -0.5]
+			}]
+		},
+		"sideall": "bricks"
+	},
+	"Nach0SlabTestDown": {
+		"parentType": "Nach0SlabTest",
+		"mesh": "./meshes/slabdown.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0, 0.5],
+				"min": [-0.5, -0.5, -0.5]
+			}]
+		},
+		"sideall": "bricks"
+	},
+	"Nach0StairsTest": {
+		"categories": [
+			"nach0",
+			"moreblocks"
+		],
+		"isPlaceable": true,
+		"needsBase": false,
+		"isRotatable": true,
+		"rotatablex-": "Nach0StairsTestX-",
+		"rotatablex+": "Nach0StairsTestX+",
+		"rotatablez-": "Nach0StairsTestZ-",
+		"rotatablez+": "Nach0StairsTestZ+"
+	},
+	"Nach0StairsTestX-": {
+		"parentType": "Nach0StairsTest",
+		"mesh": "./meshes/StairsX-.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.25, 0, 0.5],
+					"min": [-0.5, -0.25, -0.5]
+				},
+				{
+					"max": [0, 0.25, 0.5],
+					"min": [-0.5, 0, -0.5]
+				},
+				{
+					"max": [-0.25, 0.5, 0.5],
+					"min": [-0.5, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "bricks"
+	},
+	"Nach0StairsTestX+": {
+		"parentType": "Nach0StairsTest",
+		"mesh": "./meshes/StairsX+.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.5],
+					"min": [-0.25, -0.25, -0.5]
+				},
+				{
+					"max": [0.5, 0.25, 0.5],
+					"min": [0, 0, -0.5]
+				},
+				{
+					"max": [0.5, 0.5, 0.5],
+					"min": [0.25, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "bricks"
+	},
+	"Nach0StairsTestZ-": {
+		"parentType": "Nach0StairsTest",
+		"mesh": "./meshes/StairsZ-.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.25],
+					"min": [-0.5, -0.25, -0.5]
+				},
+				{
+					"max": [0.5, 0.25, 0],
+					"min": [-0.5, 0, -0.5]
+				},
+				{
+					"max": [0.5, 0.5, -0.25],
+					"min": [-0.5, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "bricks"
+	},
+	"Nach0StairsTestZ+": {
+		"parentType": "Nach0StairsTest",
+		"mesh": "./meshes/StairsZ+.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.5],
+					"min": [-0.5, -0.25, -0.25]
+				},
+				{
+					"max": [0.5, 0.25, 0.5],
+					"min": [-0.5, 0, 0]
+				},
+				{
+					"max": [0.5, 0.5, 0.5],
+					"min": [-0.5, 0.25, 0.25]
+				}
+			]
+		},
+		"sideall": "bricks"
+	},
+	"RockPile1": {
+		"categories": [
+			"nach0",
+			"moreblocks"
+		],
+		"icon": "./textures/icons/RockPile.png",
+		"maxStackSize": 50,
+		"needsBase": true,
+		"isRotatable": false,
+		"mesh": "./meshes/RockPile.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0.5, 0.5],
+				"min": [-0.5, -0.5, -0.5]
+			}]
+		},
+		"sideall": "Nach0Stone1Texture"
+	},
+	"Nach0Bucket": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"items",
+			"buckets"
+		],
+		"isPlaceable": false,
+		"icon": "./textures/icons/Nach0Bucket.png",
+		"maxStackSize": 50
+	},
+	"Nach0Brick1": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"bricks",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0Brick1.png",
+		"onPlaceAudio": "stonePlace",
+		"onRemoveAudio": "stoneDelete",
+		"maxStackSize": 200,
+		"sideall": "Nach0Brick1Texture"
+	},
+	"Nach0Brick2": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"bricks",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0Brick2.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0Brick2Texture"
+	},
+	"Nach0Cobblestone": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"cobblestone",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0Cobblestone.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0CobblestoneTexture"
+	},
+	"Nach0MossyCobblestone": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"cobblestone",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0MossyCobblestone.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0MossyCobblestoneTexture"
+	},
+	"Nach0AquaPaintBlock": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"colouredblocks",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0AquaPaintBlock.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0PaintBlock",
+		"color": "#00FFFF"
+	},
+	"Nach0BlackPaintBlock": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"colouredblocks",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0BlackPaintBlock.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0PaintBlock",
+		"color": "#000000"
+	},
+	"Nach0BluePaintBlock": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"colouredblocks",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0BluePaintBlock.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0PaintBlock",
+		"color": "#0026FF"
+	},
+	"Nach0BrownPaintBlock": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"colouredblocks",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0BrownPaintBlock.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0PaintBlock",
+		"color": "#782300"
+	},
+	"Nach0DarkGreenPaintBlock": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"colouredblocks",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0DarkGreenPaintBlock.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0PaintBlock",
+		"color": "#007F0E"
+	},
+	"Nach0GreenPaintBlock": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"colouredblocks",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0GreenPaintBlock.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0PaintBlock",
+		"color": "#4CFF00"
+	},
+	"Nach0GreyPaintBlock": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"colouredblocks",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0GreyPaintBlock.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0PaintBlock",
+		"color": "#404040"
+	},
+	"Nach0LightBluePaintBlock": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"colouredblocks",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0LightBluePaintBlock.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0PaintBlock",
+		"color": "#0094FF"
+	},
+	"Nach0LightGreyPaintBlock": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"colouredblocks",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0LightGreyPaintBlock.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0PaintBlock",
+		"color": "#808080"
+	},
+	"Nach0MagentaPaintBlock": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"colouredblocks",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0MagentaPaintBlock.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0PaintBlock",
+		"color": "#FF006E"
+	},
+	"Nach0OrangePaintBlock": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"colouredblocks",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0OrangePaintBlock.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0PaintBlock",
+		"color": "#FF6A00"
+	},
+	"Nach0PinkPaintBlock": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"colouredblocks",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0PinkPaintBlock.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0PaintBlock",
+		"color": "#FF00DC"
+	},
+	"Nach0PurplePaintBlock": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"colouredblocks",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0PurplePaintBlock.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0PaintBlock",
+		"color": "#4800FF"
+	},
+	"Nach0RedPaintBlock": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"colouredblocks",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0RedPaintBlock.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0PaintBlock",
+		"color": "#FF0000"
+	},
+	"Nach0WhitePaintBlock": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"colouredblocks",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0WhitePaintBlock.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0PaintBlock"
+	},
+	"Nach0YellowPaintBlock": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"colouredblocks",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0YellowPaintBlock.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0PaintBlock",
+		"color": "#FFD800"
+	},
+	"Nach0Concrete": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"concrete",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0Concrete.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0ConcreteTexture"
+	},
+	"Nach0GreyConcrete": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"concrete",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0GreyConcrete.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0GreyConcreteTexture"
+	},
+	"Nach0AquaConcrete": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"concrete",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0AquaConcrete.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0AquaConcreteTexture"
+	},
+	"Nach0BlackConcrete": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"concrete",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0BlackConcrete.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0BlackConcreteTexture"
+	},
+	"Nach0BlueConcrete": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"concrete",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0BlueConcrete.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0BlueConcreteTexture"
+	},
+	"Nach0BrownConcrete": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"concrete",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0BrownConcrete.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0BrownConcreteTexture"
+	},
+	"Nach0DarkGreenConcrete": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"concrete",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0DarkGreenConcrete.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0DarkGreenConcreteTexture"
+	},
+	"Nach0GreenConcrete": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"concrete",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0GreenConcrete.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0GreenConcreteTexture"
+	},
+	"Nach0LightBlueConcrete": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"concrete",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0LightBlueConcrete.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0LightBlueConcreteTexture"
+	},
+	"Nach0MagentaConcrete": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"concrete",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0MagentaConcrete.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0MagentaConcreteTexture"
+	},
+	"Nach0OrangeConcrete": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"concrete",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0OrangeConcrete.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0OrangeConcreteTexture"
+	},
+	"Nach0PinkConcrete": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"concrete",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0PinkConcrete.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0PinkConcreteTexture"
+	},
+	"Nach0PurpleConcrete": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"concrete",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0PurpleConcrete.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0PurpleConcreteTexture"
+	},
+	"Nach0RedConcrete": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"concrete",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0RedConcrete.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0RedConcreteTexture"
+	},
+	"Nach0WhiteConcrete": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"concrete",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0WhiteConcrete.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0WhiteConcreteTexture"
+	},
+	"Nach0YellowConcrete": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"concrete",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0YellowConcrete.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0YellowConcreteTexture"
+	},
+	"Nach0SmoothedConcrete": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"smoothedconcrete",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0SmoothedConcrete.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0SmoothedConcreteTexture"
+	},
+	"Nach0SmoothedGreyConcrete": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"smoothedconcrete",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0SmoothedGreyConcrete.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0SmoothedGreyConcreteTexture"
+	},
+	"Nach0SmoothedAquaConcrete": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"smoothedconcrete",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0SmoothedAquaConcrete.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0SmoothedAquaConcreteTexture"
+	},
+	"Nach0SmoothedBlackConcrete": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"smoothedconcrete",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0SmoothedBlackConcrete.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0SmoothedBlackConcreteTexture"
+	},
+	"Nach0SmoothedBlueConcrete": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"smoothedconcrete",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0SmoothedBlueConcrete.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0SmoothedBlueConcreteTexture"
+	},
+	"Nach0SmoothedBrownConcrete": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"smoothedconcrete",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0SmoothedBrownConcrete.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0SmoothedBrownConcreteTexture"
+	},
+	"Nach0SmoothedDarkGreenConcrete": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"smoothedconcrete",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0SmoothedDarkGreenConcrete.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0SmoothedDarkGreenConcreteTexture"
+	},
+	"Nach0SmoothedGreenConcrete": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"smoothedconcrete",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0SmoothedGreenConcrete.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0SmoothedGreenConcreteTexture"
+	},
+	"Nach0SmoothedLightBlueConcrete": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"smoothedconcrete",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0SmoothedLightBlueConcrete.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0SmoothedLightBlueConcreteTexture"
+	},
+	"Nach0SmoothedMagentaConcrete": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"smoothedconcrete",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0SmoothedMagentaConcrete.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0SmoothedMagentaConcreteTexture"
+	},
+	"Nach0SmoothedOrangeConcrete": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"smoothedconcrete",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0SmoothedOrangeConcrete.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0SmoothedOrangeConcreteTexture"
+	},
+	"Nach0SmoothedPinkConcrete": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"smoothedconcrete",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0SmoothedPinkConcrete.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0SmoothedPinkConcreteTexture"
+	},
+	"Nach0SmoothedPurpleConcrete": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"smoothedconcrete",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0SmoothedPurpleConcrete.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0SmoothedPurpleConcreteTexture"
+	},
+	"Nach0SmoothedRedConcrete": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"smoothedconcrete",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0SmoothedRedConcrete.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0SmoothedRedConcreteTexture"
+	},
+	"Nach0SmoothedWhiteConcrete": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"smoothedconcrete",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0SmoothedWhiteConcrete.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0SmoothedWhiteConcreteTexture"
+	},
+	"Nach0SmoothedYellowConcrete": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"smoothedconcrete",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0SmoothedYellowConcrete.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0SmoothedYellowConcreteTexture"
+	},
+	"Nach0VanillaDirtSlab": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"slabs",
+			"vanilla",
+			"decorative"
+		],
+		"mesh": "./meshes/slabdown.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0.0, 0.5],
+				"min": [-0.5, -0.5, -0.5]
+			}]
+		},
+		"icon": "./textures/icons/Nach0VanillaPlanksDownSlab.png",
+		"maxStackSize": 200,
+		"sideall": "dirt"
+	},
+	"Nach0VanillaPlanksDownSlab": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"slabs",
+			"vanilla",
+			"planks",
+			"decorative"
+		],
+		"mesh": "./meshes/slabdown.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0.0, 0.5],
+				"min": [-0.5, -0.5, -0.5]
+			}]
+		},
+		"icon": "./textures/icons/Nach0VanillaPlanksDownSlab.png",
+		"maxStackSize": 200,
+		"sideall": "planks"
+	},
+	"Nach0VanillaCoatedBlackPlanksDownSlab": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"slabs",
+			"vanilla",
+			"planks",
+			"decorative"
+		],
+		"mesh": "./meshes/slabdown.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0.0, 0.5],
+				"min": [-0.5, -0.5, -0.5]
+			}]
+		},
+		"icon": "./textures/icons/Nach0VanillaCoatedBlackPlanksDownSlab.png",
+		"maxStackSize": 200,
+		"sideall": "blackplanks"
+	},
+	"Nach0VanillaCoatedPlanksDownSlab": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"slabs",
+			"vanilla",
+			"planks",
+			"decorative"
+		],
+		"mesh": "./meshes/slabdown.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0.0, 0.5],
+				"min": [-0.5, -0.5, -0.5]
+			}]
+		},
+		"icon": "./textures/icons/Nach0VanillaCoatedPlanksDownSlab.png",
+		"maxStackSize": 200,
+		"sideall": "coatedplanks"
+	},
+	"Nach0VanillaCoatedRedPlanksDownSlab": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"slabs",
+			"vanilla",
+			"planks",
+			"decorative"
+		],
+		"mesh": "./meshes/slabdown.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0.0, 0.5],
+				"min": [-0.5, -0.5, -0.5]
+			}]
+		},
+		"icon": "./textures/icons/Nach0VanillaCoatedRedPlanksDownSlab.png",
+		"maxStackSize": 200,
+		"sideall": "redplanks"
+	},
+	"Nach0VanillaTaigaLogDownSlab": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"slabs",
+			"vanilla",
+			"logs",
+			"decorative"
+		],
+		"mesh": "./meshes/slabdown.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0.0, 0.5],
+				"min": [-0.5, -0.5, -0.5]
+			}]
+		},
+		"icon": "./textures/icons/Nach0VanillaTaigaLogDownSlab.png",
+		"maxStackSize": 200,
+		"sideall": "logtaiga"
+	},
+	"Nach0VanillaTemperateLogDownSlab": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"slabs",
+			"vanilla",
+			"logs",
+			"decorative"
+		],
+		"mesh": "./meshes/slabdown.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0.0, 0.5],
+				"min": [-0.5, -0.5, -0.5]
+			}]
+		},
+		"icon": "./textures/icons/Nach0VanillaTemperateLogDownSlab.png",
+		"maxStackSize": 200,
+		"sideall": "logtemperate"
+	},
+	"Nach0Brick1Stairs": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"stairs",
+			"moreblocks",
+			"bricks",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0Brick1Stairs.png",
+		"maxStackSize": 200,
+		"isPlaceable": true,
+		"needsBase": false,
+		"isRotatable": true,
+		"rotatablex-": "Nach0Brick1StairsX-",
+		"rotatablex+": "Nach0Brick1StairsX+",
+		"rotatablez-": "Nach0Brick1StairsZ-",
+		"rotatablez+": "Nach0Brick1StairsZ+"
+	},
+	"Nach0Brick1StairsX-": {
+		"parentType": "Nach0Brick1Stairs",
+		"mesh": "./meshes/StairsX-.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.25, 0, 0.5],
+					"min": [-0.5, -0.25, -0.5]
+				},
+				{
+					"max": [0, 0.25, 0.5],
+					"min": [-0.5, 0, -0.5]
+				},
+				{
+					"max": [-0.25, 0.5, 0.5],
+					"min": [-0.5, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "Nach0Brick1Texture"
+	},
+	"Nach0Brick1StairsX+": {
+		"parentType": "Nach0Brick1Stairs",
+		"mesh": "./meshes/StairsX+.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.5],
+					"min": [-0.25, -0.25, -0.5]
+				},
+				{
+					"max": [0.5, 0.25, 0.5],
+					"min": [0, 0, -0.5]
+				},
+				{
+					"max": [0.5, 0.5, 0.5],
+					"min": [0.25, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "Nach0Brick1Texture"
+	},
+	"Nach0Brick1StairsZ-": {
+		"parentType": "Nach0Brick1Stairs",
+		"mesh": "./meshes/StairsZ-.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.25],
+					"min": [-0.5, -0.25, -0.5]
+				},
+				{
+					"max": [0.5, 0.25, 0],
+					"min": [-0.5, 0, -0.5]
+				},
+				{
+					"max": [0.5, 0.5, -0.25],
+					"min": [-0.5, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "Nach0Brick1Texture"
+	},
+	"Nach0Brick1StairsZ+": {
+		"parentType": "Nach0Brick1Stairs",
+		"mesh": "./meshes/StairsZ+.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.5],
+					"min": [-0.5, -0.25, -0.25]
+				},
+				{
+					"max": [0.5, 0.25, 0.5],
+					"min": [-0.5, 0, 0]
+				},
+				{
+					"max": [0.5, 0.5, 0.5],
+					"min": [-0.5, 0.25, 0.25]
+				}
+			]
+		},
+		"sideall": "Nach0Brick1Texture"
+	},
+	"Nach0Brick2Stairs": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"stairs",
+			"moreblocks",
+			"bricks",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0Brick2Stairs.png",
+		"maxStackSize": 200,
+		"isPlaceable": true,
+		"needsBase": false,
+		"isRotatable": true,
+		"rotatablex-": "Nach0Brick2StairsX-",
+		"rotatablex+": "Nach0Brick2StairsX+",
+		"rotatablez-": "Nach0Brick2StairsZ-",
+		"rotatablez+": "Nach0Brick2StairsZ+"
+	},
+	"Nach0Brick2StairsX-": {
+		"parentType": "Nach0Brick2Stairs",
+		"mesh": "./meshes/StairsX-.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.25, 0, 0.5],
+					"min": [-0.5, -0.25, -0.5]
+				},
+				{
+					"max": [0, 0.25, 0.5],
+					"min": [-0.5, 0, -0.5]
+				},
+				{
+					"max": [-0.25, 0.5, 0.5],
+					"min": [-0.5, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "Nach0Brick2Texture"
+	},
+	"Nach0Brick2StairsX+": {
+		"parentType": "Nach0Brick2Stairs",
+		"mesh": "./meshes/StairsX+.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.5],
+					"min": [-0.25, -0.25, -0.5]
+				},
+				{
+					"max": [0.5, 0.25, 0.5],
+					"min": [0, 0, -0.5]
+				},
+				{
+					"max": [0.5, 0.5, 0.5],
+					"min": [0.25, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "Nach0Brick2Texture"
+	},
+	"Nach0Brick2StairsZ-": {
+		"parentType": "Nach0Brick2Stairs",
+		"mesh": "./meshes/StairsZ-.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.25],
+					"min": [-0.5, -0.25, -0.5]
+				},
+				{
+					"max": [0.5, 0.25, 0],
+					"min": [-0.5, 0, -0.5]
+				},
+				{
+					"max": [0.5, 0.5, -0.25],
+					"min": [-0.5, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "Nach0Brick2Texture"
+	},
+	"Nach0Brick2StairsZ+": {
+		"parentType": "Nach0Brick2Stairs",
+		"mesh": "./meshes/StairsZ+.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.5],
+					"min": [-0.5, -0.25, -0.25]
+				},
+				{
+					"max": [0.5, 0.25, 0.5],
+					"min": [-0.5, 0, 0]
+				},
+				{
+					"max": [0.5, 0.5, 0.5],
+					"min": [-0.5, 0.25, 0.25]
+				}
+			]
+		},
+		"sideall": "Nach0Brick2Texture"
+	},
+	"Nach0CobblestoneStairs": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"stairs",
+			"moreblocks",
+			"cobblestone",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0CobblestoneStairs.png",
+		"maxStackSize": 200,
+		"isPlaceable": true,
+		"needsBase": false,
+		"isRotatable": true,
+		"rotatablex-": "Nach0CobblestoneStairsX-",
+		"rotatablex+": "Nach0CobblestoneStairsX+",
+		"rotatablez-": "Nach0CobblestoneStairsZ-",
+		"rotatablez+": "Nach0CobblestoneStairsZ+"
+	},
+	"Nach0CobblestoneStairsX-": {
+		"parentType": "Nach0CobblestoneStairs",
+		"mesh": "./meshes/StairsX-.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.25, 0, 0.5],
+					"min": [-0.5, -0.25, -0.5]
+				},
+				{
+					"max": [0, 0.25, 0.5],
+					"min": [-0.5, 0, -0.5]
+				},
+				{
+					"max": [-0.25, 0.5, 0.5],
+					"min": [-0.5, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "Nach0CobblestoneTexture"
+	},
+	"Nach0CobblestoneStairsX+": {
+		"parentType": "Nach0CobblestoneStairs",
+		"mesh": "./meshes/StairsX+.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.5],
+					"min": [-0.25, -0.25, -0.5]
+				},
+				{
+					"max": [0.5, 0.25, 0.5],
+					"min": [0, 0, -0.5]
+				},
+				{
+					"max": [0.5, 0.5, 0.5],
+					"min": [0.25, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "Nach0CobblestoneTexture"
+	},
+	"Nach0CobblestoneStairsZ-": {
+		"parentType": "Nach0CobblestoneStairs",
+		"mesh": "./meshes/StairsZ-.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.25],
+					"min": [-0.5, -0.25, -0.5]
+				},
+				{
+					"max": [0.5, 0.25, 0],
+					"min": [-0.5, 0, -0.5]
+				},
+				{
+					"max": [0.5, 0.5, -0.25],
+					"min": [-0.5, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "Nach0CobblestoneTexture"
+	},
+	"Nach0CobblestoneStairsZ+": {
+		"parentType": "Nach0CobblestoneStairs",
+		"mesh": "./meshes/StairsZ+.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.5],
+					"min": [-0.5, -0.25, -0.25]
+				},
+				{
+					"max": [0.5, 0.25, 0.5],
+					"min": [-0.5, 0, 0]
+				},
+				{
+					"max": [0.5, 0.5, 0.5],
+					"min": [-0.5, 0.25, 0.25]
+				}
+			]
+		},
+		"sideall": "Nach0CobblestoneTexture"
+	},
+	"Nach0MossyCobblestoneStairs": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"stairs",
+			"moreblocks",
+			"cobblestone",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0MossyCobblestoneStairs.png",
+		"maxStackSize": 200,
+		"isPlaceable": true,
+		"needsBase": false,
+		"isRotatable": true,
+		"rotatablex-": "Nach0MossyCobblestoneStairsX-",
+		"rotatablex+": "Nach0MossyCobblestoneStairsX+",
+		"rotatablez-": "Nach0MossyCobblestoneStairsZ-",
+		"rotatablez+": "Nach0MossyCobblestoneStairsZ+"
+	},
+	"Nach0MossyCobblestoneStairsX-": {
+		"parentType": "Nach0MossyCobblestoneStairs",
+		"mesh": "./meshes/StairsX-.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.25, 0, 0.5],
+					"min": [-0.5, -0.25, -0.5]
+				},
+				{
+					"max": [0, 0.25, 0.5],
+					"min": [-0.5, 0, -0.5]
+				},
+				{
+					"max": [-0.25, 0.5, 0.5],
+					"min": [-0.5, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "Nach0MossyCobblestoneTexture"
+	},
+	"Nach0MossyCobblestoneStairsX+": {
+		"parentType": "Nach0MossyCobblestoneStairs",
+		"mesh": "./meshes/StairsX+.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.5],
+					"min": [-0.25, -0.25, -0.5]
+				},
+				{
+					"max": [0.5, 0.25, 0.5],
+					"min": [0, 0, -0.5]
+				},
+				{
+					"max": [0.5, 0.5, 0.5],
+					"min": [0.25, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "Nach0MossyCobblestoneTexture"
+	},
+	"Nach0MossyCobblestoneStairsZ-": {
+		"parentType": "Nach0MossyCobblestoneStairs",
+		"mesh": "./meshes/StairsZ-.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.25],
+					"min": [-0.5, -0.25, -0.5]
+				},
+				{
+					"max": [0.5, 0.25, 0],
+					"min": [-0.5, 0, -0.5]
+				},
+				{
+					"max": [0.5, 0.5, -0.25],
+					"min": [-0.5, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "Nach0MossyCobblestoneTexture"
+	},
+	"Nach0MossyCobblestoneStairsZ+": {
+		"parentType": "Nach0MossyCobblestoneStairs",
+		"mesh": "./meshes/StairsZ+.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.5],
+					"min": [-0.5, -0.25, -0.25]
+				},
+				{
+					"max": [0.5, 0.25, 0.5],
+					"min": [-0.5, 0, 0]
+				},
+				{
+					"max": [0.5, 0.5, 0.5],
+					"min": [-0.5, 0.25, 0.25]
+				}
+			]
+		},
+		"sideall": "Nach0MossyCobblestoneTexture"
+	},
+	"Nach0Planks1Stairs": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"stairs",
+			"moreblocks",
+			"planks",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0Planks1Stairs.png",
+		"maxStackSize": 200,
+		"isPlaceable": true,
+		"needsBase": false,
+		"isRotatable": true,
+		"rotatablex-": "Nach0Planks1StairsX-",
+		"rotatablex+": "Nach0Planks1StairsX+",
+		"rotatablez-": "Nach0Planks1StairsZ-",
+		"rotatablez+": "Nach0Planks1StairsZ+"
+	},
+	"Nach0Planks1StairsX-": {
+		"parentType": "Nach0Planks1Stairs",
+		"mesh": "./meshes/StairsX-.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.25, 0, 0.5],
+					"min": [-0.5, -0.25, -0.5]
+				},
+				{
+					"max": [0, 0.25, 0.5],
+					"min": [-0.5, 0, -0.5]
+				},
+				{
+					"max": [-0.25, 0.5, 0.5],
+					"min": [-0.5, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "Nach0Planks1Texture"
+	},
+	"Nach0Planks1StairsX+": {
+		"parentType": "Nach0Planks1Stairs",
+		"mesh": "./meshes/StairsX+.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.5],
+					"min": [-0.25, -0.25, -0.5]
+				},
+				{
+					"max": [0.5, 0.25, 0.5],
+					"min": [0, 0, -0.5]
+				},
+				{
+					"max": [0.5, 0.5, 0.5],
+					"min": [0.25, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "Nach0Planks1Texture"
+	},
+	"Nach0Planks1StairsZ-": {
+		"parentType": "Nach0Planks1Stairs",
+		"mesh": "./meshes/StairsZ-.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.25],
+					"min": [-0.5, -0.25, -0.5]
+				},
+				{
+					"max": [0.5, 0.25, 0],
+					"min": [-0.5, 0, -0.5]
+				},
+				{
+					"max": [0.5, 0.5, -0.25],
+					"min": [-0.5, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "Nach0Planks1Texture"
+	},
+	"Nach0Planks1StairsZ+": {
+		"parentType": "Nach0Planks1Stairs",
+		"mesh": "./meshes/StairsZ+.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.5],
+					"min": [-0.5, -0.25, -0.25]
+				},
+				{
+					"max": [0.5, 0.25, 0.5],
+					"min": [-0.5, 0, 0]
+				},
+				{
+					"max": [0.5, 0.5, 0.5],
+					"min": [-0.5, 0.25, 0.25]
+				}
+			]
+		},
+		"sideall": "Nach0Planks1Texture"
+	},
+	"Nach0Planks2Stairs": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"stairs",
+			"moreblocks",
+			"planks",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0Planks2Stairs.png",
+		"maxStackSize": 200,
+		"isPlaceable": true,
+		"needsBase": false,
+		"isRotatable": true,
+		"rotatablex-": "Nach0Planks2StairsX-",
+		"rotatablex+": "Nach0Planks2StairsX+",
+		"rotatablez-": "Nach0Planks2StairsZ-",
+		"rotatablez+": "Nach0Planks2StairsZ+"
+	},
+	"Nach0Planks2StairsX-": {
+		"parentType": "Nach0Planks2Stairs",
+		"mesh": "./meshes/StairsX-.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.25, 0, 0.5],
+					"min": [-0.5, -0.25, -0.5]
+				},
+				{
+					"max": [0, 0.25, 0.5],
+					"min": [-0.5, 0, -0.5]
+				},
+				{
+					"max": [-0.25, 0.5, 0.5],
+					"min": [-0.5, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "Nach0Planks2Texture"
+	},
+	"Nach0Planks2StairsX+": {
+		"parentType": "Nach0Planks2Stairs",
+		"mesh": "./meshes/StairsX+.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.5],
+					"min": [-0.25, -0.25, -0.5]
+				},
+				{
+					"max": [0.5, 0.25, 0.5],
+					"min": [0, 0, -0.5]
+				},
+				{
+					"max": [0.5, 0.5, 0.5],
+					"min": [0.25, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "Nach0Planks2Texture"
+	},
+	"Nach0Planks2StairsZ-": {
+		"parentType": "Nach0Planks2Stairs",
+		"mesh": "./meshes/StairsZ-.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.25],
+					"min": [-0.5, -0.25, -0.5]
+				},
+				{
+					"max": [0.5, 0.25, 0],
+					"min": [-0.5, 0, -0.5]
+				},
+				{
+					"max": [0.5, 0.5, -0.25],
+					"min": [-0.5, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "Nach0Planks2Texture"
+	},
+	"Nach0Planks2StairsZ+": {
+		"parentType": "Nach0Planks2Stairs",
+		"mesh": "./meshes/StairsZ+.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.5],
+					"min": [-0.5, -0.25, -0.25]
+				},
+				{
+					"max": [0.5, 0.25, 0.5],
+					"min": [-0.5, 0, 0]
+				},
+				{
+					"max": [0.5, 0.5, 0.5],
+					"min": [-0.5, 0.25, 0.25]
+				}
+			]
+		},
+		"sideall": "Nach0Planks2Texture"
+	},
+	"Nach0Planks3Stairs": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"stairs",
+			"moreblocks",
+			"planks",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0Planks3Stairs.png",
+		"maxStackSize": 200,
+		"isPlaceable": true,
+		"needsBase": false,
+		"isRotatable": true,
+		"rotatablex-": "Nach0Planks3StairsX-",
+		"rotatablex+": "Nach0Planks3StairsX+",
+		"rotatablez-": "Nach0Planks3StairsZ-",
+		"rotatablez+": "Nach0Planks3StairsZ+"
+	},
+	"Nach0Planks3StairsX-": {
+		"parentType": "Nach0Planks3Stairs",
+		"mesh": "./meshes/StairsX-.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.25, 0, 0.5],
+					"min": [-0.5, -0.25, -0.5]
+				},
+				{
+					"max": [0, 0.25, 0.5],
+					"min": [-0.5, 0, -0.5]
+				},
+				{
+					"max": [-0.25, 0.5, 0.5],
+					"min": [-0.5, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "Nach0Planks3Texture"
+	},
+	"Nach0Planks3StairsX+": {
+		"parentType": "Nach0Planks3Stairs",
+		"mesh": "./meshes/StairsX+.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.5],
+					"min": [-0.25, -0.25, -0.5]
+				},
+				{
+					"max": [0.5, 0.25, 0.5],
+					"min": [0, 0, -0.5]
+				},
+				{
+					"max": [0.5, 0.5, 0.5],
+					"min": [0.25, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "Nach0Planks3Texture"
+	},
+	"Nach0Planks3StairsZ-": {
+		"parentType": "Nach0Planks3Stairs",
+		"mesh": "./meshes/StairsZ-.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.25],
+					"min": [-0.5, -0.25, -0.5]
+				},
+				{
+					"max": [0.5, 0.25, 0],
+					"min": [-0.5, 0, -0.5]
+				},
+				{
+					"max": [0.5, 0.5, -0.25],
+					"min": [-0.5, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "Nach0Planks3Texture"
+	},
+	"Nach0Planks3StairsZ+": {
+		"parentType": "Nach0Planks3Stairs",
+		"mesh": "./meshes/StairsZ+.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.5],
+					"min": [-0.5, -0.25, -0.25]
+				},
+				{
+					"max": [0.5, 0.25, 0.5],
+					"min": [-0.5, 0, 0]
+				},
+				{
+					"max": [0.5, 0.5, 0.5],
+					"min": [-0.5, 0.25, 0.25]
+				}
+			]
+		},
+		"sideall": "Nach0Planks3Texture"
+	},
+	"Nach0Planks4Stairs": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"stairs",
+			"moreblocks",
+			"planks",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0Planks4Stairs.png",
+		"maxStackSize": 200,
+		"isPlaceable": true,
+		"needsBase": false,
+		"isRotatable": true,
+		"rotatablex-": "Nach0Planks4StairsX-",
+		"rotatablex+": "Nach0Planks4StairsX+",
+		"rotatablez-": "Nach0Planks4StairsZ-",
+		"rotatablez+": "Nach0Planks4StairsZ+"
+	},
+	"Nach0Planks4StairsX-": {
+		"parentType": "Nach0Planks4Stairs",
+		"mesh": "./meshes/StairsX-.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.25, 0, 0.5],
+					"min": [-0.5, -0.25, -0.5]
+				},
+				{
+					"max": [0, 0.25, 0.5],
+					"min": [-0.5, 0, -0.5]
+				},
+				{
+					"max": [-0.25, 0.5, 0.5],
+					"min": [-0.5, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "Nach0Planks4Texture"
+	},
+	"Nach0Planks4StairsX+": {
+		"parentType": "Nach0Planks4Stairs",
+		"mesh": "./meshes/StairsX+.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.5],
+					"min": [-0.25, -0.25, -0.5]
+				},
+				{
+					"max": [0.5, 0.25, 0.5],
+					"min": [0, 0, -0.5]
+				},
+				{
+					"max": [0.5, 0.5, 0.5],
+					"min": [0.25, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "Nach0Planks4Texture"
+	},
+	"Nach0Planks4StairsZ-": {
+		"parentType": "Nach0Planks4Stairs",
+		"mesh": "./meshes/StairsZ-.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.25],
+					"min": [-0.5, -0.25, -0.5]
+				},
+				{
+					"max": [0.5, 0.25, 0],
+					"min": [-0.5, 0, -0.5]
+				},
+				{
+					"max": [0.5, 0.5, -0.25],
+					"min": [-0.5, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "Nach0Planks4Texture"
+	},
+	"Nach0Planks4StairsZ+": {
+		"parentType": "Nach0Planks4Stairs",
+		"mesh": "./meshes/StairsZ+.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.5],
+					"min": [-0.5, -0.25, -0.25]
+				},
+				{
+					"max": [0.5, 0.25, 0.5],
+					"min": [-0.5, 0, 0]
+				},
+				{
+					"max": [0.5, 0.5, 0.5],
+					"min": [-0.5, 0.25, 0.25]
+				}
+			]
+		},
+		"sideall": "Nach0Planks4Texture"
+	},
+	"Nach0Planks5Stairs": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"stairs",
+			"moreblocks",
+			"planks",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0Planks5Stairs.png",
+		"maxStackSize": 200,
+		"isPlaceable": true,
+		"needsBase": false,
+		"isRotatable": true,
+		"rotatablex-": "Nach0Planks5StairsX-",
+		"rotatablex+": "Nach0Planks5StairsX+",
+		"rotatablez-": "Nach0Planks5StairsZ-",
+		"rotatablez+": "Nach0Planks5StairsZ+"
+	},
+	"Nach0Planks5StairsX-": {
+		"parentType": "Nach0Planks5Stairs",
+		"mesh": "./meshes/StairsX-.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.25, 0, 0.5],
+					"min": [-0.5, -0.25, -0.5]
+				},
+				{
+					"max": [0, 0.25, 0.5],
+					"min": [-0.5, 0, -0.5]
+				},
+				{
+					"max": [-0.25, 0.5, 0.5],
+					"min": [-0.5, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "Nach0Planks5Texture"
+	},
+	"Nach0Planks5StairsX+": {
+		"parentType": "Nach0Planks5Stairs",
+		"mesh": "./meshes/StairsX+.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.5],
+					"min": [-0.25, -0.25, -0.5]
+				},
+				{
+					"max": [0.5, 0.25, 0.5],
+					"min": [0, 0, -0.5]
+				},
+				{
+					"max": [0.5, 0.5, 0.5],
+					"min": [0.25, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "Nach0Planks5Texture"
+	},
+	"Nach0Planks5StairsZ-": {
+		"parentType": "Nach0Planks5Stairs",
+		"mesh": "./meshes/StairsZ-.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.25],
+					"min": [-0.5, -0.25, -0.5]
+				},
+				{
+					"max": [0.5, 0.25, 0],
+					"min": [-0.5, 0, -0.5]
+				},
+				{
+					"max": [0.5, 0.5, -0.25],
+					"min": [-0.5, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "Nach0Planks5Texture"
+	},
+	"Nach0Planks5StairsZ+": {
+		"parentType": "Nach0Planks5Stairs",
+		"mesh": "./meshes/StairsZ+.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.5],
+					"min": [-0.5, -0.25, -0.25]
+				},
+				{
+					"max": [0.5, 0.25, 0.5],
+					"min": [-0.5, 0, 0]
+				},
+				{
+					"max": [0.5, 0.5, 0.5],
+					"min": [-0.5, 0.25, 0.25]
+				}
+			]
+		},
+		"sideall": "Nach0Planks5Texture"
+	},
+	"Nach0Planks6Stairs": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"stairs",
+			"moreblocks",
+			"planks",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0Planks6Stairs.png",
+		"maxStackSize": 200,
+		"isPlaceable": true,
+		"needsBase": false,
+		"isRotatable": true,
+		"rotatablex-": "Nach0Planks6StairsX-",
+		"rotatablex+": "Nach0Planks6StairsX+",
+		"rotatablez-": "Nach0Planks6StairsZ-",
+		"rotatablez+": "Nach0Planks6StairsZ+"
+	},
+	"Nach0Planks6StairsX-": {
+		"parentType": "Nach0Planks6Stairs",
+		"mesh": "./meshes/StairsX-.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.25, 0, 0.5],
+					"min": [-0.5, -0.25, -0.5]
+				},
+				{
+					"max": [0, 0.25, 0.5],
+					"min": [-0.5, 0, -0.5]
+				},
+				{
+					"max": [-0.25, 0.5, 0.5],
+					"min": [-0.5, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "Nach0Planks6Texture"
+	},
+	"Nach0Planks6StairsX+": {
+		"parentType": "Nach0Planks6Stairs",
+		"mesh": "./meshes/StairsX+.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.5],
+					"min": [-0.25, -0.25, -0.5]
+				},
+				{
+					"max": [0.5, 0.25, 0.5],
+					"min": [0, 0, -0.5]
+				},
+				{
+					"max": [0.5, 0.5, 0.5],
+					"min": [0.25, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "Nach0Planks6Texture"
+	},
+	"Nach0Planks6StairsZ-": {
+		"parentType": "Nach0Planks6Stairs",
+		"mesh": "./meshes/StairsZ-.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.25],
+					"min": [-0.5, -0.25, -0.5]
+				},
+				{
+					"max": [0.5, 0.25, 0],
+					"min": [-0.5, 0, -0.5]
+				},
+				{
+					"max": [0.5, 0.5, -0.25],
+					"min": [-0.5, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "Nach0Planks6Texture"
+	},
+	"Nach0Planks6StairsZ+": {
+		"parentType": "Nach0Planks6Stairs",
+		"mesh": "./meshes/StairsZ+.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.5],
+					"min": [-0.5, -0.25, -0.25]
+				},
+				{
+					"max": [0.5, 0.25, 0.5],
+					"min": [-0.5, 0, 0]
+				},
+				{
+					"max": [0.5, 0.5, 0.5],
+					"min": [-0.5, 0.25, 0.25]
+				}
+			]
+		},
+		"sideall": "Nach0Planks6Texture"
+	},
+	"Nach0Dirt1": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"dirt",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0Dirt1.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0Dirt1Texture"
+	},
+	"Nach0Dirt2": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"dirt",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0Dirt2.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0Dirt2Texture"
+	},
+	"Nach0Dirt3": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"dirt",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0Dirt3.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0Dirt3Texture"
+	},
+	"Nach0Grass1": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"grass",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0Grass1.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0Grass1Texture"
+	},
+	"Nach0Grass1Sided": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"grass",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0Grass1Sided.png",
+		"maxStackSize": 200,
+		"sidey+": "Nach0Grass1Texture",
+		"sidey-": "Nach0Dirt1Texture",
+		"sideall": "Nach0Grass1SidedSideTexture"
+	},
+	"Nach0Sand1": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"sand",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0Sand1.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0Sand1Texture"
+	},
+	"Nach0Sand2": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"sand",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0Sand2.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0Sand2Texture"
+	},
+	"Nach0Stone1": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"stone",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0Stone1.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0Stone1Texture"
+	},
+	"Nach0Stone2": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"stone",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0Stone2.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0Stone2Texture"
+	},
+	"Nach0Stone3": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"stone",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0Stone3.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0Stone3Texture"
+	},
+	"Nach0Stone4": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"stone",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0Stone4.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0Stone4Texture"
+	},
+	"Nach0Stone5": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"stone",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0Stone5.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0Stone5Texture"
+	},
+	"Nach0Rock": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"stone",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0Rock.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0RockTexture"
+	},
+	"Nach0TreeLog1": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"log",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0TreeLog1.png",
+		"maxStackSize": 200,
+		"sidey+": "Nach0TreeLog1TopBottomTexture",
+		"sidey-": "Nach0TreeLog1TopBottomTexture",
+		"sideall": "Nach0TreeLog1SideTexture"
+	},
+	"Nach0TreeLog1Tipped": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"log",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0TreeLog1Tipped.png",
+		"maxStackSize": 200,
+		"isRotatable": true,
+		"isSolid": true,
+		"needsBase": false,
+		"rotatablex-": "Nach0TreeLog1TippedX",
+		"rotatablex+": "Nach0TreeLog1TippedX",
+		"rotatablez-": "Nach0TreeLog1TippedZ",
+		"rotatablez+": "Nach0TreeLog1TippedZ"
+	},
+	"Nach0TreeLog1TippedX": {
+		"parentType": "Nach0TreeLog1Tipped",
+		"sidex-": "Nach0TreeLog1TopBottomTexture",
+		"sidex+": "Nach0TreeLog1TopBottomTexture",
+		"sideall": "Nach0TreeLog1SideTippedTexture"
+	},
+	"Nach0TreeLog1TippedZ": {
+		"parentType": "Nach0TreeLog1Tipped",
+		"sidez-": "Nach0TreeLog1TopBottomTexture",
+		"sidez+": "Nach0TreeLog1TopBottomTexture",
+		"sidey+": "Nach0TreeLog1SideTexture",
+		"sidey-": "Nach0TreeLog1SideTexture",
+		"sideall": "Nach0TreeLog1SideTippedTexture"
+	},
+	"Nach0Planks1": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"planks",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0Planks1.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0Planks1Texture"
+	},
+	"Nach0TreeLog2": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"log",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0TreeLog2.png",
+		"maxStackSize": 200,
+		"sidey+": "Nach0TreeLog2TopBottomTexture",
+		"sidey-": "Nach0TreeLog2TopBottomTexture",
+		"sideall": "Nach0TreeLog2SideTexture"
+	},
+	"Nach0TreeLog2Tipped": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"log",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0TreeLog2Tipped.png",
+		"maxStackSize": 200,
+		"isRotatable": true,
+		"isSolid": true,
+		"needsBase": false,
+		"rotatablex-": "Nach0TreeLog2TippedX",
+		"rotatablex+": "Nach0TreeLog2TippedX",
+		"rotatablez-": "Nach0TreeLog2TippedZ",
+		"rotatablez+": "Nach0TreeLog2TippedZ"
+	},
+	"Nach0TreeLog2TippedX": {
+		"parentType": "Nach0TreeLog2Tipped",
+		"sidex-": "Nach0TreeLog2TopBottomTexture",
+		"sidex+": "Nach0TreeLog2TopBottomTexture",
+		"sideall": "Nach0TreeLog2SideTippedTexture"
+	},
+	"Nach0TreeLog2TippedZ": {
+		"parentType": "Nach0TreeLog2Tipped",
+		"sidez-": "Nach0TreeLog2TopBottomTexture",
+		"sidez+": "Nach0TreeLog2TopBottomTexture",
+		"sidey+": "Nach0TreeLog2SideTexture",
+		"sidey-": "Nach0TreeLog2SideTexture",
+		"sideall": "Nach0TreeLog2SideTippedTexture"
+	},
+	"Nach0Planks2": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"planks",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0Planks2.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0Planks2Texture"
+	},
+	"Nach0TreeLog3": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"log",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0TreeLog3.png",
+		"maxStackSize": 200,
+		"sidey+": "Nach0TreeLog3TopBottomTexture",
+		"sidey-": "Nach0TreeLog3TopBottomTexture",
+		"sideall": "Nach0TreeLog3SideTexture"
+	},
+	"Nach0TreeLog3Tipped": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"log",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0TreeLog3Tipped.png",
+		"maxStackSize": 200,
+		"isRotatable": true,
+		"isSolid": true,
+		"needsBase": false,
+		"rotatablex-": "Nach0TreeLog3TippedX",
+		"rotatablex+": "Nach0TreeLog3TippedX",
+		"rotatablez-": "Nach0TreeLog3TippedZ",
+		"rotatablez+": "Nach0TreeLog3TippedZ"
+	},
+	"Nach0TreeLog3TippedX": {
+		"parentType": "Nach0TreeLog3Tipped",
+		"sidex-": "Nach0TreeLog3TopBottomTexture",
+		"sidex+": "Nach0TreeLog3TopBottomTexture",
+		"sideall": "Nach0TreeLog3SideTippedTexture"
+	},
+	"Nach0TreeLog3TippedZ": {
+		"parentType": "Nach0TreeLog3Tipped",
+		"sidez-": "Nach0TreeLog3TopBottomTexture",
+		"sidez+": "Nach0TreeLog3TopBottomTexture",
+		"sidey+": "Nach0TreeLog3SideTexture",
+		"sidey-": "Nach0TreeLog3SideTexture",
+		"sideall": "Nach0TreeLog3SideTippedTexture"
+	},
+	"Nach0Planks3": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"planks",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0Planks3.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0Planks3Texture"
+	},
+	"Nach0TreeLog4": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"log",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0TreeLog4.png",
+		"maxStackSize": 200,
+		"sidey+": "Nach0TreeLog4TopBottomTexture",
+		"sidey-": "Nach0TreeLog4TopBottomTexture",
+		"sideall": "Nach0TreeLog4SideTexture"
+	},
+	"Nach0TreeLog4Tipped": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"log",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0TreeLog4Tipped.png",
+		"maxStackSize": 200,
+		"isRotatable": true,
+		"isSolid": true,
+		"needsBase": false,
+		"rotatablex-": "Nach0TreeLog4TippedX",
+		"rotatablex+": "Nach0TreeLog4TippedX",
+		"rotatablez-": "Nach0TreeLog4TippedZ",
+		"rotatablez+": "Nach0TreeLog4TippedZ"
+	},
+	"Nach0TreeLog4TippedX": {
+		"parentType": "Nach0TreeLog4Tipped",
+		"sidex-": "Nach0TreeLog4TopBottomTexture",
+		"sidex+": "Nach0TreeLog4TopBottomTexture",
+		"sideall": "Nach0TreeLog4SideTippedTexture"
+	},
+	"Nach0TreeLog4TippedZ": {
+		"parentType": "Nach0TreeLog4Tipped",
+		"sidez-": "Nach0TreeLog4TopBottomTexture",
+		"sidez+": "Nach0TreeLog4TopBottomTexture",
+		"sidey+": "Nach0TreeLog4SideTexture",
+		"sidey-": "Nach0TreeLog4SideTexture",
+		"sideall": "Nach0TreeLog4SideTippedTexture"
+	},
+	"Nach0Planks4": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"planks",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0Planks4.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0Planks4Texture"
+	},
+	"Nach0TreeLog5": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"log",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0TreeLog5.png",
+		"maxStackSize": 200,
+		"sidey+": "Nach0TreeLog5TopBottomTexture",
+		"sidey-": "Nach0TreeLog5TopBottomTexture",
+		"sideall": "Nach0TreeLog5SideTexture"
+	},
+	"Nach0TreeLog5Tipped": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"log",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0TreeLog5Tipped.png",
+		"maxStackSize": 200,
+		"isRotatable": true,
+		"isSolid": true,
+		"needsBase": false,
+		"rotatablex-": "Nach0TreeLog5TippedX",
+		"rotatablex+": "Nach0TreeLog5TippedX",
+		"rotatablez-": "Nach0TreeLog5TippedZ",
+		"rotatablez+": "Nach0TreeLog5TippedZ"
+	},
+	"Nach0TreeLog5TippedX": {
+		"parentType": "Nach0TreeLog5Tipped",
+		"sidex-": "Nach0TreeLog5TopBottomTexture",
+		"sidex+": "Nach0TreeLog5TopBottomTexture",
+		"sideall": "Nach0TreeLog5SideTippedTexture"
+	},
+	"Nach0TreeLog5TippedZ": {
+		"parentType": "Nach0TreeLog5Tipped",
+		"sidez-": "Nach0TreeLog5TopBottomTexture",
+		"sidez+": "Nach0TreeLog5TopBottomTexture",
+		"sidey+": "Nach0TreeLog5SideTexture",
+		"sidey-": "Nach0TreeLog5SideTexture",
+		"sideall": "Nach0TreeLog5SideTippedTexture"
+	},
+	"Nach0Planks5": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"planks",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0Planks5.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0Planks5Texture"
+	},
+	"Nach0TreeLog6": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"log",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0TreeLog6.png",
+		"maxStackSize": 200,
+		"sidey+": "Nach0TreeLog6TopBottomTexture",
+		"sidey-": "Nach0TreeLog6TopBottomTexture",
+		"sideall": "Nach0TreeLog6SideTexture"
+	},
+	"Nach0TreeLog6Tipped": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"log",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0TreeLog6Tipped.png",
+		"maxStackSize": 200,
+		"isRotatable": true,
+		"isSolid": true,
+		"needsBase": false,
+		"rotatablex-": "Nach0TreeLog6TippedX",
+		"rotatablex+": "Nach0TreeLog6TippedX",
+		"rotatablez-": "Nach0TreeLog6TippedZ",
+		"rotatablez+": "Nach0TreeLog6TippedZ"
+	},
+	"Nach0TreeLog6TippedX": {
+		"parentType": "Nach0TreeLog6Tipped",
+		"sidex-": "Nach0TreeLog6TopBottomTexture",
+		"sidex+": "Nach0TreeLog6TopBottomTexture",
+		"sideall": "Nach0TreeLog6SideTippedTexture"
+	},
+	"Nach0TreeLog6TippedZ": {
+		"parentType": "Nach0TreeLog6Tipped",
+		"sidez-": "Nach0TreeLog6TopBottomTexture",
+		"sidez+": "Nach0TreeLog6TopBottomTexture",
+		"sidey+": "Nach0TreeLog6SideTexture",
+		"sidey-": "Nach0TreeLog6SideTexture",
+		"sideall": "Nach0TreeLog6SideTippedTexture"
+	},
+	"Nach0Planks6": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"planks",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0Planks6.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0Planks6Texture"
+	},
+	"Nach0EnchantedStone": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"stone",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0EnchantedStone.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0EnchantedStoneTexture"
+	},
+	"Nach0IceBlock": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"ice",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0IceBlock.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0IceBlockTexture"
+	},
+	"Nach0IceBroken1": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"ice",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0IceBroken1.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0IceBroken1Texture"
+	},
+	"Nach0IceBroken2": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"ice",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0IceBroken2.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0IceBroken2Texture"
+	},
+	"Nach0IceBroken3": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"ice",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0IceBroken3.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0IceBroken3Texture"
+	},
+	"Nach0ClayBlock": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"resources",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0ClayBlock.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0ClayBlockTexture"
+	},
+	"Nach0CoalBlock": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"resources",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0CoalBlock.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0CoalBlockTexture"
+	},
+	"Nach0GoldBlock": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"resources",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0GoldBlock.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0GoldBlockTexture"
+	},
+	"Nach0SteelBlock": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"resources",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0SteelBlock.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0SteelBlockTexture"
+	},
+	"Nach0CrystalBlock": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"resources",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0CrystalBlock.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0CrystalBlockTexture"
+	},
+	"Nach0LavaBlock": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"resources",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0LavaBlock.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0LavaBlockTexture"
+	},
+	"Nach0Hay": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"resources",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0Hay.png",
+		"maxStackSize": 200,
+		"sidey+": "Nach0HayTopBottomTexture",
+		"sidey-": "Nach0HayTopBottomTexture",
+		"sideall": "Nach0HaySideTexture"
+	},
+	"Nach0WaterBucket": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"items",
+			"buckets"
+		],
+		"isPlaceable": false,
+		"icon": "./textures/icons/Nach0WaterBucket.png",
+		"maxStackSize": 50
+	},
+	"Nach0AquaPaint": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"items",
+			"paint"
+		],
+		"isPlaceable": false,
+		"icon": "./textures/icons/Nach0AquaPaint.png",
+		"maxStackSize": 50
+	},
+	"Nach0BlackPaint": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"items",
+			"paint"
+		],
+		"isPlaceable": false,
+		"icon": "./textures/icons/Nach0BlackPaint.png",
+		"maxStackSize": 50
+	},
+	"Nach0BluePaint": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"items",
+			"paint"
+		],
+		"isPlaceable": false,
+		"icon": "./textures/icons/Nach0BluePaint.png",
+		"maxStackSize": 50
+	},
+	"Nach0BrownPaint": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"items",
+			"paint"
+		],
+		"isPlaceable": false,
+		"icon": "./textures/icons/Nach0BrownPaint.png",
+		"maxStackSize": 50
+	},
+	"Nach0DarkGreenPaint": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"items",
+			"paint"
+		],
+		"isPlaceable": false,
+		"icon": "./textures/icons/Nach0DarkGreenPaint.png",
+		"maxStackSize": 50
+	},
+	"Nach0GreenPaint": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"items",
+			"paint"
+		],
+		"isPlaceable": false,
+		"icon": "./textures/icons/Nach0GreenPaint.png",
+		"maxStackSize": 50
+	},
+	"Nach0GreyPaint": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"items",
+			"paint"
+		],
+		"isPlaceable": false,
+		"icon": "./textures/icons/Nach0GreyPaint.png",
+		"maxStackSize": 50
+	},
+	"Nach0LightBluePaint": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"items",
+			"paint"
+		],
+		"isPlaceable": false,
+		"icon": "./textures/icons/Nach0LightBluePaint.png",
+		"maxStackSize": 50
+	},
+	"Nach0LightGreyPaint": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"items",
+			"paint"
+		],
+		"isPlaceable": false,
+		"icon": "./textures/icons/Nach0LightGreyPaint.png",
+		"maxStackSize": 50
+	},
+	"Nach0MagentaPaint": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"items",
+			"paint"
+		],
+		"isPlaceable": false,
+		"icon": "./textures/icons/Nach0MagentaPaint.png",
+		"maxStackSize": 50
+	},
+	"Nach0OrangePaint": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"items",
+			"paint"
+		],
+		"isPlaceable": false,
+		"icon": "./textures/icons/Nach0OrangePaint.png",
+		"maxStackSize": 50
+	},
+
+	"Nach0PinkPaint": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"items",
+			"paint"
+		],
+		"isPlaceable": false,
+		"icon": "./textures/icons/Nach0PinkPaint.png",
+		"maxStackSize": 50
+	},
+	"Nach0PurplePaint": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"items",
+			"paint"
+		],
+		"isPlaceable": false,
+		"icon": "./textures/icons/Nach0PurplePaint.png",
+		"maxStackSize": 50
+	},
+	"Nach0RedPaint": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"items",
+			"paint"
+		],
+		"isPlaceable": false,
+		"icon": "./textures/icons/Nach0RedPaint.png",
+		"maxStackSize": 50
+	},
+	"Nach0WhitePaint": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"items",
+			"paint"
+		],
+		"isPlaceable": false,
+		"icon": "./textures/icons/Nach0WhitePaint.png",
+		"maxStackSize": 50
+	},
+	"Nach0YellowPaint": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"items",
+			"paint"
+		],
+		"isPlaceable": false,
+		"icon": "./textures/icons/Nach0YellowPaint.png",
+		"maxStackSize": 50
+	},
+	"Nach0Brick": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"items"
+		],
+		"isPlaceable": false,
+		"icon": "./textures/icons/Nach0Brick.png",
+		"maxStackSize": 50
+	},
+	"Nach0CementPowder": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"items"
+		],
+		"isPlaceable": false,
+		"icon": "./textures/icons/Nach0CementPowder.png",
+		"maxStackSize": 5
+	},
+	"Nach0SilverCoins": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"items",
+			"coins"
+		],
+		"isPlaceable": false,
+		"icon": "./textures/icons/Nach0SilverCoins.png",
+		"maxStackSize": 100
+	},
+	"Nach0PlatniumCoins": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"items",
+			"coins"
+		],
+		"isPlaceable": false,
+		"icon": "./textures/icons/Nach0PlatniumCoins.png",
+		"maxStackSize": 100
+	},
+	"Nach0Cross": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"items"
+		],
+		"isPlaceable": false,
+		"icon": "./textures/icons/Nach0Cross.png",
+		"maxStackSize": 1
+	},
+	"Nach0Paper": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"items"
+		],
+		"isPlaceable": false,
+		"icon": "./textures/icons/Nach0Paper.png",
+		"maxStackSize": 200
+	},
+	"Nach0SilverOre": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"items",
+			"ores"
+		],
+		"isPlaceable": false,
+		"icon": "./textures/icons/Nach0SilverOre.png",
+		"maxStackSize": 50
+	},
+	"Nach0PlatniumOre": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"items",
+			"ores"
+		],
+		"isPlaceable": false,
+		"icon": "./textures/icons/Nach0PlatniumOre.png",
+		"maxStackSize": 50
+	},
+	"Nach0PaintingScienceBag": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"items",
+			"sciencebags"
+		],
+		"isPlaceable": false,
+		"icon": "./textures/icons/Nach0PaintingScienceBag.png",
+		"maxStackSize": 50
+	},
+	"Nach0Chisel": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"items"
+		],
+		"isPlaceable": false,
+		"icon": "./textures/icons/Nach0Chisel.png",
+		"maxStackSize": 50
+	},
+	"Nach0PaintBrush": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"items"
+		],
+		"isPlaceable": false,
+		"icon": "./textures/icons/Nach0PaintBrush.png",
+		"maxStackSize": 50
+	},
+	"Nach0SandPaper": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"items"
+		],
+		"isPlaceable": false,
+		"icon": "./textures/icons/Nach0SandPaper.png",
+		"maxStackSize": 200
+	},
+	"Nach0Pailer": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"jobs"
+		],
+		"icon": "./textures/icons/Nach0Pailer.png",
+		"maxStackSize": 50,
+		"sidey+": "Nach0PailerTopTexture",
+		"sideall": "ironblock"
+	},
+	"Nach0Freezer": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"jobs"
+		],
+		"icon": "./textures/icons/Nach0Freezer.png",
+		"maxStackSize": 50,
+		"isRotatable": true,
+		"isSolid": true,
+		"needsBase": true,
+		"rotatablex-": "Nach0FreezerX-",
+		"rotatablex+": "Nach0FreezerX+",
+		"rotatablez-": "Nach0FreezerZ-",
+		"rotatablez+": "Nach0FreezerZ+"
+	},
+	"Nach0FreezerX-": {
+		"parentType": "Nach0Freezer",
+		"sidex-": "Nach0FreezerFrontTexture",
+		"sideall": "ironblock"
+	},
+	"Nach0FreezerX+": {
+		"parentType": "Nach0Freezer",
+		"sidex+": "Nach0FreezerFrontTexture",
+		"sideall": "ironblock"
+	},
+	"Nach0FreezerZ-": {
+		"parentType": "Nach0Freezer",
+		"sidez-": "Nach0FreezerFrontTexture",
+		"sideall": "ironblock"
+	},
+	"Nach0FreezerZ+": {
+		"parentType": "Nach0Freezer",
+		"sidez+": "Nach0FreezerFrontTexture",
+		"sideall": "ironblock"
+	},
+	"Nach0Melter": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"jobs"
+		],
+		"icon": "./textures/icons/Nach0Melter.png",
+		"maxStackSize": 50,
+		"isRotatable": true,
+		"isSolid": true,
+		"needsBase": true,
+		"rotatablex-": "Nach0MelterX-",
+		"rotatablex+": "Nach0MelterX+",
+		"rotatablez-": "Nach0MelterZ-",
+		"rotatablez+": "Nach0MelterZ+"
+	},
+	"Nach0MelterX-": {
+		"parentType": "Nach0Melter",
+		"sidex-": "Nach0MelterFrontTexture",
+		"sideall": "ironblock"
+	},
+	"Nach0MelterX+": {
+		"parentType": "Nach0Melter",
+		"sidex+": "Nach0MelterFrontTexture",
+		"sideall": "ironblock"
+	},
+	"Nach0MelterZ-": {
+		"parentType": "Nach0Melter",
+		"sidez-": "Nach0MelterFrontTexture",
+		"sideall": "ironblock"
+	},
+	"Nach0MelterZ+": {
+		"parentType": "Nach0Melter",
+		"sidez+": "Nach0MelterFrontTexture",
+		"sideall": "ironblock"
+	},
+	"Nach0Crusher": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"jobs"
+		],
+		"icon": "./textures/icons/Nach0Crusher.png",
+		"maxStackSize": 50,
+		"sidey+": "ironblock",
+		"sidey-": "ironblock",
+		"sideall": "Nach0CrusherSidesTexture"
+	},
+	"Nach0Sander": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"jobs"
+		],
+		"icon": "./textures/icons/Nach0Sander.png",
+		"maxStackSize": 50,
+		"sidey+": "Nach0SanderTopTexture",
+		"sideall": "planks"
+	},
+	"Nach0PaintMixer": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"jobs"
+		],
+		"icon": "./textures/icons/Nach0PaintMixer.png",
+		"maxStackSize": 50,
+		"isRotatable": true,
+		"isSolid": true,
+		"needsBase": true,
+		"rotatablex-": "Nach0PaintMixerX-",
+		"rotatablex+": "Nach0PaintMixerX+",
+		"rotatablez-": "Nach0PaintMixerZ-",
+		"rotatablez+": "Nach0PaintMixerZ+"
+	},
+	"Nach0PaintMixerX-": {
+		"parentType": "Nach0PaintMixer",
+		"sidex-": "Nach0PaintMixerFrontTexture",
+		"sideall": "ironblock"
+	},
+	"Nach0PaintMixerX+": {
+		"parentType": "Nach0PaintMixer",
+		"sidex+": "Nach0PaintMixerFrontTexture",
+		"sideall": "ironblock"
+	},
+	"Nach0PaintMixerZ-": {
+		"parentType": "Nach0PaintMixer",
+		"sidez-": "Nach0PaintMixerFrontTexture",
+		"sideall": "ironblock"
+	},
+	"Nach0PaintMixerZ+": {
+		"parentType": "Nach0PaintMixer",
+		"sidez+": "Nach0PaintMixerFrontTexture",
+		"sideall": "ironblock"
+	},
+	"Nach0PaintersTable": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"jobs"
+		],
+		"icon": "./textures/icons/Nach0PaintersTable.png",
+		"maxStackSize": 50,
+		"sidey+": "Nach0PaintersTableTopTexture",
+		"sideall": "planks"
+	},
+	"Nach0AdvancedPaintersTable": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"jobs"
+		],
+		"icon": "./textures/icons/Nach0AdvancedPaintersTable.png",
+		"maxStackSize": 50,
+		"sidey+": "Nach0AdvancedPaintersTableTopTexture",
+		"sideall": "coatedplanks"
+	},
+	"Nach0BrickMaker": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"jobs"
+		],
+		"icon": "./textures/icons/Nach0BrickMaker.png",
+		"maxStackSize": 50,
+		"sidey+": "Nach0BrickMakerTopTexture",
+		"sideall": "planks"
+	},
+	"Nach0BrickLayer": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"jobs"
+		],
+		"icon": "./textures/icons/Nach0BrickLayer.png",
+		"maxStackSize": 50,
+		"sidey+": "bricks",
+		"sidey-": "crate",
+		"sideall": "Nach0BrickLayerSidesTexture"
+	},
+	"Nach0CarversTable": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"jobs"
+		],
+		"icon": "./textures/icons/Nach0CarversTable.png",
+		"maxStackSize": 50,
+		"sidey+": "Nach0CarversTableTopTexture",
+		"sideall": "planks"
+	},
+	"Nach0Chiseler": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"jobs"
+		],
+		"icon": "./textures/icons/Nach0Chiseler.png",
+		"maxStackSize": 50,
+		"sidey+": "Nach0ChiselerTopTexture",
+		"sideall": "stoneblock"
+	},
+	"Nach0Enchanter": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"jobs"
+		],
+		"icon": "./textures/icons/Nach0Enchanter.png",
+		"maxStackSize": 50,
+		"sideall": "Nach0EnchanterTexture"
+	},
+	"Nach0MagicTable": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"jobs"
+		],
+		"icon": "./textures/icons/Nach0MagicTable.png",
+		"maxStackSize": 50,
+		"sidey+": "Nach0MagicTableTopTexture",
+		"sideall": "Nach0EnchantedStoneTexture"
+	},
+	"Nach0ConcreteLayer": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"jobs"
+		],
+		"icon": "./textures/icons/Nach0ConcreteLayer.png",
+		"maxStackSize": 50,
+		"sidey+": "Nach0ConcreteTexture",
+		"sidey-": "crate",
+		"sideall": "Nach0ConcreteLayerSidesTexture"
+	},
+	"Nach0TestBlock": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"decorative"
+		],
+		"sideall": "error"
+	}
+}

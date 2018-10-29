@@ -1,5 +1,6 @@
-﻿using Pipliz.Mods.APIProvider.Science;
-using Server.Science;
+﻿using Recipes;
+using Science;
+
 
 namespace MoreBlocks.Research
 {
@@ -18,9 +19,10 @@ namespace MoreBlocks.Research
             AddDependency("Nach0RockResearch");
         }
 
-        public override void OnResearchComplete(ScienceManagerPlayer manager, EResearchCompletionReason reason)
+		public override void OnResearchComplete (ColonyScienceState manager, EResearchCompletionReason reason)
         {
-            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0EnchanterCraft-pipliz.stonemason", true, "pipliz.stonemason");
+            var recipeData = manager.Colony.RecipeData;
+            recipeData.UnlockRecipe(new RecipeKey("Nach0EnchanterCraft-pipliz.stonemason"));
         }
     }
 }

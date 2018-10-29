@@ -1,5 +1,6 @@
-﻿using Pipliz.Mods.APIProvider.Science;
-using Server.Science;
+﻿using Recipes;
+using Science;
+
 
 namespace MoreBlocks.Research
 {
@@ -17,20 +18,21 @@ namespace MoreBlocks.Research
             AddDependency("Nach0CurrencyResearch");
         }
 
-        public override void OnResearchComplete(ScienceManagerPlayer manager, EResearchCompletionReason reason)
+		public override void OnResearchComplete (ColonyScienceState manager, EResearchCompletionReason reason)
         {
-            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0Planks1Craft-pipliz.woodcutter", true, "pipliz.woodcutter");
-            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0Planks2Craft-pipliz.woodcutter", true, "pipliz.woodcutter");
-            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0Planks3Craft-pipliz.woodcutter", true, "pipliz.woodcutter");
-            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0Planks4Craft-pipliz.woodcutter", true, "pipliz.woodcutter");
-            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0Planks5Craft-pipliz.woodcutter", true, "pipliz.woodcutter");
-            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0Planks6Craft-pipliz.woodcutter", true, "pipliz.woodcutter");
-            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0TreeLog1Craft-pipliz.merchant", true, "pipliz.merchant");
-            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0TreeLog2Craft-pipliz.merchant", true, "pipliz.merchant");
-            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0TreeLog3Craft-pipliz.merchant", true, "pipliz.merchant");
-            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0TreeLog4Craft-pipliz.merchant", true, "pipliz.merchant");
-            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0TreeLog5Craft-pipliz.merchant", true, "pipliz.merchant");
-            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0TreeLog6Craft-pipliz.merchant", true, "pipliz.merchant");
+            manager.Colony.RecipeData.UnlockRecipe(new RecipeKey("Nach0Planks1Craft-pipliz.woodcutter"));
+            manager.Colony.RecipeData.UnlockRecipe(new RecipeKey("Nach0Planks2Craft-pipliz.woodcutter"));
+            manager.Colony.RecipeData.UnlockRecipe(new RecipeKey("Nach0Planks3Craft-pipliz.woodcutter"));
+            manager.Colony.RecipeData.UnlockRecipe(new RecipeKey("Nach0Planks4Craft-pipliz.woodcutter"));
+            manager.Colony.RecipeData.UnlockRecipe(new RecipeKey("Nach0Planks5Craft-pipliz.woodcutter"));
+            manager.Colony.RecipeData.UnlockRecipe(new RecipeKey("Nach0Planks6Craft-pipliz.woodcutter"));
+            manager.Colony.RecipeData.UnlockRecipe(new RecipeKey("Nach0TreeLog1Craft-pipliz.merchant"));
+            manager.Colony.RecipeData.UnlockRecipe(new RecipeKey("Nach0TreeLog2Craft-pipliz.merchant"));
+            manager.Colony.RecipeData.UnlockRecipe(new RecipeKey("Nach0TreeLog3Craft-pipliz.merchant"));
+            manager.Colony.RecipeData.UnlockRecipe(new RecipeKey("Nach0TreeLog4Craft-pipliz.merchant"));
+            manager.Colony.RecipeData.UnlockRecipe(new RecipeKey("Nach0TreeLog5Craft-pipliz.merchant"));
+            manager.Colony.RecipeData.UnlockRecipe(new RecipeKey("Nach0TreeLog6Craft-pipliz.merchant"));
+
         }
     }
 }

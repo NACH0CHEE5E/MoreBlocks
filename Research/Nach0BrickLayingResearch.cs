@@ -1,7 +1,7 @@
-﻿using Pipliz.Mods.APIProvider.Science;
-using Server.Science;
+﻿using Recipes;
+using Science;
 
-namespace MoreBlocks.Research
+namespace Research
 {
     [AutoLoadedResearchable]
     public class Nach0BrickLayingResearch : BaseResearchable
@@ -15,9 +15,9 @@ namespace MoreBlocks.Research
             AddDependency("Nach0BrickMakingResearch");
         }
 
-        public override void OnResearchComplete(ScienceManagerPlayer manager, EResearchCompletionReason reason)
+        public override void OnResearchComplete(ColonyScienceState manager, EResearchCompletionReason reason)
         {
-            RecipeStorage.GetPlayerStorage(manager.Player).SetRecipeAvailability("Nach0BrickLayerCraft-pipliz.crafter", true, "pipliz.crafter");
+            manager.Colony.RecipeData.UnlockRecipe(new RecipeKey("Nach0BrickLayerCraft-pipliz.crafter"));
         }
     }
 }
