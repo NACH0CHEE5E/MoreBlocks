@@ -3,8 +3,8 @@
 	"version": "1.6.0",
 	"namepretty": "More Blocks",
 	"dllpath": "MoreBlocks.dll",
-	"enabled": true,
-	"marksgamemodded": true,
+	"enabled": false,
+	"marksgamemodded": false,
 	"compatibleversions": [
 		"0.7.0"
 	],
@@ -17,6 +17,11 @@
 			"fileType": "addNewTypes",
 			"relativePath": "gamedata/types.json"
 		},
+		{
+				"fileType" : "addOrReplaceNPCTypes",
+				"index" : -1000000,
+				"relativePath" : "gamedata/npctypes.json"
+			},
 		{
 			"fileType": "addOrOverrideLocalization",
 			"relativePath": "gamedata/locale/en-US.json"

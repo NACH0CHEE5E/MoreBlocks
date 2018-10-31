@@ -187,7 +187,6 @@
 		"maxStackSize": 50,
 		"needsBase": true,
 		"isRotatable": false,
-		"mesh": "./meshes/RockPile.obj",
 		"colliders": {
 			"boxes": [{
 				"max": [0.5, 0.5, 0.5],
