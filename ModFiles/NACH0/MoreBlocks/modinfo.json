@@ -18,6 +18,11 @@
 			"relativePath": "gamedata/types.json"
 		},
 		{
+			"fileType" : "addBlockJobs",
+			"index" : -1000000,
+			"relativePath" : "gamedata/jobblocks.json"
+		},
+		{
 			"fileType" : "addOrReplaceNPCTypes",
 			"index" : -1000000,
 			"relativePath" : "gamedata/npctypes.json"

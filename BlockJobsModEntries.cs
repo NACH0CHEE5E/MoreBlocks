@@ -38,7 +38,7 @@ namespace Jobs
             BlockJobManagerTracker.Register<Nach0PaintMixerJob>("Nach0PaintMixer");
             BlockJobManagerTracker.Register<Nach0SanderJob>("Nach0Sander");*/
 
-            CreateJob(new CraftingJobSettings("Nach0AdvancedPaintersTable", "Nach0AdvancedPainterJob", 5f, 10));
+            /*CreateJob(new CraftingJobSettings("Nach0AdvancedPaintersTable", "Nach0AdvancedPainterJob", 5f, 10));
             CreateJob(new CraftingJobSettings("Nach0BrickLayer", "Nach0BrickLayerJob", 5f, 10));
             CreateJob(new CraftingJobSettings("Nach0BrickMaker", "Nach0BrickMakerJob", 5f, 10));
             CreateJob(new CraftingJobSettings("Nach0CarversTable", "Nach0CarverJob", 5f, 10));
@@ -53,7 +53,7 @@ namespace Jobs
             CreateJob(new CraftingJobRotatedSettings("Nach0Freezer", "Nach0FreezerJob", 5f, 10));
             CreateJob(new CraftingJobRotatedSettings("Nach0PaintMixer", "Nach0PaintMixerJob", 5f, 10));
             CreateJob(new CraftingJobRotatedSettings("Nach0Melter", "Nach0MelterJob", 5f, 10));
-            //CreateJob(new CraftingJobSettings("blockassingedto", "name of job", craftingCooldown, maxCraftsPerHaul))
+            //CreateJob(new CraftingJobSettings("blockassingedto", "name of job", craftingCooldown, maxCraftsPerHaul))*/
 
 
 
