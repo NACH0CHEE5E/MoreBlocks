@@ -5,5 +5,12 @@
 		"jobType" : "craftingblockrotated",
 		"maxCraftsPerHaul" : 10,
 		"npcType" : "Nach0.Jobs.PaintMixer"
+	},
+	{
+		"blockType" : "Nach0.Types.Pailer",
+		"cooldown" : 2,
+		"jobType" : "craftingblock",
+		"maxCraftsPerHaul" : 15,
+		"npcType" : "Nach0.Jobs.Pailer"
 	}
 ]

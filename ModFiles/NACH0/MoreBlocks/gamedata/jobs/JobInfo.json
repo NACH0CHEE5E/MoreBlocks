@@ -6,5 +6,13 @@
 		"keyName" : "Nach0.Jobs.PaintMixer",
 		"npcType" : "worker",
 		"printName" : "Paint Mixer"
+	},
+	{
+		"data" : {
+			"maskColor1" : "#00FFEF"
+		},
+		"keyName" : "Nach0.Jobs.Pailer",
+		"npcType" : "worker",
+		"printName" : "Pailer"
 	}
 ]

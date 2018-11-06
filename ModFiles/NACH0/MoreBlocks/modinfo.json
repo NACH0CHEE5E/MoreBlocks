@@ -30,6 +30,10 @@
 			"relativePath": "gamedata/types/SmoothedConcrete.json"
 		},
 		{
+			"fileType": "addNewTypes",
+			"relativePath": "gamedata/types/JobBlocks.json"
+		},
+		{
 			"fileType" : "generateBlocks",
 			"index" : -1000000,
 			"relativePath" : "gamedata/types/RotatableJobBlocks.json"
@@ -69,6 +73,15 @@
 			],
 			"npcType" : "Nach0.Jobs.PaintMixer",
 			"relativePath" : "gamedata/recipes/Nach0.Jobs.PaintMixer.json"
+		},
+		{
+			"fileType" : "addOrReplaceNPCRecipes",
+			"index" : -1000000,
+			"limitsUIMapping" : [
+				"Nach0.Types.Pailer"
+			],
+			"npcType" : "Nach0.Jobs.Pailer",
+			"relativePath" : "gamedata/recipes/Nach0.Jobs.Pailer.json"
 		}
 	],
 	"patchnotes": [

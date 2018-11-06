@@ -1,0 +1,20 @@
+[
+	{
+		"defaultLimit": 500,
+		"defaultPriority": 0,
+		"isOptional": false,
+		"name": "Nach0.Recipes.WaterBucket",
+		"requires": [
+			{
+				"amount": 1,
+				"type": "Nach0.Types.Bucket"
+			}
+		],
+		"results": [
+			{
+				"amount": 1,
+				"type": "Nach0.Types.WaterBucket"
+			}
+		]
+	}
+]

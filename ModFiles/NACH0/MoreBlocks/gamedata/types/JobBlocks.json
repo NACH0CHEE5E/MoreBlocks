@@ -1,0 +1,14 @@
+{
+	"Nach0.Types.Pailer": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"jobs"
+		],
+		"icon": "./../textures/icons/Pailer.png",
+		"onPlaceAudio": "stonePlace",
+		"onRemoveAudio": "stoneDelete",
+		"sideall": "ironblock",
+		"sidey+": "Nach0.Textures.PailerTop"
+	}
+}

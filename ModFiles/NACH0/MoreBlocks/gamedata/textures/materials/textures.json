@@ -16,5 +16,8 @@
 	},
 	"Nach0.Textures.PaintMixerFront": {
 		"albedo": "paintmixerfront"
+	},
+	"Nach0.Textures.PailerTop": {
+		"albedo": "pailertop"
 	}
 }
