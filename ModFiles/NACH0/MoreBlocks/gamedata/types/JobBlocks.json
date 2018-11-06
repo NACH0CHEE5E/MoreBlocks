@@ -1,1 +1,15 @@
-[]
+{
+	"Nach0.Types.Pailer": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"decorative"
+		],
+		"icon": "./../textures/icons/AquaColouredBlock.png",
+		"maxStackSize": 200,
+		"color": "#00FFFF",
+		"onPlaceAudio": "woodPlace",
+		"onRemoveAudio": "woodDeleteLight",
+		"sideall": "neutral"
+	}
+}
