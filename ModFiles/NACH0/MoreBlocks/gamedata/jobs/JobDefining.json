@@ -1,0 +1,9 @@
+[
+	{
+		"blockType" : "Nach0.Types.PaintMixer",
+		"cooldown" : 5,
+		"jobType" : "craftingblockrotated",
+		"maxCraftsPerHaul" : 10,
+		"npcType" : "Nach0.Jobs.PaintMixer"
+	}
+]

@@ -1,0 +1,178 @@
+{
+	"Nach0.Types.AquaPaint": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"items",
+			"paint",
+			"aqua"
+		],
+		"icon": "./../textures/icons/AquaPaint.png",
+		"isPlaceable": false
+	},
+	"Nach0.Types.BlackPaint": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"items",
+			"paint",
+			"black"
+		],
+		"icon": "./../textures/icons/BlackPaint.png",
+		"isPlaceable": false
+	},
+	"Nach0.Types.BluePaint": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"items",
+			"paint",
+			"blue"
+		],
+		"icon": "./../textures/icons/BluePaint.png",
+		"isPlaceable": false
+	},
+	"Nach0.Types.BrownPaint": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"items",
+			"paint",
+			"brown"
+		],
+		"icon": "./../textures/icons/BrownPaint.png",
+		"isPlaceable": false
+	},
+	"Nach0.Types.DarkGreenPaint": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"items",
+			"paint",
+			"darkgreen"
+		],
+		"icon": "./../textures/icons/DarkGreenPaint.png",
+		"isPlaceable": false
+	},
+	"Nach0.Types.GreenPaint": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"items",
+			"paint",
+			"green"
+		],
+		"icon": "./../textures/icons/GreenPaint.png",
+		"isPlaceable": false
+	},
+	"Nach0.Types.GreyPaint": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"items",
+			"paint",
+			"grey"
+		],
+		"icon": "./../textures/icons/GreyPaint.png",
+		"isPlaceable": false
+	},
+	"Nach0.Types.LightBluePaint": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"items",
+			"paint",
+			"lightblue"
+		],
+		"icon": "./../textures/icons/LightBluePaint.png",
+		"isPlaceable": false
+	},
+	"Nach0.Types.LightGreyPaint": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"items",
+			"paint",
+			"lightgrey"
+		],
+		"icon": "./../textures/icons/LightGreyPaint.png",
+		"isPlaceable": false
+	},
+	"Nach0.Types.MagentaPaint": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"items",
+			"paint",
+			"magenta"
+		],
+		"icon": "./../textures/icons/MagentaPaint.png",
+		"isPlaceable": false
+	},
+	"Nach0.Types.OrangePaint": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"items",
+			"paint",
+			"orange"
+		],
+		"icon": "./../textures/icons/OrangePaint.png",
+		"isPlaceable": false
+	},
+	"Nach0.Types.PinkPaint": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"items",
+			"paint",
+			"pink"
+		],
+		"icon": "./../textures/icons/PinkPaint.png",
+		"isPlaceable": false
+	},
+	"Nach0.Types.PurplePaint": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"items",
+			"paint",
+			"purple"
+		],
+		"icon": "./../textures/icons/PurplePaint.png",
+		"isPlaceable": false
+	},
+	"Nach0.Types.RedPaint": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"items",
+			"paint",
+			"red"
+		],
+		"icon": "./../textures/icons/RedPaint.png",
+		"isPlaceable": false
+	},
+	"Nach0.Types.WhitePaint": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"items",
+			"paint",
+			"white"
+		],
+		"icon": "./../textures/icons/WhitePaint.png",
+		"isPlaceable": false
+	},
+	"Nach0.Types.YellowPaint": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"items",
+			"paint",
+			"yellow"
+		],
+		"icon": "./../textures/icons/YellowPaint.png",
+		"isPlaceable": false
+	}
+}

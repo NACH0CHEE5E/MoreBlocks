@@ -1,0 +1,358 @@
+[
+	{
+		"defaultLimit": 150,
+		"defaultPriority": 300,
+		"isOptional": true,
+		"name": "Nach0.Recipes.AquaPaint",
+		"requires": [
+			{
+				"amount": 1,
+				"type": "Nach0.Types.LightBluePaint"
+			},
+			{
+				"amount": 1,
+				"type": "Nach0.Types.WhitePaint"
+			}
+		],
+		"results": [
+			{
+				"amount": 2,
+				"type": "Nach0.Types.AquaPaint"
+			}
+		]
+	},
+	{
+		"defaultLimit": 150,
+		"defaultPriority": 300,
+		"isOptional": false,
+		"name": "Nach0.Recipes.BlackPaint",
+		"requires": [
+			{
+				"amount": 1,
+				"type": "Nach0.Types.WhitePaint"
+			},
+			{
+				"amount": 3,
+				"type": "coalore"
+			}
+		],
+		"results": [
+			{
+				"amount": 1,
+				"type": "Nach0.Types.BlackPaint"
+			}
+		]
+	},
+	{
+		"defaultLimit": 150,
+		"defaultPriority": 300,
+		"isOptional": false,
+		"name": "Nach0.Recipes.BluePaint",
+		"requires": [
+			{
+				"amount": 15,
+				"type": "alkanet"
+			},
+			{
+				"amount": 1,
+				"type": "Nach0.Types.WaterBucket"
+			}
+		],
+		"results": [
+			{
+				"amount": 1,
+				"type": "Nach0.Types.BluePaint"
+			}
+		]
+	},
+	{
+		"defaultLimit": 150,
+		"defaultPriority": 300,
+		"isOptional": true,
+		"name": "Nach0.Recipes.DarkGreenPaint",
+		"requires": [
+			{
+				"amount": 1,
+				"type": "Nach0.Types.GreenPaint"
+			},
+			{
+				"amount": 1,
+				"type": "Nach0.Types.BlackPaint"
+			}
+		],
+		"results": [
+			{
+				"amount": 2,
+				"type": "Nach0.Types.DarkGreenPaint"
+			}
+		]
+	},
+	{
+		"defaultLimit": 150,
+		"defaultPriority": 300,
+		"isOptional": true,
+		"name": "Nach0.Recipes.GreenPaint",
+		"requires": [
+			{
+				"amount": 1,
+				"type": "Nach0.Types.BluePaint"
+			},
+			{
+				"amount": 1,
+				"type": "Nach0.Types.YellowPaint"
+			}
+		],
+		"results": [
+			{
+				"amount": 2,
+				"type": "Nach0.Types.GreenPaint"
+			}
+		]
+	},
+	{
+		"defaultLimit": 150,
+		"defaultPriority": 300,
+		"isOptional": true,
+		"name": "Nach0.Recipes.GreyPaint",
+		"requires": [
+			{
+				"amount": 1,
+				"type": "Nach0.Types.BlackPaint"
+			},
+			{
+				"amount": 1,
+				"type": "Nach0.Types.WhitePaint"
+			}
+		],
+		"results": [
+			{
+				"amount": 2,
+				"type": "Nach0.Types.GreyPaint"
+			}
+		]
+	},
+	{
+		"defaultLimit": 150,
+		"defaultPriority": 300,
+		"isOptional": true,
+		"name": "Nach0.Recipes.LightBluePaint",
+		"requires": [
+			{
+				"amount": 1,
+				"type": "Nach0.Types.BluePaint"
+			},
+			{
+				"amount": 1,
+				"type": "Nach0.Types.WhitePaint"
+			}
+		],
+		"results": [
+			{
+				"amount": 2,
+				"type": "Nach0.Types.LightBluePaint"
+			}
+		]
+	},
+	{
+		"defaultLimit": 150,
+		"defaultPriority": 300,
+		"isOptional": true,
+		"name": "Nach0.Recipes.LightGreyPaint",
+		"requires": [
+			{
+				"amount": 1,
+				"type": "Nach0.Types.GreyPaint"
+			},
+			{
+				"amount": 1,
+				"type": "Nach0.Types.WhitePaint"
+			}
+		],
+		"results": [
+			{
+				"amount": 2,
+				"type": "Nach0.Types.LightGreyPaint"
+			}
+		]
+	},
+	{
+		"defaultLimit": 150,
+		"defaultPriority": 300,
+		"isOptional": true,
+		"name": "Nach0.Recipes.OrangePaint",
+		"requires": [
+			{
+				"amount": 1,
+				"type": "Nach0.Types.RedPaint"
+			},
+			{
+				"amount": 1,
+				"type": "Nach0.Types.YellowPaint"
+			}
+		],
+		"results": [
+			{
+				"amount": 2,
+				"type": "Nach0.Types.OrangePaint"
+			}
+		]
+	},
+	{
+		"defaultLimit": 150,
+		"defaultPriority": 300,
+		"isOptional": true,
+		"name": "Nach0.Recipes.PinkPaint",
+		"requires": [
+			{
+				"amount": 1,
+				"type": "Nach0.Types.RedPaint"
+			},
+			{
+				"amount": 1,
+				"type": "Nach0.Types.WhitePaint"
+			}
+		],
+		"results": [
+			{
+				"amount": 2,
+				"type": "Nach0.Types.PinkPaint"
+			}
+		]
+	},
+	{
+		"defaultLimit": 150,
+		"defaultPriority": 300,
+		"isOptional": true,
+		"name": "Nach0.Recipes.PurplePaint",
+		"requires": [
+			{
+				"amount": 1,
+				"type": "Nach0.Types.BluePaint"
+			},
+			{
+				"amount": 1,
+				"type": "Nach0.Types.RedPaint"
+			}
+		],
+		"results": [
+			{
+				"amount": 2,
+				"type": "Nach0.Types.PurplePaint"
+			}
+		]
+	},
+	{
+		"defaultLimit": 150,
+		"defaultPriority": 300,
+		"isOptional": false,
+		"name": "Nach0.Recipes.RedPaint",
+		"requires": [
+			{
+				"amount": 15,
+				"type": "hollyhock"
+			},
+			{
+				"amount": 1,
+				"type": "Nach0.Types.WaterBucket"
+			}
+		],
+		"results": [
+			{
+				"amount": 1,
+				"type": "Nach0.Types.RedPaint"
+			}
+		]
+	},
+	{
+		"defaultLimit": 150,
+		"defaultPriority": 300,
+		"isOptional": false,
+		"name": "Nach0.Recipes.WhitePaint",
+		"requires": [
+			{
+				"amount": 25,
+				"type": "flour"
+			},
+			{
+				"amount": 1,
+				"type": "Nach0.Types.WaterBucket"
+			}
+		],
+		"results": [
+			{
+				"amount": 1,
+				"type": "Nach0.Types.WhitePaint"
+			}
+		]
+	},
+	{
+		"defaultLimit": 150,
+		"defaultPriority": 300,
+		"isOptional": false,
+		"name": "Nach0.Recipes.YellowPaint",
+		"requires": [
+			{
+				"amount": 15,
+				"type": "wolfsbane"
+			},
+			{
+				"amount": 1,
+				"type": "Nach0.Types.WaterBucket"
+			}
+		],
+		"results": [
+			{
+				"amount": 1,
+				"type": "Nach0.Types.YellowPaint"
+			}
+		]
+	},
+	{
+		"defaultLimit": 150,
+		"defaultPriority": 300,
+		"isOptional": true,
+		"name": "Nach0.Recipes.BrownPaint",
+		"requires": [
+			{
+				"amount": 1,
+				"type": "Nach0.Types.RedPaint"
+			},
+			{
+				"amount": 1,
+				"type": "Nach0.Types.YellowPaint"
+			},
+			{
+				"amount": 1,
+				"type": "Nach0.Types.BluePaint"
+			}
+		],
+		"results": [
+			{
+				"amount": 3,
+				"type": "Nach0.Types.BrownPaint"
+			}
+		]
+	},
+	{
+		"defaultLimit": 150,
+		"defaultPriority": 300,
+		"isOptional": true,
+		"name": "Nach0.Recipes.MagentaPaint",
+		"requires": [
+			{
+				"amount": 1,
+				"type": "Nach0.Types.PurplePaint"
+			},
+			{
+				"amount": 1,
+				"type": "Nach0.Types.PinkPaint"
+			}
+		],
+		"results": [
+			{
+				"amount": 2,
+				"type": "Nach0.Types.MagentaPaint"
+			}
+		]
+	}
+]

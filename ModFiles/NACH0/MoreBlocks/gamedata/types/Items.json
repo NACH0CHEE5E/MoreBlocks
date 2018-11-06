@@ -1,0 +1,20 @@
+{
+	"Nach0.Types.Bucket": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"items"
+		],
+		"icon": "./../textures/icons/Bucket.png",
+		"isPlaceable": false
+	},
+	"Nach0.Types.WaterBucket": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"items"
+		],
+		"icon": "./../textures/icons/WaterBucket.png",
+		"isPlaceable": false
+	}
+}

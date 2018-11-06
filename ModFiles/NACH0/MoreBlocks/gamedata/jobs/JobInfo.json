@@ -1,0 +1,10 @@
+[
+	{
+		"data" : {
+			"maskColor1" : "#B9457C"
+		},
+		"keyName" : "Nach0.Jobs.PaintMixer",
+		"npcType" : "worker",
+		"printName" : "Paint Mixer"
+	}
+]

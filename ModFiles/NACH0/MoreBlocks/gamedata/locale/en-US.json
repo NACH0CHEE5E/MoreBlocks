@@ -1,359 +1,76 @@
 {
-	"sentences": {
-		"NACH0": {
-			"research": {
-				"artistery": {
-					"description": "Unlocks Artist",
-					"name": "Artistery"
-				}
-			}
-		},
-		"Nach0BrickLayingResearch": {
-			"description": "Unlocks the knowledge on how to put a brick on top of another brick",
-			"name": "Brick Laying"
-		},
-		"Nach0BrickMakingResearch": {
-			"description": "Yes you need bricks to research how to make a brick",
-			"name": "Brick Making"
-		},
-		"Nach0CarpenterResearch": {
-			"description": "Unlocks the Carpenter",
-			"name": "Carpenter"
-		},
-		"Nach0CarverResearch": {
-			"description": "Unlocks the Carver",
-			"name": "Carver"
-		},
-		"Nach0ChiselerResearch": {
-			"description": "Unlocks the Chiseler",
-			"name": "Chiseler"
-		},
-		"Nach0ChiselResearch": {
-			"description": "Unlocks the ability to make a chisel",
-			"name": "Chisel"
-		},
-		"Nach0ColouredConcreteResearch": {
-			"description": "To add paint to concrete and yes colour has a u in it",
-			"name": "Coloured Concrete"
-		},
-		"Nach0ConcreteMakingResearch": {
-			"description": "To mix powder and water then watch",
-			"name": "Concrete Making"
-		},
-		"Nach0ConcreteSmoothing2Research": {
-			"description": "To make your life a little bit harder",
-			"name": "Concrete Smoothing 2"
-		},
-		"Nach0ConcreteSmoothingResearch": {
-			"description": "To rub sand and paper on concrete",
-			"name": "Concrete Smoothing"
-		},
-		"Nach0CrushingResearch": {
-			"description": "To crush or not to crush (also unlocks the Crusher)",
-			"name": "Crushing"
-		},
-		"Nach0Currency2Research": {
-			"description": "I like money",
-			"name": "Currency 2"
-		},
-		"Nach0CurrencyResearch": {
-			"description": "Shiny",
-			"name": "Currency"
-		},
-		"Nach0ExoticDirtResearch": {
-			"description": "What makes it exotic?",
-			"name": "Exotic Dirt"
-		},
-		"Nach0ExoticGoods2Research": {
-			"description": "From accross the sea",
-			"name": "Exotic Goods 2"
-		},
-		"Nach0ExoticGoodsResearch": {
-			"description": "Far Far away they come from",
-			"name": "Exotic Goods"
-		},
-		"Nach0ExoticGrassResearch": {
-			"description": "Grassy",
-			"name": "Exotic Grass"
-		},
-		"Nach0ExoticSandResearch": {
-			"description": "Sandy",
-			"name": "Exotic Sand"
-		},
-		"Nach0ExoticStoneResearch": {
-			"description": "You can now buy stone",
-			"name": "Exotic Stone"
-		},
-		"Nach0ExoticWoodResearch": {
-			"description": "It's from another place ;)",
-			"name": "Exotic Wood"
-		},
-		"Nach0FaithResearch": {
-			"description": "You can now pray",
-			"name": "Faith"
-		},
-		"Nach0FreezingResearch": {
-			"description": "You can now freeze stuff",
-			"name": "Freezing"
-		},
-		"Nach0MagicResearch": {
-			"description": "MAGIC!!!",
-			"name": "Magic"
-		},
-		"Nach0MeltingResearch": {
-			"description": "You can now melt stuff",
-			"name": "Melting"
-		},
-		"Nach0PailingResearch": {
-			"description": "To fill a bucket with water",
-			"name": "Pailing"
-		},
-		"Nach0Painting2Research": {
-			"description": "Unlocks the abilty to make more coloured blocks",
-			"name": "Painting 2"
-		},
-		"Nach0Painting3Research": {
-			"description": "Unlocks the Advanced Painter",
-			"name": "Advanced Painting"
-		},
-		"Nach0PaintingResearch": {
-			"description": "Unlocks the Painter",
-			"name": "Painting"
-		},
-		"Nach0PaintingScienceBagResearch": {
-			"description": "Unlocks the Painting Science Bag",
-			"name": "Painting Science Bag"
-		},
-		"Nach0PaintMixingResearch": {
-			"description": "Unlocks the ability to mix paint together",
-			"name": "Paint Mixing"
-		},
-		"Nach0PaintMakingResearch": {
-			"description": "Unlocks the abilty Paint Maker",
-			"name": "Paint Making"
-		},
-		"Nach0PaperMakingResearch": {
-			"description": "Allows you to make paper",
-			"name": "Paper Making"
-		},
-		"Nach0RockResearch": {
-			"description": "Yes you can research a rock",
-			"name": "Rock"
-		},
-		"Nach0ExoticPlantsResearch": {
-			"description": "You can now buy exotic plants",
-			"name": "Exotic Plants"
-		},
-		"Nach0SandingResearch": {
-			"description": "You can now sand things",
-			"name": "Sanding"
-		},
-		"Nach0SpellsResearch": {
-			"description": "Unlocks the Enchanter",
-			"name": "Enchanting"
-		},
-		"Nach0WoodWorkingResearch": {
-			"description": "You can now work with wood",
-			"name": "Wood Working"
-		},
-		"Nach0BrokenIce1Research": {
-			"description": "You can now smash ice",
-			"name": "Ice Smashing 1"
-		},
-		"Nach0BrokenIce2Research": {
-			"description": "You can now smash ice again",
-			"name": "Ice Smashing 2"
-		},
-		"Nach0BrokenIce3Research": {
-			"description": "You can now smash ice again",
-			"name": "Ice Smashing 3"
-		},
-		"popup": {
-			"limits": {
-				"Nach0AdvancedPainterJob": "Advanced Painter Limits",
-				"Nach0BrickLayerJob": "Brick Layer Limits",
-				"Nach0BrickMakerJob": "Brick Maker Limits",
-				"Nach0CarverJob": "Carver Limits",
-				"Nach0ChiselerJob": "Chiseler Limits",
-				"Nach0ConcreteLayerJob": "Concrete Layer Limits",
-				"Nach0CrusherJob": "Crusher Limits",
-				"Nach0EnchanterJob": "Enchanter Limits",
-				"Nach0FreezerJob": "Freezer Limits",
-				"Nach0MagicianJob": "Magician Limits",
-				"Nach0MelterJob": "Melter Limits",
-				"Nach0PailerJob": "Pailer Limits",
-				"Nach0PainterJob": "Painter Limits",
-				"Nach0PaintMixerJob": "Paint Mixer Limits",
-				"Nach0SanderJob": "Sander Limits"
-			}
-		}
-	},
 	"types": {
-		"Nach0TreeLog1": "Acacia Log",
-		"Nach0TreeLog1Tipped": "Acacia Log Tipped",
-		"Nach0TreeLog2": "Dark Oak Log",
-		"Nach0TreeLog2Tipped": "Dark Oak Log Tipped",
-		"Nach0TreeLog3": "Birch Log",
-		"Nach0TreeLog3Tipped": "Birch Log Tipped",
-		"Nach0TreeLog4": "Jungle Log",
-		"Nach0TreeLog4Tipped": "Jungle Log Tipped",
-		"Nach0TreeLog5": "Oak Log",
-		"Nach0TreeLog5Tipped": "Oak Log Tipped",
-		"Nach0TreeLog6": "Spruce Log",
-		"Nach0TreeLog6Tipped": "Spruce Log Tipped",
-		"Nach0Chisel": "Chisel",
-		"Nach0PaintBrush": "Paint Brush",
-		"Nach0Stone1": "Anorthosite",
-		"Nach0Stone2": "Andesite",
-		"Nach0Stone3": "Granite",
-		"Nach0Stone4": "Diorite",
-		"Nach0SmoothedAquaConcrete": "Aqua Stained Smoothed Concrete",
-		"Nach0SmoothedBlackConcrete": "Black Stained Smoothed Concrete",
-		"Nach0SmoothedBlueConcrete": "Blue Stained Smoothed Concrete",
-		"Nach0SmoothedBrownConcrete": "Brown Stained Smoothed Concrete",
-		"Nach0SmoothedDarkGreenConcrete": "Dark Green Stained Smoothed Concrete",
-		"Nach0SmoothedGreenConcrete": "Green Stained Smoothed Concrete",
-		"Nach0SmoothedGreyConcrete": "Dark Smoothed Concrete",
-		"Nach0SmoothedLightBlueConcrete": "Light Blue Stained Smoothed Concrete",
-		"Nach0SmoothedConcrete": "Smoothed Concrete",
-		"Nach0SmoothedOrangeConcrete": "Orange Stained Smoothed Concrete",
-		"Nach0SmoothedPinkConcrete": "Pink Stained Smoothed Concrete",
-		"Nach0SmoothedPurpleConcrete": "Purple Stained Smoothed Concrete",
-		"Nach0SmoothedRedConcrete": "Red Stained Smoothed Concrete",
-		"Nach0SmoothedWhiteConcrete": "White Stained Smoothed Concrete",
-		"Nach0SmoothedYellowConcrete": "Yellow Stained Smoothed Concrete",
-		"Nach0PaintingScienceBag": "Painting Science Bag",
-		"Nach0Sand1": "Exotic Sand",
-		"Nach0Sand2": "Exotic Red Sand",
-		"Nach0Planks1": "Acacia Planks",
-		"Nach0Planks2": "Dark Oak Planks",
-		"Nach0Planks3": "Birch Planks",
-		"Nach0Planks4": "Jungle Planks",
-		"Nach0Planks5": "Oak Planks",
-		"Nach0Planks6": "Spruce Planks",
-		"Nach0AquaPaintBlock": "Aqua Coloured Block",
-		"Nach0BlackPaintBlock": "Black Coloured Block",
-		"Nach0BluePaintBlock": "Blue Coloured Block",
-		"Nach0DarkGreenPaintBlock": "Dark Green Coloured Block",
-		"Nach0GreenPaintBlock": "Green Coloured Block",
-		"Nach0GreyPaintBlock": "Grey Coloured Block",
-		"Nach0LightBluePaintBlock": "Light Blue Coloured Block",
-		"Nach0LightGreyPaintBlock": "Light Grey Coloured Block",
-		"Nach0OrangePaintBlock": "Orange Coloured Block",
-		"Nach0PinkPaintBlock": "Pink Coloured Block",
-		"Nach0PurplePaintBlock": "Purple Coloured Block",
-		"Nach0RedPaintBlock": "Red Coloured Block",
-		"Nach0WhitePaintBlock": "White Coloured Block",
-		"Nach0YellowPaintBlock": "Yellow Coloured Block",
-		"Nach0BrownPaintBlock": "Brown Coloured Block",
-		"Nach0AquaPaint": "Aqua Paint",
-		"Nach0BlackPaint": "Black Paint",
-		"Nach0DarkGreenPaint": "Dark Green Paint",
-		"Nach0GreenPaint": "Green Paint",
-		"Nach0GreyPaint": "Grey Paint",
-		"Nach0LightBluePaint": "Light Blue Paint",
-		"Nach0LightGreyPaint": "Light Grey Paint",
-		"Nach0OrangePaint": "Orange Paint",
-		"Nach0PinkPaint": "Pink Paint",
-		"Nach0PurplePaint": "Purple Paint",
-		"Nach0RedPaint": "Red Paint",
-		"Nach0WhitePaint": "White Paint",
-		"Nach0YellowPaint": "Yellow Paint",
-		"Nach0BrownPaint": "Brown Paint",
-		"Nach0SilverOre": "Silver Ore",
-		"Nach0PlatniumOre": "Platnium Ore",
-		"Nach0Cross": "Cross",
-		"Nach0Brick": "Brick",
-		"Nach0CementPowder": "Cement Mix",
-		"Nach0Paper": "Paper",
-		"Nach0SandPaper": "Sand Paper",
-		"Nach0ClayBlock": "Block of Clay",
-		"Nach0CoalBlock": "Block of Coal",
-		"Nach0GoldBlock": "Block of Gold",
-		"Nach0IceBlock": "Block of Ice",
-		"Nach0LavaBlock": "Block of Magma",
-		"Nach0Cobblestone": "Cobblestone",
-		"Nach0EnchantedStone": "Enchanted Stone",
-		"Nach0Hay": "Hay",
-		"Nach0Rock": "Rock",
-		"Nach0AdvancedPaintersTable": "Advanced Painters Table",
-		"Nach0BrickLayer": "Brick Layer",
-		"Nach0BrickMaker": "Brick Maker",
-		"Nach0CarversTable": "Carvers Table",
-		"Nach0Chiseler": "Chiseler",
-		"Nach0Enchanter": "Enchanter",
-		"Nach0Freezer": "Freezer",
-		"Nach0Melter": "Melter",
-		"Nach0MagicTable": "Magicians Table",
-		"Nach0Pailer": "Pailer",
-		"Nach0PaintersTable": "Painters Table",
-		"Nach0PaintMixer": "Paint Maker",
-		"Nach0Crusher": "Crusher",
-		"Nach0ConcreteLayer": "Concrete Layer",
-		"Nach0Sander": "Sander",
-		"Nach0Grass1": "Exotic Grass",
-		"Nach0Grass1Sided": "Exotic Grass",
-		"Nach0Dirt1": "Exotic Dirt",
-		"Nach0Dirt2": "Exotic Dirt",
-		"Nach0Dirt3": "Exotic Dirt",
-		"Nach0Concrete": "Concrete",
-		"Nach0AquaConcrete": "Aqua Stained Concrete",
-		"Nach0BlackConcrete": "Black Stained Concrete",
-		"Nach0BlueConcrete": "Blue Stained Concrete",
-		"Nach0BrownConcrete": "Brown Stained Concrete",
-		"Nach0DarkGreenConcrete": "Dark Green Stained Concrete",
-		"Nach0GreenConcrete": "Green Stained Concrete",
-		"Nach0LightBlueConcrete": "Light Blue Stained Concrete",
-		"Nach0OrangeConcrete": "Orange Stained Concrete",
-		"Nach0PinkConcrete": "Pink Stained Concrete",
-		"Nach0PurpleConcrete": "Purple Stained Concrete",
-		"Nach0GreyConcrete": "Dark Concrete",
-		"Nach0RedConcrete": "Red Stained Concrete",
-		"Nach0WhiteConcrete": "White Stained Concrete",
-		"Nach0YellowConcrete": "Yellow Stained Concrete",
-		"Nach0SilverCoins": "Silver Coins",
-		"Nach0PlatniumCoins": "Platnium Coins",
-		"Nach0Bucket": "Empty Bucket",
-		"Nach0WaterBucket": "Bucket of Water",
-		"Nach0Brick1": "Bricks",
-		"Nach0Brick2": "Bricks",
-		"Nach0SteelBlock": "Steel Block",
-		"Nach0CrystalBlock": "Crystal Block",
-		"Nach0Stone5": "Bedrock",
-		"Nach0MagentaPaint": "Magenta Paint",
-		"Nach0SmoothedMagentaConcrete": "Magenta Stained Smoothed Concrete",
-		"Nach0MagentaConcrete": "Magenta Stained Concrete",
-		"Nach0MossyCobblestone": "Mossy Cobblestone",
-		"Nach0VanillaPlanksDownSlab": "Planks Down Slab",
-		"Nach0VanillaCoatedBlackPlanksDownSlab": "Coated Black Planks Down Slab",
-		"Nach0VanillaCoatedPlanksDownSlab": "Coated Planks Down Slab",
-		"Nach0VanillaCoatedRedPlanksDownSlab": "Coated Red Planks Down Slab",
-		"Nach0VanillaTaigaLogDownSlab": "Taiga Log Down Slab",
-		"Nach0VanillaTemperateLogDownSlab": "Temperate Log Down Slab",
-		"Nach0Brick1Stairs": "Brick Stairs",
-		"Nach0Brick2Stairs": "Brick Stairs",
-		"Nach0CobblestoneStairs": "Cobblestone Stairs",
-		"Nach0MossyCobblestoneStairs": "Mossy Cobblestone Stairs",
-		"Nach0Planks1Stairs": "Accacia Plank Stairs",
-		"Nach0Planks2Stairs": "Dark Oak Plank Stairs",
-		"Nach0Planks3Stairs": "Birch Planks Stairs",
-		"Nach0Planks4Stairs": "Jungle Plank Stairs",
-		"Nach0Planks5Stairs": "Oak Plank Stairs",
-		"Nach0Planks6Stairs": "Spruce Plank Stairs",
-		"Nach0VanillaBricksStairs": "Brick Stairs",
-		"Nach0VanillaPlanksStairs": "Plank Stairs",
-		"Nach0CoatedPlankStairs": "Coated Plank Stairs",
-		"Nach0VanillaCoatedBlackPlanksStairs": "Coated Black Planks Stairs",
-		"Nach0VanillaCoatedPlanksStairs": "Coated Plank Stairs",
-		"Nach0VanillaRedPlanksStairs": "Coated Red Plank Stairs",
-		"Nach0VanillaStoneBricksStairs": "Stone Brick Stairs",
-		"Nach0VanillaStoneBricksBlackStairs": "Black Stone Brick Stairs",
-		"Nach0VanillaStoneBricksBrownStairs": "Brown Stone Brick Stairs",
-		"Nach0VanillaStoneBricksWhiteStairs": "White Stone Brick Stairs",
-		"Nach0IceBroken1": "Broken Ice",
-		"Nach0IceBroken2": "Broken Ice",
-		"Nach0IceBroken3": "Broken Ice",
-		"NachoLightPoleTest": "Light Pole Testing",
-		"Nach0SlabTest": "Test Slab"
+		"Nach0.Types.AquaColouredBlock": "Aqua Coloured Block",
+		"Nach0.Types.BlackColouredBlock": "Black Coloured Block",
+		"Nach0.Types.BlueColouredBlock": "Blue Coloured Block",
+		"Nach0.Types.BrownColouredBlock": "Brown Coloured Block",
+		"Nach0.Types.DarkGreenColouredBlock": "Dark Green Coloured Block",
+		"Nach0.Types.GreenColouredBlock": "Green Coloured Block",
+		"Nach0.Types.GreyColouredBlock": "Grey Coloured Block",
+		"Nach0.Types.LightBlueColouredBlock": "Light Blue Coloured Block",
+		"Nach0.Types.LightGreyColouredBlock": "Light Grey Coloured Block",
+		"Nach0.Types.MagentaColouredBlock": "Magenta Coloured Block",
+		"Nach0.Types.OrangeColouredBlock": "Orange Coloured Block",
+		"Nach0.Types.PinkColouredBlock": "Pink Coloured Block",
+		"Nach0.Types.PurpleColouredBlock": "Purple Coloured Block",
+		"Nach0.Types.RedColouredBlock": "Red Coloured Block",
+		"Nach0.Types.WhiteColouredBlock": "White Coloured Block",
+		"Nach0.Types.YellowColouredBlock": "Yellow ColouredBlock",
+		"Nach0.Types.AquaPaint": "Aqua Paint",
+		"Nach0.Types.BlackPaint": "Black Paint",
+		"Nach0.Types.BluePaint": "Blue Paint",
+		"Nach0.Types.BrownPaint": "Brown Paint",
+		"Nach0.Types.DarkGreenPaint": "Dark Green Paint",
+		"Nach0.Types.GreenPaint": "Green Paint",
+		"Nach0.Types.GreyPaint": "Grey Paint",
+		"Nach0.Types.LightBluePaint": "Light Blue Paint",
+		"Nach0.Types.LightGreyPaint": "Light Grey Paint",
+		"Nach0.Types.MagentaPaint": "Magenta Paint",
+		"Nach0.Types.OrangePaint": "Orange Paint",
+		"Nach0.Types.PinkPaint": "Pink Paint",
+		"Nach0.Types.PurplePaint": "Purple Paint",
+		"Nach0.Types.RedPaint": "Red Paint",
+		"Nach0.Types.WhitePaint": "White Paint",
+		"Nach0.Types.YellowPaint": "Yellow Paint",
+		"Nach0.Types.PaintMixer": "Paint Mixer",
+		"Nach0.Types.Bucket": "Bucket",
+		"Nach0.Types.WaterBucket": "Water Bucket"
+	},
+	"typeuses": {
+		"Nach0.Types.AquaColouredBlock": "A Aqua Coloured Block",
+		"Nach0.Types.BlackColouredBlock": "A Black Coloured Block",
+		"Nach0.Types.BlueColouredBlock": "A Blue Coloured Block",
+		"Nach0.Types.BrownColouredBlock": "A Brown Coloured Block",
+		"Nach0.Types.DarkGreenColouredBlock": "A Dark Green Coloured Block",
+		"Nach0.Types.GreenColouredBlock": "A Green Coloured Block",
+		"Nach0.Types.GreyColouredBlock": "A Grey Coloured Block",
+		"Nach0.Types.LightBlueColouredBlock": "A Light Blue Coloured Block",
+		"Nach0.Types.LightGreyColouredBlock": "A Light Grey Coloured Block",
+		"Nach0.Types.MagentaColouredBlock": "A Magenta Coloured Block",
+		"Nach0.Types.OrangeColouredBlock": "A Orange Coloured Block",
+		"Nach0.Types.PinkColouredBlock": "A Pink Coloured Block",
+		"Nach0.Types.PurpleColouredBlock": "A Purple Coloured Block",
+		"Nach0.Types.RedColouredBlock": "A Red Coloured Block",
+		"Nach0.Types.WhiteColouredBlock": "A White Coloured Block",
+		"Nach0.Types.YellowColouredBlock": "A Yellow Coloured Block",
+		"Nach0.Types.AquaPaint": "Aqua Coloured Paint",
+		"Nach0.Types.BlackPaint": "Black Coloured Paint",
+		"Nach0.Types.BluePaint": "Blue Coloured Paint",
+		"Nach0.Types.BrownPaint": "Brown Coloured Paint",
+		"Nach0.Types.DarkGreenPaint": "Dark Green Coloured Paint",
+		"Nach0.Types.GreenPaint": "Green Coloured Paint",
+		"Nach0.Types.GreyPaint": "Grey Coloured Paint",
+		"Nach0.Types.LightBluePaint": "Light Blue Coloured Paint",
+		"Nach0.Types.LightGreyPaint": "Light Grey Coloured Paint",
+		"Nach0.Types.MagentaPaint": "Magenta Coloured Paint",
+		"Nach0.Types.OrangePaint": "Orange Coloured Paint",
+		"Nach0.Types.PinkPaint": "Pink Coloured Paint",
+		"Nach0.Types.PurplePaint": "Purple Coloured Paint",
+		"Nach0.Types.RedPaint": "Red Coloured Paint",
+		"Nach0.Types.WhitePaint": "White Coloured Paint",
+		"Nach0.Types.YellowPaint": "Yellow Coloured Paint",
+		"Nach0.Types.PaintMixer": "Makes Paint",
+		"Nach0.Types.Bucket": "Like a bowl but you don't eat out of it",
+		"Nach0.Types.WaterBucket": "A bucket full of water"
 	}
 }

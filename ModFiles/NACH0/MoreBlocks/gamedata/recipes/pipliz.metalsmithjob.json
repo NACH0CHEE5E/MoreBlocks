@@ -1,146 +1,20 @@
-[{
+[
+	{
 		"defaultLimit": 5,
 		"defaultPriority": 100,
 		"isOptional": false,
-		"name": "Nach0BucketCraft-pipliz.metalsmithjob",
-		"requires": [{
-			"amount": 5,
-			"type": "ironingot"
-		}],
-		"results": [{
-			"amount": 3,
-			"type": "Nach0Bucket"
-		}]
-	},
-	{
-		"defaultLimit": 5,
-		"defaultPriority": -100,
-		"isOptional": false,
-		"name": "Nach0SteelBlockCraft-pipliz.metalsmithjob",
-		"requires": [{
-			"amount": 15,
-			"type": "steelingot"
-		}],
-		"results": [{
-			"amount": 1,
-			"type": "Nach0SteelBlock"
-		}]
-	},
-	{
-		"defaultLimit": 50,
-		"defaultPriority": 0,
-		"isOptional": true,
-		"name": "Nach0ChiselCraft-pipliz.metalsmithjob",
-		"requires": [{
-				"amount": 2,
-				"type": "ironingot"
-			},
+		"name": "Nach0.Recipes.Bucket",
+		"requires": [
 			{
-				"amount": 3,
-				"type": "planks"
+				"amount": 5,
+				"type": "ironingot"
 			}
 		],
-		"results": [{
-			"amount": 3,
-			"type": "Nach0Chisel"
-		}]
-	},
-	{
-		"defaultLimit": 5,
-		"defaultPriority": -100,
-		"isOptional": true,
-		"name": "Nach0FreezerCraft-pipliz.metalsmithjob",
-		"requires": [{
-			"amount": 15,
-			"type": "ironblock"
-		}],
-		"results": [{
-			"amount": 1,
-			"type": "Nach0Freezer"
-		}]
-	},
-	{
-		"defaultLimit": 5,
-		"defaultPriority": -100,
-		"isOptional": true,
-		"name": "Nach0MelterCraft-pipliz.metalsmithjob",
-		"requires": [{
-			"amount": 15,
-			"type": "ironblock"
-		}],
-		"results": [{
-			"amount": 1,
-			"type": "Nach0Melter"
-		}]
-	},
-	{
-		"defaultLimit": 5,
-		"defaultPriority": -100,
-		"isOptional": true,
-		"name": "Nach0PailerCraft-pipliz.metalsmithjob",
-		"requires": [{
-			"amount": 5,
-			"type": "ironblock"
-		}],
-		"results": [{
-			"amount": 1,
-			"type": "Nach0Pailer"
-		}]
-	},
-	{
-		"defaultLimit": 5,
-		"defaultPriority": -100,
-		"isOptional": true,
-		"name": "Nach0PaintMixerCraft-pipliz.metalsmithjob",
-		"requires": [{
-			"amount": 15,
-			"type": "ironblock"
-		}],
-		"results": [{
-			"amount": 1,
-			"type": "Nach0PaintMixer"
-		}]
-	},
-	{
-		"defaultLimit": 5,
-		"defaultPriority": -100,
-		"isOptional": true,
-		"name": "Nach0CrusherCraft-pipliz.metalsmithjob",
-		"requires": [{
-			"amount": 15,
-			"type": "ironblock"
-		}],
-		"results": [{
-			"amount": 1,
-			"type": "Nach0Crusher"
-		}]
-	},
-	{
-		"defaultLimit": 5,
-		"defaultPriority": 100,
-		"isOptional": true,
-		"name": "SimpleFluids-BucketTransfer1Craft-pipliz.metalsmithjob",
-		"requires": [{
-			"amount": 1,
-			"type": "Nach0Bucket"
-		}],
-		"results": [{
-			"amount": 1,
-			"type": "Nach0Bucket"
-		}]
-	},
-	{
-		"defaultLimit": 5,
-		"defaultPriority": 100,
-		"isOptional": true,
-		"name": "SimpleFluids-BucketTransfer2Craft-pipliz.metalsmithjob",
-		"requires": [{
-			"amount": 1,
-			"type": "Nach0Bucket"
-		}],
-		"results": [{
-			"amount": 1,
-			"type": "Nach0Bucket"
-		}]
+		"results": [
+			{
+				"amount": 3,
+				"type": "Nach0.Types.Bucket"
+			}
+		]
 	}
 ]

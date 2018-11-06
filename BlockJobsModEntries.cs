@@ -58,10 +58,10 @@ namespace Jobs
 
 
 
-            void CreateJob(CraftingJobSettings settings)
+            /*void CreateJob(CraftingJobSettings settings)
             {
                 ServerManager.BlockEntityCallbacks.RegisterEntityManager(new BlockJobManager<CraftingJobInstance>(settings));
-            }
+            }*/
         }
     }
 }

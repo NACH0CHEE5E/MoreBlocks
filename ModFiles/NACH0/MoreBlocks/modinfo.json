@@ -2,7 +2,6 @@
 	"name": "NACH0.MoreBlocks",
 	"version": "1.6.0",
 	"namepretty": "More Blocks",
-	"dllpath": "MoreBlocks.dll",
 	"enabled": true,
 	"marksgamemodded": true,
 	"compatibleversions": [
@@ -10,179 +9,45 @@
 	],
 	"jsonFiles": [
 		{
-			"fileType": "addOrOverrideTextureMappingEntries",
-			"relativePath": "gamedata/textures/materials/textures.json"
+			"fileType" : "addOrOverrideTextureMappingEntries",
+			"index" : -1000000,
+			"relativePath" : "gamedata/textures/materials/textures.json"
 		},
 		{
 			"fileType": "addNewTypes",
-			"relativePath": "gamedata/types.json"
+			"relativePath": "gamedata/types/Paint.json"
+		},
+		{
+			"fileType": "addNewTypes",
+			"relativePath": "gamedata/types/Items.json"
+		},
+		{
+			"fileType": "addNewTypes",
+			"relativePath": "gamedata/types/ColouredBlocks.json"
+		},
+		{
+			"fileType": "addNewTypes",
+			"relativePath": "gamedata/types/SmoothedConcrete.json"
+		},
+		{
+			"fileType" : "generateBlocks",
+			"index" : -1000000,
+			"relativePath" : "gamedata/types/RotatableJobBlocks.json"
 		},
 		{
 			"fileType" : "addBlockJobs",
 			"index" : -1000000,
-			"relativePath" : "gamedata/jobblocks.json"
+			"relativePath" : "gamedata/jobs/JobDefining.json"
 		},
 		{
 			"fileType" : "addOrReplaceNPCTypes",
 			"index" : -1000000,
-			"relativePath" : "gamedata/npctypes.json"
+			"relativePath" : "gamedata/jobs/JobInfo.json"
 		},
 		{
-			"fileType": "addOrOverrideLocalization",
-			"relativePath": "gamedata/locale/en-US.json"
-		},
-		{
-			"fileType" : "addOrReplaceNPCRecipes",
-			"index" : -1000000,
-			"limitsUIMapping" : [
-				"Nach0BrickLayer"
-			],
-			"npcType" : "Nach0BrickLayerJob",
-			"relativePath" : "gamedata/recipes/Nach0BrickLayerJob.json"
-		},
-		{
-			"fileType" : "addOrReplaceNPCRecipes",
-			"index" : -1000000,
-			"limitsUIMapping" : [
-				"Nach0AdvancedPaintersTable"
-			],
-			"npcType" : "Nach0AdvancedPainterJob",
-			"relativePath" : "gamedata/recipes/Nach0AdvancedPainterJob.json"
-		},
-		{
-			"fileType" : "addOrReplaceNPCRecipes",
-			"index" : -1000000,
-			"limitsUIMapping" : [
-				"Nach0BrickMaker"
-			],
-			"npcType" : "Nach0BrickMakerJob",
-			"relativePath" : "gamedata/recipes/Nach0BrickMakerJob.json"
-		},
-		{
-			"fileType" : "addOrReplaceNPCRecipes",
-			"index" : -1000000,
-			"limitsUIMapping" : [
-				"Nach0CarversTable"
-			],
-			"npcType" : "Nach0CarverJob",
-			"relativePath" : "gamedata/recipes/Nach0CarverJob.json"
-		},
-		{
-			"fileType" : "addOrReplaceNPCRecipes",
-			"index" : -1000000,
-			"limitsUIMapping" : [
-				"Nach0Chiseler"
-			],
-			"npcType" : "Nach0ChiselerJob",
-			"relativePath" : "gamedata/recipes/Nach0ChiselerJob.json"
-		},
-		{
-			"fileType" : "addOrReplaceNPCRecipes",
-			"index" : -1000000,
-			"limitsUIMapping" : [
-				"Nach0ConcreteLayer"
-			],
-			"npcType" : "Nach0ConcreteLayerJob",
-			"relativePath" : "gamedata/recipes/Nach0ConcreteLayerJob.json"
-		},
-		{
-			"fileType" : "addOrReplaceNPCRecipes",
-			"index" : -1000000,
-			"limitsUIMapping" : [
-				"Nach0Crusher"
-			],
-			"npcType" : "Nach0CrusherJob",
-			"relativePath" : "gamedata/recipes/Nach0CrusherJob.json"
-		},
-		{
-			"fileType" : "addOrReplaceNPCRecipes",
-			"index" : -1000000,
-			"limitsUIMapping" : [
-				"Nach0Enchanter"
-			],
-			"npcType" : "Nach0EnchanterJob",
-			"relativePath" : "gamedata/recipes/Nach0EnchanterJob.json"
-		},
-		{
-			"fileType" : "addOrReplaceNPCRecipes",
-			"index" : -1000000,
-			"limitsUIMapping" : [
-				"Nach0FreezerX-",
-				"Nach0FreezerX+",
-				"Nach0FreezerZ-",
-				"Nach0FreezerZ+"
-			],
-			"npcType" : "Nach0FreezerJob",
-			"relativePath" : "gamedata/recipes/Nach0FreezerJob.json"
-		},
-		{
-			"fileType" : "addOrReplaceNPCRecipes",
-			"index" : -1000000,
-			"limitsUIMapping" : [
-				"Nach0MelterX-",
-				"Nach0MelterX+",
-				"Nach0MelterZ-",
-				"Nach0MelterZ+"
-			],
-			"npcType" : "Nach0MelterJob",
-			"relativePath" : "gamedata/recipes/Nach0MelterJob.json"
-		},
-		{
-			"fileType" : "addOrReplaceNPCRecipes",
-			"index" : -1000000,
-			"limitsUIMapping" : [
-				"Nach0Pailer"
-			],
-			"npcType" : "Nach0PailerJob",
-			"relativePath" : "gamedata/recipes/Nach0PailerJob.json"
-		},
-		{
-			"fileType" : "addOrReplaceNPCRecipes",
-			"index" : -1000000,
-			"limitsUIMapping" : [
-				"Nach0PaintersTable"
-			],
-			"npcType" : "Nach0PainterJob",
-			"relativePath" : "gamedata/recipes/Nach0PainterJob.json"
-		},
-		{
-			"fileType" : "addOrReplaceNPCRecipes",
-			"index" : -1000000,
-			"limitsUIMapping" : [
-				"Nach0PaintMixerX-",
-				"Nach0PaintMixerX+",
-				"Nach0PaintMixerZ-",
-				"Nach0PaintMixerZ+"
-			],
-			"npcType" : "Nach0PaintMixerJob",
-			"relativePath" : "gamedata/recipes/Nach0PaintMixerJob.json"
-		},
-		{
-			"fileType" : "addOrReplaceNPCRecipes",
-			"index" : -1000000,
-			"limitsUIMapping" : [
-				"Nach0Sander"
-			],
-			"npcType" : "Nach0SanderJob",
-			"relativePath" : "gamedata/recipes/Nach0SanderJob.json"
-		},
-		{
-			"fileType" : "addOrReplaceNPCRecipes",
-			"index" : -1000000,
-			"limitsUIMapping" : [
-				"workbench"
-			],
-			"npcType" : "pipliz.crafter",
-			"relativePath" : "gamedata/recipes/pipliz.crafter.json"
-		},
-		{
-			"fileType" : "addOrReplaceNPCRecipes",
-			"index" : -1000000,
-			"limitsUIMapping" : [
-				"shop"
-			],
-			"npcType" : "pipliz.merchant",
-			"relativePath" : "gamedata/recipes/pipliz.merchant.json"
+			"relativePath" : "gamedata/locale/en-US.json",
+			"fileType" : "addOrOverrideLocalization",
+			"index" : -1000000
 		},
 		{
 			"fileType" : "addOrReplaceNPCRecipes",
@@ -197,53 +62,13 @@
 			"fileType" : "addOrReplaceNPCRecipes",
 			"index" : -1000000,
 			"limitsUIMapping" : [
-				"mint"
+				"Nach0.Types.PaintMixerx+",
+				"Nach0.Types.PaintMixerx-",
+				"Nach0.Types.PaintMixerz+",
+				"Nach0.Types.PaintMixerz-"
 			],
-			"npcType" : "pipliz.minter",
-			"relativePath" : "gamedata/recipes/pipliz.minter.json"
-		},
-		{
-			"fileType" : "addOrReplaceNPCRecipes",
-			"index" : -1000000,
-			"limitsUIMapping" : [
-				"furnacex+",
-				"furnacex-",
-				"furnacez+",
-				"furnacez-",
-				"furnacelitx+",
-				"furnacelitx-",
-				"furnacelitz+",
-				"furnacelitz-"
-			],
-			"npcType" : "pipliz.smelter",
-			"relativePath" : "gamedata/recipes/pipliz.smelter.json"
-		},
-		{
-			"fileType" : "addOrReplaceNPCRecipes",
-			"index" : -1000000,
-			"limitsUIMapping" : [
-				"stonemasonworkbench"
-			],
-			"npcType" : "pipliz.stonemason",
-			"relativePath" : "gamedata/recipes/pipliz.stonemason.json"
-		},
-		{
-			"fileType" : "addOrReplaceNPCRecipes",
-			"index" : -1000000,
-			"limitsUIMapping" : [
-				"technologisttable"
-			],
-			"npcType" : "pipliz.technologist",
-			"relativePath" : "gamedata/recipes/pipliz.technologist.json"
-		},
-		{
-			"fileType" : "addOrReplaceNPCRecipes",
-			"index" : -1000000,
-			"limitsUIMapping" : [
-				"splittingstump"
-			],
-			"npcType" : "pipliz.woodcutter",
-			"relativePath" : "gamedata/recipes/pipliz.woodcutter.json"
+			"npcType" : "Nach0.Jobs.PaintMixer",
+			"relativePath" : "gamedata/recipes/Nach0.Jobs.PaintMixer.json"
 		}
 	],
 	"patchnotes": [

@@ -1,0 +1,209 @@
+{
+	"Nach0.Types.Concrete": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"concrete",
+			"notsmoothed",
+			"lightgrey",
+			"decorative"
+		],
+		"icon": "./../textures/icons/Concrete.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0.Textures.ConcreteGeneric",
+		"color": "#808080"
+	},
+	"Nach0.Types.GreyStainedConcrete": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"concrete",
+			"notsmoothed",
+			"grey",
+			"decorative"
+		],
+		"icon": "./textures/icons/GreyStainedConcrete.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0.Textures.ConcreteGeneric",
+		"color": "#404040"
+	},
+	"Nach0.Types.AquaStainedConcrete": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"concrete",
+			"notsmoothed",
+			"aqua",
+			"decorative"
+		],
+		"icon": "./textures/icons/AquaStainedConcrete.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0.Textures.ConcreteGeneric",
+		"color": "#00FFFF"
+	},
+	"Nach0.Types.BlackStainedConcrete": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"concrete",
+			"notsmoothed",
+			"black",
+			"decorative"
+		],
+		"icon": "./textures/icons/BlackStainedConcrete.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0.Textures.ConcreteGeneric",
+		"color": "#000000"
+	},
+	"Nach0.Types.BlueStainedConcrete": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"concrete",
+			"notsmoothed",
+			"blue",
+			"decorative"
+		],
+		"icon": "./textures/icons/BlueStainedConcrete.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0.Textures.ConcreteGeneric",
+		"color": "#0026FF"
+	},
+	"Nach0.Types": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"concrete",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0BrownConcrete.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0BrownConcreteTexture"
+	},
+	"Nach0DarkGreenConcrete": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"concrete",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0DarkGreenConcrete.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0DarkGreenConcreteTexture"
+	},
+	"Nach0GreenConcrete": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"concrete",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0GreenConcrete.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0GreenConcreteTexture"
+	},
+	"Nach0LightBlueConcrete": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"concrete",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0LightBlueConcrete.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0LightBlueConcreteTexture"
+	},
+	"Nach0MagentaConcrete": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"concrete",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0MagentaConcrete.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0MagentaConcreteTexture"
+	},
+	"Nach0OrangeConcrete": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"concrete",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0OrangeConcrete.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0OrangeConcreteTexture"
+	},
+	"Nach0PinkConcrete": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"concrete",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0PinkConcrete.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0PinkConcreteTexture"
+	},
+	"Nach0PurpleConcrete": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"concrete",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0PurpleConcrete.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0PurpleConcreteTexture"
+	},
+	"Nach0RedConcrete": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"concrete",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0RedConcrete.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0RedConcreteTexture"
+	},
+	"Nach0WhiteConcrete": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"concrete",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0WhiteConcrete.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0WhiteConcreteTexture"
+	},
+	"Nach0YellowConcrete": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"concrete",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0YellowConcrete.png",
+		"maxStackSize": 200,
+		"sideall": "Nach0YellowConcreteTexture"
+	}
+}
