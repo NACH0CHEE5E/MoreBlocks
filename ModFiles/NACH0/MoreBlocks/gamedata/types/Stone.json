@@ -1,0 +1,100 @@
+{
+	"Nach0.Types.Stone1": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"stone",
+			"decorative"
+		],
+		"icon": "./textures/icons/Stone1.png",
+		"maxStackSize": 200,
+		"onPlaceAudio": "stonePlace",
+		"onRemoveAudio": "stoneDelete",
+		"sideall": "Nach0.Textures.Stone1"
+	},
+	"Nach0.Types.Stone2": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"stone",
+			"decorative"
+		],
+		"icon": "./textures/icons/Stone2.png",
+		"maxStackSize": 200,
+		"onPlaceAudio": "stonePlace",
+		"onRemoveAudio": "stoneDelete",
+		"sideall": "Nach0.Textures.Stone2"
+	},
+	"Nach0.Types.Stone3": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"stone",
+			"decorative"
+		],
+		"icon": "./textures/icons/Stone3.png",
+		"maxStackSize": 200,
+		"onPlaceAudio": "stonePlace",
+		"onRemoveAudio": "stoneDelete",
+		"sideall": "Nach0.Textures.Stone3"
+	},
+	"Nach0.Types.Stone4": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"stone",
+			"decorative"
+		],
+		"icon": "./textures/icons/Stone4.png",
+		"maxStackSize": 200,
+		"onPlaceAudio": "stonePlace",
+		"onRemoveAudio": "stoneDelete",
+		"sideall": "Nach0.Textures.Stone4"
+	},
+	"Nach0.Types.Stone5": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"stone",
+			"decorative"
+		],
+		"icon": "./textures/icons/Stone5.png",
+		"maxStackSize": 200,
+		"onPlaceAudio": "stonePlace",
+		"onRemoveAudio": "stoneDelete",
+		"sideall": "Nach0.Textures.Stone5"
+	},
+	"Nach0.Types.Rock": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"stone",
+			"decorative"
+		],
+		"icon": "./textures/icons/Rock.png",
+		"maxStackSize": 200,
+		"onPlaceAudio": "stonePlace",
+		"onRemoveAudio": "stoneDelete",
+		"sideall": "Nach0.Textures.Rock"
+	},
+	"Nach0.Types.EnchantedStone": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"stone",
+			"decorative"
+		],
+		"icon": "./textures/icons/EnchantedStone.png",
+		"maxStackSize": 200,
+		"onPlaceAudio": "stonePlace",
+		"onRemoveAudio": "stoneDelete",
+		"sideall": "Nach0.Textures.EnchantedStone"
+	}
+}

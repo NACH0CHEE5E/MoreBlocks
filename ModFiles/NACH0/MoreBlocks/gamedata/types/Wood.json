@@ -1,0 +1,129 @@
+{
+	"Nach0.Types.Wood1": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"wood",
+			"decorative"
+		],
+		"icon": "./textures/icons/Wood1.png",
+		"maxStackSize": 200,
+		"onPlaceAudio" : "woodPlace",
+		"onRemoveAudio" : "woodDeleteHeavy",
+		"sidey+": "Nach0.Textures.Wood1TopBottom",
+		"sidey-": "Nach0.Textures.Wood1TopBottom",
+		"sideall": "Nach0.Textures.Wood1Sides"
+	},
+	"Nach0.Types.Wood1Tipped": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"wood"
+		],
+		"icon": "./textures/icons/Wood1Tipped.png",
+		"maxStackSize": 200,
+		"onPlaceAudio" : "woodPlace",
+		"onRemoveAudio" : "woodDeleteHeavy",
+		"isRotatable": true,
+		"isSolid": true,
+		"needsBase": false,
+		"rotatablex-": "Nach0.Types.Wood1Tippedx",
+		"rotatablex+": "Nach0.Types.Wood1Tippedx",
+		"rotatablez-": "Nach0.Types.Wood1Tippedz",
+		"rotatablez+": "Nach0.Types.Wood1Tippedz"
+	},
+	"Nach0.Types.Wood1Tippedx": {
+		"parentType": "Nach0.Types.Wood1Tipped",
+		"sidex-": "Nach0.Textures.Wood1TopBottom",
+		"sidex+": "Nach0.Textures.Wood1TopBottom",
+		"sideall": "Nach0.Textures.Wood1Sides"
+	},
+	"Nach0.Types.Wood1Tippedz": {
+		"parentType": "Nach0.Types.Wood1Tipped",
+		"sidez-": "Nach0.Textures.Wood1TopBottom",
+		"sidez+": "Nach0.Textures.Wood1TopBottom",
+		"sideall": "Nach0.Textures.Wood1Sides"
+	},
+	"Nach0.Types.Wood2": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"wood",
+			"decorative"
+		],
+		"icon": "./textures/icons/Wood2.png",
+		"maxStackSize": 200,
+		"onPlaceAudio" : "woodPlace",
+		"onRemoveAudio" : "woodDeleteHeavy",
+		"sidey+": "Nach0.Textures.Wood2TopBottom",
+		"sidey-": "Nach0.Textures.Wood2TopBottom",
+		"sideall": "Nach0.Textures.Wood2Sides"
+	},
+	"Nach0.Types.Wood3": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"wood",
+			"decorative"
+		],
+		"icon": "./textures/icons/Wood3.png",
+		"maxStackSize": 200,
+		"onPlaceAudio" : "woodPlace",
+		"onRemoveAudio" : "woodDeleteHeavy",
+		"sidey+": "Nach0.Textures.Wood3TopBottom",
+		"sidey-": "Nach0.Textures.Wood3TopBottom",
+		"sideall": "Nach0.Textures.Wood3Sides"
+	},
+	"Nach0.Types.Wood4": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"wood",
+			"decorative"
+		],
+		"icon": "./textures/icons/Wood4.png",
+		"maxStackSize": 200,
+		"onPlaceAudio" : "woodPlace",
+		"onRemoveAudio" : "woodDeleteHeavy",
+		"sidey+": "Nach0.Textures.Wood4TopBottom",
+		"sidey-": "Nach0.Textures.Wood4TopBottom",
+		"sideall": "Nach0.Textures.Wood4Sides"
+	},
+	"Nach0.Types.Wood5": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"wood",
+			"decorative"
+		],
+		"icon": "./textures/icons/Wood5.png",
+		"maxStackSize": 200,
+		"onPlaceAudio" : "woodPlace",
+		"onRemoveAudio" : "woodDeleteHeavy",
+		"sidey+": "Nach0.Textures.Wood5TopBottom",
+		"sidey-": "Nach0.Textures.Wood5TopBottom",
+		"sideall": "Nach0.Textures.Wood5Sides"
+	},
+	"Nach0.Types.Wood6": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"wood",
+			"decorative"
+		],
+		"icon": "./textures/icons/Wood6.png",
+		"maxStackSize": 200,
+		"onPlaceAudio" : "woodPlace",
+		"onRemoveAudio" : "woodDeleteHeavy",
+		"sidey+": "Nach0.Textures.Wood6TopBottom",
+		"sidey-": "Nach0.Textures.Wood6TopBottom",
+		"sideall": "Nach0.Textures.Wood6Sides"
+	}
+}

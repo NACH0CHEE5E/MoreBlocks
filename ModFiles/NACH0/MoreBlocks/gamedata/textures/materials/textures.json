@@ -10,14 +10,268 @@
 		"folderHeight" : "./heightSmoothnessSpecularity/",
 		"folderNormal" : "./normal/"
 	},
-	"Nach0.Textures.SmoothedConcreteGeneric": {
-		"albedo": "smoothedconcretegeneric",
-		"normal": "smoothedconcrete"
+	
+	"Nach0.Textures.Brick1": {
+		"albedo": "brick1",
+		"normal": "brick1"
 	},
+	"Nach0.Textures.Brick2": {
+		"albedo": "brick2",
+		"normal": "brick2"
+	},
+	
+	"Nach0.Textures.Cobblestone": {
+		"albedo": "cobblestone",
+		"normal": "cobblestone"
+	},
+	"Nach0.Textures.MossyCobblestone": {
+		"albedo": "mossycobblestone",
+		"normal": "mossycobblestone"
+	},
+	
+	"Nach0.Textures.ConcreteGeneric": {
+		"albedo": "concretegeneric",
+		"normal": "concretegeneric"
+	},
+	
+	"Nach0.Textures.Dirt1": {
+		"albedo": "dirt1",
+		"normal": "dirt1"
+	},
+	"Nach0.Textures.Dirt2": {
+		"albedo": "dirt2",
+		"normal": "dirt2"
+	},
+	"Nach0.Textures.Dirt3": {
+		"albedo": "dirt3",
+		"normal": "dirt3"
+	},
+	
+	"Nach0.Textures.Grass1": {
+		"albedo": "grass1",
+		"normal": "grass1"
+	},
+	
+	"Nach0.Textures.Ice1": {
+		"albedo": "ice1",
+		"normal": "ice1"
+	},
+	"Nach0.Textures.Ice1Cracked1": {
+		"albedo": "ice1cracked1",
+		"normal": "ice1cracked1"
+	},
+	"Nach0.Textures.Ice1Cracked2": {
+		"albedo": "ice1cracked2",
+		"normal": "ice1cracked2"
+	},
+	"Nach0.Textures.Ice1Cracked3": {
+		"albedo": "ice1cracked3",
+		"normal": "ice1cracked3"
+	},
+	
+	"Nach0.Textures.PailerTop": {
+		"albedo": "pailertop"
+	},
+	"Nach0.Textures.CrusherSides": {
+		"albedo": "cushersides"
+	},
+	"Nach0.Textures.SanderTop": {
+		"albedo": "sandertop"
+	},
+	"Nach0.Textures.PaintersTableTop": {
+		"albedo": "painterstabletop"
+	},
+	"Nach0.Textures.AdvancedPaintersTableTop": {
+		"albedo": "advancedpainterstabletop"
+	},
+	"Nach0.Textures.BrickMakerTop": {
+		"albedo": "brickmakertop"
+	},
+	"Nach0.Textures.BrickLayerSides": {
+		"albedo": "bricklayersides"
+	},
+	"Nach0.Textures.CarversTableTop": {
+		"albedo": "carverstabletop"
+	},
+	"Nach0.Textures.ChiselerTop": {
+		"albedo": "chiselertop"
+	},
+	"Nach0.Textures.Enchanter": {
+		"albedo": "enchanter"
+	},
+	"Nach0.Textures.MagiciansTableSides": {
+		"albedo": "magicianstablesides"
+	},
+	"Nach0.Textures.MagiciansTableTop": {
+		"albedo": "magicianstabletop",
+		"normal": "magicianstabletop"
+	},
+	"Nach0.Textures.ConcreteLayerSides": {
+		"albedo": "concretelayersides"
+	},
+	
+	"Nach0.Textures.Planks1": {
+		"albedo": "planks1",
+		"normal": "planks1"
+	},
+	"Nach0.Textures.Planks2": {
+		"albedo": "planks2",
+		"normal": "planks2"
+	},
+	"Nach0.Textures.Planks3": {
+		"albedo": "planks3",
+		"normal": "planks3"
+	},
+	"Nach0.Textures.Planks4": {
+		"albedo": "planks4",
+		"normal": "planks4"
+	},
+	"Nach0.Textures.Planks5": {
+		"albedo": "planks5",
+		"normal": "planks5"
+	},
+	"Nach0.Textures.Planks6": {
+		"albedo": "planks6",
+		"normal": "planks6"
+	},
+	
+	"Nach0.Textures.ClayBlock1": {
+		"albedo": "clayblock1",
+		"normal": "clayblock1"
+	},
+	"Nach0.Textures.CoalBlock1": {
+		"albedo": "coalblock1",
+		"normal": "coalblock1"
+	},
+	"Nach0.Textures.GoldBlock1": {
+		"albedo": "goldblock1",
+		"normal": "goldblock1"
+	},
+	"Nach0.Textures.SteelBlock1": {
+		"albedo": "steelblock1",
+		"normal": "steelblock1"
+	},
+	"Nach0.Textures.CrystalBlock1": {
+		"albedo": "crystalblock1",
+		"normal": "crystalblock1"
+	},
+	"Nach0.Textures.MagmaBlock1": {
+		"albedo": "magmablock1",
+		"normal": "magmablock1"
+	},
+	"Nach0.Textures.HayBlock1Sides": {
+		"albedo": "hayblock1sides",
+		"normal": "hayblock1sides"
+	},
+	"Nach0.Textures.HayBlock1TopBottom": {
+		"albedo": "hayblock1topbottom",
+		"normal": "hayblock1topbottom"
+	},
+	
 	"Nach0.Textures.PaintMixerFront": {
 		"albedo": "paintmixerfront"
 	},
-	"Nach0.Textures.PailerTop": {
-		"albedo": "pailertop"
+	"Nach0.Textures.FreezerFront": {
+		"albedo": "freezerfront",
+	},
+	"Nach0.Textures.MelterFront": {
+		"albedo": "melterfront"
+	},
+	
+	"Nach0.Textures.Sand1": {
+		"albedo": "sand1",
+		"normal": "sand1"
+	},
+	"Nach0.Textures.RedSand1": {
+		"albedo": "redsand1",
+		"normal": "redsand1"
+	},
+	
+	"Nach0.Textures.SmoothedConcreteGeneric": {
+		"albedo": "smoothedconcretegeneric",
+		"normal": "smoothedconcretegeneric"
+	},
+	
+	"Nach0.Textures.Stone1": {
+		"albedo": "stone1",
+		"normal": "stone1"
+	},
+	"Nach0.Textures.Stone2": {
+		"albedo": "stone2",
+		"normal": "stone2"
+	},
+	"Nach0.Textures.Stone3": {
+		"albedo": "stone3",
+		"normal": "stone3"
+	},
+	"Nach0.Textures.Stone4": {
+		"albedo": "stone4",
+		"normal": "stone4"
+	},
+	"Nach0.Textures.Stone5": {
+		"albedo": "stone5",
+		"normal": "stone5"
+	},
+	"Nach0.Textures.Rock": {
+		"albedo": "rock",
+		"normal": "rock"
+	},
+	"Nach0.Textures.EnchantedStone": {
+		"albedo": "enchantedstone",
+		"normal": "enchantedstone"
+	},
+	
+	"Nach0.Textures.Wood1TopBottom": {
+		"albedo": "wood1topbottom",
+		"normal": "wood1topbottom"
+	},
+	"Nach0.Textures.Wood1Sides": {
+		"albedo": "wood1sides",
+		"normal": "wood1sides"
+	},
+	"Nach0.Textures.Wood2TopBottom": {
+		"albedo": "wood2topbottom",
+		"normal": "wood2topbottom"
+	},
+	"Nach0.Textures.Wood2Sides": {
+		"albedo": "wood2sides",
+		"normal": "wood2sides"
+	},
+	"Nach0.Textures.Wood3TopBottom": {
+		"albedo": "wood3topbottom",
+		"normal": "wood3topbottom"
+	},
+	"Nach0.Textures.Wood3Sides": {
+		"albedo": "wood3sides",
+		"normal": "wood3sides"
+	},
+	"Nach0.Textures.Wood4TopBottom": {
+		"albedo": "wood4topbottom",
+		"normal": "wood4topbottom"
+	},
+	"Nach0.Textures.Wood4Sides": {
+		"albedo": "wood4sides",
+		"normal": "wood4sides"
+	},
+	"Nach0.Textures.Wood5TopBottom": {
+		"albedo": "wood5topbottom",
+		"normal": "wood5topbottom"
+	},
+	"Nach0.Textures.Wood5Sides": {
+		"albedo": "wood5sides",
+		"normal": "wood5sides"
+	},
+	"Nach0.Textures.Wood6TopBottom": {
+		"albedo": "wood6topbottom",
+		"normal": "wood6topbottom"
+	},
+	"Nach0.Textures.Wood6Sides": {
+		"albedo": "wood6sides",
+		"normal": "wood6sides"
+	},
+	
+	"Nach0.Textures.WoolGeneric": {
+		"albedo": "woolgeneric",
+		"normal": "woolgeneric"
 	}
 }

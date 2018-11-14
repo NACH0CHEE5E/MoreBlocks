@@ -1,0 +1,16 @@
+{
+	"Nach0.Types.Grass1": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"grass",
+			"decorative"
+		],
+		"icon": "./textures/icons/Grass1.png",
+		"maxStackSize": 200,
+		"onPlaceAudio" : "dirtPlace",
+		"onRemoveAudio" : "grassDelete",
+		"sideall": "Nach0.Textures.Grass1"
+	}
+}

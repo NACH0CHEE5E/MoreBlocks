@@ -1,0 +1,66 @@
+{
+	"Nach0.Types.Ice1": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"resourceblocks",
+			"ice",
+			"notbroken",
+			"decorative"
+		],
+		"icon": "./textures/icons/Ice1.png",
+		"maxStackSize": 200,
+		"onPlaceAudio": "stonePlace",
+		"onRemoveAudio" : "stonePlace",
+		"sideall": "Nach0.Textures.Ice1"
+	},
+	"Nach0.Types.Ice1Cracked1": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"resourceblocks",
+			"ice",
+			"broken",
+			"decorative"
+		],
+		"icon": "./textures/icons/Ice1Cracked1.png",
+		"maxStackSize": 200,
+		"onPlaceAudio": "stonePlace",
+		"onRemoveAudio" : "stonePlace",
+		"sideall": "Nach0.Textures.Ice1Cracked1"
+	},
+	"Nach0.Types.Ice1Cracked2": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"resourceblocks",
+			"ice",
+			"broken",
+			"decorative"
+		],
+		"icon": "./textures/icons/Ice1Cracked2.png",
+		"maxStackSize": 200,
+		"onPlaceAudio": "stonePlace",
+		"onRemoveAudio" : "stonePlace",
+		"sideall": "Nach0.Textures.Ice1Cracked2"
+	},
+	"Nach0.Types.Ice1Cracked3": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"resourceblocks",
+			"ice",
+			"broken",
+			"decorative"
+		],
+		"icon": "./textures/icons/Ice1Cracked3.png",
+		"maxStackSize": 200,
+		"onPlaceAudio": "stonePlace",
+		"onRemoveAudio" : "stonePlace",
+		"sideall": "Nach0.Textures.Ice1Cracked3"
+	}
+}

@@ -1,0 +1,44 @@
+{
+	"Nach0.Types.Dirt1": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"dirt",
+			"decorative"
+		],
+		"icon": "./textures/icons/Dirt1.png",
+		"maxStackSize": 200,
+		"onPlaceAudio" : "dirtPlace",
+		"onRemoveAudio" : "grassDelete",
+		"sideall": "Nach0.Textures.Dirt1"
+	},
+	"Nach0.Types.Dirt2": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"dirt",
+			"decorative"
+		],
+		"icon": "./textures/icons/Dirt2.png",
+		"maxStackSize": 200,
+		"onPlaceAudio" : "dirtPlace",
+		"onRemoveAudio" : "grassDelete",
+		"sideall": "Nach0.Textures.Dirt2"
+	},
+	"Nach0.Types.Dirt3": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"dirt",
+			"decorative"
+		],
+		"icon": "./textures/icons/Dirt3.png",
+		"maxStackSize": 200,
+		"onPlaceAudio" : "dirtPlace",
+		"onRemoveAudio" : "grassDelete",
+		"sideall": "Nach0.Textures.Dirt3"
+	}
+}

@@ -234,6 +234,7 @@
 		],
 		"icon": "./../textures/icons/WhiteColouredBlock.png",
 		"maxStackSize": 200,
+		"color": "#FFFFFF",
 		"onPlaceAudio": "woodPlace",
 		"onRemoveAudio": "woodDeleteLight",
 		"sideall": "neutral"

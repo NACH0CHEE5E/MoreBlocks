@@ -15,5 +15,39 @@
 		},
 		"generateType" : "rotateBlock",
 		"sideFrontUnlit" : "Nach0.Textures.PaintMixerFront"
+	},
+	{
+		"typeName" : "Nach0.Types.Freezer",
+		"baseType" : {
+			"categories" : [
+				"nach0",
+				"moreblocks",
+				"jobs"
+			],
+			"destructionTime" : 800,
+			"icon" : "./../textures/icons/Freezer.png",
+			"onPlaceAudio" : "stoneDelete",
+			"onRemoveAudio" : "stonePlace",
+			"sideall" : "ironblock"
+		},
+		"generateType" : "rotateBlock",
+		"sideFrontUnlit" : "Nach0.Textures.FreezerFront"
+	},
+	{
+		"typeName" : "Nach0.Types.Melter",
+		"baseType" : {
+			"categories" : [
+				"nach0",
+				"moreblocks",
+				"jobs"
+			],
+			"destructionTime" : 800,
+			"icon" : "./../textures/icons/Melter.png",
+			"onPlaceAudio" : "stoneDelete",
+			"onRemoveAudio" : "stonePlace",
+			"sideall" : "ironblock"
+		},
+		"generateType" : "rotateBlock",
+		"sideFrontUnlit" : "Nach0.Textures.MelterFront"
 	}
 ]

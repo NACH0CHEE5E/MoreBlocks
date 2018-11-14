@@ -10,5 +10,140 @@
 		"onRemoveAudio": "stoneDelete",
 		"sideall": "ironblock",
 		"sidey+": "Nach0.Textures.PailerTop"
+	},
+	"Nach0.Types.Crusher": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"jobs"
+		],
+		"icon": "./../textures/icons/Crusher.png",
+		"onPlaceAudio": "stonePlace",
+		"onRemoveAudio": "stoneDelete",
+		"sideall": "Nach0.Textures.CrusherSides",
+		"sidey+": "ironblock",
+		"sidey-": "ironblock"
+	},
+	"Nach0.Types.Sander": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"jobs"
+		],
+		"icon": "./../textures/icons/Sander.png",
+		"onPlaceAudio" : "woodPlace",
+		"onRemoveAudio" : "woodDeleteLight",
+		"sideall": "planks",
+		"sidey+": "Nach0.Textures.SanderTop"
+	},
+	"Nach0.Types.PaintersTable": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"jobs"
+		],
+		"icon": "./../textures/icons/PaintersTable.png",
+		"onPlaceAudio" : "woodPlace",
+		"onRemoveAudio" : "woodDeleteLight",
+		"sideall": "planks",
+		"sidey+": "Nach0.Textures.PaintersTableTop"
+	},
+	"Nach0.Types.AdvancedPaintersTable": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"jobs"
+		],
+		"icon": "./../textures/icons/AdvancedPaintersTable.png",
+		"onPlaceAudio" : "woodPlace",
+		"onRemoveAudio" : "woodDeleteLight",
+		"sideall": "coatedplanks",
+		"sidey+": "Nach0.Textures.AdvancedPaintersTableTop"
+	},
+	"Nach0.Types.BrickMaker": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"jobs"
+		],
+		"icon": "./../textures/icons/BrickMaker.png",
+		"onPlaceAudio" : "woodPlace",
+		"onRemoveAudio" : "woodDeleteLight",
+		"sideall": "planks",
+		"sidey+": "Nach0.Textures.BrickMakerTop"
+	},
+	"Nach0.Types.BrickLayer": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"jobs"
+		],
+		"icon": "./../textures/icons/BrickLayer.png",
+		"onPlaceAudio" : "woodPlace",
+		"onRemoveAudio" : "woodDeleteLight",
+		"sideall": "Nach0.Textures.BrickLayerSides",
+		"sidey+": "bricks",
+		"sidey-": "crate"
+	},
+	"Nach0.Types.CarversTable": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"jobs"
+		],
+		"icon": "./../textures/icons/CarversTable.png",
+		"onPlaceAudio" : "woodPlace",
+		"onRemoveAudio" : "woodDeleteLight",
+		"sideall": "planks",
+		"sidey+": "Nach0.Textures.CarversTableTop"
+	},
+	"Nach0.Types.Chiseler": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"jobs"
+		],
+		"icon": "./../textures/icons/Chiseler.png",
+		"onPlaceAudio" : "stoneDelete",
+		"onRemoveAudio" : "stonePlace",
+		"sideall": "stoneblock",
+		"sidey+": "Nach0.Textures.ChiselerTop"
+	},
+	"Nach0.Types.Enchanter": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"jobs"
+		],
+		"icon": "./../textures/icons/Enchanter.png",
+		"onPlaceAudio" : "stoneDelete",
+		"onRemoveAudio" : "stonePlace",
+		"sideall": "Nach0.Textures.Enchanter"
+	},
+	"Nach0.Types.MagiciansTable": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"jobs"
+		],
+		"icon": "./../textures/icons/MagiciansTable.png",
+		"onPlaceAudio" : "stoneDelete",
+		"onRemoveAudio" : "stonePlace",
+		"sideall": "Nach0.Textures.MagiciansTableSides",
+		"sidey+": "Nach0.Textures.MagiciansTableTop",
+		"sidey-": "Nach0.Textures.EnchantedStone"
+	},
+	"Nach0.Types.ConcreteLayer": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"jobs"
+		],
+		"icon": "./../textures/icons/ConcreteLayer.png",
+		"onPlaceAudio" : "woodPlace",
+		"onRemoveAudio" : "woodDeleteLight",
+		"sideall": "Nach0.Textures.ConcreteLayerSides",
+		"sidey+": "Nach0.Textures.ConcreteGeneric",
+		"sidey-": "crate"
 	}
 }

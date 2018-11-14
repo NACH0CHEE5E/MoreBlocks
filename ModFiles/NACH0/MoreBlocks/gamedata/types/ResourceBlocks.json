@@ -1,0 +1,109 @@
+{
+	"Nach0.Types.ClayBlock1": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"resourceblocks",
+			"clay",
+			"decorative"
+		],
+		"icon": "./textures/icons/ClayBlock1.png",
+		"maxStackSize": 200,
+		"onPlaceAudio" : "dirtPlace",
+		"onRemoveAudio" : "grassDelete",
+		"sideall": "Nach0.Textures.ClayBlock1"
+	},
+	"Nach0.Types.CoalBlock1": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"resourceblocks",
+			"coal",
+			"decorative"
+		],
+		"icon": "./textures/icons/CoalBlock1.png",
+		"maxStackSize": 200,
+		"onPlaceAudio": "stonePlace",
+		"onRemoveAudio": "stoneDelete",
+		"sideall": "Nach0.Textures.CoalBlock1"
+	},
+	"Nach0.Types.GoldBlock1": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"resourceblocks",
+			"gold",
+			"decorative"
+		],
+		"icon": "./textures/icons/GoldBlock1.png",
+		"maxStackSize": 200,
+		"onPlaceAudio": "stonePlace",
+		"onRemoveAudio": "stoneDelete",
+		"sideall": "Nach0.Textures.GoldBlock1"
+	},
+	"Nach0.Types.SteelBlock1": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"resourceblocks",
+			"steel",
+			"decorative"
+		],
+		"icon": "./textures/icons/SteelBlock1.png",
+		"maxStackSize": 200,
+		"onPlaceAudio": "stonePlace",
+		"onRemoveAudio": "stoneDelete",
+		"sideall": "Nach0.Textures.SteelBlock1"
+	},
+	"Nach0.Types.CrystalBlock1": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"resourceblocks",
+			"crystal",
+			"decorative"
+		],
+		"icon": "./textures/icons/CrystalBlock1.png",
+		"maxStackSize": 200,
+		"onPlaceAudio": "stonePlace",
+		"onRemoveAudio" : "Nach0.Audio.GlassBreak",
+		"sideall": "Nach0.Textures.CrystalBlock1"
+	},
+	"Nach0.Types.MagmaBlock1": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"resourceblocks",
+			"magma",
+			"decorative"
+		],
+		"icon": "./textures/icons/MagmaBlock1.png",
+		"maxStackSize": 200,
+		"onPlaceAudio": "stonePlace",
+		"onRemoveAudio" : "stonePlace",
+		"sideall": "Nach0.Textures.MagmaBlock1"
+	},
+	"Nach0.Types.HayBlock1": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"resourceblocks",
+			"hay",
+			"decorative"
+		],
+		"icon": "./textures/icons/HayBlock1.png",
+		"maxStackSize": 200,
+		"onPlaceAudio" : "dirtPlace",
+		"onRemoveAudio" : "grassDelete",
+		"sideall": "Nach0.Textures.HayBlock1Sides",
+		"sidey+": "Nach0.Textures.HayBlock1TopBottom",
+		"sidey-": "Nach0.Textures.HayBlock1TopBottom"
+	}
+}

@@ -3,7 +3,8 @@
 		"categories": [
 			"nach0",
 			"moreblocks",
-			"items"
+			"items",
+			"bucket"
 		],
 		"icon": "./../textures/icons/Bucket.png",
 		"isPlaceable": false
@@ -12,9 +13,123 @@
 		"categories": [
 			"nach0",
 			"moreblocks",
-			"items"
+			"items",
+			"bucket"
 		],
 		"icon": "./../textures/icons/WaterBucket.png",
+		"isPlaceable": false
+	},
+	"Nach0.Types.Brick": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"items"
+		],
+		"icon": "./../textures/icons/Brick.png",
+		"isPlaceable": false
+	},
+	"Nach0.Types.CementPowder": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"items"
+		],
+		"icon": "./../textures/icons/CementPowder.png",
+		"isPlaceable": false
+	},
+	"Nach0.Types.Coins1": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"items",
+			"coins"
+		],
+		"icon": "./../textures/icons/Coins1.png",
+		"isPlaceable": false
+	},
+	"Nach0.Types.Coins2": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"items",
+			"coins"
+		],
+		"icon": "./../textures/icons/Coins2.png",
+		"isPlaceable": false
+	},
+	"Nach0.Types.Cross": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"items"
+		],
+		"icon": "./../textures/icons/Cross.png",
+		"isPlaceable": false
+	},
+	"Nach0.Types.Paper": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"items"
+		],
+		"icon": "./../textures/icons/Paper.png",
+		"isPlaceable": false
+	},
+	"Nach0.Types.SandPaper": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"items",
+			"tools"
+		],
+		"icon": "./../textures/icons/SandPaper.png",
+		"isPlaceable": false
+	},
+	"Nach0.Types.PlatniumOre": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"items"
+		],
+		"icon": "./../textures/icons/PlatniumOre.png",
+		"isPlaceable": false
+	},
+	"Nach0.Types.TitaniumOre": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"items"
+		],
+		"icon": "./../textures/icons/TitaniumOre.png",
+		"isPlaceable": false
+	},
+	"Nach0.Types.PaintingScienceBag": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"items"
+		],
+		"icon": "./../textures/icons/PaintingScienceBag.png",
+		"isPlaceable": false
+	},
+	"Nach0.Types.Chisel": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"items",
+			"tools"
+		],
+		"icon": "./../textures/icons/Chisel.png",
+		"isPlaceable": false
+	},
+	"Nach0.Types.PaintBrush": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"items",
+			"tools"
+		],
+		"icon": "./../textures/icons/PaintBrush.png",
 		"isPlaceable": false
 	}
 }

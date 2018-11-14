@@ -1,0 +1,30 @@
+{
+	"Nach0.Types.Brick1": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"bricks",
+			"decorative"
+		],
+		"icon": "./textures/icons/Brick1.png",
+		"onPlaceAudio": "stonePlace",
+		"onRemoveAudio": "stoneDelete",
+		"maxStackSize": 200,
+		"sideall": "Nach0.Textures.Brick1"
+	},
+	"Nach0.Types.Brick2": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"bricks",
+			"decorative"
+		],
+		"icon": "./textures/icons/Brick2.png",
+		"onPlaceAudio": "stonePlace",
+		"onRemoveAudio": "stoneDelete",
+		"maxStackSize": 200,
+		"sideall": "Nach0.Textures.Brick2"
+	}
+}
