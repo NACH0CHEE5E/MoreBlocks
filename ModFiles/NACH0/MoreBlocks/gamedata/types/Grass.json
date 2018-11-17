@@ -7,7 +7,7 @@
 			"grass",
 			"decorative"
 		],
-		"icon": "./textures/icons/Grass1.png",
+		"icon": "./../textures/icons/Grass1.png",
 		"maxStackSize": 200,
 		"onPlaceAudio" : "dirtPlace",
 		"onRemoveAudio" : "grassDelete",

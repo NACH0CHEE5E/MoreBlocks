@@ -7,7 +7,7 @@
 			"bricks",
 			"decorative"
 		],
-		"icon": "./textures/icons/Brick1.png",
+		"icon": "./../textures/icons/Brick1.png",
 		"onPlaceAudio": "stonePlace",
 		"onRemoveAudio": "stoneDelete",
 		"maxStackSize": 200,
@@ -21,7 +21,7 @@
 			"bricks",
 			"decorative"
 		],
-		"icon": "./textures/icons/Brick2.png",
+		"icon": "./../textures/icons/Brick2.png",
 		"onPlaceAudio": "stonePlace",
 		"onRemoveAudio": "stoneDelete",
 		"maxStackSize": 200,

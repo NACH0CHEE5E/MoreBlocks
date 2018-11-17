@@ -7,7 +7,7 @@
 			"dirt",
 			"decorative"
 		],
-		"icon": "./textures/icons/Dirt1.png",
+		"icon": "./../textures/icons/Dirt1.png",
 		"maxStackSize": 200,
 		"onPlaceAudio" : "dirtPlace",
 		"onRemoveAudio" : "grassDelete",
@@ -21,7 +21,7 @@
 			"dirt",
 			"decorative"
 		],
-		"icon": "./textures/icons/Dirt2.png",
+		"icon": "./../textures/icons/Dirt2.png",
 		"maxStackSize": 200,
 		"onPlaceAudio" : "dirtPlace",
 		"onRemoveAudio" : "grassDelete",
@@ -35,7 +35,7 @@
 			"dirt",
 			"decorative"
 		],
-		"icon": "./textures/icons/Dirt3.png",
+		"icon": "./../textures/icons/Dirt3.png",
 		"maxStackSize": 200,
 		"onPlaceAudio" : "dirtPlace",
 		"onRemoveAudio" : "grassDelete",

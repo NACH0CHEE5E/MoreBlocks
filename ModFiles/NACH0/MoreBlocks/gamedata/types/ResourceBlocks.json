@@ -8,7 +8,7 @@
 			"clay",
 			"decorative"
 		],
-		"icon": "./textures/icons/ClayBlock1.png",
+		"icon": "./../textures/icons/ClayBlock1.png",
 		"maxStackSize": 200,
 		"onPlaceAudio" : "dirtPlace",
 		"onRemoveAudio" : "grassDelete",
@@ -23,7 +23,7 @@
 			"coal",
 			"decorative"
 		],
-		"icon": "./textures/icons/CoalBlock1.png",
+		"icon": "./../textures/icons/CoalBlock1.png",
 		"maxStackSize": 200,
 		"onPlaceAudio": "stonePlace",
 		"onRemoveAudio": "stoneDelete",
@@ -38,7 +38,7 @@
 			"gold",
 			"decorative"
 		],
-		"icon": "./textures/icons/GoldBlock1.png",
+		"icon": "./../textures/icons/GoldBlock1.png",
 		"maxStackSize": 200,
 		"onPlaceAudio": "stonePlace",
 		"onRemoveAudio": "stoneDelete",
@@ -53,7 +53,7 @@
 			"steel",
 			"decorative"
 		],
-		"icon": "./textures/icons/SteelBlock1.png",
+		"icon": "./../textures/icons/SteelBlock1.png",
 		"maxStackSize": 200,
 		"onPlaceAudio": "stonePlace",
 		"onRemoveAudio": "stoneDelete",
@@ -68,7 +68,7 @@
 			"crystal",
 			"decorative"
 		],
-		"icon": "./textures/icons/CrystalBlock1.png",
+		"icon": "./../textures/icons/CrystalBlock1.png",
 		"maxStackSize": 200,
 		"onPlaceAudio": "stonePlace",
 		"onRemoveAudio" : "Nach0.Audio.GlassBreak",
@@ -83,7 +83,7 @@
 			"magma",
 			"decorative"
 		],
-		"icon": "./textures/icons/MagmaBlock1.png",
+		"icon": "./../textures/icons/MagmaBlock1.png",
 		"maxStackSize": 200,
 		"onPlaceAudio": "stonePlace",
 		"onRemoveAudio" : "stonePlace",
@@ -98,12 +98,29 @@
 			"hay",
 			"decorative"
 		],
-		"icon": "./textures/icons/HayBlock1.png",
+		"icon": "./../textures/icons/HayBlock1.png",
 		"maxStackSize": 200,
 		"onPlaceAudio" : "dirtPlace",
 		"onRemoveAudio" : "grassDelete",
 		"sideall": "Nach0.Textures.HayBlock1Sides",
 		"sidey+": "Nach0.Textures.HayBlock1TopBottom",
 		"sidey-": "Nach0.Textures.HayBlock1TopBottom"
+	},
+	"Nach0.Types.Cactus1": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"resourceblocks",
+			"cactus",
+			"decorative"
+		],
+		"icon": "./../textures/icons/Cactus1.png",
+		"maxStackSize": 200,
+		"onPlaceAudio" : "dirtPlace",
+		"onRemoveAudio" : "grassDelete",
+		"sideall": "Nach0.Textures.Cactus1Sides",
+		"sidey+": "Nach0.Textures.Cactus1TopBottom",
+		"sidey-": "Nach0.Textures.Cactus1TopBottom"
 	}
 }

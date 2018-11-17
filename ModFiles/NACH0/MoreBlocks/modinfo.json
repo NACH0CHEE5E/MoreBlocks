@@ -104,36 +104,6 @@
 			"relativePath" : "gamedata/locale/en-US.json",
 			"fileType" : "addOrOverrideLocalization",
 			"index" : -1000000
-		},
-		{
-			"fileType" : "addOrReplaceNPCRecipes",
-			"index" : -1000000,
-			"limitsUIMapping" : [
-				"bronzeanvil"
-			],
-			"npcType" : "pipliz.metalsmithjob",
-			"relativePath" : "gamedata/recipes/pipliz.metalsmithjob.json"
-		},
-		{
-			"fileType" : "addOrReplaceNPCRecipes",
-			"index" : -1000000,
-			"limitsUIMapping" : [
-				"Nach0.Types.PaintMixerx+",
-				"Nach0.Types.PaintMixerx-",
-				"Nach0.Types.PaintMixerz+",
-				"Nach0.Types.PaintMixerz-"
-			],
-			"npcType" : "Nach0.Jobs.PaintMixer",
-			"relativePath" : "gamedata/recipes/Nach0.Jobs.PaintMixer.json"
-		},
-		{
-			"fileType" : "addOrReplaceNPCRecipes",
-			"index" : -1000000,
-			"limitsUIMapping" : [
-				"Nach0.Types.Pailer"
-			],
-			"npcType" : "Nach0.Jobs.Pailer",
-			"relativePath" : "gamedata/recipes/Nach0.Jobs.Pailer.json"
 		}
 	],
 	"patchnotes": [

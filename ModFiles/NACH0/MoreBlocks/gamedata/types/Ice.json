@@ -9,7 +9,7 @@
 			"notbroken",
 			"decorative"
 		],
-		"icon": "./textures/icons/Ice1.png",
+		"icon": "./../textures/icons/Ice1.png",
 		"maxStackSize": 200,
 		"onPlaceAudio": "stonePlace",
 		"onRemoveAudio" : "stonePlace",
@@ -25,7 +25,7 @@
 			"broken",
 			"decorative"
 		],
-		"icon": "./textures/icons/Ice1Cracked1.png",
+		"icon": "./../textures/icons/Ice1Cracked1.png",
 		"maxStackSize": 200,
 		"onPlaceAudio": "stonePlace",
 		"onRemoveAudio" : "stonePlace",
@@ -41,7 +41,7 @@
 			"broken",
 			"decorative"
 		],
-		"icon": "./textures/icons/Ice1Cracked2.png",
+		"icon": "./../textures/icons/Ice1Cracked2.png",
 		"maxStackSize": 200,
 		"onPlaceAudio": "stonePlace",
 		"onRemoveAudio" : "stonePlace",
@@ -57,7 +57,7 @@
 			"broken",
 			"decorative"
 		],
-		"icon": "./textures/icons/Ice1Cracked3.png",
+		"icon": "./../textures/icons/Ice1Cracked3.png",
 		"maxStackSize": 200,
 		"onPlaceAudio": "stonePlace",
 		"onRemoveAudio" : "stonePlace",

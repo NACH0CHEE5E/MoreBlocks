@@ -7,7 +7,7 @@
 			"cobblestone",
 			"decorative"
 		],
-		"icon": "./textures/icons/Cobblestone.png",
+		"icon": "./../textures/icons/Cobblestone.png",
 		"onPlaceAudio": "stonePlace",
 		"onRemoveAudio": "stoneDelete",
 		"maxStackSize": 200,
@@ -21,7 +21,7 @@
 			"cobblestone",
 			"decorative"
 		],
-		"icon": "./textures/icons/MossyCobblestone.png",
+		"icon": "./../textures/icons/MossyCobblestone.png",
 		"onPlaceAudio": "stonePlace",
 		"onRemoveAudio": "stoneDelete",
 		"maxStackSize": 200,

@@ -10,7 +10,7 @@
 		],
 		"icon": "./../textures/icons/AquaColouredBlock.png",
 		"maxStackSize": 200,
-		"color": "#00FFFF",
+		"color": "(0, 255, 255)",
 		"onPlaceAudio": "woodPlace",
 		"onRemoveAudio": "woodDeleteLight",
 		"sideall": "neutral"
@@ -26,7 +26,7 @@
 		],
 		"icon": "./../textures/icons/BlackColouredBlock.png",
 		"maxStackSize": 200,
-		"color": "#000000",
+		"color": "(0, 0, 0)",
 		"onPlaceAudio": "woodPlace",
 		"onRemoveAudio": "woodDeleteLight",
 		"sideall": "neutral"
@@ -42,7 +42,7 @@
 		],
 		"icon": "./../textures/icons/BlueColouredBlock.png",
 		"maxStackSize": 200,
-		"color": "#0026FF",
+		"color": "(0, 0, 255)",
 		"onPlaceAudio": "woodPlace",
 		"onRemoveAudio": "woodDeleteLight",
 		"sideall": "neutral"
@@ -58,7 +58,7 @@
 		],
 		"icon": "./../textures/icons/BrownColouredBlock.png",
 		"maxStackSize": 200,
-		"color": "#782300",
+		"color": "(127.5, 0, 0)",
 		"onPlaceAudio": "woodPlace",
 		"onRemoveAudio": "woodDeleteLight",
 		"sideall": "neutral"
@@ -74,7 +74,7 @@
 		],
 		"icon": "./../textures/icons/DarkGreenColouredBlock.png",
 		"maxStackSize": 200,
-		"color": "#007F0E",
+		"color": "(0, 127.5, 0)",
 		"onPlaceAudio": "woodPlace",
 		"onRemoveAudio": "woodDeleteLight",
 		"sideall": "neutral"
@@ -90,7 +90,7 @@
 		],
 		"icon": "./../textures/icons/GreenColouredBlock.png",
 		"maxStackSize": 200,
-		"color": "#4CFF00",
+		"color": "(0, 255, 0)",
 		"onPlaceAudio": "woodPlace",
 		"onRemoveAudio": "woodDeleteLight",
 		"sideall": "neutral"
@@ -106,7 +106,7 @@
 		],
 		"icon": "./../textures/icons/GreyColouredBlock.png",
 		"maxStackSize": 200,
-		"color": "#404040",
+		"color": "(63.75, 63.73, 63.75)",
 		"onPlaceAudio": "woodPlace",
 		"onRemoveAudio": "woodDeleteLight",
 		"sideall": "neutral"

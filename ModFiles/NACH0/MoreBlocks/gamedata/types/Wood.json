@@ -7,7 +7,7 @@
 			"wood",
 			"decorative"
 		],
-		"icon": "./textures/icons/Wood1.png",
+		"icon": "./../textures/icons/Wood1.png",
 		"maxStackSize": 200,
 		"onPlaceAudio" : "woodPlace",
 		"onRemoveAudio" : "woodDeleteHeavy",
@@ -22,7 +22,7 @@
 			"blocks",
 			"wood"
 		],
-		"icon": "./textures/icons/Wood1Tipped.png",
+		"icon": "./../textures/icons/Wood1Tipped.png",
 		"maxStackSize": 200,
 		"onPlaceAudio" : "woodPlace",
 		"onRemoveAudio" : "woodDeleteHeavy",
@@ -54,7 +54,7 @@
 			"wood",
 			"decorative"
 		],
-		"icon": "./textures/icons/Wood2.png",
+		"icon": "./../textures/icons/Wood2.png",
 		"maxStackSize": 200,
 		"onPlaceAudio" : "woodPlace",
 		"onRemoveAudio" : "woodDeleteHeavy",
@@ -70,7 +70,7 @@
 			"wood",
 			"decorative"
 		],
-		"icon": "./textures/icons/Wood3.png",
+		"icon": "./../textures/icons/Wood3.png",
 		"maxStackSize": 200,
 		"onPlaceAudio" : "woodPlace",
 		"onRemoveAudio" : "woodDeleteHeavy",
@@ -86,7 +86,7 @@
 			"wood",
 			"decorative"
 		],
-		"icon": "./textures/icons/Wood4.png",
+		"icon": "./../textures/icons/Wood4.png",
 		"maxStackSize": 200,
 		"onPlaceAudio" : "woodPlace",
 		"onRemoveAudio" : "woodDeleteHeavy",
@@ -102,7 +102,7 @@
 			"wood",
 			"decorative"
 		],
-		"icon": "./textures/icons/Wood5.png",
+		"icon": "./../textures/icons/Wood5.png",
 		"maxStackSize": 200,
 		"onPlaceAudio" : "woodPlace",
 		"onRemoveAudio" : "woodDeleteHeavy",
@@ -118,7 +118,7 @@
 			"wood",
 			"decorative"
 		],
-		"icon": "./textures/icons/Wood6.png",
+		"icon": "./../textures/icons/Wood6.png",
 		"maxStackSize": 200,
 		"onPlaceAudio" : "woodPlace",
 		"onRemoveAudio" : "woodDeleteHeavy",

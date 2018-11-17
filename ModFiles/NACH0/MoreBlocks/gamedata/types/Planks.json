@@ -7,7 +7,7 @@
 			"planks",
 			"decorative"
 		],
-		"icon": "./textures/icons/Planks1.png",
+		"icon": "./../textures/icons/Planks1.png",
 		"maxStackSize": 200,
 		"onPlaceAudio" : "woodPlace",
 		"onRemoveAudio" : "woodDeleteLight",
@@ -21,7 +21,7 @@
 			"planks",
 			"decorative"
 		],
-		"icon": "./textures/icons/Planks2.png",
+		"icon": "./../textures/icons/Planks2.png",
 		"maxStackSize": 200,
 		"onPlaceAudio" : "woodPlace",
 		"onRemoveAudio" : "woodDeleteLight",
@@ -35,7 +35,7 @@
 			"planks",
 			"decorative"
 		],
-		"icon": "./textures/icons/Planks3.png",
+		"icon": "./../textures/icons/Planks3.png",
 		"maxStackSize": 200,
 		"onPlaceAudio" : "woodPlace",
 		"onRemoveAudio" : "woodDeleteLight",
@@ -49,7 +49,7 @@
 			"planks",
 			"decorative"
 		],
-		"icon": "./textures/icons/Planks4.png",
+		"icon": "./../textures/icons/Planks4.png",
 		"maxStackSize": 200,
 		"onPlaceAudio" : "woodPlace",
 		"onRemoveAudio" : "woodDeleteLight",
@@ -63,7 +63,7 @@
 			"planks",
 			"decorative"
 		],
-		"icon": "./textures/icons/Planks5.png",
+		"icon": "./../textures/icons/Planks5.png",
 		"maxStackSize": 200,
 		"onPlaceAudio" : "woodPlace",
 		"onRemoveAudio" : "woodDeleteLight",
@@ -77,7 +77,7 @@
 			"planks",
 			"decorative"
 		],
-		"icon": "./textures/icons/Planks6.png",
+		"icon": "./../textures/icons/Planks6.png",
 		"maxStackSize": 200,
 		"onPlaceAudio" : "woodPlace",
 		"onRemoveAudio" : "woodDeleteLight",

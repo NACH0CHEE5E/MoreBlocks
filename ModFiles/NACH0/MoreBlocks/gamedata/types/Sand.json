@@ -8,7 +8,7 @@
 			"standard",
 			"decorative"
 		],
-		"icon": "./textures/icons/Sand1.png",
+		"icon": "./../textures/icons/Sand1.png",
 		"maxStackSize": 200,
 		"onPlaceAudio" : "dirtPlace",
 		"onRemoveAudio" : "grassDelete",
@@ -23,7 +23,7 @@
 			"red",
 			"decorative"
 		],
-		"icon": "./textures/icons/RedSand1.png",
+		"icon": "./../textures/icons/RedSand1.png",
 		"maxStackSize": 200,
 		"onPlaceAudio" : "dirtPlace",
 		"onRemoveAudio" : "grassDelete",
