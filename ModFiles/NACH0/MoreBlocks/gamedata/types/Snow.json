@@ -1,0 +1,34 @@
+{
+	"Nach0.Types.Snow1": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"snow",
+			"nosides",
+			"decorative"
+		],
+		"icon": "./../textures/icons/Snow1.png",
+		"maxStackSize": 200,
+		"onPlaceAudio" : "dirtPlace",
+		"onRemoveAudio" : "grassDelete",
+		"sideall": "Nach0.Textures.Snow1"
+	},
+	"Nach0.Types.Snow1Sided": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"snow",
+			"sides",
+			"decorative"
+		],
+		"icon": "./../textures/icons/Snow1Sided.png",
+		"maxStackSize": 200,
+		"onPlaceAudio" : "dirtPlace",
+		"onRemoveAudio" : "grassDelete",
+		"sideall": "Nach0.Textures.Snow1Sides",
+		"sidey+": "Nach0.Textures.Snow1",
+		"sidey-": "Nach0.Textures.Dirt2"
+	},
+}

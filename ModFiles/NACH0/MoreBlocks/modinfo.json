@@ -19,10 +19,6 @@
 		},
 		{
 			"fileType": "addNewTypes",
-			"relativePath": "gamedata/types/BuildingBlocks.json"
-		},
-		{
-			"fileType": "addNewTypes",
 			"relativePath": "gamedata/types/Cobblestone.json"
 		},
 		{
@@ -32,6 +28,10 @@
 		{
 			"fileType": "addNewTypes",
 			"relativePath": "gamedata/types/Concrete.json"
+		},
+		{
+			"fileType": "addNewTypes",
+			"relativePath": "gamedata/types/CookedClay.json"
 		},
 		{
 			"fileType": "addNewTypes",
@@ -63,7 +63,16 @@
 		},
 		{
 			"fileType": "addNewTypes",
+			"relativePath": "gamedata/types/Quartz.json"
+		},
+		{
+			"fileType": "addNewTypes",
 			"relativePath": "gamedata/types/ResourceBlocks.json"
+		},
+		{
+			"fileType" : "generateBlocks",
+			"index" : -1000000,
+			"relativePath" : "gamedata/types/RotatableJobBlocks.json"
 		},
 		{
 			"fileType": "addNewTypes",
@@ -71,11 +80,27 @@
 		},
 		{
 			"fileType": "addNewTypes",
+			"relativePath": "gamedata/types/Sandstone.json"
+		},
+		{
+			"fileType": "addNewTypes",
 			"relativePath": "gamedata/types/SmoothedConcrete.json"
 		},
 		{
 			"fileType": "addNewTypes",
+			"relativePath": "gamedata/types/SmoothedStone.json"
+		},
+		{
+			"fileType": "addNewTypes",
+			"relativePath": "gamedata/types/Snow.json"
+		},
+		{
+			"fileType": "addNewTypes",
 			"relativePath": "gamedata/types/Stone.json"
+		},
+		{
+			"fileType": "addNewTypes",
+			"relativePath": "gamedata/types/StoneBricks.json"
 		},
 		{
 			"fileType": "addNewTypes",
@@ -84,21 +109,6 @@
 		{
 			"fileType": "addNewTypes",
 			"relativePath": "gamedata/types/Wool.json"
-		},
-		{
-			"fileType" : "generateBlocks",
-			"index" : -1000000,
-			"relativePath" : "gamedata/types/RotatableJobBlocks.json"
-		},
-		{
-			"fileType" : "addBlockJobs",
-			"index" : -1000000,
-			"relativePath" : "gamedata/jobs/JobDefining.json"
-		},
-		{
-			"fileType" : "addOrReplaceNPCTypes",
-			"index" : -1000000,
-			"relativePath" : "gamedata/jobs/JobInfo.json"
 		},
 		{
 			"relativePath" : "gamedata/locale/en-US.json",

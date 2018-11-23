@@ -75,6 +75,7 @@
 			"moreblocks",
 			"blocks",
 			"stone",
+			"magic",
 			"decorative"
 		],
 		"icon": "./../textures/icons/Rock.png",
@@ -89,6 +90,7 @@
 			"moreblocks",
 			"blocks",
 			"stone",
+			"magic",
 			"decorative"
 		],
 		"icon": "./../textures/icons/EnchantedStone.png",
@@ -96,5 +98,20 @@
 		"onPlaceAudio": "stonePlace",
 		"onRemoveAudio": "stoneDelete",
 		"sideall": "Nach0.Textures.EnchantedStone"
+	},
+	"Nach0.Types.PossessedStone": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"stone",
+			"magic",
+			"decorative"
+		],
+		"icon": "./../textures/icons/PossessedStone.png",
+		"maxStackSize": 200,
+		"onPlaceAudio": "stonePlace",
+		"onRemoveAudio": "stoneDelete",
+		"sideall": "Nach0.Textures.PossessedStone"
 	}
 }

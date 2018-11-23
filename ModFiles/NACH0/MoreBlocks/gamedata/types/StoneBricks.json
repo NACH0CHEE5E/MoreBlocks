@@ -1,0 +1,89 @@
+{
+	"Nach0.Types.PossessedStoneBricks": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"stonebricks",
+			"magic",
+			"decorative"
+		],
+		"icon": "./../textures/icons/PossessedStoneBricks.png",
+		"onPlaceAudio": "stonePlace",
+		"onRemoveAudio": "stoneDelete",
+		"maxStackSize": 200,
+		"sideall": "Nach0.Textures.PossessedStoneBricks"
+	},
+	"Nach0.Types.StoneBricks1": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"stonebricks",
+			"decorative"
+		],
+		"icon": "./../textures/icons/StoneBricks1.png",
+		"onPlaceAudio": "stonePlace",
+		"onRemoveAudio": "stoneDelete",
+		"maxStackSize": 200,
+		"sideall": "Nach0.Textures.StoneBricks1"
+	},
+	"Nach0.Types.StoneBricks2": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"stonebricks",
+			"decorative"
+		],
+		"icon": "./../textures/icons/StoneBricks2.png",
+		"onPlaceAudio": "stonePlace",
+		"onRemoveAudio": "stoneDelete",
+		"maxStackSize": 200,
+		"sideall": "Nach0.Textures.StoneBricks2"
+	},
+	"Nach0.Types.CrackedStoneBricks2": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"stonebricks",
+			"decorative"
+		],
+		"icon": "./../textures/icons/CrackedStoneBricks2.png",
+		"onPlaceAudio": "stonePlace",
+		"onRemoveAudio": "stoneDelete",
+		"maxStackSize": 200,
+		"sideall": "Nach0.Textures.CrackedStoneBricks2"
+	},
+	"Nach0.Types.MossyStoneBricks2": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"stonebricks",
+			"decorative"
+		],
+		"icon": "./../textures/icons/MossyStoneBricks2.png",
+		"onPlaceAudio": "stonePlace",
+		"onRemoveAudio": "stoneDelete",
+		"maxStackSize": 200,
+		"sideall": "Nach0.Textures.MossyStoneBricks2"
+	},
+	"Nach0.Types.StoneSlabs": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"stonebricks",
+			"decorative"
+		],
+		"icon": "./../textures/icons/StoneSlabs.png",
+		"onPlaceAudio": "stonePlace",
+		"onRemoveAudio": "stoneDelete",
+		"maxStackSize": 200,
+		"sideall": "Nach0.Textures.StoneSlabsSides",
+		"sidey+": "Nach0.Textures.StoneSlabsTop",
+		"sidey-": "Nach0.Textures.StoneSlabsTop"
+	}
+}

@@ -34,6 +34,11 @@
 		"normal": "concretegeneric"
 	},
 	
+	"Nach0.Textures.CookedClayGeneric": {
+		"albedo": "CookedClayGeneric",
+		"normal": "CookedClayGeneric"
+	},
+	
 	"Nach0.Textures.Dirt1": {
 		"albedo": "dirt1",
 		"normal": "dirt1"
@@ -167,6 +172,14 @@
 		"albedo": "hayblock1topbottom",
 		"normal": "hayblock1topbottom"
 	},
+	"Nach0.Textures.Cactus1Sides": {
+		"albedo": "cactus1sides",
+		"normal": "cactus1sides"
+	},
+	"Nach0.Textures.Cactus1TopBottom": {
+		"albedo": "cactus1topbottom",
+		"normal": "cactus1topbottom"
+	},
 	
 	"Nach0.Textures.PaintMixerFront": {
 		"albedo": "paintmixerfront"
@@ -210,7 +223,7 @@
 	},
 	"Nach0.Textures.Stone5": {
 		"albedo": "stone5",
-		"normal": "stone5"
+		"normal": "Stone5"
 	},
 	"Nach0.Textures.Rock": {
 		"albedo": "rock",
@@ -273,5 +286,157 @@
 	"Nach0.Textures.WoolGeneric": {
 		"albedo": "woolgeneric",
 		"normal": "woolgeneric"
+	},
+	"Nach0.Textures.Dirt3Sides": {
+		"albedo": "Dirt3Side",
+		"normal": "Dirt3Side"
+	},
+	"Nach0.Textures.Farmland1": {
+		"albedo": "Farmland1",
+		"normal": "Farmland1"
+	},
+	"Nach0.Textures.WetFarmland1": {
+		"albedo": "WetFarmland1",
+		"normal": "WetFarmland1"
+	},
+	"Nach0.Textures.DiamondBlock1": {
+		"albedo": "DiamondBlock1",
+		"normal": "DiamondBlock1"
+	},
+	"Nach0.Textures.EmeraldBlock1": {
+		"albedo": "EmeraldBlock1",
+		"normal": "EmeraldBlock1"
+	},
+	"Nach0.Textures.PossessedStone": {
+		"albedo": "PossessedStone",
+		"normal": "PossessedStone"
+	},
+	"Nach0.Textures.PossessedStoneBricks": {
+		"albedo": "PossessedStoneBricks",
+		"normal": "PossessedStoneBricks"
+	},
+	"Nach0.Textures.AlchemistsTableSide": {
+		"albedo": "AlchemistsTableSide",
+		"normal": "AlchemistsTableSide"
+	},
+	"Nach0.Textures.AlchemistsTableTop": {
+		"albedo": "AlchemistsTableTop",
+		"normal": "AlchemistsTableTop"
+	},
+	"Nach0.Textures.FireBlock1": {
+		"albedo": "FireBlock1",
+		"normal": "FireBlock1"
+	},
+	"Nach0.Textures.Grass1Side": {
+		"albedo": "Grass1Side",
+		"normal": "Grass1Side"
+	},
+	"Nach0.Textures.Grass2Side": {
+		"albedo": "Grass2Side",
+		"normal": "Grass2Side"
+	},
+	"Nach0.Textures.Grass2": {
+		"albedo": "Grass2",
+		"normal": "Grass2"
+	},
+	"Nach0.Textures.CrackedStoneBricks2": {
+		"albedo": "StoneBricks2",
+		"normal": "CrackedStoneBricks2"
+	},
+	"Nach0.Textures.Gravel1": {
+		"albedo": "Gravel1",
+		"normal": "Gravel1"
+	},
+	"Nach0.Textures.Ice1Packed": {
+		"albedo": "Ice1Packed",
+		"normal": "Ice1Packed"
+	},
+	"Nach0.Textures.IronBlock1": {
+		"albedo": "IronBlock1",
+		"normal": "IronBlock1"
+	},
+	"Nach0.Textures.MossyStoneBricks2": {
+		"albedo": "MossyStoneBricks2",
+		"normal": "MossyStoneBricks2"
+	},
+	"Nach0.Textures.QuartzBlock1": {
+		"albedo": "QuartzBlock1",
+		"normal": "QuartzBlock1"
+	},
+	"Nach0.Textures.QuartzBlock1PillerSides": {
+		"albedo": "QuartzBlock1",
+		"normal": "QuartzBlock1PillerSides"
+	},
+	"Nach0.Textures.QuartzBlock1Chiseled": {
+		"albedo": "QuartzBlock1Chiseled",
+		"normal": "QuartzBlock1Chiseled"
+	},
+	"Nach0.Textures.RubyBlock1": {
+		"albedo": "RubyBlock1",
+		"normal": "RubyBlock1"
+	},
+	"Nach0.Textures.SapphireBlock1": {
+		"albedo": "SapphireBlock1",
+		"normal": "SapphireBlock1"
+	},
+	"Nach0.Textures.Snow1": {
+		"albedo": "Snow1",
+		"normal": "Snow1"
+	},
+	"Nach0.Textures.Snow1Sides": {
+		"albedo": "Snow1Sides",
+		"normal": "Snow1Sides"
+	},
+	"Nach0.Textures.StoneBricks1": {
+		"albedo": "StoneBricks1",
+		"normal": "StoneBricks1"
+	},
+	"Nach0.Textures.StoneBricks2": {
+		"albedo": "StoneBricks2",
+		"normal": "StoneBricks2"
+	},
+	"Nach0.Textures.StoneSlabsSides": {
+		"albedo": "StoneSlabsSides",
+		"normal": "StoneSlabsSides"
+	},
+	"Nach0.Textures.StoneSlabsTop": {
+		"albedo": "StoneSlabsTop",
+		"normal": "StoneSlabsTop"
+	},
+	"Nach0.Textures.RedSandstone1": {
+		"albedo": "RedSandstone1Smoothed",
+		"normal": "Sandstone1"
+	},
+	"Nach0.Textures.RedSandstone1Smoothed": {
+		"albedo": "RedSandstone1Smoothed",
+		"normal": "Sandstone1Smoothed"
+	},
+	"Nach0.Textures.RedSandstone1Carved": {
+		"albedo": "RedSandstone1Smoothed",
+		"normal": "Sandstone1Carved"
+	},
+	"Nach0.Textures.Sandstone1": {
+		"albedo": "Sandstone1Smoothed",
+		"normal": "Sandstone1"
+	},
+	"Nach0.Textures.Sandstone1Smoothed": {
+		"albedo": "Sandstone1Smoothed",
+		"normal": "Sandstone1Smoothed"
+	},
+	"Nach0.Textures.Sandstone1Carved": {
+		"albedo": "Sandstone1Smoothed",
+		"normal": "Sandstone1Carved"
+	},
+	"Nach0.Textures.Stone1Smoothed": {
+		"albedo": "Stone1Smoothed",
+		"normal": "Stone1Smoothed"
+	},
+	"Nach0.Textures.Stone2Smoothed": {
+		"albedo": "Stone2Smoothed",
+		"normal": "Stone2Smoothed"
+	},
+	"Nach0.Textures.Stone3Smoothed": {
+		"albedo": "Stone3Smoothed",
+		"normal": "Stone3Smoothed"
 	}
 }

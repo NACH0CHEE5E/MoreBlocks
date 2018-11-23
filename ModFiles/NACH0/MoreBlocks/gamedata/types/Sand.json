@@ -6,6 +6,7 @@
 			"blocks",
 			"sand",
 			"standard",
+			"notstone",
 			"decorative"
 		],
 		"icon": "./../textures/icons/Sand1.png",
@@ -21,6 +22,7 @@
 			"blocks",
 			"sand",
 			"red",
+			"notstone",
 			"decorative"
 		],
 		"icon": "./../textures/icons/RedSand1.png",

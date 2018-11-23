@@ -1,0 +1,112 @@
+{
+	"Nach0.Types.Sandstone1": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"sand",
+			"standard",
+			"stone",
+			"normal",
+			"decorative"
+		],
+		"icon": "./../textures/icons/Sandstone1.png",
+		"maxStackSize": 200,
+		"onPlaceAudio" : "dirtPlace",
+		"onRemoveAudio" : "grassDelete",
+		"sideall": "Nach0.Textures.Sandstone1",
+		"sidey+": "Nach0.Textures.Sandstone1Smoothed",
+		"sidey-": "Nach0.Textures.Sandstone1Smoothed"
+	},
+	"Nach0.Types.Sandstone1Smoothed": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"sand",
+			"standard",
+			"stone",
+			"smoothed",
+			"decorative"
+		],
+		"icon": "./../textures/icons/Sandstone1Smoothed.png",
+		"maxStackSize": 200,
+		"onPlaceAudio" : "dirtPlace",
+		"onRemoveAudio" : "grassDelete",
+		"sideall": "Nach0.Textures.Sandstone1Smoothed",
+	},
+	"Nach0.Types.Sandstone1Carved": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"sand",
+			"standard",
+			"stone",
+			"carved",
+			"decorative"
+		],
+		"icon": "./../textures/icons/Sandstone1Carved.png",
+		"maxStackSize": 200,
+		"onPlaceAudio" : "dirtPlace",
+		"onRemoveAudio" : "grassDelete",
+		"sideall": "Nach0.Textures.Sandstone1Carved",
+		"sidey+": "Nach0.Textures.Sandstone1Smoothed",
+		"sidey-": "Nach0.Textures.Sandstone1Smoothed"
+	},
+	"Nach0.Types.RedSandstone1": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"sand",
+			"standard",
+			"stone",
+			"normal",
+			"decorative"
+		],
+		"icon": "./../textures/icons/RedSandstone1.png",
+		"maxStackSize": 200,
+		"onPlaceAudio" : "dirtPlace",
+		"onRemoveAudio" : "grassDelete",
+		"sideall": "Nach0.Textures.RedSandstone1",
+		"sidey+": "Nach0.Textures.RedSandstone1Smoothed",
+		"sidey-": "Nach0.Textures.RedSandstone1Smoothed"
+	},
+	"Nach0.Types.RedSandstone1Smoothed": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"sand",
+			"standard",
+			"stone",
+			"smoothed",
+			"decorative"
+		],
+		"icon": "./../textures/icons/RedSandstone1Smoothed.png",
+		"maxStackSize": 200,
+		"onPlaceAudio" : "dirtPlace",
+		"onRemoveAudio" : "grassDelete",
+		"sideall": "Nach0.Textures.RedSandstone1Smoothed",
+	},
+	"Nach0.Types.RedSandstone1Carved": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"sand",
+			"standard",
+			"stone",
+			"carved",
+			"decorative"
+		],
+		"icon": "./../textures/icons/RedSandstone1Carved.png",
+		"maxStackSize": 200,
+		"onPlaceAudio" : "dirtPlace",
+		"onRemoveAudio" : "grassDelete",
+		"sideall": "Nach0.Textures.RedSandstone1Carved",
+		"sidey+": "Nach0.Textures.RedSandstone1Smoothed",
+		"sidey-": "Nach0.Textures.RedSandstone1Smoothed"
+	}
+}

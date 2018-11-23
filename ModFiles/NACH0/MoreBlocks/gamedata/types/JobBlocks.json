@@ -145,5 +145,18 @@
 		"sideall": "Nach0.Textures.ConcreteLayerSides",
 		"sidey+": "Nach0.Textures.ConcreteGeneric",
 		"sidey-": "crate"
+	},
+	"Nach0.Types.AlchemistsTable": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"jobs"
+		],
+		"icon": "./../textures/icons/AlchemistsTable.png",
+		"onPlaceAudio" : "stoneDelete",
+		"onRemoveAudio" : "stonePlace",
+		"sideall": "Nach0.Textures.AlchemistsTableSide",
+		"sidey+": "Nach0.Textures.AlchemistsTableTop",
+		"sidey-": "Nach0.Textures.PossessedStone"
 	}
 }

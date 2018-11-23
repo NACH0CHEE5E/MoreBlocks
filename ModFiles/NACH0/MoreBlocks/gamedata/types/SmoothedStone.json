@@ -1,0 +1,47 @@
+{
+	"Nach0.Types.Stone1Smoothed": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"stone",
+			"smoothed",
+			"decorative"
+		],
+		"icon": "./../textures/icons/Stone1Smoothed.png",
+		"maxStackSize": 200,
+		"onPlaceAudio": "stonePlace",
+		"onRemoveAudio": "stoneDelete",
+		"sideall": "Nach0.Textures.Stone1Smoothed"
+	},
+	"Nach0.Types.Stone2Smoothed": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"stone",
+			"smoothed",
+			"decorative"
+		],
+		"icon": "./../textures/icons/Stone2Smoothed.png",
+		"maxStackSize": 200,
+		"onPlaceAudio": "stonePlace",
+		"onRemoveAudio": "stoneDelete",
+		"sideall": "Nach0.Textures.Stone2Smoothed"
+	},
+	"Nach0.Types.Stone3Smoothed": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"stone",
+			"smoothed",
+			"decorative"
+		],
+		"icon": "./../textures/icons/Stone3Smoothed.png",
+		"maxStackSize": 200,
+		"onPlaceAudio": "stonePlace",
+		"onRemoveAudio": "stoneDelete",
+		"sideall": "Nach0.Textures.Stone3Smoothed"
+	}
+}

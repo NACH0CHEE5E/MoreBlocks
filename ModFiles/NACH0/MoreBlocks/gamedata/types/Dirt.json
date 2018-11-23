@@ -5,6 +5,7 @@
 			"moreblocks",
 			"blocks",
 			"dirt",
+			"nosides",
 			"decorative"
 		],
 		"icon": "./../textures/icons/Dirt1.png",
@@ -19,6 +20,7 @@
 			"moreblocks",
 			"blocks",
 			"dirt",
+			"nosides",
 			"decorative"
 		],
 		"icon": "./../textures/icons/Dirt2.png",
@@ -33,6 +35,7 @@
 			"moreblocks",
 			"blocks",
 			"dirt",
+			"nosides",
 			"decorative"
 		],
 		"icon": "./../textures/icons/Dirt3.png",
@@ -40,5 +43,56 @@
 		"onPlaceAudio" : "dirtPlace",
 		"onRemoveAudio" : "grassDelete",
 		"sideall": "Nach0.Textures.Dirt3"
+	},
+	"Nach0.Types.Dirt3Sided": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"dirt",
+			"sides",
+			"decorative"
+		],
+		"icon": "./../textures/icons/Dirt3Sided.png",
+		"maxStackSize": 200,
+		"onPlaceAudio" : "dirtPlace",
+		"onRemoveAudio" : "grassDelete",
+		"sideall": "Nach0.Textures.Dirt3Sides",
+		"sidey+": "Nach0.Textures.Dirt3",
+		"sidey-": "Nach0.Textures.Dirt2"
+	},
+	"Nach0.Types.Farmland1": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"dirt",
+			"farmland",
+			"dry",
+			"decorative"
+		],
+		"icon": "./../textures/icons/Farmland1.png",
+		"maxStackSize": 200,
+		"onPlaceAudio" : "dirtPlace",
+		"onRemoveAudio" : "grassDelete",
+		"sideall": "Nach0.Textures.Dirt2",
+		"sidey+": "Nach0.Textures.Farmland1"
+	},
+	"Nach0.Types.WetFarmland1": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"dirt",
+			"farmland",
+			"wet",
+			"decorative"
+		],
+		"icon": "./../textures/icons/WetFarmland1.png",
+		"maxStackSize": 200,
+		"onPlaceAudio" : "dirtPlace",
+		"onRemoveAudio" : "grassDelete",
+		"sideall": "Nach0.Textures.Dirt2",
+		"sidey+": "Nach0.Textures.WetFarmland1"
 	}
 }

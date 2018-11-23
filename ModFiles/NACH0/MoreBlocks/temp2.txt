@@ -1,0 +1,10 @@
+{
+			"fileType" : "addBlockJobs",
+			"index" : -1000000,
+			"relativePath" : "gamedata/jobs/JobDefining.json"
+		},
+		{
+			"fileType" : "addOrReplaceNPCTypes",
+			"index" : -1000000,
+			"relativePath" : "gamedata/jobs/JobInfo.json"
+		},

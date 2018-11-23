@@ -122,7 +122,7 @@
 		],
 		"icon": "./../textures/icons/LightBlueColouredBlock.png",
 		"maxStackSize": 200,
-		"color": "#0094FF",
+		"color": "(0, 127.5, 255)",
 		"onPlaceAudio": "woodPlace",
 		"onRemoveAudio": "woodDeleteLight",
 		"sideall": "neutral"
@@ -138,7 +138,7 @@
 		],
 		"icon": "./../textures/icons/LightGreyColouredBlock.png",
 		"maxStackSize": 200,
-		"color": "#808080",
+		"color": "(127.5, 127.5, 127.5)",
 		"onPlaceAudio": "woodPlace",
 		"onRemoveAudio": "woodDeleteLight",
 		"sideall": "neutral"
@@ -154,7 +154,7 @@
 		],
 		"icon": "./../textures/icons/MagentaColouredBlock.png",
 		"maxStackSize": 200,
-		"color": "#FF006E",
+		"color": "(255, 0, 127.5)",
 		"onPlaceAudio": "woodPlace",
 		"onRemoveAudio": "woodDeleteLight",
 		"sideall": "neutral"
@@ -170,7 +170,7 @@
 		],
 		"icon": "./../textures/icons/OrangeColouredBlock.png",
 		"maxStackSize": 200,
-		"color": "#FF6A00",
+		"color": "(255, 127.5, 0)",
 		"onPlaceAudio": "woodPlace",
 		"onRemoveAudio": "woodDeleteLight",
 		"sideall": "neutral"
@@ -186,7 +186,7 @@
 		],
 		"icon": "./../textures/icons/PinkColouredBlock.png",
 		"maxStackSize": 200,
-		"color": "#FF00DC",
+		"color": "(255, 0, 255)",
 		"onPlaceAudio": "woodPlace",
 		"onRemoveAudio": "woodDeleteLight",
 		"sideall": "neutral"
@@ -202,7 +202,7 @@
 		],
 		"icon": "./../textures/icons/PurpleColouredBlock.png",
 		"maxStackSize": 200,
-		"color": "#4800FF",
+		"color": "(127.5, 0, 255)",
 		"onPlaceAudio": "woodPlace",
 		"onRemoveAudio": "woodDeleteLight",
 		"sideall": "neutral"
@@ -218,7 +218,7 @@
 		],
 		"icon": "./../textures/icons/RedColouredBlock.png",
 		"maxStackSize": 200,
-		"color": "#FF0000",
+		"color": "(255, 0, 0)",
 		"onPlaceAudio": "woodPlace",
 		"onRemoveAudio": "woodDeleteLight",
 		"sideall": "neutral"
@@ -234,7 +234,7 @@
 		],
 		"icon": "./../textures/icons/WhiteColouredBlock.png",
 		"maxStackSize": 200,
-		"color": "#FFFFFF",
+		"color": "(255, 255, 255)",
 		"onPlaceAudio": "woodPlace",
 		"onRemoveAudio": "woodDeleteLight",
 		"sideall": "neutral"
@@ -250,7 +250,7 @@
 		],
 		"icon": "./../textures/icons/YellowColouredBlock.png",
 		"maxStackSize": 200,
-		"color": "#FFD800",
+		"color": "(255, 255, 0)",
 		"onPlaceAudio": "woodPlace",
 		"onRemoveAudio": "woodDeleteLight",
 		"sideall": "neutral"

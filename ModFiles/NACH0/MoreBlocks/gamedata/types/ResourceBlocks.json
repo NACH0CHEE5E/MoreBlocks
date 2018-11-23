@@ -71,7 +71,7 @@
 		"icon": "./../textures/icons/CrystalBlock1.png",
 		"maxStackSize": 200,
 		"onPlaceAudio": "stonePlace",
-		"onRemoveAudio" : "Nach0.Audio.GlassBreak",
+		"onRemoveAudio" : "stoneDelete",
 		"sideall": "Nach0.Textures.CrystalBlock1"
 	},
 	"Nach0.Types.MagmaBlock1": {
@@ -86,7 +86,7 @@
 		"icon": "./../textures/icons/MagmaBlock1.png",
 		"maxStackSize": 200,
 		"onPlaceAudio": "stonePlace",
-		"onRemoveAudio" : "stonePlace",
+		"onRemoveAudio" : "stoneDelete",
 		"sideall": "Nach0.Textures.MagmaBlock1"
 	},
 	"Nach0.Types.HayBlock1": {
@@ -122,5 +122,110 @@
 		"sideall": "Nach0.Textures.Cactus1Sides",
 		"sidey+": "Nach0.Textures.Cactus1TopBottom",
 		"sidey-": "Nach0.Textures.Cactus1TopBottom"
+	},
+	"Nach0.Types.DiamondBlock1": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"resourceblocks",
+			"diamond",
+			"decorative"
+		],
+		"icon": "./../textures/icons/DiamondBlock1.png",
+		"maxStackSize": 200,
+		"onPlaceAudio": "stonePlace",
+		"onRemoveAudio" : "stoneDelete",
+		"sideall": "Nach0.Textures.DiamondBlock1"
+	},
+	"Nach0.Types.EmeraldBlock1": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"resourceblocks",
+			"emerald",
+			"decorative"
+		],
+		"icon": "./../textures/icons/EmeraldBlock1.png",
+		"maxStackSize": 200,
+		"onPlaceAudio": "stonePlace",
+		"onRemoveAudio" : "stoneDelete",
+		"sideall": "Nach0.Textures.EmeraldBlock1"
+	},
+	"Nach0.Types.FireBlock1": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"resourceblocks",
+			"fire",
+			"decorative"
+		],
+		"icon": "./../textures/icons/FireBlock1.png",
+		"maxStackSize": 200,
+		"onPlaceAudio": "stonePlace",
+		"onRemoveAudio" : "stoneDelete",
+		"sideall": "Nach0.Textures.FireBlock1"
+	},
+	"Nach0.Types.Gravel1": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"resourceblocks",
+			"gravel",
+			"decorative"
+		],
+		"icon": "./../textures/icons/Gravel1.png",
+		"maxStackSize": 200,
+		"onPlaceAudio": "stonePlace",
+		"onRemoveAudio" : "stoneDelete",
+		"sideall": "Nach0.Textures.Gravel1"
+	},
+	"Nach0.Types.IronBlock1": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"resourceblocks",
+			"iron",
+			"decorative"
+		],
+		"icon": "./../textures/icons/IronBlock1.png",
+		"maxStackSize": 200,
+		"onPlaceAudio": "stonePlace",
+		"onRemoveAudio" : "stoneDelete",
+		"sideall": "Nach0.Textures.IronBlock1"
+	},
+	"Nach0.Types.SapphireBlock1": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"resourceblocks",
+			"sapphire",
+			"decorative"
+		],
+		"icon": "./../textures/icons/SapphireBlock1.png",
+		"maxStackSize": 200,
+		"onPlaceAudio": "stonePlace",
+		"onRemoveAudio" : "stoneDelete",
+		"sideall": "Nach0.Textures.SapphireBlock1"
+	},
+	"Nach0.Types.RubyBlock1": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"resourceblocks",
+			"ruby",
+			"decorative"
+		],
+		"icon": "./../textures/icons/RubyBlock1.png",
+		"maxStackSize": 200,
+		"onPlaceAudio": "stonePlace",
+		"onRemoveAudio" : "stoneDelete",
+		"sideall": "Nach0.Textures.RubyBlock1"
 	}
 }

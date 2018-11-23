@@ -1,0 +1,258 @@
+{
+	"Nach0.Types.LightGreyStainedCookedClay": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"cookedclay",
+			"lightgrey",
+			"decorative"
+		],
+		"icon": "./../textures/icons/LightGreyStainedCookedClay.png",
+		"maxStackSize": 200,
+		"color": "(127.5, 127.5, 127.5)",
+		"onPlaceAudio": "stonePlace",
+		"onRemoveAudio": "stoneDelete",
+		"sideall": "Nach0.Textures.CookedClayGeneric"
+	},
+	"Nach0.Types.GreyStainedCookedClay": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"cookedclay",
+			"grey",
+			"decorative"
+		],
+		"icon": "./../textures/icons/GreyStainedCookedClay.png",
+		"maxStackSize": 200,
+		"color": "(63.75, 63.75, 63.75)",
+		"onPlaceAudio": "stonePlace",
+		"onRemoveAudio": "stoneDelete",
+		"sideall": "Nach0.Textures.CookedClayGeneric"
+	},
+	"Nach0.Types.AquaStainedCookedClay": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"cookedclay",
+			"aqua",
+			"decorative"
+		],
+		"icon": "./../textures/icons/AquaStainedCookedClay.png",
+		"maxStackSize": 200,
+		"color": "(0, 255, 255)",
+		"onPlaceAudio": "stonePlace",
+		"onRemoveAudio": "stoneDelete",
+		"sideall": "Nach0.Textures.CookedClayGeneric"
+	},
+	"Nach0.Types.BlackStainedCookedClay": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"cookedclay",
+			"black",
+			"decorative"
+		],
+		"icon": "./../textures/icons/BlackStainedCookedClay.png",
+		"maxStackSize": 200,
+		"color": "(0, 0, 0)",
+		"onPlaceAudio": "stonePlace",
+		"onRemoveAudio": "stoneDelete",
+		"sideall": "Nach0.Textures.CookedClayGeneric"
+	},
+	"Nach0.Types.BlueStainedCookedClay": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"cookedclay",
+			"blue",
+			"decorative"
+		],
+		"icon": "./../textures/icons/BlueStainedCookedClay.png",
+		"maxStackSize": 200,
+		"color": "(0, 0, 255)",
+		"onPlaceAudio": "stonePlace",
+		"onRemoveAudio": "stoneDelete",
+		"sideall": "Nach0.Textures.CookedClayGeneric"
+	},
+	"Nach0.Types.CookedClay": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"cookedclay",
+			"brown",
+			"decorative"
+		],
+		"icon": "./../textures/icons/CookedClay.png",
+		"maxStackSize": 200,
+		"color": "(127.5, 0, 0)",
+		"onPlaceAudio": "stonePlace",
+		"onRemoveAudio": "stoneDelete",
+		"sideall": "Nach0.Textures.CookedClayGeneric"
+	},
+	"Nach0.Types.DarkGreenStainedCookedClay": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"cookedclay",
+			"darkgreen",
+			"decorative"
+		],
+		"icon": "./../textures/icons/DarkGreenStainedCookedClay.png",
+		"maxStackSize": 200,
+		"color": "(0, 127.5, 0)",
+		"onPlaceAudio": "stonePlace",
+		"onRemoveAudio": "stoneDelete",
+		"sideall": "Nach0.Textures.CookedClayGeneric"
+	},
+	"Nach0.Types.GreenStainedCookedClay": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"cookedclay",
+			"green",
+			"decorative"
+		],
+		"icon": "./../textures/icons/GreenStainedCookedClay.png",
+		"maxStackSize": 200,
+		"color": "(0, 255, 0)",
+		"onPlaceAudio": "stonePlace",
+		"onRemoveAudio": "stoneDelete",
+		"sideall": "Nach0.Textures.CookedClayGeneric"
+	},
+	"Nach0.Types.LightBlueStainedCookedClay": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"cookedclay",
+			"lightblue",
+			"decorative"
+		],
+		"icon": "./../textures/icons/LightBlueStainedCookedClay.png",
+		"maxStackSize": 200,
+		"color": "(0, 127.5, 255)",
+		"onPlaceAudio": "stonePlace",
+		"onRemoveAudio": "stoneDelete",
+		"sideall": "Nach0.Textures.CookedClayGeneric"
+	},
+	"Nach0.Types.MagentaStainedCookedClay": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"cookedclay",
+			"magenta",
+			"decorative"
+		],
+		"icon": "./../textures/icons/MagentaStainedCookedClay.png",
+		"maxStackSize": 200,
+		"color": "(255, 0, 127.5)",
+		"onPlaceAudio": "stonePlace",
+		"onRemoveAudio": "stoneDelete",
+		"sideall": "Nach0.Textures.CookedClayGeneric"
+	},
+	"Nach0.Types.OrangeStainedCookedClay": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"cookedclay",
+			"orange",
+			"decorative"
+		],
+		"icon": "./../textures/icons/OrangeStainedCookedClay.png",
+		"maxStackSize": 200,
+		"color": "(255, 127.5, 0)",
+		"onPlaceAudio": "stonePlace",
+		"onRemoveAudio": "stoneDelete",
+		"sideall": "Nach0.Textures.CookedClayGeneric"
+	},
+	"Nach0.Types.PinkStainedCookedClay": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"cookedclay",
+			"pink",
+			"decorative"
+		],
+		"icon": "./../textures/icons/PinkStainedCookedClay.png",
+		"maxStackSize": 200,
+		"color": "(255, 0, 255)",
+		"onPlaceAudio": "stonePlace",
+		"onRemoveAudio": "stoneDelete",
+		"sideall": "Nach0.Textures.CookedClayGeneric"
+	},
+	"Nach0.Types.PurpleStainedCookedClay": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"cookedclay",
+			"purple",
+			"decorative"
+		],
+		"icon": "./../textures/icons/PurpleStainedCookedClay.png",
+		"maxStackSize": 200,
+		"color": "(127.5, 0, 255)",
+		"onPlaceAudio": "stonePlace",
+		"onRemoveAudio": "stoneDelete",
+		"sideall": "Nach0.Textures.CookedClayGeneric"
+	},
+	"Nach0.Types.RedStainedCookedClay": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"cookedclay",
+			"red",
+			"decorative"
+		],
+		"icon": "./../textures/icons/RedStainedCookedClay.png",
+		"maxStackSize": 200,
+		"color": "(255, 0, 0)",
+		"onPlaceAudio": "stonePlace",
+		"onRemoveAudio": "stoneDelete",
+		"sideall": "Nach0.Textures.CookedClayGeneric"
+	},
+	"Nach0.Types.WhiteStainedCookedClay": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"cookedclay",
+			"white",
+			"decorative"
+		],
+		"icon": "./../textures/icons/WhiteStainedCookedClay.png",
+		"maxStackSize": 200,
+		"color": "(255, 255, 255)",
+		"onPlaceAudio": "stonePlace",
+		"onRemoveAudio": "stoneDelete",
+		"sideall": "Nach0.Textures.CookedClayGeneric"
+	},
+	"Nach0.Types.YellowStainedCookedClay": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"cookedclay",
+			"yellow",
+			"decorative"
+		],
+		"icon": "./../textures/icons/YellowStainedCookedClay.png",
+		"maxStackSize": 200,
+		"color": "(255, 255, 0)",
+		"onPlaceAudio": "stonePlace",
+		"onRemoveAudio": "stoneDelete",
+		"sideall": "Nach0.Textures.CookedClayGeneric"
+	}
+}
