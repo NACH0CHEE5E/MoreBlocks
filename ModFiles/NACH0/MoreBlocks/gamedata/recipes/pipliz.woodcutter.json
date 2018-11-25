@@ -1,0 +1,218 @@
+[
+	{
+		"isOptional" : true,
+		"defaultLimit" : 0,
+		"defaultPriority" : -100,
+		"name" : "Nach0.woodcutter.Wood1Tipped",
+		"requires" : [
+			{
+				"amount":5,
+				"type":"Nach0.Types.Wood1"
+			}
+		],
+		"results" : [
+			{
+				"amount":5,
+				"type":"Nach0.Types.Wood1Tipped"
+			}
+		]
+	},
+	{
+		"isOptional" : true,
+		"defaultLimit" : 0,
+		"defaultPriority" : -100,
+		"name" : "Nach0.woodcutter.Wood2Tipped",
+		"requires" : [
+			{
+				"amount":5,
+				"type":"Nach0.Types.Wood2"
+			}
+		],
+		"results" : [
+			{
+				"amount":5,
+				"type":"Nach0.Types.Wood2Tipped"
+			}
+		]
+	},
+	{
+		"isOptional" : true,
+		"defaultLimit" : 0,
+		"defaultPriority" : -100,
+		"name" : "Nach0.woodcutter.Wood3Tipped",
+		"requires" : [
+			{
+				"amount":5,
+				"type":"Nach0.Types.Wood3"
+			}
+		],
+		"results" : [
+			{
+				"amount":5,
+				"type":"Nach0.Types.Wood3Tipped"
+			}
+		]
+	},
+	{
+		"isOptional" : true,
+		"defaultLimit" : 0,
+		"defaultPriority" : -100,
+		"name" : "Nach0.woodcutter.Wood4Tipped",
+		"requires" : [
+			{
+				"amount":5,
+				"type":"Nach0.Types.Wood4"
+			}
+		],
+		"results" : [
+			{
+				"amount":5,
+				"type":"Nach0.Types.Wood4Tipped"
+			}
+		]
+	},
+	{
+		"isOptional" : true,
+		"defaultLimit" : 0,
+		"defaultPriority" : -100,
+		"name" : "Nach0.woodcutter.Wood5Tipped",
+		"requires" : [
+			{
+				"amount":5,
+				"type":"Nach0.Types.Wood5"
+			}
+		],
+		"results" : [
+			{
+				"amount":5,
+				"type":"Nach0.Types.Wood5Tipped"
+			}
+		]
+	},
+	{
+		"isOptional" : true,
+		"defaultLimit" : 0,
+		"defaultPriority" : -100,
+		"name" : "Nach0.woodcutter.Wood6Tipped",
+		"requires" : [
+			{
+				"amount":5,
+				"type":"Nach0.Types.Wood6"
+			}
+		],
+		"results" : [
+			{
+				"amount":5,
+				"type":"Nach0.Types.Wood6Tipped"
+			}
+		]
+	},
+	{
+		"isOptional" : true,
+		"defaultLimit" : 0,
+		"defaultPriority" : -100,
+		"name" : "Nach0.woodcutter.Planks1",
+		"requires" : [
+			{
+				"amount":2,
+				"type":"Nach0.Types.Wood1"
+			}
+		],
+		"results" : [
+			{
+				"amount":7,
+				"type":"Nach0.Types.Planks1"
+			}
+		]
+	},
+	{
+		"isOptional" : true,
+		"defaultLimit" : 0,
+		"defaultPriority" : -100,
+		"name" : "Nach0.woodcutter.Planks2",
+		"requires" : [
+			{
+				"amount":2,
+				"type":"Nach0.Types.Wood2"
+			}
+		],
+		"results" : [
+			{
+				"amount":7,
+				"type":"Nach0.Types.Planks2"
+			}
+		]
+	},
+	{
+		"isOptional" : true,
+		"defaultLimit" : 0,
+		"defaultPriority" : -100,
+		"name" : "Nach0.woodcutter.Planks3",
+		"requires" : [
+			{
+				"amount":2,
+				"type":"Nach0.Types.Wood3"
+			}
+		],
+		"results" : [
+			{
+				"amount":7,
+				"type":"Nach0.Types.Planks3"
+			}
+		]
+	},
+	{
+		"isOptional" : true,
+		"defaultLimit" : 0,
+		"defaultPriority" : -100,
+		"name" : "Nach0.woodcutter.Planks4",
+		"requires" : [
+			{
+				"amount":2,
+				"type":"Nach0.Types.Wood4"
+			}
+		],
+		"results" : [
+			{
+				"amount":7,
+				"type":"Nach0.Types.Planks4"
+			}
+		]
+	},
+	{
+		"isOptional" : true,
+		"defaultLimit" : 0,
+		"defaultPriority" : -100,
+		"name" : "Nach0.woodcutter.Planks5",
+		"requires" : [
+			{
+				"amount":2,
+				"type":"Nach0.Types.Wood5"
+			}
+		],
+		"results" : [
+			{
+				"amount":7,
+				"type":"Nach0.Types.Planks5"
+			}
+		]
+	},
+	{
+		"isOptional" : true,
+		"defaultLimit" : 0,
+		"defaultPriority" : -100,
+		"name" : "Nach0.woodcutter.Planks6",
+		"requires" : [
+			{
+				"amount":2,
+				"type":"Nach0.Types.Wood6"
+			}
+		],
+		"results" : [
+			{
+				"amount":7,
+				"type":"Nach0.Types.Planks6"
+			}
+		]
+	}
+]

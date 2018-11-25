@@ -438,5 +438,11 @@
 	"Nach0.Textures.Stone3Smoothed": {
 		"albedo": "Stone3Smoothed",
 		"normal": "Stone3Smoothed"
+	},
+	"Nach0.Textures.InfnitePlatniumOre": {
+		"albedo": "InfnitePlatniumOre"
+	},
+	"Nach0.Textures.InfniteTitaniumOre": {
+		"albedo": "InfniteTitaniumOre"
 	}
 }

@@ -1,0 +1,417 @@
+[
+	{
+		"defaultLimit" : 0,
+		"defaultPriority" : 0,
+		"name" : "Nach0.ConcreteLayer.Concrete",
+		"requires" : [
+			{
+				"amount":15,
+				"type":"Nach0.Types.CementPowder"
+			},
+			{
+				"amount": 3,
+				"type": "Nach0.Types.WaterBucket"
+			}
+		],
+		"results" : [
+			{
+				"amount": 4,
+				"type": "Nach0.Types.Concrete"
+			},
+			{
+				"amount": 3,
+				"type": "Nach0.Types.Bucket"
+			}
+		]
+	},
+	{
+		"isOptional": true,
+		"defaultLimit" : 0,
+		"defaultPriority" : 0,
+		"name" : "Nach0.ConcreteLayer.GreyStainedConcrete",
+		"requires" : [
+			{
+				"amount":15,
+				"type":"Nach0.Types.CementPowder"
+			},
+			{
+				"amount": 3,
+				"type": "Nach0.Types.GreyDye"
+			}
+		],
+		"results" : [
+			{
+				"amount": 4,
+				"type": "Nach0.Types.GreyStainedConcrete"
+			},
+			{
+				"amount": 3,
+				"type": "Nach0.Types.Bucket"
+			}
+		]
+	},
+	{
+		"isOptional": true,
+		"defaultLimit" : 0,
+		"defaultPriority" : 0,
+		"name" : "Nach0.ConcreteLayer.AquaStainedConcrete",
+		"requires" : [
+			{
+				"amount":15,
+				"type":"Nach0.Types.CementPowder"
+			},
+			{
+				"amount": 3,
+				"type": "Nach0.Types.AquaDye"
+			}
+		],
+		"results" : [
+			{
+				"amount": 4,
+				"type": "Nach0.Types.AquaStainedConcrete"
+			},
+			{
+				"amount": 3,
+				"type": "Nach0.Types.Bucket"
+			}
+		]
+	},
+	{
+		"isOptional": true,
+		"defaultLimit" : 0,
+		"defaultPriority" : 0,
+		"name" : "Nach0.ConcreteLayer.BlackStainedConcrete",
+		"requires" : [
+			{
+				"amount":15,
+				"type":"Nach0.Types.CementPowder"
+			},
+			{
+				"amount": 3,
+				"type": "Nach0.Types.BlackDye"
+			}
+		],
+		"results" : [
+			{
+				"amount": 4,
+				"type": "Nach0.Types.BlackStainedConcrete"
+			},
+			{
+				"amount": 3,
+				"type": "Nach0.Types.Bucket"
+			}
+		]
+	},
+	{
+		"isOptional": true,
+		"defaultLimit" : 0,
+		"defaultPriority" : 0,
+		"name" : "Nach0.ConcreteLayer.BlueStainedConcrete",
+		"requires" : [
+			{
+				"amount":15,
+				"type":"Nach0.Types.CementPowder"
+			},
+			{
+				"amount": 3,
+				"type": "Nach0.Types.BlueDye"
+			}
+		],
+		"results" : [
+			{
+				"amount": 4,
+				"type": "Nach0.Types.BlueStainedConcrete"
+			},
+			{
+				"amount": 3,
+				"type": "Nach0.Types.Bucket"
+			}
+		]
+	},
+	{
+		"isOptional": true,
+		"defaultLimit" : 0,
+		"defaultPriority" : 0,
+		"name" : "Nach0.ConcreteLayer.BrownStainedConcrete",
+		"requires" : [
+			{
+				"amount":15,
+				"type":"Nach0.Types.CementPowder"
+			},
+			{
+				"amount": 3,
+				"type": "Nach0.Types.BrownDye"
+			}
+		],
+		"results" : [
+			{
+				"amount": 4,
+				"type": "Nach0.Types.BrownStainedConcrete"
+			},
+			{
+				"amount": 3,
+				"type": "Nach0.Types.Bucket"
+			}
+		]
+	},
+	{
+		"isOptional": true,
+		"defaultLimit" : 0,
+		"defaultPriority" : 0,
+		"name" : "Nach0.ConcreteLayer.DarkGreenStainedConcrete",
+		"requires" : [
+			{
+				"amount":15,
+				"type":"Nach0.Types.CementPowder"
+			},
+			{
+				"amount": 3,
+				"type": "Nach0.Types.DarkGreenDye"
+			}
+		],
+		"results" : [
+			{
+				"amount": 4,
+				"type": "Nach0.Types.DarkGreenStainedConcrete"
+			},
+			{
+				"amount": 3,
+				"type": "Nach0.Types.Bucket"
+			}
+		]
+	},
+	{
+		"isOptional": true,
+		"defaultLimit" : 0,
+		"defaultPriority" : 0,
+		"name" : "Nach0.ConcreteLayer.GreenStainedConcrete",
+		"requires" : [
+			{
+				"amount":15,
+				"type":"Nach0.Types.CementPowder"
+			},
+			{
+				"amount": 3,
+				"type": "Nach0.Types.GreenDye"
+			}
+		],
+		"results" : [
+			{
+				"amount": 4,
+				"type": "Nach0.Types.GreenStainedConcrete"
+			},
+			{
+				"amount": 3,
+				"type": "Nach0.Types.Bucket"
+			}
+		]
+	},
+	{
+		"isOptional": true,
+		"defaultLimit" : 0,
+		"defaultPriority" : 0,
+		"name" : "Nach0.ConcreteLayer.LightBlueStainedConcrete",
+		"requires" : [
+			{
+				"amount":15,
+				"type":"Nach0.Types.CementPowder"
+			},
+			{
+				"amount": 3,
+				"type": "Nach0.Types.LightBlueDye"
+			}
+		],
+		"results" : [
+			{
+				"amount": 4,
+				"type": "Nach0.Types.LightBlueStainedConcrete"
+			},
+			{
+				"amount": 3,
+				"type": "Nach0.Types.Bucket"
+			}
+		]
+	},
+	{
+		"isOptional": true,
+		"defaultLimit" : 0,
+		"defaultPriority" : 0,
+		"name" : "Nach0.ConcreteLayer.MagentaStainedConcrete",
+		"requires" : [
+			{
+				"amount":15,
+				"type":"Nach0.Types.CementPowder"
+			},
+			{
+				"amount": 3,
+				"type": "Nach0.Types.MagentaDye"
+			}
+		],
+		"results" : [
+			{
+				"amount": 4,
+				"type": "Nach0.Types.MagentaStainedConcrete"
+			},
+			{
+				"amount": 3,
+				"type": "Nach0.Types.Bucket"
+			}
+		]
+	},
+	{
+		"isOptional": true,
+		"defaultLimit" : 0,
+		"defaultPriority" : 0,
+		"name" : "Nach0.ConcreteLayer.OrangeStainedConcrete",
+		"requires" : [
+			{
+				"amount":15,
+				"type":"Nach0.Types.CementPowder"
+			},
+			{
+				"amount": 3,
+				"type": "Nach0.Types.OrangeDye"
+			}
+		],
+		"results" : [
+			{
+				"amount": 4,
+				"type": "Nach0.Types.OrangeStainedConcrete"
+			},
+			{
+				"amount": 3,
+				"type": "Nach0.Types.Bucket"
+			}
+		]
+	},
+	{
+		"isOptional": true,
+		"defaultLimit" : 0,
+		"defaultPriority" : 0,
+		"name" : "Nach0.ConcreteLayer.PinkStainedConcrete",
+		"requires" : [
+			{
+				"amount":15,
+				"type":"Nach0.Types.CementPowder"
+			},
+			{
+				"amount": 3,
+				"type": "Nach0.Types.PinkDye"
+			}
+		],
+		"results" : [
+			{
+				"amount": 4,
+				"type": "Nach0.Types.PinkStainedConcrete"
+			},
+			{
+				"amount": 3,
+				"type": "Nach0.Types.Bucket"
+			}
+		]
+	},
+	{
+		"isOptional": true,
+		"defaultLimit" : 0,
+		"defaultPriority" : 0,
+		"name" : "Nach0.ConcreteLayer.PurpleStainedConcrete",
+		"requires" : [
+			{
+				"amount":15,
+				"type":"Nach0.Types.CementPowder"
+			},
+			{
+				"amount": 3,
+				"type": "Nach0.Types.PurpleDye"
+			}
+		],
+		"results" : [
+			{
+				"amount": 4,
+				"type": "Nach0.Types.PurpleStainedConcrete"
+			},
+			{
+				"amount": 3,
+				"type": "Nach0.Types.Bucket"
+			}
+		]
+	},
+	{
+		"isOptional": true,
+		"defaultLimit" : 0,
+		"defaultPriority" : 0,
+		"name" : "Nach0.ConcreteLayer.RedStainedConcrete",
+		"requires" : [
+			{
+				"amount":15,
+				"type":"Nach0.Types.CementPowder"
+			},
+			{
+				"amount": 3,
+				"type": "Nach0.Types.RedDye"
+			}
+		],
+		"results" : [
+			{
+				"amount": 4,
+				"type": "Nach0.Types.RedStainedConcrete"
+			},
+			{
+				"amount": 3,
+				"type": "Nach0.Types.Bucket"
+			}
+		]
+	},
+	{
+		"isOptional": true,
+		"defaultLimit" : 0,
+		"defaultPriority" : 0,
+		"name" : "Nach0.ConcreteLayer.WhiteStainedConcrete",
+		"requires" : [
+			{
+				"amount":15,
+				"type":"Nach0.Types.CementPowder"
+			},
+			{
+				"amount": 3,
+				"type": "Nach0.Types.WhiteDye"
+			}
+		],
+		"results" : [
+			{
+				"amount": 4,
+				"type": "Nach0.Types.WhiteStainedConcrete"
+			},
+			{
+				"amount": 3,
+				"type": "Nach0.Types.Bucket"
+			}
+		]
+	},
+	{
+		"isOptional": true,
+		"defaultLimit" : 0,
+		"defaultPriority" : 0,
+		"name" : "Nach0.ConcreteLayer.YellowStainedConcrete",
+		"requires" : [
+			{
+				"amount":15,
+				"type":"Nach0.Types.CementPowder"
+			},
+			{
+				"amount": 3,
+				"type": "Nach0.Types.YellowDye"
+			}
+		],
+		"results" : [
+			{
+				"amount": 4,
+				"type": "Nach0.Types.YellowStainedConcrete"
+			},
+			{
+				"amount": 3,
+				"type": "Nach0.Types.Bucket"
+			}
+		]
+	}
+]

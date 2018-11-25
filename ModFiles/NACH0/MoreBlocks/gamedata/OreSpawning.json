@@ -1,0 +1,114 @@
+{
+	"OreLayers" : [
+		{
+			"Chance" : 24,
+			"Depth" : 15,
+			"Type" : "infinitecopper"
+		},
+		{
+			"Chance" : 8,
+			"Depth" : 15,
+			"Type" : "infinitetin"
+		},
+		{
+			"Chance" : 24,
+			"Depth" : 16,
+			"Type" : "infinitecopper"
+		},
+		{
+			"Chance" : 8,
+			"Depth" : 16,
+			"Type" : "infinitetin"
+		},
+		{
+			"Chance" : 10,
+			"Depth" : 22,
+			"Type" : "infiniteiron"
+		},
+		{
+			"Chance" : 10,
+			"Depth" : 22,
+			"Type" : "infiniteclay"
+		},
+		{
+			"Chance" : 10,
+			"Depth" : 22,
+			"Type" : "infinitegypsum"
+		},
+		{
+			"Chance" : 10,
+			"Depth" : 23,
+			"Type" : "infiniteiron"
+		},
+		{
+			"Chance" : 10,
+			"Depth" : 23,
+			"Type" : "infiniteclay"
+		},
+		{
+			"Chance" : 10,
+			"Depth" : 23,
+			"Type" : "infinitegypsum"
+		},
+		{
+			"Chance" : 10,
+			"Depth" : 29,
+			"Type" : "infinitegold"
+		},
+		{
+			"Chance" : 10,
+			"Depth" : 29,
+			"Type" : "infinitecoal"
+		},
+		{
+			"Chance" : 10,
+			"Depth" : 30,
+			"Type" : "infinitegold"
+		},
+		{
+			"Chance" : 10,
+			"Depth" : 30,
+			"Type" : "infinitecoal"
+		},
+		{
+			"Chance" : 10,
+			"Depth" : 36,
+			"Type" : "infinitegalena"
+		},
+		{
+			"Chance" : 10,
+			"Depth" : 36,
+			"Type" : "infinitesalpeter"
+		},
+		{
+			"Chance" : 10,
+			"Depth" : 37,
+			"Type" : "infinitegalena"
+		},
+		{
+			"Chance" : 10,
+			"Depth" : 37,
+			"Type" : "infinitesalpeter"
+		},
+		{
+			"Chance" : 7,
+			"Depth" : 44,
+			"Type" : "Nach0.Types.InfnitePlatniumOre"
+		},
+		{
+			"Chance" : 7,
+			"Depth" : 45,
+			"Type" : "Nach0.Types.InfnitePlatniumOre"
+		},
+		{
+			"Chance" : 5,
+			"Depth" : 50,
+			"Type" : "Nach0.Types.InfniteTitaniumOre"
+		},
+		{
+			"Chance" : 5,
+			"Depth" : 51,
+			"Type" : "Nach0.Types.InfniteTitaniumOre"
+		}
+	]
+}

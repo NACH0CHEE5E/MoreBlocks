@@ -1,19 +1,127 @@
 [
 	{
-		"defaultLimit": 5,
-		"defaultPriority": 100,
-		"isOptional": false,
-		"name": "Nach0.Recipes.Bucket",
-		"requires": [
+		"defaultLimit" : 15,
+		"defaultPriority" : -100,
+		"name" : "Nach0.metalsmithjob.Bucket",
+		"requires" : [
 			{
-				"amount": 5,
-				"type": "ironingot"
+				"amount":5,
+				"type":"ironingot"
 			}
 		],
-		"results": [
+		"results" : [
 			{
-				"amount": 3,
-				"type": "Nach0.Types.Bucket"
+				"amount":3,
+				"type":"Nach0.Types.Bucket"
+			}
+		]
+	},
+	{
+		"defaultLimit" : 15,
+		"defaultPriority" : -100,
+		"name" : "Nach0.metalsmithjob.Chisel",
+		"requires" : [
+			{
+				"amount":3,
+				"type":"ironingot"
+			},
+			{
+				"amount": 5,
+				"type": "coatedplanks"
+			}
+		],
+		"results" : [
+			{
+				"amount":2,
+				"type":"Nach0.Types.Chisel"
+			}
+		]
+	},
+	{
+		"isOptional" : true,
+		"defaultLimit" : 1,
+		"defaultPriority" : 0,
+		"name" : "Nach0.metalsmithjob.Freezer",
+		"requires" : [
+			{
+				"amount":15,
+				"type":"ironblock"
+			}
+		],
+		"results" : [
+			{
+				"type":"Nach0.Types.Freezer"
+			}
+		]
+	},
+		{
+		"isOptional" : true,
+		"defaultLimit" : 1,
+		"defaultPriority" : 0,
+		"name" : "Nach0.metalsmithjob.Melter",
+		"requires" : [
+			{
+				"amount":15,
+				"type":"ironblock"
+			}
+		],
+		"results" : [
+			{
+				"type":"Nach0.Types.Melter"
+			}
+		]
+	},
+	{
+		"isOptional" : true,
+		"defaultLimit" : 1,
+		"defaultPriority" : 0,
+		"name" : "Nach0.metalsmithjob.Crusher",
+		"requires" : [
+			{
+				"amount":15,
+				"type":"ironblock"
+			}
+		],
+		"results" : [
+			{
+				"type":"Nach0.Types.Crusher"
+			}
+		]
+	},
+	{
+		"isOptional" : true,
+		"defaultLimit" : 1,
+		"defaultPriority" : 0,
+		"name" : "Nach0.metalsmithjob.PaintMixer",
+		"requires" : [
+			{
+				"amount":15,
+				"type":"ironblock"
+			},
+			{
+				"amount": 5,
+				"type": "Nach0.Types.Concrete"
+			}
+		],
+		"results" : [
+			{
+				"type":"Nach0.Types.PaintMixer"
+			}
+		]
+	},
+	{
+		"defaultLimit" : 1,
+		"defaultPriority" : 0,
+		"name" : "Nach0.metalsmithjob.Pailer",
+		"requires" : [
+			{
+				"amount":3,
+				"type":"ironblock"
+			}
+		],
+		"results" : [
+			{
+				"type":"Nach0.Types.Pailer"
 			}
 		]
 	}

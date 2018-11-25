@@ -1,0 +1,418 @@
+[
+	{
+		"defaultLimit" : 0,
+		"defaultPriority" : -100,
+		"name" : "Nach0.Painter.AquaColouredBlock",
+		"requires" : [
+			{
+				"amount":5,
+				"type":"plasterblock"
+			},
+			{
+				"type": "Nach0.Types.PaintBrush"
+			},
+			{
+				"type": "Nach0.Types.AquaPaint"
+			}
+		],
+		"results" : [
+			{
+				"amount":5,
+				"type":"Nach0.Types.AquaColouredBlock"
+			},
+			{
+				"type": "Nach0.Types.Bucket"
+			}
+		]
+	},
+	{
+		"defaultLimit" : 0,
+		"defaultPriority" : -100,
+		"name" : "Nach0.Painter.BlackColouredBlock",
+		"requires" : [
+			{
+				"amount":5,
+				"type":"plasterblock"
+			},
+			{
+				"type": "Nach0.Types.PaintBrush"
+			},
+			{
+				"type": "Nach0.Types.BlackPaint"
+			}
+		],
+		"results" : [
+			{
+				"amount":5,
+				"type":"Nach0.Types.BlackColouredBlock"
+			},
+			{
+				"type": "Nach0.Types.Bucket"
+			}
+		]
+	},
+	{
+		"defaultLimit" : 0,
+		"defaultPriority" : -100,
+		"name" : "Nach0.Painter.BlueColouredBlock",
+		"requires" : [
+			{
+				"amount":5,
+				"type":"plasterblock"
+			},
+			{
+				"type": "Nach0.Types.PaintBrush"
+			},
+			{
+				"type": "Nach0.Types.BluePaint"
+			}
+		],
+		"results" : [
+			{
+				"amount":5,
+				"type":"Nach0.Types.BlueColouredBlock"
+			},
+			{
+				"type": "Nach0.Types.Bucket"
+			}
+		]
+	},
+	{
+		"defaultLimit" : 0,
+		"defaultPriority" : -100,
+		"name" : "Nach0.Painter.BrownColouredBlock",
+		"requires" : [
+			{
+				"amount":5,
+				"type":"plasterblock"
+			},
+			{
+				"type": "Nach0.Types.PaintBrush"
+			},
+			{
+				"type": "Nach0.Types.BrownPaint"
+			}
+		],
+		"results" : [
+			{
+				"amount":5,
+				"type":"Nach0.Types.BrownColouredBlock"
+			},
+			{
+				"type": "Nach0.Types.Bucket"
+			}
+		]
+	},
+	{
+		"defaultLimit" : 0,
+		"defaultPriority" : -100,
+		"name" : "Nach0.Painter.DarkGreenColouredBlock",
+		"requires" : [
+			{
+				"amount":5,
+				"type":"plasterblock"
+			},
+			{
+				"type": "Nach0.Types.PaintBrush"
+			},
+			{
+				"type": "Nach0.Types.DarkGreenPaint"
+			}
+		],
+		"results" : [
+			{
+				"amount":5,
+				"type":"Nach0.Types.DarkGreenColouredBlock"
+			},
+			{
+				"type": "Nach0.Types.Bucket"
+			}
+		]
+	},
+	{
+		"defaultLimit" : 0,
+		"defaultPriority" : -100,
+		"name" : "Nach0.Painter.GreenColouredBlock",
+		"requires" : [
+			{
+				"amount":5,
+				"type":"plasterblock"
+			},
+			{
+				"type": "Nach0.Types.PaintBrush"
+			},
+			{
+				"type": "Nach0.Types.GreenPaint"
+			},
+			{
+				"type": "Nach0.Types.Bucket"
+			}
+		],
+		"results" : [
+			{
+				"amount":5,
+				"type":"Nach0.Types.GreenColouredBlock"
+			}
+		]
+	},
+	{
+		"defaultLimit" : 0,
+		"defaultPriority" : -100,
+		"name" : "Nach0.Painter.GreyColouredBlock",
+		"requires" : [
+			{
+				"amount":5,
+				"type":"plasterblock"
+			},
+			{
+				"type": "Nach0.Types.PaintBrush"
+			},
+			{
+				"type": "Nach0.Types.GreyPaint"
+			}
+		],
+		"results" : [
+			{
+				"amount":5,
+				"type":"Nach0.Types.GreyColouredBlock"
+			},
+			{
+				"type": "Nach0.Types.Bucket"
+			}
+		]
+	},
+	{
+		"defaultLimit" : 0,
+		"defaultPriority" : -100,
+		"name" : "Nach0.Painter.LightBlueColouredBlock",
+		"requires" : [
+			{
+				"amount":5,
+				"type":"plasterblock"
+			},
+			{
+				"type": "Nach0.Types.PaintBrush"
+			},
+			{
+				"type": "Nach0.Types.LightBluePaint"
+			}
+		],
+		"results" : [
+			{
+				"amount":5,
+				"type":"Nach0.Types.LightBlueColouredBlock"
+			},
+			{
+				"type": "Nach0.Types.Bucket"
+			}
+		]
+	},
+	{
+		"defaultLimit" : 0,
+		"defaultPriority" : -100,
+		"name" : "Nach0.Painter.LightGreyColouredBlock",
+		"requires" : [
+			{
+				"amount":5,
+				"type":"plasterblock"
+			},
+			{
+				"type": "Nach0.Types.PaintBrush"
+			},
+			{
+				"type": "Nach0.Types.LightGreyPaint"
+			}
+		],
+		"results" : [
+			{
+				"amount":5,
+				"type":"Nach0.Types.LightGreyColouredBlock"
+			},
+			{
+				"type": "Nach0.Types.Bucket"
+			}
+		]
+	},
+	{
+		"defaultLimit" : 0,
+		"defaultPriority" : -100,
+		"name" : "Nach0.Painter.MagentaColouredBlock",
+		"requires" : [
+			{
+				"amount":5,
+				"type":"plasterblock"
+			},
+			{
+				"type": "Nach0.Types.PaintBrush"
+			},
+			{
+				"type": "Nach0.Types.MagentaPaint"
+			}
+		],
+		"results" : [
+			{
+				"amount":5,
+				"type":"Nach0.Types.MagentaColouredBlock"
+			},
+			{
+				"type": "Nach0.Types.Bucket"
+			}
+		]
+	},
+	{
+		"defaultLimit" : 0,
+		"defaultPriority" : -100,
+		"name" : "Nach0.Painter.OrangeColouredBlock",
+		"requires" : [
+			{
+				"amount":5,
+				"type":"plasterblock"
+			},
+			{
+				"type": "Nach0.Types.PaintBrush"
+			},
+			{
+				"type": "Nach0.Types.OrangePaint"
+			}
+		],
+		"results" : [
+			{
+				"amount":5,
+				"type":"Nach0.Types.OrangeColouredBlock"
+			},
+			{
+				"type": "Nach0.Types.Bucket"
+			}
+		]
+	},
+	{
+		"defaultLimit" : 0,
+		"defaultPriority" : -100,
+		"name" : "Nach0.Painter.PinkColouredBlock",
+		"requires" : [
+			{
+				"amount":5,
+				"type":"plasterblock"
+			},
+			{
+				"type": "Nach0.Types.PaintBrush"
+			},
+			{
+				"type": "Nach0.Types.PinkPaint"
+			}
+		],
+		"results" : [
+			{
+				"amount":5,
+				"type":"Nach0.Types.PinkColouredBlock"
+			},
+			{
+				"type": "Nach0.Types.Bucket"
+			}
+		]
+	},
+	{
+		"defaultLimit" : 0,
+		"defaultPriority" : -100,
+		"name" : "Nach0.Painter.PurpleColouredBlock",
+		"requires" : [
+			{
+				"amount":5,
+				"type":"plasterblock"
+			},
+			{
+				"type": "Nach0.Types.PaintBrush"
+			},
+			{
+				"type": "Nach0.Types.PurplePaint"
+			}
+		],
+		"results" : [
+			{
+				"amount":5,
+				"type":"Nach0.Types.PurpleColouredBlock"
+			},
+			{
+				"type": "Nach0.Types.Bucket"
+			}
+		]
+	},
+	{
+		"defaultLimit" : 0,
+		"defaultPriority" : -100,
+		"name" : "Nach0.Painter.RedColouredBlock",
+		"requires" : [
+			{
+				"amount":5,
+				"type":"plasterblock"
+			},
+			{
+				"type": "Nach0.Types.PaintBrush"
+			},
+			{
+				"type": "Nach0.Types.RedPaint"
+			}
+		],
+		"results" : [
+			{
+				"amount":5,
+				"type":"Nach0.Types.RedColouredBlock"
+			},
+			{
+				"type": "Nach0.Types.Bucket"
+			}
+		]
+	},
+	{
+		"defaultLimit" : 0,
+		"defaultPriority" : -100,
+		"name" : "Nach0.Painter.WhiteColouredBlock",
+		"requires" : [
+			{
+				"amount":5,
+				"type":"plasterblock"
+			},
+			{
+				"type": "Nach0.Types.PaintBrush"
+			},
+			{
+				"type": "Nach0.Types.WhitePaint"
+			}
+		],
+		"results" : [
+			{
+				"amount":5,
+				"type":"Nach0.Types.WhiteColouredBlock"
+			},
+			{
+				"type": "Nach0.Types.Bucket"
+			}
+		]
+	},
+	{
+		"defaultLimit" : 0,
+		"defaultPriority" : -100,
+		"name" : "Nach0.Painter.YellowColouredBlock",
+		"requires" : [
+			{
+				"amount":5,
+				"type":"plasterblock"
+			},
+			{
+				"type": "Nach0.Types.PaintBrush"
+			},
+			{
+				"type": "Nach0.Types.YellowPaint"
+			}
+		],
+		"results" : [
+			{
+				"amount":5,
+				"type":"Nach0.Types.YellowColouredBlock"
+			},
+			{
+				"type": "Nach0.Types.Bucket"
+			}
+		]
+	}
+]

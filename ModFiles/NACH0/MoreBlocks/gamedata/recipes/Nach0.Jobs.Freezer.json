@@ -1,0 +1,22 @@
+[
+	{
+		"defaultLimit" : 0,
+		"defaultPriority" : 0,
+		"name" : "Nach0.Freezer.Ice1",
+		"requires" : [
+			{
+				"amount":5,
+				"type":"Nach0.Types.WaterBucket"
+			}
+		],
+		"results" : [
+			{
+				"type":"Nach0.Types.Ice1"
+			},
+			{
+				"amount": 5,
+				"type": "Nach0.Types.Bucket"
+			}
+		]
+	}
+]

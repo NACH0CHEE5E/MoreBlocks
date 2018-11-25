@@ -62,6 +62,37 @@
 		"sidey-": "Nach0.Textures.Wood2TopBottom",
 		"sideall": "Nach0.Textures.Wood2Sides"
 	},
+	"Nach0.Types.Wood2Tipped": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"wood"
+		],
+		"icon": "./../textures/icons/Wood2Tipped.png",
+		"maxStackSize": 200,
+		"onPlaceAudio" : "woodPlace",
+		"onRemoveAudio" : "woodDeleteHeavy",
+		"isRotatable": true,
+		"isSolid": true,
+		"needsBase": false,
+		"rotatablex-": "Nach0.Types.Wood2Tippedx",
+		"rotatablex+": "Nach0.Types.Wood2Tippedx",
+		"rotatablez-": "Nach0.Types.Wood2Tippedz",
+		"rotatablez+": "Nach0.Types.Wood2Tippedz"
+	},
+	"Nach0.Types.Wood2Tippedx": {
+		"parentType": "Nach0.Types.Wood2Tipped",
+		"sidex-": "Nach0.Textures.Wood2TopBottom",
+		"sidex+": "Nach0.Textures.Wood2TopBottom",
+		"sideall": "Nach0.Textures.Wood2Sides"
+	},
+	"Nach0.Types.Wood2Tippedz": {
+		"parentType": "Nach0.Types.Wood2Tipped",
+		"sidez-": "Nach0.Textures.Wood2TopBottom",
+		"sidez+": "Nach0.Textures.Wood2TopBottom",
+		"sideall": "Nach0.Textures.Wood2Sides"
+	},
 	"Nach0.Types.Wood3": {
 		"categories": [
 			"nach0",
@@ -76,6 +107,37 @@
 		"onRemoveAudio" : "woodDeleteHeavy",
 		"sidey+": "Nach0.Textures.Wood3TopBottom",
 		"sidey-": "Nach0.Textures.Wood3TopBottom",
+		"sideall": "Nach0.Textures.Wood3Sides"
+	},
+	"Nach0.Types.Wood3Tipped": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"wood"
+		],
+		"icon": "./../textures/icons/Wood3Tipped.png",
+		"maxStackSize": 200,
+		"onPlaceAudio" : "woodPlace",
+		"onRemoveAudio" : "woodDeleteHeavy",
+		"isRotatable": true,
+		"isSolid": true,
+		"needsBase": false,
+		"rotatablex-": "Nach0.Types.Wood3Tippedx",
+		"rotatablex+": "Nach0.Types.Wood3Tippedx",
+		"rotatablez-": "Nach0.Types.Wood3Tippedz",
+		"rotatablez+": "Nach0.Types.Wood3Tippedz"
+	},
+	"Nach0.Types.Wood3Tippedx": {
+		"parentType": "Nach0.Types.Wood3Tipped",
+		"sidex-": "Nach0.Textures.Wood3TopBottom",
+		"sidex+": "Nach0.Textures.Wood3TopBottom",
+		"sideall": "Nach0.Textures.Wood3Sides"
+	},
+	"Nach0.Types.Wood3Tippedz": {
+		"parentType": "Nach0.Types.Wood3Tipped",
+		"sidez-": "Nach0.Textures.Wood3TopBottom",
+		"sidez+": "Nach0.Textures.Wood3TopBottom",
 		"sideall": "Nach0.Textures.Wood3Sides"
 	},
 	"Nach0.Types.Wood4": {
@@ -94,6 +156,37 @@
 		"sidey-": "Nach0.Textures.Wood4TopBottom",
 		"sideall": "Nach0.Textures.Wood4Sides"
 	},
+	"Nach0.Types.Wood4Tipped": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"wood"
+		],
+		"icon": "./../textures/icons/Wood4Tipped.png",
+		"maxStackSize": 200,
+		"onPlaceAudio" : "woodPlace",
+		"onRemoveAudio" : "woodDeleteHeavy",
+		"isRotatable": true,
+		"isSolid": true,
+		"needsBase": false,
+		"rotatablex-": "Nach0.Types.Wood4Tippedx",
+		"rotatablex+": "Nach0.Types.Wood4Tippedx",
+		"rotatablez-": "Nach0.Types.Wood4Tippedz",
+		"rotatablez+": "Nach0.Types.Wood4Tippedz"
+	},
+	"Nach0.Types.Wood4Tippedx": {
+		"parentType": "Nach0.Types.Wood4Tipped",
+		"sidex-": "Nach0.Textures.Wood4TopBottom",
+		"sidex+": "Nach0.Textures.Wood4TopBottom",
+		"sideall": "Nach0.Textures.Wood4Sides"
+	},
+	"Nach0.Types.Wood4Tippedz": {
+		"parentType": "Nach0.Types.Wood4Tipped",
+		"sidez-": "Nach0.Textures.Wood4TopBottom",
+		"sidez+": "Nach0.Textures.Wood4TopBottom",
+		"sideall": "Nach0.Textures.Wood4Sides"
+	},
 	"Nach0.Types.Wood5": {
 		"categories": [
 			"nach0",
@@ -110,6 +203,37 @@
 		"sidey-": "Nach0.Textures.Wood5TopBottom",
 		"sideall": "Nach0.Textures.Wood5Sides"
 	},
+	"Nach0.Types.Wood5Tipped": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"wood"
+		],
+		"icon": "./../textures/icons/Wood5Tipped.png",
+		"maxStackSize": 200,
+		"onPlaceAudio" : "woodPlace",
+		"onRemoveAudio" : "woodDeleteHeavy",
+		"isRotatable": true,
+		"isSolid": true,
+		"needsBase": false,
+		"rotatablex-": "Nach0.Types.Wood5Tippedx",
+		"rotatablex+": "Nach0.Types.Wood5Tippedx",
+		"rotatablez-": "Nach0.Types.Wood5Tippedz",
+		"rotatablez+": "Nach0.Types.Wood5Tippedz"
+	},
+	"Nach0.Types.Wood5Tippedx": {
+		"parentType": "Nach0.Types.Wood5Tipped",
+		"sidex-": "Nach0.Textures.Wood5TopBottom",
+		"sidex+": "Nach0.Textures.Wood5TopBottom",
+		"sideall": "Nach0.Textures.Wood5Sides"
+	},
+	"Nach0.Types.Wood5Tippedz": {
+		"parentType": "Nach0.Types.Wood5Tipped",
+		"sidez-": "Nach0.Textures.Wood5TopBottom",
+		"sidez+": "Nach0.Textures.Wood5TopBottom",
+		"sideall": "Nach0.Textures.Wood5Sides"
+	},
 	"Nach0.Types.Wood6": {
 		"categories": [
 			"nach0",
@@ -124,6 +248,37 @@
 		"onRemoveAudio" : "woodDeleteHeavy",
 		"sidey+": "Nach0.Textures.Wood6TopBottom",
 		"sidey-": "Nach0.Textures.Wood6TopBottom",
+		"sideall": "Nach0.Textures.Wood6Sides"
+	},
+	"Nach0.Types.Wood6Tipped": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"blocks",
+			"wood"
+		],
+		"icon": "./../textures/icons/Wood6Tipped.png",
+		"maxStackSize": 200,
+		"onPlaceAudio" : "woodPlace",
+		"onRemoveAudio" : "woodDeleteHeavy",
+		"isRotatable": true,
+		"isSolid": true,
+		"needsBase": false,
+		"rotatablex-": "Nach0.Types.Wood6Tippedx",
+		"rotatablex+": "Nach0.Types.Wood6Tippedx",
+		"rotatablez-": "Nach0.Types.Wood6Tippedz",
+		"rotatablez+": "Nach0.Types.Wood6Tippedz"
+	},
+	"Nach0.Types.Wood6Tippedx": {
+		"parentType": "Nach0.Types.Wood6Tipped",
+		"sidex-": "Nach0.Textures.Wood6TopBottom",
+		"sidex+": "Nach0.Textures.Wood6TopBottom",
+		"sideall": "Nach0.Textures.Wood6Sides"
+	},
+	"Nach0.Types.Wood6Tippedz": {
+		"parentType": "Nach0.Types.Wood6Tipped",
+		"sidez-": "Nach0.Textures.Wood6TopBottom",
+		"sidez+": "Nach0.Textures.Wood6TopBottom",
 		"sideall": "Nach0.Textures.Wood6Sides"
 	}
 }

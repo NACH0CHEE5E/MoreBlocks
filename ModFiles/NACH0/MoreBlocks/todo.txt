@@ -1,0 +1,43 @@
+add paint mixer new textures
+add smoothed concrete textures
+add concrete textures
+add wool textures
+add cooked clay textures
+fix up the concrete layer textures
+
+make smoothedconcrete icons
+make concrete icons
+make wool icons
+make cooked clay icons
+make dye icons
+make icons for quartz blocks
+icons for sandstone
+icon for cracked stone bricks
+make icons for the coins
+
+add wool to trading 3
+add coloured wool to the dyers table
+add plain cooked clay to the kiln
+
+make the freezer and melter turn on and off
+
+add ore blocks to the game that spawn
+
+change it so gold coins are unlocked with the minting2 research
+add coloured clay to the painters table thats unlocked with the kiln research
+make dyers table research require paint making
+overright all the recipes in the dyers table to require dye
+move recipes that are in the dyers table that should use paint to the painters table
+
+do the locale
+
+
+
+
+
+
+
+
+
+
+

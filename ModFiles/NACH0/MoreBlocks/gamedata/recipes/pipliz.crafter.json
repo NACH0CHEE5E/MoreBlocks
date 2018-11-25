@@ -1,0 +1,286 @@
+[
+	{
+		"isOptional" : true,
+		"defaultLimit" : 1,
+		"defaultPriority" : 0,
+		"name" : "Nach0.crafter.Bricklayer",
+		"requires" : [
+			{
+				"amount":15,
+				"type":"planks"
+			},
+			{
+				"type": "coppertools",
+				"amount": 3
+			}
+		],
+		"results" : [
+			{
+				"type":"Nach0.Types.BrickLayer"
+			}
+		]
+	},
+	{
+		"isOptional" : true,
+		"defaultLimit" : 1,
+		"defaultPriority" : 0,
+		"name" : "Nach0.crafter.Chiseler",
+		"requires" : [
+			{
+				"amount":1,
+				"type":"stonemasonworkbench"
+			},
+			{
+				"type": "Nach0.Types.Chisel",
+				"amount": 3
+			}
+		],
+		"results" : [
+			{
+				"type":"Nach0.Types.Chiseler"
+			}
+		]
+	},
+	{
+		"isOptional" : true,
+		"defaultLimit" : 1,
+		"defaultPriority" : 0,
+		"name" : "Nach0.crafter.Sander",
+		"requires" : [
+			{
+				"amount":10,
+				"type":"planks"
+			},
+			{
+				"type": "Nach0.Types.SandPaper",
+				"amount": 5
+			}
+		],
+		"results" : [
+			{
+				"type":"Nach0.Types.Sander"
+			}
+		]
+	},
+	{
+		"defaultLimit" : 0,
+		"defaultPriority" : -100,
+		"name" : "Nach0.crafter.ClayBlock1",
+		"requires" : [
+			{
+				"amount":20,
+				"type":"clay"
+			}
+		],
+		"results" : [
+			{
+				"amount": 2,
+				"type":"Nach0.Types.ClayBlock1"
+			}
+		]
+	},
+	{
+		"defaultLimit" : 0,
+		"defaultPriority" : -100,
+		"name" : "Nach0.crafter.CoalBlock1",
+		"requires" : [
+			{
+				"amount":20,
+				"type":"coalore"
+			}
+		],
+		"results" : [
+			{
+				"amount": 2,
+				"type":"Nach0.Types.CoalBlock1"
+			}
+		]
+	},
+	{
+		"defaultLimit" : 0,
+		"defaultPriority" : -100,
+		"name" : "Nach0.crafter.GoldBlock1",
+		"requires" : [
+			{
+				"amount":20,
+				"type":"goldingot"
+			}
+		],
+		"results" : [
+			{
+				"amount": 2,
+				"type":"Nach0.Types.GoldBlock1"
+			}
+		]
+	},
+	{
+		"defaultLimit" : 0,
+		"defaultPriority" : -100,
+		"name" : "Nach0.crafter.SteelBlock1",
+		"requires" : [
+			{
+				"amount":20,
+				"type":"steelingot"
+			}
+		],
+		"results" : [
+			{
+				"amount": 2,
+				"type":"Nach0.Types.SteelBlock1"
+			}
+		]
+	},
+	{
+		"defaultLimit" : 0,
+		"defaultPriority" : -100,
+		"name" : "Nach0.crafter.CrystalBlock1",
+		"requires" : [
+			{
+				"amount":20,
+				"type":"crystal"
+			}
+		],
+		"results" : [
+			{
+				"amount": 2,
+				"type":"Nach0.Types.CrystalBlock1"
+			}
+		]
+	},
+	{
+		"defaultLimit" : 0,
+		"defaultPriority" : -100,
+		"name" : "Nach0.crafter.HayBlock1",
+		"requires" : [
+			{
+				"amount":20,
+				"type":"straw"
+			}
+		],
+		"results" : [
+			{
+				"amount": 2,
+				"type":"Nach0.Types.HayBlock1"
+			}
+		]
+	},
+	{
+		"defaultLimit" : 0,
+		"defaultPriority" : -100,
+		"name" : "Nach0.crafter.IronBlock1",
+		"requires" : [
+			{
+				"amount":20,
+				"type":"ironingot"
+			}
+		],
+		"results" : [
+			{
+				"amount": 2,
+				"type":"Nach0.Types.IronBlock1"
+			}
+		]
+	},
+	{
+		"defaultLimit" : 5,
+		"defaultPriority" : -100,
+		"name" : "Nach0.crafter.SandPaper",
+		"requires" : [
+			{
+				"amount":5,
+				"type":"Nach0.Types.Paper"
+			},
+			{
+				"type": "sand"
+			},
+		],
+		"results" : [
+			{
+				"amount": 5,
+				"type":"Nach0.Types.SandPaper"
+			}
+		]
+	},
+	{
+		"defaultLimit" : 15,
+		"defaultPriority" : -100,
+		"name" : "Nach0.crafter.Paper",
+		"requires" : [
+			{
+				"amount":15,
+				"type":"flax"
+			}
+		],
+		"results" : [
+			{
+				"amount": 3,
+				"type":"Nach0.Types.Paper"
+			}
+		]
+	},
+	{
+		"defaultLimit" : 15,
+		"defaultPriority" : -100,
+		"name" : "Nach0.crafter.PaintBrush",
+		"requires" : [
+			{
+				"amount":3,
+				"type":"straw"
+			},
+			{
+				"amount": 5,
+				"type": "coatedplanks"
+			}
+		],
+		"results" : [
+			{
+				"amount": 2,
+				"type":"Nach0.Types.PaintBrush"
+			}
+		]
+	},
+	{
+		"isOptional": true,
+		"defaultLimit" : 1,
+		"defaultPriority" : 0,
+		"name" : "Nach0.crafter.ConcreteLayer",
+		"requires" : [
+			{
+				"amount":5,
+				"type":"crate"
+			},
+			{
+				"amount": 2,
+				"type": "stoneblock"
+			}
+		],
+		"results" : [
+			{
+				"amount": 1,
+				"type":"Nach0.Types.ConcreteLayer"
+			}
+		]
+	},
+	{
+		"isOptional": true,
+		"defaultLimit" : 1,
+		"defaultPriority" : 0,
+		"name" : "Nach0.crafter.PaintersTable",
+		"requires" : [
+			{
+				"amount":25,
+				"type":"planks"
+			},
+			{
+				"amount": 5,
+				"type": "Nach0.Types.PaintBrush"
+			}
+		],
+		"results" : [
+			{
+				"amount": 1,
+				"type":"Nach0.Types.PaintersTable"
+			}
+		]
+	}
+]

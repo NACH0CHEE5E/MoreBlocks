@@ -1,0 +1,228 @@
+[
+	{
+		"defaultLimit" : 0,
+		"defaultPriority" : -100,
+		"name" : "Nach0.stonemason.Cobblestone",
+		"requires" : [
+			{
+				"amount":10,
+				"type":"stoneblock"
+			}
+		],
+		"results" : [
+			{
+				"amount": 5,
+				"type": "Nach0.Types.Cobblestone"
+			}
+		]
+	},
+	{
+		"defaultLimit" : 0,
+		"defaultPriority" : -100,
+		"name" : "Nach0.stonemason.MossyCobblestone",
+		"requires" : [
+			{
+				"amount":5,
+				"type":"Nach0.Types.Cobblestone"
+			}
+		],
+		"results" : [
+			{
+				"amount": 5,
+				"type": "Nach0.Types.MossyCobblestone"
+			}
+		]
+	},
+	{
+		"isOptional" : true,
+		"defaultLimit" : 0,
+		"defaultPriority" : -100,
+		"name" : "Nach0.stonemason.Sandstone1",
+		"requires" : [
+			{
+				"amount":5,
+				"type":"Nach0.Types.Sand1"
+			}
+		],
+		"results" : [
+			{
+				"amount": 1,
+				"type": "Nach0.Types.Sandstone1"
+			}
+		]
+	},
+	{
+		"isOptional" : true,
+		"defaultLimit" : 0,
+		"defaultPriority" : -100,
+		"name" : "Nach0.stonemason.RedSandstone1",
+		"requires" : [
+			{
+				"amount":5,
+				"type":"Nach0.Types.RedSand1"
+			}
+		],
+		"results" : [
+			{
+				"amount": 1,
+				"type": "Nach0.Types.RedSandstone1"
+			}
+		]
+	},
+	{
+		"defaultLimit" : 0,
+		"defaultPriority" : -100,
+		"name" : "Nach0.stonemason.StoneBricks1",
+		"requires" : [
+			{
+				"amount":10,
+				"type":"stoneblock"
+			}
+		],
+		"results" : [
+			{
+				"amount": 5,
+				"type": "Nach0.Types.StoneBricks1"
+			}
+		]
+	},
+	{
+		"defaultLimit" : 0,
+		"defaultPriority" : -100,
+		"name" : "Nach0.stonemason.StoneBricks2",
+		"requires" : [
+			{
+				"amount":10,
+				"type":"stoneblock"
+			}
+		],
+		"results" : [
+			{
+				"amount": 5,
+				"type": "Nach0.Types.StoneBricks2"
+			}
+		]
+	},
+	{
+		"defaultLimit" : 0,
+		"defaultPriority" : -100,
+		"name" : "Nach0.stonemason.CrackedStoneBricks2",
+		"requires" : [
+			{
+				"amount":10,
+				"type":"Nach0.Types.StoneBricks2"
+			}
+		],
+		"results" : [
+			{
+				"amount": 5,
+				"type": "Nach0.Types.CrackedStoneBricks2"
+			}
+		]
+	},
+	{
+		"defaultLimit" : 0,
+		"defaultPriority" : -100,
+		"name" : "Nach0.stonemason.MossyStoneBricks2",
+		"requires" : [
+			{
+				"amount":10,
+				"type":"Nach0.Types.StoneBricks2"
+			}
+		],
+		"results" : [
+			{
+				"amount": 5,
+				"type": "Nach0.Types.MossyStoneBricks2"
+			}
+		]
+	},
+	{
+		"defaultLimit" : 0,
+		"defaultPriority" : -100,
+		"name" : "Nach0.stonemason.StoneSlabs",
+		"requires" : [
+			{
+				"amount":5,
+				"type":"stoneblock"
+			}
+		],
+		"results" : [
+			{
+				"amount": 5,
+				"type": "Nach0.Types.StoneSlabs"
+			}
+		]
+	},
+	{
+		"defaultLimit" : 0,
+		"defaultPriority" : -100,
+		"name" : "Nach0.stonemason.Gravel1",
+		"requires" : [
+			{
+				"amount":5,
+				"type":"stoneblock"
+			}
+		],
+		"results" : [
+			{
+				"amount": 10,
+				"type": "Nach0.Types.Gravel1"
+			}
+		]
+	},
+	{
+		"isOptional": true,
+		"defaultLimit" : 1,
+		"defaultPriority" : 0,
+		"name" : "Nach0.stonemason.Enchanter",
+		"requires" : [
+			{
+				"amount":100,
+				"type":"Nach0.Types.Rock"
+			}
+		],
+		"results" : [
+			{
+				"amount": 1,
+				"type": "Nach0.Types.Enchanter"
+			}
+		]
+	},
+	{
+		"isOptional": true,
+		"defaultLimit" : 1,
+		"defaultPriority" : 0,
+		"name" : "Nach0.stonemason.MagiciansTable",
+		"requires" : [
+			{
+				"amount":100,
+				"type":"Nach0.Types.EnchantedStone"
+			}
+		],
+		"results" : [
+			{
+				"amount": 1,
+				"type": "Nach0.Types.MagiciansTable"
+			}
+		]
+	},
+	{
+		"isOptional": true,
+		"defaultLimit" : 1,
+		"defaultPriority" : 0,
+		"name" : "Nach0.stonemason.PossessedStoneBricks",
+		"requires" : [
+			{
+				"amount":2,
+				"type":"Nach0.Types.PossessedStone"
+			}
+		],
+		"results" : [
+			{
+				"amount": 1,
+				"type": "Nach0.Types.PossessedStoneBricks"
+			}
+		]
+	}
+]

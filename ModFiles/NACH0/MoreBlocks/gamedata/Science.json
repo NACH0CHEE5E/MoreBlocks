@@ -1,0 +1,493 @@
+[
+	{
+		"dependencies" : [
+			"pipliz.baseresearch.bronzeanvil"
+		],
+		"icon" : "./../../../../textures/icons/bricks.png",
+		"iterationCount" : 10,
+		"iterationRequirements" : [
+			{
+				"amount":5,
+				"type":"Nach0.Types.Brick"
+			},
+		],
+		"key" : "Nach0.Research.BrickLaying",
+		"unlocksRecipes" : [
+			"Nach0.player.Bricklayer",
+			"Nach0.crafter.Bricklayer"
+		]
+	},
+	{
+		"dependencies" : [
+			"pipliz.baseresearch.bronzeminting"
+		],
+		"icon" : "./../../../../textures/icons/shop.png",
+		"iterationCount" : 20,
+		"iterationRequirements" : [
+			{
+				"amount":5,
+				"type":"bronzecoin"
+			},
+			{
+				"type": "sciencebagbasic"
+			}
+		],
+		"key" : "Nach0.Research.Trading1"
+	},
+	{
+		"dependencies" : [
+			"pipliz.baseresearch.bloomery"
+		],
+		"icon" : "./textures/icons/Freezer.png",
+		"iterationCount" : 10,
+		"iterationRequirements" : [
+			{
+				"amount":5,
+				"type":"ironblock"
+			},
+			{
+				"type": "sciencebagbasic"
+			}
+		],
+		"key" : "Nach0.Research.Freezing",
+		"unlocksRecipes" : [
+			"Nach0.Crusher.Ice1Cracked1",
+			"Nach0.Crusher.Ice1Cracked2",
+			"Nach0.Crusher.Ice1Cracked3",
+			"Nach0.Crusher.Ice1Packed",
+			"Nach0.metalsmithjob.Freezer"
+		]
+	},
+		{
+		"dependencies" : [
+			"pipliz.baseresearch.bloomery"
+		],
+		"icon" : "./textures/icons/Melter.png",
+		"iterationCount" : 10,
+		"iterationRequirements" : [
+			{
+				"amount":5,
+				"type":"ironblock"
+			},
+			{
+				"type": "sciencebagbasic"
+			}
+		],
+		"key" : "Nach0.Research.Melting",
+		"unlocksRecipes" : [
+			"Nach0.metalsmithjob.Melter"
+		]
+	},
+	{
+		"dependencies" : [
+			"pipliz.baseresearch.bloomery"
+		],
+		"icon" : "./textures/icons/Crusher.png",
+		"iterationCount" : 10,
+		"iterationRequirements" : [
+			{
+				"amount":5,
+				"type":"ironblock"
+			},
+			{
+				"type": "sciencebagbasic"
+			}
+		],
+		"key" : "Nach0.Research.Crushing",
+		"unlocksRecipes" : [
+			"Nach0.metalsmithjob.Crusher"
+		]
+	},
+	{
+		"dependencies" : [
+			"pipliz.baseresearch.sciencebagbasic"
+		],
+		"icon" : "./textures/icons/Sander.png",
+		"iterationCount" : 10,
+		"iterationRequirements" : [
+			{
+				"amount":5,
+				"type":"Nach0.Types.SandPaper"
+			},
+			{
+				"type": "sciencebagbasic"
+			}
+		],
+		"key" : "Nach0.Research.Sanding",
+		"unlocksRecipes" : [
+			"Nach0.crafter.Sander",
+			"Nach0.player.Sander"
+		]
+	},
+	{
+		"dependencies" : [
+			"pipliz.baseresearch.bloomery"
+		],
+		"icon" : "./textures/icons/Chiseler.png",
+		"iterationCount" : 10,
+		"iterationRequirements" : [
+			{
+				"amount": 3,
+				"type": "Nach0.Types.Chisel"
+			},
+			{
+				"type":"sciencebagbasic"
+			}
+		],
+		"key" : "Nach0.Research.Chiseling",
+		"unlocksRecipes" : [
+			"Nach0.crafter.Chiseler",
+			"Nach0.player.Chiseler"
+		]
+	},
+	{
+		"dependencies" : [
+			"Nach0.Research.Trading1"
+		],
+		"icon" : "./../../../../textures/icons/goldcoin.png",
+		"iterationCount" : 40,
+		"iterationRequirements" : [
+			{
+				"amount":15,
+				"type":"bronzecoin"
+			},
+			{
+				"amount": 2,
+				"type": "sciencebagbasic"
+			}
+		],
+		"key" : "Nach0.Research.Minting2"
+	},
+	{
+		"dependencies" : [
+			"Nach0.Research.Minting2"
+		],
+		"icon" : "./../../../../textures/icons/shop.png",
+		"iterationCount" : 50,
+		"iterationRequirements" : [
+			{
+				"amount":10,
+				"type":"goldcoin"
+			},
+			{
+				"amount": 2,
+				"type": "sciencebagbasic"
+			}
+		],
+		"key" : "Nach0.Research.Trading2",
+		"unlocksRecipes" : [
+			"Nach0.merchant.Dirt1",
+			"Nach0.merchant.Dirt2",
+			"Nach0.merchant.Dirt3",
+			"Nach0.merchant.Dirt3Sided",
+			"Nach0.merchant.Farmland1",
+			"Nach0.merchant.WetFarmland1",
+			"Nach0.merchant.Grass1",
+			"Nach0.merchant.Grass1Sided",
+			"Nach0.merchant.Grass2Sided",
+			"Nach0.merchant.Grass2",
+			"Nach0.merchant.Wood1",
+			"Nach0.merchant.Wood2",
+			"Nach0.merchant.Wood3",
+			"Nach0.merchant.Wood4",
+			"Nach0.merchant.Wood5",
+			"Nach0.merchant.Wood6",
+			"Nach0.woodcutter.Wood1Tipped",
+			"Nach0.woodcutter.Wood2Tipped",
+			"Nach0.woodcutter.Wood3Tipped",
+			"Nach0.woodcutter.Wood4Tipped",
+			"Nach0.woodcutter.Wood5Tipped",
+			"Nach0.woodcutter.Wood6Tipped",
+			"Nach0.woodcutter.Planks1",
+			"Nach0.woodcutter.Planks2",
+			"Nach0.woodcutter.Planks3",
+			"Nach0.woodcutter.Planks4",
+			"Nach0.woodcutter.Planks5",
+			"Nach0.woodcutter.Planks6",
+			"Nach0.merchant.Sand1",
+			"Nach0.merchant.RedSand1",
+			"Nach0.stonemason.Sandstone1",
+			"Nach0.stonemason.RedSandstone1",
+			"Nach0.Sander.Sandstone1Smoothed",
+			"Nach0.Sander.RedSandstone1Smoothed",
+			"Nach0.Chiseler.Sandstone1Carved",
+			"Nach0.Chiseler.RedSandstone1Carved",
+			"Nach0.merchant.Stone1",
+			"Nach0.merchant.Stone2",
+			"Nach0.merchant.Stone3",
+			"Nach0.merchant.Stone4",
+			"Nach0.merchant.Stone5",
+			"Nach0.Sander.Stone1Smoothed",
+			"Nach0.Sander.Stone2Smoothed",
+			"Nach0.Sander.Stone3Smoothed",
+			"Nach0.merchant.Snow1",
+			"Nach0.merchant.Snow1Sided"
+		]
+	},
+	{
+		"dependencies" : [
+			"Nach0.Research.Trading2",
+			"pipliz.baseresearch.sciencebagadvanced"
+		],
+		"icon" : "./textures/icons/PlatniumCoins.png",
+		"iterationCount" : 75,
+		"iterationRequirements" : [
+			{
+				"amount":15,
+				"type":"goldcoin"
+			},
+			{
+				"amount": 5,
+				"type": "sciencebagbasic"
+			},
+			{
+				"amount": 2,
+				"type": "sciencebagadvanced"
+			}
+		],
+		"key" : "Nach0.Research.Minting3",
+		"unlocksRecipes" : [
+			"Nach0.minter.PlatniumCoins"
+		]
+	},
+	{
+		"dependencies" : [
+			"Nach0.Research.Minting3"
+		],
+		"icon" : "./../../../../textures/icons/shop.png",
+		"iterationCount" : 100,
+		"iterationRequirements" : [
+			{
+				"amount":15,
+				"type":"Nach0.Types.PlatniumCoins"
+			},
+			{
+				"amount": 5,
+				"type": "sciencebagbasic"
+			},
+			{
+				"amount": 2,
+				"type": "sciencebagadvanced"
+			}
+		],
+		"key" : "Nach0.Research.Trading3",
+		"unlocksRecipes" : [
+			"Nach0.merchant.Cactus1",
+			"Nach0.merchant.DiamondBlock1",
+			"Nach0.merchant.EmeraldBlock1",
+			"Nach0.merchant.FireBlock1",
+			"Nach0.merchant.SapphireBlock1",
+			"Nach0.merchant.RubyBlock1",
+			"Nach0.merchant.QuartzBlock1",
+			"Nach0.Chiseler.QuartzBlock1Piller",
+			"Nach0.Chiseler.QuartzBlock1Chiseled"
+		]
+	},
+	{
+		"dependencies" : [
+			"Nach0.Research.Trading3"
+		],
+		"icon" : "./textures/icons/TitaniumCoins.png",
+		"iterationCount" : 150,
+		"iterationRequirements" : [
+			{
+				"amount":20,
+				"type":"Nach0.Types.PlatniumCoins"
+			},
+			{
+				"amount": 8,
+				"type": "sciencebagbasic"
+			},
+			{
+				"amount": 5,
+				"type": "sciencebagadvanced"
+			}
+		],
+		"key" : "Nach0.Research.Minting4",
+		"unlocksRecipes" : [
+			"Nach0.minter.TitaniumCoins"
+		]
+	},
+	{
+		"dependencies" : [
+			"Nach0.Research.Minting4"
+		],
+		"icon" : "./../../../../textures/icons/shop.png",
+		"iterationCount" : 200,
+		"iterationRequirements" : [
+			{
+				"amount":15,
+				"type":"Nach0.Types.TitaniumCoins"
+			},
+			{
+				"amount": 10,
+				"type": "sciencebagbasic"
+			},
+			{
+				"amount": 8,
+				"type": "sciencebagadvanced"
+			}
+		],
+		"key" : "Nach0.Research.Trading4",
+		"unlocksRecipes" : [
+			"Nach0.merchant.Rock"
+		]
+	},
+	{
+		"dependencies" : [
+			"Nach0.Research.Trading4",
+			"pipliz.baseresearch.sciencebagcolony"
+		],
+		"icon" : "./textures/icons/Enchanter.png",
+		"iterationCount" : 500,
+		"iterationRequirements" : [
+			{
+				"type":"Nach0.Types.Rock"
+			},
+			{
+				"amount": 1,
+				"type": "sciencebagbasic"
+			},
+			{
+				"amount": 1,
+				"type": "sciencebagadvanced"
+			},
+			{
+				"amount": 1,
+				"type": "sciencebagcolony"
+			}
+		],
+		"key" : "Nach0.Research.Enchanting",
+		"unlocksRecipes" : [
+			"Nach0.stonemason.Enchanter"
+		]
+	},
+	{
+		"dependencies" : [
+			"Nach0.Research.Enchanting"
+		],
+		"icon" : "./textures/icons/MagiciansTable.png",
+		"iterationCount" : 300,
+		"iterationRequirements" : [
+			{
+				"type":"Nach0.Types.EnchantedStone"
+			},
+			{
+				"amount": 2,
+				"type": "sciencebagbasic"
+			},
+			{
+				"amount": 2,
+				"type": "sciencebagadvanced"
+			},
+			{
+				"amount": 2,
+				"type": "sciencebagcolony"
+			}
+		],
+		"key" : "Nach0.Research.Magic",
+		"unlocksRecipes" : [
+			"Nach0.stonemason.MagiciansTable",
+			"Nach0.stonemason.PossessedStoneBricks"
+		]
+	},
+	{
+		"dependencies" : [
+			"Nach0.Research.ConcreteMaking"
+		],
+		"icon" : "./textures/icons/RedPaint.png",
+		"iterationCount" : 30,
+		"iterationRequirements" : [
+			{
+				"amount": 5,
+				"type":"hollyhock"
+			},
+			{
+				"amount": 5,
+				"type": "wolfsbane"
+			},
+			{
+				"amount": 5,
+				"type": "alkanet"
+			},
+			{
+				"type": "sciencebagbasic"
+			}
+		],
+		"key" : "Nach0.Research.PaintMaking",
+		"unlocksRecipes" : [
+			"Nach0.metalsmithjob.PaintMixer",
+			"Nach0.ConcreteLayer.GreyStainedConcrete",
+			"Nach0.ConcreteLayer.AquaStainedConcrete",
+			"Nach0.ConcreteLayer.BlackStainedConcrete",
+			"Nach0.ConcreteLayer.BlueStainedConcrete",
+			"Nach0.ConcreteLayer.BrownStainedConcrete",
+			"Nach0.ConcreteLayer.DarkGreenStainedConcrete",
+			"Nach0.ConcreteLayer.GreenStainedConcrete",
+			"Nach0.ConcreteLayer.LightBlueStainedConcrete",
+			"Nach0.ConcreteLayer.MagentaStainedConcrete",
+			"Nach0.ConcreteLayer.OrangeStainedConcrete",
+			"Nach0.ConcreteLayer.PinkStainedConcrete",
+			"Nach0.ConcreteLayer.PurpleStainedConcrete",
+			"Nach0.ConcreteLayer.RedStainedConcrete",
+			"Nach0.ConcreteLayer.WhiteStainedConcrete",
+			"Nach0.ConcreteLayer.WhiteStainedConcrete",
+			"Nach0.Sander.SmoothedGreyStainedConcrete",
+			"Nach0.Sander.SmoothedAquaStainedConcrete",
+			"Nach0.Sander.SmoothedBlackStainedConcrete",
+			"Nach0.Sander.SmoothedBlueStainedConcrete",
+			"Nach0.Sander.SmoothedBrownStainedConcrete",
+			"Nach0.Sander.SmoothedDarkGreenStainedConcrete",
+			"Nach0.Sander.SmoothedGreenStainedConcrete",
+			"Nach0.Sander.SmoothedLightBlueStainedConcrete",
+			"Nach0.Sander.SmoothedMagentaStainedConcrete",
+			"Nach0.Sander.SmoothedOrangeStainedConcrete",
+			"Nach0.Sander.SmoothedPinkStainedConcrete",
+			"Nach0.Sander.SmoothedPurpleStainedConcrete",
+			"Nach0.Sander.SmoothedRedStainedConcrete",
+			"Nach0.Sander.SmoothedWhiteStainedConcrete",
+			"Nach0.Sander.SmoothedYellowStainedConcrete"
+		]
+	},
+	{
+		"dependencies" : [
+			"Nach0.Research.Crushing"
+		],
+		"icon" : "./textures/icons/ConcreteLayer.png",
+		"iterationCount" : 20,
+		"iterationRequirements" : [
+			{
+				"amount": 5,
+				"type":"Nach0.Types.CementPowder"
+			},
+			{
+				"type": "sciencebagbasic"
+			}
+		],
+		"key" : "Nach0.Research.ConcreteMaking",
+		"unlocksRecipes" : [
+			"Nach0.crafter.ConcreteLayer",
+			"Nach0.Sander.SmoothedConcrete"
+		]
+	},
+	{
+		"dependencies" : [
+			"Nach0.Research.PaintMaking"
+		],
+		"icon" : "./textures/icons/PaintersTable.png",
+		"iterationCount" : 40,
+		"iterationRequirements" : [
+			{
+				"amount": 5,
+				"type":"Nach0.Types.PaintBrush"
+			},
+			{
+				"type": "sciencebagbasic"
+			}
+		],
+		"key" : "Nach0.Research.PaintersTable",
+		"unlocksRecipes" : [
+			"Nach0.crafter.PaintersTable"
+		]
+	}
+]

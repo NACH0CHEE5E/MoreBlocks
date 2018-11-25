@@ -1,4 +1,14 @@
 {
+	"sentences" : {
+		"pipliz" : {
+			"baseresearch" : {
+				"fineryforge" : {
+					"description" : "Unlocks the Finery Forge, which uses cokes to create steel and osmium ingots",
+					"name" : "Finery Forge"
+				}
+			}
+		}
+	},
 	"types": {
 		"Nach0.Types.AquaColouredBlock": "Aqua Coloured Block",
 		"Nach0.Types.BlackColouredBlock": "Black Coloured Block",

@@ -14,5 +14,117 @@
 		"keyName" : "Nach0.Jobs.Pailer",
 		"npcType" : "worker",
 		"printName" : "Pailer"
+	},
+	{
+		"data" : {
+			"maskColor1" : "#540202"
+		},
+		"keyName" : "Nach0.Jobs.AdvancedPainter",
+		"npcType" : "worker",
+		"printName" : "Advanced Painter"
+	},
+	{
+		"data" : {
+			"maskColor1" : "#540202"
+		},
+		"keyName" : "Nach0.Jobs.BrickLayer",
+		"npcType" : "worker",
+		"printName" : "Brick Layer"
+	},
+	{
+		"data" : {
+			"maskColor1" : "#000000"
+		},
+		"keyName" : "Nach0.Jobs.BrickMaker",
+		"npcType" : "worker",
+		"printName" : "Brick Maker"
+	},
+	{
+		"data" : {
+			"maskColor1" : "#FFC889"
+		},
+		"keyName" : "Nach0.Jobs.Carver",
+		"npcType" : "worker",
+		"printName" : "Carver"
+	},
+	{
+		"data" : {
+			"maskColor1" : "#BDB5AC"
+		},
+		"keyName" : "Nach0.Jobs.Chiseler",
+		"npcType" : "worker",
+		"printName" : "Chiseler"
+	},
+	{
+		"data" : {
+			"maskColor1" : "#593445"
+		},
+		"keyName" : "Nach0.Jobs.ConcreteLayer",
+		"npcType" : "worker",
+		"printName" : "Concrete Layer"
+	},
+	{
+		"data" : {
+			"maskColor1" : "#8B7E6B"
+		},
+		"keyName" : "Nach0.Jobs.Crusher",
+		"npcType" : "worker",
+		"printName" : "Crusher"
+	},
+	{
+		"data" : {
+			"maskColor1" : "#3B0060"
+		},
+		"keyName" : "Nach0.Jobs.Enchanter",
+		"npcType" : "worker",
+		"printName" : "Enchanter"
+	},
+	{
+		"data" : {
+			"maskColor1" : "#D60060"
+		},
+		"keyName" : "Nach0.Jobs.Magician",
+		"npcType" : "worker",
+		"printName" : "Magician"
+	},
+	{
+		"data" : {
+			"maskColor1" : "#DA31AA"
+		},
+		"keyName" : "Nach0.Jobs.Painter",
+		"npcType" : "worker",
+		"printName" : "Painter"
+	},
+	{
+		"data" : {
+			"maskColor1" : "#BAA90B"
+		},
+		"keyName" : "Nach0.Jobs.Sander",
+		"npcType" : "worker",
+		"printName" : "Sander"
+	},
+	{
+		"data" : {
+			"maskColor1" : "#004DFF"
+		},
+		"keyName" : "Nach0.Jobs.Freezer",
+		"npcType" : "worker",
+		"printName" : "Freezer"
+	},
+	{
+		"data" : {
+			"maskColor1" : "#FF9A00"
+		},
+		"keyName" : "Nach0.Jobs.Melter",
+		"npcType" : "worker",
+		"printName" : "Melter"
+	},
+	{
+		"data" : {
+			"maskColor1" : "#FF9A00"
+		},
+		"keyName" : "Nach0.Jobs.Alchemist",
+		"npcType" : "worker",
+		"printName" : "Alchemist"
 	}
 ]

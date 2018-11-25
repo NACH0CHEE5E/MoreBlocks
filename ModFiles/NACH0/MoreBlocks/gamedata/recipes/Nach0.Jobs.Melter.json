@@ -1,0 +1,19 @@
+[
+	{
+		"defaultLimit" : 0,
+		"defaultPriority" : -100,
+		"name" : "Nach0.Melter.MagmaBlock1",
+		"requires" : [
+			{
+				"amount":5,
+				"type":"stoneblock"
+			}
+		],
+		"results" : [
+			{
+				"amount":1,
+				"type":"Nach0.Types.MagmaBlock1"
+			}
+		]
+	}
+]

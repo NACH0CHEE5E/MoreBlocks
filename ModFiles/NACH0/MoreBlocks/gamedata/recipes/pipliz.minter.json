@@ -1,0 +1,38 @@
+[
+	{
+		"isOptional" : true,
+		"defaultLimit" : 100,
+		"defaultPriority" : 0,
+		"name" : "Nach0.minter.TitaniumCoins",
+		"requires" : [
+			{
+				"amount": 5,
+				"type":"Nach0.Types.TitaniumOre"
+			}
+		],
+		"results" : [
+			{
+				"amount": 1,
+				"type":"Nach0.Types.TitaniumCoins"
+			}
+		]
+	},
+	{
+		"isOptional" : true,
+		"defaultLimit" : 100,
+		"defaultPriority" : 0,
+		"name" : "Nach0.minter.PlatniumCoins",
+		"requires" : [
+			{
+				"amount":2,
+				"type":"Nach0.Types.PlatniumOre"
+			}
+		],
+		"results" : [
+			{
+				"amount": 1,
+				"type":"Nach0.Types.PlatniumCoins"
+			}
+		]
+	}
+]

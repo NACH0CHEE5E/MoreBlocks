@@ -1,0 +1,18 @@
+[
+	{
+		"defaultLimit" : 200,
+		"defaultPriority" : 0,
+		"name" : "Nach0.Sander.PossessedStone",
+		"requires" : [
+			{
+				"amount":2,
+				"type":"Nach0.Types.EnchantedStone"
+			}
+		],
+		"results" : [
+			{
+				"type":"Nach0.Types.PossessedStone"
+			}
+		]
+	}
+]

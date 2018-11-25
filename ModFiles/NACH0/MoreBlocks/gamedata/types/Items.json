@@ -37,24 +37,24 @@
 		"icon": "./../textures/icons/CementPowder.png",
 		"isPlaceable": false
 	},
-	"Nach0.Types.Coins1": {
+	"Nach0.Types.TitaniumCoins": {
 		"categories": [
 			"nach0",
 			"moreblocks",
 			"items",
 			"coins"
 		],
-		"icon": "./../textures/icons/Coins1.png",
+		"icon": "./../textures/icons/TitaniumCoins.png",
 		"isPlaceable": false
 	},
-	"Nach0.Types.Coins2": {
+	"Nach0.Types.PlatniumCoins": {
 		"categories": [
 			"nach0",
 			"moreblocks",
 			"items",
 			"coins"
 		],
-		"icon": "./../textures/icons/Coins2.png",
+		"icon": "./../textures/icons/PlatniumCoins.png",
 		"isPlaceable": false
 	},
 	"Nach0.Types.Cross": {

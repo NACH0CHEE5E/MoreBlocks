@@ -1,0 +1,91 @@
+[
+	{
+		"isOptional" : true,
+		"defaultLimit" : 0,
+		"defaultPriority" : -100,
+		"name" : "Nach0.Crusher.Ice1Cracked1",
+		"requires" : [
+			{
+				"amount":5,
+				"type":"Nach0.Types.Ice1"
+			}
+		],
+		"results" : [
+			{
+				"amount": 5,
+				"type": "Nach0.Types.Ice1Cracked1"
+			}
+		]
+	},
+	{
+		"isOptional" : true,
+		"defaultLimit" : 0,
+		"defaultPriority" : -100,
+		"name" : "Nach0.Crusher.Ice1Cracked2",
+		"requires" : [
+			{
+				"amount":5,
+				"type":"Nach0.Types.Ice1Cracked1"
+			}
+		],
+		"results" : [
+			{
+				"amount": 5,
+				"type": "Nach0.Types.Ice1Cracked2"
+			}
+		]
+	},
+	{
+		"isOptional" : true,
+		"defaultLimit" : 0,
+		"defaultPriority" : -100,
+		"name" : "Nach0.Crusher.Ice1Cracked3",
+		"requires" : [
+			{
+				"amount":5,
+				"type":"Nach0.Types.Ice1Cracked2"
+			}
+		],
+		"results" : [
+			{
+				"amount": 5,
+				"type": "Nach0.Types.Ice1Cracked3"
+			}
+		]
+	},
+	{
+		"isOptional" : true,
+		"defaultLimit" : 0,
+		"defaultPriority" : -100,
+		"name" : "Nach0.Crusher.Ice1Packed",
+		"requires" : [
+			{
+				"amount":5,
+				"type":"Nach0.Types.Ice1Cracked3"
+			}
+		],
+		"results" : [
+			{
+				"amount": 5,
+				"type": "Nach0.Types.Ice1Packed"
+			}
+		]
+	},
+	{
+		"defaultLimit" : 0,
+		"defaultPriority" : -100,
+		"name" : "Nach0.Crusher.CementPowder",
+		"requires" : [
+			{
+				"amount":5,
+				"type":"stonebricks"
+			}
+		],
+		"results" : [
+			{
+				"amount": 1,
+				"type": "Nach0.Types.CementPowder"
+			}
+		]
+	}
+]

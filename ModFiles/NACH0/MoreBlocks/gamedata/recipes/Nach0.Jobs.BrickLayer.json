@@ -1,0 +1,53 @@
+[
+	{
+		"defaultLimit" : 15,
+		"defaultPriority" : 0,
+		"name" : "Nach0.BrickLayer.VanillaBricks",
+		"requires" : [
+			{
+				"amount":15,
+				"type":"Nach0.Types.Brick"
+			}
+		],
+		"results" : [
+			{
+				"amount":3,
+				"type":"bricks"
+			}
+		]
+	},
+	{
+		"defaultLimit" : 0,
+		"defaultPriority" : -100,
+		"name" : "Nach0.BrickLayer.Brick1",
+		"requires" : [
+			{
+				"amount":15,
+				"type":"Nach0.Types.Brick"
+			}
+		],
+		"results" : [
+			{
+				"amount":3,
+				"type":"Nach0.Types.Brick1"
+			}
+		]
+	},
+	{
+		"defaultLimit" : 0,
+		"defaultPriority" : -100,
+		"name" : "Nach0.BrickLayer.Brick2",
+		"requires" : [
+			{
+				"amount":15,
+				"type":"Nach0.Types.Brick"
+			}
+		],
+		"results" : [
+			{
+				"amount":3,
+				"type":"Nach0.Types.Brick2"
+			}
+		]
+	}
+]

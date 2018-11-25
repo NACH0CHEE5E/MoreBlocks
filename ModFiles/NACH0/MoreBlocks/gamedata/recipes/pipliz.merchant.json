@@ -1,0 +1,614 @@
+[
+	{
+		"isOptional" : true,
+		"defaultLimit" : 0,
+		"defaultPriority" : -100,
+		"name" : "Nach0.merchant.Dirt1",
+		"requires" : [
+			{
+				"amount":10,
+				"type":"goldcoin"
+			}
+		],
+		"results" : [
+			{
+				"amount":10,
+				"type":"Nach0.Types.Dirt1"
+			}
+		]
+	},
+	{
+		"isOptional" : true,
+		"defaultLimit" : 0,
+		"defaultPriority" : -100,
+		"name" : "Nach0.merchant.Dirt2",
+		"requires" : [
+			{
+				"amount":10,
+				"type":"goldcoin"
+			}
+		],
+		"results" : [
+			{
+				"amount":10,
+				"type":"Nach0.Types.Dirt2"
+			}
+		]
+	},
+	{
+		"isOptional" : true,
+		"defaultLimit" : 0,
+		"defaultPriority" : -100,
+		"name" : "Nach0.merchant.Dirt3",
+		"requires" : [
+			{
+				"amount":10,
+				"type":"goldcoin"
+			}
+		],
+		"results" : [
+			{
+				"amount":10,
+				"type":"Nach0.Types.Dirt3"
+			}
+		]
+	},
+	{
+		"isOptional" : true,
+		"defaultLimit" : 0,
+		"defaultPriority" : -100,
+		"name" : "Nach0.merchant.Dirt3Sided",
+		"requires" : [
+			{
+				"amount":10,
+				"type":"goldcoin"
+			}
+		],
+		"results" : [
+			{
+				"amount":10,
+				"type":"Nach0.Types.Dirt3Sided"
+			}
+		]
+	},
+	{
+		"isOptional" : true,
+		"defaultLimit" : 0,
+		"defaultPriority" : -100,
+		"name" : "Nach0.merchant.Farmland1",
+		"requires" : [
+			{
+				"amount":10,
+				"type":"goldcoin"
+			}
+		],
+		"results" : [
+			{
+				"amount":10,
+				"type":"Nach0.Types.Farmland1"
+			}
+		]
+	},
+	{
+		"isOptional" : true,
+		"defaultLimit" : 0,
+		"defaultPriority" : -100,
+		"name" : "Nach0.merchant.WetFarmland1",
+		"requires" : [
+			{
+				"amount":10,
+				"type":"goldcoin"
+			}
+		],
+		"results" : [
+			{
+				"amount":10,
+				"type":"Nach0.Types.WetFarmland1"
+			}
+		]
+	},
+	{
+		"isOptional" : true,
+		"defaultLimit" : 0,
+		"defaultPriority" : -100,
+		"name" : "Nach0.merchant.Grass1",
+		"requires" : [
+			{
+				"amount":10,
+				"type":"goldcoin"
+			}
+		],
+		"results" : [
+			{
+				"amount":10,
+				"type":"Nach0.Types.Grass1"
+			}
+		]
+	},
+	{
+		"isOptional" : true,
+		"defaultLimit" : 0,
+		"defaultPriority" : -100,
+		"name" : "Nach0.merchant.Grass1Sided",
+		"requires" : [
+			{
+				"amount":10,
+				"type":"goldcoin"
+			}
+		],
+		"results" : [
+			{
+				"amount":10,
+				"type":"Nach0.Types.Grass1Sided"
+			}
+		]
+	},
+	{
+		"isOptional" : true,
+		"defaultLimit" : 0,
+		"defaultPriority" : -100,
+		"name" : "Nach0.merchant.Grass2Sided",
+		"requires" : [
+			{
+				"amount":10,
+				"type":"goldcoin"
+			}
+		],
+		"results" : [
+			{
+				"amount":10,
+				"type":"Nach0.Types.Grass2Sided"
+			}
+		]
+	},
+	{
+		"isOptional" : true,
+		"defaultLimit" : 0,
+		"defaultPriority" : -100,
+		"name" : "Nach0.merchant.Grass2",
+		"requires" : [
+			{
+				"amount":10,
+				"type":"goldcoin"
+			}
+		],
+		"results" : [
+			{
+				"amount":10,
+				"type":"Nach0.Types.Grass2"
+			}
+		]
+	},
+	{
+		"isOptional" : true,
+		"defaultLimit" : 0,
+		"defaultPriority" : -100,
+		"name" : "Nach0.merchant.Ice1",
+		"requires" : [
+			{
+				"amount":10,
+				"type":"goldcoin"
+			}
+		],
+		"results" : [
+			{
+				"amount":10,
+				"type":"Nach0.Types.Ice1"
+			}
+		]
+	},
+	{
+		"isOptional" : true,
+		"defaultLimit" : 0,
+		"defaultPriority" : -100,
+		"name" : "Nach0.merchant.Wood1",
+		"requires" : [
+			{
+				"amount":10,
+				"type":"goldcoin"
+			}
+		],
+		"results" : [
+			{
+				"amount":5,
+				"type":"Nach0.Types.Wood1"
+			}
+		]
+	},
+	{
+		"isOptional" : true,
+		"defaultLimit" : 0,
+		"defaultPriority" : -100,
+		"name" : "Nach0.merchant.Wood2",
+		"requires" : [
+			{
+				"amount":10,
+				"type":"goldcoin"
+			}
+		],
+		"results" : [
+			{
+				"amount":5,
+				"type":"Nach0.Types.Wood2"
+			}
+		]
+	},
+	{
+		"isOptional" : true,
+		"defaultLimit" : 0,
+		"defaultPriority" : -100,
+		"name" : "Nach0.merchant.Wood3",
+		"requires" : [
+			{
+				"amount":10,
+				"type":"goldcoin"
+			}
+		],
+		"results" : [
+			{
+				"amount":5,
+				"type":"Nach0.Types.Wood3"
+			}
+		]
+	},
+	{
+		"isOptional" : true,
+		"defaultLimit" : 0,
+		"defaultPriority" : -100,
+		"name" : "Nach0.merchant.Wood4",
+		"requires" : [
+			{
+				"amount":10,
+				"type":"goldcoin"
+			}
+		],
+		"results" : [
+			{
+				"amount":5,
+				"type":"Nach0.Types.Wood4"
+			}
+		]
+	},
+	{
+		"isOptional" : true,
+		"defaultLimit" : 0,
+		"defaultPriority" : -100,
+		"name" : "Nach0.merchant.Wood5",
+		"requires" : [
+			{
+				"amount":10,
+				"type":"goldcoin"
+			}
+		],
+		"results" : [
+			{
+				"amount":5,
+				"type":"Nach0.Types.Wood5"
+			}
+		]
+	},
+	{
+		"isOptional" : true,
+		"defaultLimit" : 0,
+		"defaultPriority" : -100,
+		"name" : "Nach0.merchant.Wood6",
+		"requires" : [
+			{
+				"amount":10,
+				"type":"goldcoin"
+			}
+		],
+		"results" : [
+			{
+				"amount":5,
+				"type":"Nach0.Types.Wood6"
+			}
+		]
+	},
+	{
+		"isOptional" : true,
+		"defaultLimit" : 0,
+		"defaultPriority" : -100,
+		"name" : "Nach0.merchant.Sand1",
+		"requires" : [
+			{
+				"amount":10,
+				"type":"goldcoin"
+			}
+		],
+		"results" : [
+			{
+				"amount":10,
+				"type":"Nach0.Types.Sand1"
+			}
+		]
+	},
+	{
+		"isOptional" : true,
+		"defaultLimit" : 0,
+		"defaultPriority" : -100,
+		"name" : "Nach0.merchant.RedSand1",
+		"requires" : [
+			{
+				"amount":10,
+				"type":"goldcoin"
+			}
+		],
+		"results" : [
+			{
+				"amount":10,
+				"type":"Nach0.Types.RedSand1"
+			}
+		]
+	},
+	{
+		"isOptional" : true,
+		"defaultLimit" : 0,
+		"defaultPriority" : -100,
+		"name" : "Nach0.merchant.Stone1",
+		"requires" : [
+			{
+				"amount":10,
+				"type":"goldcoin"
+			}
+		],
+		"results" : [
+			{
+				"amount":5,
+				"type":"Nach0.Types.Stone1"
+			}
+		]
+	},
+	{
+		"isOptional" : true,
+		"defaultLimit" : 0,
+		"defaultPriority" : -100,
+		"name" : "Nach0.merchant.Stone2",
+		"requires" : [
+			{
+				"amount":10,
+				"type":"goldcoin"
+			}
+		],
+		"results" : [
+			{
+				"amount":5,
+				"type":"Nach0.Types.Stone2"
+			}
+		]
+	},
+	{
+		"isOptional" : true,
+		"defaultLimit" : 0,
+		"defaultPriority" : -100,
+		"name" : "Nach0.merchant.Stone3",
+		"requires" : [
+			{
+				"amount":10,
+				"type":"goldcoin"
+			}
+		],
+		"results" : [
+			{
+				"amount":5,
+				"type":"Nach0.Types.Stone3"
+			}
+		]
+	},
+	{
+		"isOptional" : true,
+		"defaultLimit" : 0,
+		"defaultPriority" : -100,
+		"name" : "Nach0.merchant.Stone4",
+		"requires" : [
+			{
+				"amount":10,
+				"type":"goldcoin"
+			}
+		],
+		"results" : [
+			{
+				"amount":5,
+				"type":"Nach0.Types.Stone4"
+			}
+		]
+	},
+	{
+		"isOptional" : true,
+		"defaultLimit" : 0,
+		"defaultPriority" : -100,
+		"name" : "Nach0.merchant.Stone5",
+		"requires" : [
+			{
+				"amount":10,
+				"type":"goldcoin"
+			}
+		],
+		"results" : [
+			{
+				"amount":5,
+				"type":"Nach0.Types.Stone5"
+			}
+		]
+	},
+	{
+		"isOptional" : true,
+		"defaultLimit" : 0,
+		"defaultPriority" : -100,
+		"name" : "Nach0.merchant.Snow1",
+		"requires" : [
+			{
+				"amount":10,
+				"type":"goldcoin"
+			}
+		],
+		"results" : [
+			{
+				"amount":10,
+				"type":"Nach0.Types.Snow1"
+			}
+		]
+	},
+	{
+		"isOptional" : true,
+		"defaultLimit" : 0,
+		"defaultPriority" : -100,
+		"name" : "Nach0.merchant.Snow1Sided",
+		"requires" : [
+			{
+				"amount":10,
+				"type":"goldcoin"
+			}
+		],
+		"results" : [
+			{
+				"amount":10,
+				"type":"Nach0.Types.Snow1Sided"
+			}
+		]
+	},
+	{
+		"isOptional" : true,
+		"defaultLimit" : 0,
+		"defaultPriority" : -100,
+		"name" : "Nach0.merchant.Cactus1",
+		"requires" : [
+			{
+				"amount":10,
+				"type":"Nach0.Types.PlatniumCoins"
+			}
+		],
+		"results" : [
+			{
+				"amount":10,
+				"type":"Nach0.Types.Cactus1"
+			}
+		]
+	},
+	{
+		"isOptional" : true,
+		"defaultLimit" : 0,
+		"defaultPriority" : -100,
+		"name" : "Nach0.merchant.DiamondBlock1",
+		"requires" : [
+			{
+				"amount":15,
+				"type":"Nach0.Types.PlatniumCoins"
+			}
+		],
+		"results" : [
+			{
+				"amount":5,
+				"type":"Nach0.Types.DiamondBlock1"
+			}
+		]
+	},
+	{
+		"isOptional" : true,
+		"defaultLimit" : 0,
+		"defaultPriority" : -100,
+		"name" : "Nach0.merchant.EmeraldBlock1",
+		"requires" : [
+			{
+				"amount":15,
+				"type":"Nach0.Types.PlatniumCoins"
+			}
+		],
+		"results" : [
+			{
+				"amount":5,
+				"type":"Nach0.Types.EmeraldBlock1"
+			}
+		]
+	},
+	{
+		"isOptional" : true,
+		"defaultLimit" : 0,
+		"defaultPriority" : -100,
+		"name" : "Nach0.merchant.FireBlock1",
+		"requires" : [
+			{
+				"amount":15,
+				"type":"Nach0.Types.PlatniumCoins"
+			}
+		],
+		"results" : [
+			{
+				"amount":5,
+				"type":"Nach0.Types.FireBlock1"
+			}
+		]
+	},
+	{
+		"isOptional" : true,
+		"defaultLimit" : 0,
+		"defaultPriority" : -100,
+		"name" : "Nach0.merchant.SapphireBlock1",
+		"requires" : [
+			{
+				"amount":15,
+				"type":"Nach0.Types.PlatniumCoins"
+			}
+		],
+		"results" : [
+			{
+				"amount":5,
+				"type":"Nach0.Types.SapphireBlock1"
+			}
+		]
+	},
+	{
+		"isOptional" : true,
+		"defaultLimit" : 0,
+		"defaultPriority" : -100,
+		"name" : "Nach0.merchant.RubyBlock1",
+		"requires" : [
+			{
+				"amount":15,
+				"type":"Nach0.Types.PlatniumCoins"
+			}
+		],
+		"results" : [
+			{
+				"amount":5,
+				"type":"Nach0.Types.RubyBlock1"
+			}
+		]
+	},
+	{
+		"isOptional" : true,
+		"defaultLimit" : 0,
+		"defaultPriority" : -100,
+		"name" : "Nach0.merchant.QuartzBlock1",
+		"requires" : [
+			{
+				"amount":15,
+				"type":"Nach0.Types.PlatniumCoins"
+			}
+		],
+		"results" : [
+			{
+				"amount":5,
+				"type":"Nach0.Types.QuartzBlock1"
+			}
+		]
+	},
+	{
+		"isOptional" : true,
+		"defaultLimit" : 0,
+		"defaultPriority" : -100,
+		"name" : "Nach0.merchant.Rock",
+		"requires" : [
+			{
+				"amount":20,
+				"type":"Nach0.Types.TitaniumCoins"
+			}
+		],
+		"results" : [
+			{
+				"amount":1,
+				"type":"Nach0.Types.Rock"
+			}
+		]
+	}
+]

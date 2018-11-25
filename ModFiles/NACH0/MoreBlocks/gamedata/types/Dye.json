@@ -1,0 +1,178 @@
+{
+	"Nach0.Types.AquaDye": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"items",
+			"dye",
+			"aqua"
+		],
+		"icon": "./../textures/icons/AquaDye.png",
+		"isPlaceable": false
+	},
+	"Nach0.Types.BlackDye": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"items",
+			"dye",
+			"black"
+		],
+		"icon": "./../textures/icons/BlackDye.png",
+		"isPlaceable": false
+	},
+	"Nach0.Types.BlueDye": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"items",
+			"dye",
+			"blue"
+		],
+		"icon": "./../textures/icons/BlueDye.png",
+		"isPlaceable": false
+	},
+	"Nach0.Types.BrownDye": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"items",
+			"dye",
+			"brown"
+		],
+		"icon": "./../textures/icons/BrownDye.png",
+		"isPlaceable": false
+	},
+	"Nach0.Types.DarkGreenDye": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"items",
+			"dye",
+			"darkgreen"
+		],
+		"icon": "./../textures/icons/DarkGreenDye.png",
+		"isPlaceable": false
+	},
+	"Nach0.Types.GreenDye": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"items",
+			"dye",
+			"green"
+		],
+		"icon": "./../textures/icons/GreenDye.png",
+		"isPlaceable": false
+	},
+	"Nach0.Types.GreyDye": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"items",
+			"dye",
+			"grey"
+		],
+		"icon": "./../textures/icons/GreyDye.png",
+		"isPlaceable": false
+	},
+	"Nach0.Types.LightBlueDye": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"items",
+			"dye",
+			"lightblue"
+		],
+		"icon": "./../textures/icons/LightBlueDye.png",
+		"isPlaceable": false
+	},
+	"Nach0.Types.LightGreyDye": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"items",
+			"dye",
+			"lightgrey"
+		],
+		"icon": "./../textures/icons/LightGreyDye.png",
+		"isPlaceable": false
+	},
+	"Nach0.Types.MagentaDye": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"items",
+			"dye",
+			"magenta"
+		],
+		"icon": "./../textures/icons/MagentaDye.png",
+		"isPlaceable": false
+	},
+	"Nach0.Types.OrangeDye": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"items",
+			"dye",
+			"orange"
+		],
+		"icon": "./../textures/icons/OrangeDye.png",
+		"isPlaceable": false
+	},
+	"Nach0.Types.PinkDye": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"items",
+			"dye",
+			"pink"
+		],
+		"icon": "./../textures/icons/PinkDye.png",
+		"isPlaceable": false
+	},
+	"Nach0.Types.PurpleDye": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"items",
+			"dye",
+			"purple"
+		],
+		"icon": "./../textures/icons/PurpleDye.png",
+		"isPlaceable": false
+	},
+	"Nach0.Types.RedDye": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"items",
+			"dye",
+			"red"
+		],
+		"icon": "./../textures/icons/RedDye.png",
+		"isPlaceable": false
+	},
+	"Nach0.Types.WhiteDye": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"items",
+			"dye",
+			"white"
+		],
+		"icon": "./../textures/icons/WhiteDye.png",
+		"isPlaceable": false
+	},
+	"Nach0.Types.YellowDye": {
+		"categories": [
+			"nach0",
+			"moreblocks",
+			"items",
+			"dye",
+			"yellow"
+		],
+		"icon": "./../textures/icons/YellowDye.png",
+		"isPlaceable": false
+	}
+}

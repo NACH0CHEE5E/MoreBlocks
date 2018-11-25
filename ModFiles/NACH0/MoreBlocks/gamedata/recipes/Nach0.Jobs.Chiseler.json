@@ -1,0 +1,86 @@
+[
+	{
+		"isOptional" : true,
+		"defaultLimit" : 0,
+		"defaultPriority" : -100,
+		"name" : "Nach0.Chiseler.Sandstone1Carved",
+		"requires" : [
+			{
+				"amount":5,
+				"type":"Nach0.Types.Sandstone1Smoothed"
+			},
+			{
+				"type": "Nach0.Types.Chisel"
+			}
+		],
+		"results" : [
+			{
+				"amount":5,
+				"type":"Nach0.Types.Sandstone1Carved"
+			}
+		]
+	},
+	{
+		"isOptional" : true,
+		"defaultLimit" : 0,
+		"defaultPriority" : -100,
+		"name" : "Nach0.Chiseler.RedSandstone1Carved",
+		"requires" : [
+			{
+				"amount":5,
+				"type":"Nach0.Types.RedSandstone1Smoothed"
+			},
+			{
+				"type": "Nach0.Types.Chisel"
+			}
+		],
+		"results" : [
+			{
+				"amount":5,
+				"type":"Nach0.Types.RedSandstone1Carved"
+			}
+		]
+	},
+	{
+		"isOptional" : true,
+		"defaultLimit" : 0,
+		"defaultPriority" : -100,
+		"name" : "Nach0.Chiseler.QuartzBlock1Piller",
+		"requires" : [
+			{
+				"amount":5,
+				"type":"Nach0.Types.QuartzBlock1"
+			},
+			{
+				"type": "Nach0.Types.Chisel"
+			}
+		],
+		"results" : [
+			{
+				"amount":5,
+				"type":"Nach0.Types.QuartzBlock1Piller"
+			}
+		]
+	},
+	{
+		"isOptional" : true,
+		"defaultLimit" : 0,
+		"defaultPriority" : -100,
+		"name" : "Nach0.Chiseler.QuartzBlock1Chiseled",
+		"requires" : [
+			{
+				"amount":5,
+				"type":"Nach0.Types.QuartzBlock1"
+			},
+			{
+				"type": "Nach0.Types.Chisel"
+			}
+		],
+		"results" : [
+			{
+				"amount":5,
+				"type":"Nach0.Types.QuartzBlock1Chiseled"
+			}
+		]
+	}
+]

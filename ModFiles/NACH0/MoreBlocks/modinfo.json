@@ -1,6 +1,6 @@
 [{
 	"name": "NACH0.MoreBlocks",
-	"version": "1.6.0",
+	"version": "2.0.0",
 	"namepretty": "More Blocks",
 	"enabled": true,
 	"marksgamemodded": true,
@@ -10,7 +10,7 @@
 	"jsonFiles": [
 		{
 			"fileType" : "addOrOverrideTextureMappingEntries",
-			"index" : -1000000,
+			"index" : 18000,
 			"relativePath" : "gamedata/textures/materials/textures.json"
 		},
 		{
@@ -71,7 +71,7 @@
 		},
 		{
 			"fileType" : "generateBlocks",
-			"index" : -1000000,
+			"index" : 18000,
 			"relativePath" : "gamedata/types/RotatableJobBlocks.json"
 		},
 		{
@@ -111,9 +111,229 @@
 			"relativePath": "gamedata/types/Wool.json"
 		},
 		{
+			"fileType": "addNewTypes",
+			"relativePath": "gamedata/types/Dye.json"
+		},
+		{
+			"fileType": "addNewTypes",
+			"relativePath": "gamedata/types/InfiniteOres.json"
+		},
+		{
+			"fileType" : "addBlockJobs",
+			"index" : 18000,
+			"relativePath" : "gamedata/jobs/JobDefining.json"
+		},
+		{
+			"fileType" : "addOrReplaceNPCTypes",
+			"index" : 18000,
+			"relativePath" : "gamedata/jobs/JobInfo.json"
+		},
+		{
+			"fileType" : "addOrReplacePlayerRecipes",
+			"index" : 18000,
+			"relativePath" : "gamedata/recipes/player.json"
+		},
+		{
+			"fileType" : "addOrReplaceNPCRecipes",
+			"index" : 18000,
+			"limitsUIMapping" : [
+				"furnacex+",
+				"furnacex-",
+				"furnacez+",
+				"furnacez-",
+				"furnacelitx+",
+				"furnacelitx-",
+				"furnacelitz+",
+				"furnacelitz-"
+			],
+			"npcType" : "pipliz.smelter",
+			"relativePath" : "gamedata/recipes/pipliz.smelter.json"
+		},
+		{
+			"fileType" : "addOrReplaceNPCRecipes",
+			"index" : 18000,
+			"limitsUIMapping" : [
+				"workbench"
+			],
+			"npcType" : "pipliz.crafter",
+			"relativePath" : "gamedata/recipes/pipliz.crafter.json"
+		},
+		{
+			"fileType" : "addOrReplaceNPCRecipes",
+			"index" : 18000,
+			"limitsUIMapping" : [
+				"Nach0.Types.BrickLayer"
+			],
+			"npcType" : "Nach0.Jobs.BrickLayer",
+			"relativePath" : "gamedata/recipes/Nach0.Jobs.BrickLayer.json"
+		},
+		{
+			"fileType" : "addOrReplaceNPCRecipes",
+			"index" : 18000,
+			"limitsUIMapping" : [
+				"stonemasonworkbench"
+			],
+			"npcType" : "pipliz.stonemason",
+			"relativePath" : "gamedata/recipes/pipliz.stonemason.json"
+		},
+		{
+			"fileType" : "addOrReplaceNPCRecipes",
+			"index" : 180000,
+			"limitsUIMapping" : [
+				"shop"
+			],
+			"npcType" : "pipliz.merchant",
+			"relativePath" : "gamedata/recipes/pipliz.merchant.json"
+		},
+		{
+			"fileType" : "addOrReplaceNPCRecipes",
+			"index" : 180000,
+			"limitsUIMapping" : [
+				"Nach0.Types.Crusher"
+			],
+			"npcType" : "Nach0.Jobs.Crusher",
+			"relativePath" : "gamedata/recipes/Nach0.Jobs.Crusher.json"
+		},
+		{
+			"fileType" : "addOrReplaceNPCRecipes",
+			"index" : 180000,
+			"limitsUIMapping" : [
+				"splittingstump"
+			],
+			"npcType" : "pipliz.woodcutter",
+			"relativePath" : "gamedata/recipes/pipliz.woodcutter.json"
+		},
+		{
+			"fileType" : "addOrReplaceNPCRecipes",
+			"index" : 180000,
+			"limitsUIMapping" : [
+				"Nach0.Types.Sander"
+			],
+			"npcType" : "Nach0.Jobs.Sander",
+			"relativePath" : "gamedata/recipes/Nach0.Jobs.Sander.json"
+		},
+		{
+			"fileType" : "addOrReplaceNPCRecipes",
+			"index" : 180000,
+			"limitsUIMapping" : [
+				"Nach0.Types.Chiseler"
+			],
+			"npcType" : "Nach0.Jobs.Chiseler",
+			"relativePath" : "gamedata/recipes/Nach0.Jobs.Chiseler.json"
+		},
+		{
+			"fileType" : "addOrReplaceNPCRecipes",
+			"index" : 180000,
+			"limitsUIMapping" : [
+				"bronzeanvil"
+			],
+			"npcType" : "pipliz.metalsmithjob",
+			"relativePath" : "gamedata/recipes/pipliz.metalsmithjob.json"
+		},
+		{
+			"fileType" : "addOrReplaceNPCRecipes",
+			"index" : 180000,
+			"limitsUIMapping" : [
+				"Nach0.Types.Pailer"
+			],
+			"npcType" : "Nach0.Jobs.Pailer",
+			"relativePath" : "gamedata/recipes/Nach0.Jobs.Pailer.json"
+		},
+		{
+			"fileType" : "addOrReplaceNPCRecipes",
+			"index" : 180000,
+			"limitsUIMapping" : [
+				"mint"
+			],
+			"npcType" : "pipliz.minter",
+			"relativePath" : "gamedata/recipes/pipliz.minter.json"
+		},
+		{
+			"fileType" : "addOrReplaceNPCRecipes",
+			"index" : 180000,
+			"limitsUIMapping" : [
+				"Nach0.Types.Freezerz+",
+				"Nach0.Types.Freezerz-",
+				"Nach0.Types.Freezerx+",
+				"Nach0.Types.Freezerx-"
+			],
+			"npcType" : "Nach0.Jobs.Freezer",
+			"relativePath" : "gamedata/recipes/Nach0.Jobs.Freezer.json"
+		},
+		{
+			"fileType" : "addOrReplaceNPCRecipes",
+			"index" : 180000,
+			"limitsUIMapping" : [
+				"Nach0.Types.Melterz+",
+				"Nach0.Types.Melterz-",
+				"Nach0.Types.Melterx+",
+				"Nach0.Types.Melterx-"
+			],
+			"npcType" : "Nach0.Jobs.Melter",
+			"relativePath" : "gamedata/recipes/Nach0.Jobs.Melter.json"
+		},
+		{
+			"fileType" : "addOrReplaceNPCRecipes",
+			"index" : 180000,
+			"limitsUIMapping" : [
+				"Nach0.Types.Enchanter"
+			],
+			"npcType" : "Nach0.Jobs.Enchanter",
+			"relativePath" : "gamedata/recipes/Nach0.Jobs.Enchanter.json"
+		},
+		{
+			"fileType" : "addOrReplaceNPCRecipes",
+			"index" : 180000,
+			"limitsUIMapping" : [
+				"Nach0.Types.MagiciansTable"
+			],
+			"npcType" : "Nach0.Jobs.Magician",
+			"relativePath" : "gamedata/recipes/Nach0.Jobs.Magician.json"
+		},
+		{
+			"fileType" : "addOrReplaceNPCRecipes",
+			"index" : 180000,
+			"limitsUIMapping" : [
+				"Nach0.Types.ConcreteLayer"
+			],
+			"npcType" : "Nach0.Jobs.ConcreteLayer",
+			"relativePath" : "gamedata/recipes/Nach0.Jobs.ConcreteLayer.json"
+		},
+		{
+			"fileType" : "addOrReplaceNPCRecipes",
+			"index" : 180000,
+			"limitsUIMapping" : [
+				"Nach0.Types.PaintMixerz+",
+				"Nach0.Types.PaintMixerz-",
+				"Nach0.Types.PaintMixerx+",
+				"Nach0.Types.PaintMixerx-"
+			],
+			"npcType" : "Nach0.Jobs.PaintMixer",
+			"relativePath" : "gamedata/recipes/Nach0.Jobs.PaintMixer.json"
+		},
+		{
+			"fileType" : "addOrReplaceNPCRecipes",
+			"index" : 180000,
+			"limitsUIMapping" : [
+				"Nach0.Types.PaintersTable"
+			],
+			"npcType" : "Nach0.Jobs.Painter",
+			"relativePath" : "gamedata/recipes/Nach0.Jobs.Painter.json"
+		},
+		{
+			"fileType" : "addScience",
+			"index" : 18000,
+			"relativePath" : "gamedata/science.json"
+		},
+		{
 			"relativePath" : "gamedata/locale/en-US.json",
 			"fileType" : "addOrOverrideLocalization",
-			"index" : -1000000
+			"index" : 18000
+		},
+		{
+			"fileType" : "setTerrainGeneratorSettings",
+			"index" : 18000,
+			"relativePath" : "./gamedata/OreSpawning.json"
 		}
 	],
 	"patchnotes": [

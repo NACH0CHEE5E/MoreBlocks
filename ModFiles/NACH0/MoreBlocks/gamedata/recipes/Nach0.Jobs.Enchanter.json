@@ -1,0 +1,18 @@
+[
+	{
+		"defaultLimit" : 200,
+		"defaultPriority" : 0,
+		"name" : "Nach0.Sander.EnchantedStone",
+		"requires" : [
+			{
+				"amount":5,
+				"type":"Nach0.Types.Rock"
+			}
+		],
+		"results" : [
+			{
+				"type":"Nach0.Types.EnchantedStone"
+			}
+		]
+	}
+]

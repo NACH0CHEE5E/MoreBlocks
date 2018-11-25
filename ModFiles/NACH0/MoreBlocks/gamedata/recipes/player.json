@@ -1,0 +1,59 @@
+[
+	{
+		"isOptional" : true,
+		"name" : "Nach0.player.Bricklayer",
+		"requires" : [
+			{
+				"type": "planks",
+				"amount": 15,
+			},
+			{
+				"type": "coppertools",
+				"amount": 3,
+			}
+		],
+		"results" : [
+			{
+				"type":"Nach0.Types.BrickLayer"
+			}
+		]
+	},
+	{
+		"isOptional" : true,
+		"name" : "Nach0.player.Chiseler",
+		"requires" : [
+			{
+				"amount":1,
+				"type":"stonemasonworkbench"
+			},
+			{
+				"type": "Nach0.Types.Chisel",
+				"amount": 3
+			}
+		],
+		"results" : [
+			{
+				"type":"Nach0.Types.Chiseler"
+			}
+		]
+	},
+	{
+		"isOptional" : true,
+		"name" : "Nach0.player.Sander",
+		"requires" : [
+			{
+				"amount":10,
+				"type":"planks"
+			},
+			{
+				"type": "Nach0.Types.SandPaper",
+				"amount": 5
+			}
+		],
+		"results" : [
+			{
+				"type":"Nach0.Types.Sander"
+			}
+		]
+	}
+]

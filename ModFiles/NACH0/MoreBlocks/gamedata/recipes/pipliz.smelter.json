@@ -1,0 +1,22 @@
+[
+	{
+		"defaultLimit" : 4,
+		"defaultPriority" : -100,
+		"name" : "pipliz.smelter.bricks",
+		"requires" : [
+			{
+				"amount":3,
+				"type":"clay"
+			},
+			{
+				"type":"firewood"
+			}
+		],
+		"results" : [
+			{
+				"amount":15,
+				"type":"Nach0.Types.Brick"
+			}
+		]
+	}
+]
