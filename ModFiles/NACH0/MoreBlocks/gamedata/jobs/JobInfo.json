@@ -1,130 +1,130 @@
 [
 	{
 		"data" : {
-			"maskColor1" : "#B9457C"
+			"maskColor1" : "#8c4831"
 		},
-		"keyName" : "Nach0.Jobs.PaintMixer",
+		"keyName" : "Nach0.Jobs.SecondBloomeryJob",
 		"npcType" : "worker",
-		"printName" : "Paint Mixer"
+		"printName" : "Second Iron Smelter"
 	},
 	{
 		"data" : {
-			"maskColor1" : "#00FFEF"
+			"maskColor1" : "#add9a7"
 		},
-		"keyName" : "Nach0.Jobs.Pailer",
+		"keyName" : "Nach0.Jobs.SecondDyer",
 		"npcType" : "worker",
-		"printName" : "Pailer"
+		"printName" : "Second Dyer"
 	},
 	{
 		"data" : {
-			"maskColor1" : "#540202"
+			"maskColor1" : "#8b8b8b"
 		},
-		"keyName" : "Nach0.Jobs.AdvancedPainter",
+		"keyName" : "Nach0.Jobs.SecondFineryForgeJob",
 		"npcType" : "worker",
-		"printName" : "Advanced Painter"
+		"printName" : "Second Steel smelter"
 	},
 	{
 		"data" : {
-			"maskColor1" : "#540202"
+			"maskColor1" : "#9b645b"
 		},
-		"keyName" : "Nach0.Jobs.BrickLayer",
+		"keyName" : "Nach0.Jobs.SecondSmelter",
 		"npcType" : "worker",
-		"printName" : "Brick Layer"
+		"printName" : "Second Smelter"
 	},
 	{
 		"data" : {
-			"maskColor1" : "#000000"
+			"maskColor1" : "#574229"
 		},
-		"keyName" : "Nach0.Jobs.BrickMaker",
+		"keyName" : "Nach0.Jobs.SecondGrinder",
 		"npcType" : "worker",
-		"printName" : "Brick Maker"
+		"printName" : "Second Grinder"
 	},
 	{
 		"data" : {
-			"maskColor1" : "#FFC889"
+			"maskColor1" : "#59402e"
 		},
-		"keyName" : "Nach0.Jobs.Carver",
+		"keyName" : "Nach0.Jobs.SecondGunSmithJob",
 		"npcType" : "worker",
-		"printName" : "Carver"
+		"printName" : "Second Gun smith"
 	},
 	{
 		"data" : {
-			"maskColor1" : "#BDB5AC"
+			"maskColor1" : "#4a64b8"
 		},
-		"keyName" : "Nach0.Jobs.Chiseler",
+		"keyName" : "Nach0.Jobs.SecondKilnJob",
 		"npcType" : "worker",
-		"printName" : "Chiseler"
+		"printName" : "Second Charcoal burner"
 	},
 	{
 		"data" : {
-			"maskColor1" : "#593445"
+			"maskColor1" : "#aa4d0d"
 		},
-		"keyName" : "Nach0.Jobs.ConcreteLayer",
+		"keyName" : "Nach0.Jobs.SecondMetalSmithJob",
 		"npcType" : "worker",
-		"printName" : "Concrete Layer"
+		"printName" : "Second Metal smith"
 	},
 	{
 		"data" : {
-			"maskColor1" : "#8B7E6B"
+			"maskColor1" : "#e3cd35"
 		},
-		"keyName" : "Nach0.Jobs.Crusher",
+		"keyName" : "Nach0.Jobs.SecondMinter",
 		"npcType" : "worker",
-		"printName" : "Crusher"
+		"printName" : "Second Minter"
 	},
 	{
 		"data" : {
-			"maskColor1" : "#3B0060"
+			"maskColor1" : "#c0a075"
 		},
-		"keyName" : "Nach0.Jobs.Enchanter",
+		"keyName" : "Nach0.Jobs.SecondBaker",
 		"npcType" : "worker",
-		"printName" : "Enchanter"
+		"printName" : "Second Baker"
 	},
 	{
 		"data" : {
-			"maskColor1" : "#D60060"
+			"maskColor1" : "#921f1f"
 		},
-		"keyName" : "Nach0.Jobs.Magician",
+		"keyName" : "Nach0.Jobs.SecondMerchant",
 		"npcType" : "worker",
-		"printName" : "Magician"
+		"printName" : "Second Merchant"
 	},
 	{
 		"data" : {
-			"maskColor1" : "#DA31AA"
+			"maskColor1" : "#a3a3a3"
 		},
-		"keyName" : "Nach0.Jobs.Painter",
+		"keyName" : "Nach0.Jobs.SecondStonemason",
 		"npcType" : "worker",
-		"printName" : "Painter"
+		"printName" : "Second Stonemason"
 	},
 	{
 		"data" : {
-			"maskColor1" : "#BAA90B"
+			"maskColor1" : "#326075"
 		},
-		"keyName" : "Nach0.Jobs.Sander",
+		"keyName" : "Nach0.Jobs.SecondTailor",
 		"npcType" : "worker",
-		"printName" : "Sander"
+		"printName" : "Second Tailor"
 	},
 	{
 		"data" : {
-			"maskColor1" : "#004DFF"
+			"maskColor1" : "#1c1a1a"
 		},
-		"keyName" : "Nach0.Jobs.Freezer",
+		"keyName" : "Nach0.Jobs.SecondTechnologist",
 		"npcType" : "worker",
-		"printName" : "Freezer"
+		"printName" : "Second Technologist"
 	},
 	{
 		"data" : {
-			"maskColor1" : "#FF9A00"
+			"maskColor1" : "#74422b"
 		},
-		"keyName" : "Nach0.Jobs.Melter",
+		"keyName" : "Nach0.Jobs.SecondWoodCutter",
 		"npcType" : "worker",
-		"printName" : "Melter"
+		"printName" : "Second Woodcutter"
 	},
 	{
 		"data" : {
-			"maskColor1" : "#FF9A00"
+			"maskColor1" : "#51797b"
 		},
-		"keyName" : "Nach0.Jobs.Alchemist",
+		"keyName" : "Nach0.Jobs.SecondCrafter",
 		"npcType" : "worker",
-		"printName" : "Alchemist"
+		"printName" : "Second Crafter"
 	}
 ]

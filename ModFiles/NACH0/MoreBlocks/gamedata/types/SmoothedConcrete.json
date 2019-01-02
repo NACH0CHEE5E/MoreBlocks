@@ -11,7 +11,7 @@
 		],
 		"icon": "./../textures/icons/SmoothedConcrete.png",
 		"maxStackSize": 200,
-		"color": "(127.5, 127.5, 127.5)",
+		"color": "(128, 128, 128)",
 		"onPlaceAudio": "stonePlace",
 		"onRemoveAudio": "stoneDelete",
 		"sideall": "Nach0.Textures.SmoothedConcreteGeneric"
@@ -28,7 +28,7 @@
 		],
 		"icon": "./../textures/icons/SmoothedGreyStainedConcrete.png",
 		"maxStackSize": 200,
-		"color": "(63.75, 63.75, 63.75)",
+		"color": "(64, 64, 64)",
 		"onPlaceAudio": "stonePlace",
 		"onRemoveAudio": "stoneDelete",
 		"sideall": "Nach0.Textures.SmoothedConcreteGeneric"
@@ -96,7 +96,7 @@
 		],
 		"icon": "./../textures/icons/SmoothedBrownStainedConcrete.png",
 		"maxStackSize": 200,
-		"color": "(127.5, 0, 0)",
+		"color": "(128, 0, 0)",
 		"onPlaceAudio": "stonePlace",
 		"onRemoveAudio": "stoneDelete",
 		"sideall": "Nach0.Textures.SmoothedConcreteGeneric"
@@ -113,7 +113,7 @@
 		],
 		"icon": "./../textures/icons/SmoothedDarkGreenStainedConcrete.png",
 		"maxStackSize": 200,
-		"color": "(0, 127.5, 0)",
+		"color": "(0, 128, 0)",
 		"onPlaceAudio": "stonePlace",
 		"onRemoveAudio": "stoneDelete",
 		"sideall": "Nach0.Textures.SmoothedConcreteGeneric"
@@ -147,7 +147,7 @@
 		],
 		"icon": "./../textures/icons/SmoothedLightBlueStainedConcrete.png",
 		"maxStackSize": 200,
-		"color": "(0, 127.5, 255)",
+		"color": "(0, 128, 255)",
 		"onPlaceAudio": "stonePlace",
 		"onRemoveAudio": "stoneDelete",
 		"sideall": "Nach0.Textures.SmoothedConcreteGeneric"
@@ -164,7 +164,7 @@
 		],
 		"icon": "./../textures/icons/SmoothedMagentaStainedConcrete.png",
 		"maxStackSize": 200,
-		"color": "(255, 0, 127.5)",
+		"color": "(255, 0, 128)",
 		"onPlaceAudio": "stonePlace",
 		"onRemoveAudio": "stoneDelete",
 		"sideall": "Nach0.Textures.SmoothedConcreteGeneric"
@@ -181,7 +181,7 @@
 		],
 		"icon": "./../textures/icons/SmoothedOrangeStainedConcrete.png",
 		"maxStackSize": 200,
-		"color": "(255, 127.5, 0)",
+		"color": "(255, 128, 0)",
 		"onPlaceAudio": "stonePlace",
 		"onRemoveAudio": "stoneDelete",
 		"sideall": "Nach0.Textures.SmoothedConcreteGeneric"
@@ -215,7 +215,7 @@
 		],
 		"icon": "./../textures/icons/SmoothedPurpleStainedConcrete.png",
 		"maxStackSize": 200,
-		"color": "(127.5, 0, 255)",
+		"color": "(128, 0, 255)",
 		"onPlaceAudio": "stonePlace",
 		"onRemoveAudio": "stoneDelete",
 		"sideall": "Nach0.Textures.SmoothedConcreteGeneric"

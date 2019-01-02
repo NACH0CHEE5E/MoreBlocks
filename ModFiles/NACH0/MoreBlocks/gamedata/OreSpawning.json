@@ -93,22 +93,22 @@
 		{
 			"Chance" : 7,
 			"Depth" : 44,
-			"Type" : "Nach0.Types.InfnitePlatniumOre"
+			"Type" : "Nach0.Types.InfinitePlatniumOre"
 		},
 		{
 			"Chance" : 7,
 			"Depth" : 45,
-			"Type" : "Nach0.Types.InfnitePlatniumOre"
+			"Type" : "Nach0.Types.InfinitePlatniumOre"
 		},
 		{
 			"Chance" : 5,
 			"Depth" : 50,
-			"Type" : "Nach0.Types.InfniteTitaniumOre"
+			"Type" : "Nach0.Types.InfiniteTitaniumOre"
 		},
 		{
 			"Chance" : 5,
 			"Depth" : 51,
-			"Type" : "Nach0.Types.InfniteTitaniumOre"
+			"Type" : "Nach0.Types.InfiniteTitaniumOre"
 		}
 	]
 }

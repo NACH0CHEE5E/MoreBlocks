@@ -1,5 +1,5 @@
 {
-	"Nach0.Types.InfnitePlatniumOre" : {
+	"Nach0.Types.InfinitePlatniumOre" : {
 		"customData" : {
 			"minerIsMineable" : true,
 			"minerMiningTime" : 15
@@ -7,9 +7,9 @@
 		"destructionTime" : 7500,
 		"onRemoveAudio" : "stoneDelete",
 		"onRemoveType" : "Nach0.Types.PlatniumOre",
-		"sideall" : "Nach0.Textures.InfnitePlatniumOre"
+		"sideall" : "Nach0.Textures.InfinitePlatniumOre"
 	},
-	"Nach0.Types.InfniteTitaniumOre" : {
+	"Nach0.Types.InfiniteTitaniumOre" : {
 		"customData" : {
 			"minerIsMineable" : true,
 			"minerMiningTime" : 18.6
@@ -17,6 +17,6 @@
 		"destructionTime" : 7500,
 		"onRemoveAudio" : "stoneDelete",
 		"onRemoveType" : "Nach0.Types.TitaniumOre",
-		"sideall" : "Nach0.Textures.InfniteTitaniumOre"
+		"sideall" : "Nach0.Textures.InfiniteTitaniumOre"
 	}
 }

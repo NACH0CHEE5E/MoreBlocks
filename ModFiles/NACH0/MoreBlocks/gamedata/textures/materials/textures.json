@@ -31,12 +31,14 @@
 	
 	"Nach0.Textures.ConcreteGeneric": {
 		"albedo": "concretegeneric",
-		"normal": "concretegeneric"
+		"normal": "concretegeneric",
+		"height": "concretegeneric"
 	},
 	
 	"Nach0.Textures.CookedClayGeneric": {
 		"albedo": "CookedClayGeneric",
-		"normal": "CookedClayGeneric"
+		"normal": "CookedClayGeneric",
+		"height": "CookedClayGeneric"
 	},
 	
 	"Nach0.Textures.Dirt1": {
@@ -87,7 +89,8 @@
 		"albedo": "painterstabletop"
 	},
 	"Nach0.Textures.AdvancedPaintersTableTop": {
-		"albedo": "advancedpainterstabletop"
+		"albedo": "advancedpainterstabletop",
+		"normal": "advancedpainterstabletop"
 	},
 	"Nach0.Textures.BrickMakerTop": {
 		"albedo": "brickmakertop"
@@ -182,10 +185,13 @@
 	},
 	
 	"Nach0.Textures.PaintMixerFront": {
-		"albedo": "paintmixerfront"
+		"albedo": "paintmixerfront",
+		"normal": "paintmixerfront",
+		"height": "paintmixerfront"
 	},
 	"Nach0.Textures.FreezerFront": {
 		"albedo": "freezerfront",
+		"normal": "freezerfront"
 	},
 	"Nach0.Textures.MelterFront": {
 		"albedo": "melterfront"
@@ -202,7 +208,8 @@
 	
 	"Nach0.Textures.SmoothedConcreteGeneric": {
 		"albedo": "smoothedconcretegeneric",
-		"normal": "smoothedconcretegeneric"
+		"normal": "smoothedconcretegeneric",
+		"height": "smoothedconcretegeneric"
 	},
 	
 	"Nach0.Textures.Stone1": {
@@ -285,7 +292,8 @@
 	
 	"Nach0.Textures.WoolGeneric": {
 		"albedo": "woolgeneric",
-		"normal": "woolgeneric"
+		"normal": "woolgeneric",
+		"height": "woolgeneric"
 	},
 	"Nach0.Textures.Dirt3Sides": {
 		"albedo": "Dirt3Side",
@@ -439,10 +447,12 @@
 		"albedo": "Stone3Smoothed",
 		"normal": "Stone3Smoothed"
 	},
-	"Nach0.Textures.InfnitePlatniumOre": {
-		"albedo": "InfnitePlatniumOre"
+	"Nach0.Textures.InfinitePlatniumOre": {
+		"albedo": "InfinitePlatniumOre"
 	},
-	"Nach0.Textures.InfniteTitaniumOre": {
-		"albedo": "InfniteTitaniumOre"
+	"Nach0.Textures.InfiniteTitaniumOre": {
+		"albedo": "InfiniteTitaniumOre",
+		"normal": "InfiniteTitaniumOre",
+		"height": "InfiniteTitaniumOre"
 	}
 }

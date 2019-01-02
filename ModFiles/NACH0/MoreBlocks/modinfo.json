@@ -2,7 +2,7 @@
 	"name": "NACH0.MoreBlocks",
 	"version": "2.0.0",
 	"namepretty": "More Blocks",
-	"enabled": true,
+	"enabled": false,
 	"marksgamemodded": true,
 	"compatibleversions": [
 		"0.7.0"
